@@ -1,0 +1,95 @@
+{
+  "title": "예시 — Small Habits",
+  "subtitle": "형식 샘플",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The Power of Small Habits",
+      "text": "Many people believe that big changes require big actions.\nHowever, research suggests that small habits often matter more.\nWhen you repeat a tiny action every day, it slowly becomes part of **who you are**.\nFor example, reading just two pages a night adds up to several books a year.\nThe key is not ==intensity== but ==consistency==.\n\nOf course, small habits do not produce results overnight.\nProgress is often invisible at first, which is why many people __give up__ too early.\nBut if you stay patient, the results will eventually surprise you.",
+      "translation": "많은 사람들은 큰 변화에는 큰 행동이 필요하다고 믿는다.\n그러나 연구에 따르면 작은 습관이 더 중요한 경우가 많다.\n아주 작은 행동을 매일 반복하면, 그것은 서서히 당신이라는 사람의 일부가 된다.\n예를 들어, 밤마다 두 쪽씩만 읽어도 1년이면 여러 권의 책이 된다.\n핵심은 강도가 아니라 꾸준함이다.\n\n물론 작은 습관이 하룻밤 사이에 결과를 내지는 않는다.\n처음에는 발전이 눈에 보이지 않는 경우가 많고, 그래서 많은 사람들이 너무 일찍 포기한다.\n하지만 인내심을 가지면, 결과는 결국 당신을 놀라게 할 것이다.",
+      "source": "직접 작성한 예문",
+      "vocab": [
+        ["require", "필요로 하다", "Big changes require big actions."],
+        ["suggest", "시사하다, 암시하다"],
+        ["intensity", "강도, 강렬함"],
+        ["consistency", "꾸준함, 일관성"],
+        ["invisible", "눈에 보이지 않는"],
+        ["eventually", "결국, 마침내"]
+      ]
+    }
+  ],
+  "vocab": [
+    { "word": "give up", "meaning": "포기하다", "example": "Don't give up too early." }
+  ],
+  "questions": [
+    {
+      "id": "main-idea",
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "큰 목표를 세워야 큰 변화를 이룰 수 있다.",
+        "독서는 하루에 많은 양을 하는 것이 좋다.",
+        "작은 습관을 꾸준히 반복하는 것이 변화를 만든다.",
+        "습관의 효과는 즉시 눈에 보여야 의미가 있다.",
+        "연구 결과는 개인의 경험보다 중요하다."
+      ],
+      "answer": 3,
+      "explanation": "The key is not intensity but consistency. — 강도보다 **꾸준함**이 핵심."
+    },
+    {
+      "id": "tf-1",
+      "type": "ox",
+      "prompt": "The writer argues that intensity is more important than consistency.",
+      "answer": false,
+      "explanation": "반대. not intensity **but** consistency."
+    },
+    {
+      "id": "blank-1",
+      "type": "blank",
+      "prompt": "빈칸을 채우시오.",
+      "text": "The key is not {{intensity}} but {{consistency}}.\nWhen you repeat a tiny action every day, it slowly becomes {{part}} of who you are."
+    },
+    {
+      "id": "syn-1",
+      "type": "short",
+      "prompt": "밑줄 친 부분과 바꿔 쓸 수 있는 한 단어를 쓰시오.",
+      "context": "Progress is often invisible at first, which is why many people __give up__ too early.",
+      "answer": ["quit", "stop"]
+    },
+    {
+      "id": "arrange-1",
+      "type": "order",
+      "prompt": "우리말과 같은 뜻이 되도록 배열하시오.\n**핵심은 강도가 아니라 꾸준함이다.**",
+      "items": ["The", "key", "is", "not", "intensity", "but", "consistency"]
+    },
+    {
+      "id": "seq-1",
+      "type": "order",
+      "prompt": "주어진 문장 다음에 이어질 순서로 배열하시오.",
+      "given": "Many people believe that big changes require big actions.",
+      "items": [
+        "However, research suggests that small habits often matter more.",
+        "When you repeat a tiny action every day, it slowly becomes part of who you are.",
+        "For example, reading just two pages a night adds up to several books a year."
+      ]
+    },
+    {
+      "id": "match-all",
+      "type": "choice",
+      "prompt": "글의 내용과 일치하는 것을 **모두** 고르시오.",
+      "choices": [
+        "작은 습관은 처음에는 효과가 잘 보이지 않는다.",
+        "밤마다 두 쪽씩 읽으면 1년에 한 권을 읽게 된다.",
+        "많은 사람들이 큰 변화에는 큰 행동이 필요하다고 믿는다.",
+        "글쓴이는 인내가 결과를 바꾸지 못한다고 본다."
+      ],
+      "answer": [1, 3]
+    },
+    {
+      "id": "essay-1",
+      "type": "self",
+      "prompt": "글쓴이가 작은 습관이 중요하다고 말하는 이유를 우리말로 쓰시오.",
+      "answer": "작은 행동도 매일 반복하면 그 사람의 일부가 되고, 시간이 지나면 큰 결과로 쌓이기 때문이다."
+    }
+  ]
+}
