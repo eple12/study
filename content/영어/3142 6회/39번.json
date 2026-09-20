@@ -1,6 +1,6 @@
 {
   "title": "3142 6회 39번",
-  "subtitle": "3142 모의고사 6회 변형문제",
+  "subtitle": "3142 원문 지문 + 변형문제",
   "passages": [
     {
       "id": "p1",
@@ -11,7 +11,8 @@
   "questions": [
     {
       "type": "choice",
-      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오. (원문은 정답 위치(⑤)에 삽입되어 있음)",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** These changes in energy expenditure are great and help to explain why it is so difficult for an obese person to maintain weight losses.\n\nOne popular theory of why people can maintain their body weight at a relatively stable level is the set-point theory. ① The set-point theory proposes that body weight, like body temperature, is physiologically regulated. ② Researchers have noted that many people who lose weight on reducing diets quickly regain all their lost weight. ③ This suggests that somehow the body chooses a weight that it wants to be and defends that weight by regulating eating behaviors and hormonal actions. ④ Research confirms that the body adjusts its metabolism whenever it gains or loses weight — in the direction that returns to the initial body weight: the body burns more calories with weight gain and burns fewer calories with weight loss. ⑤ An individual's set point for body weight may be adjustable, shifting over the life span in response to physiological changes and to genetic, dietary, and other factors.",
       "choices": [
         "①",
         "②",
@@ -20,7 +21,7 @@
         "⑤"
       ],
       "answer": 5,
-      "context": ""
+      "id": "1"
     },
     {
       "type": "choice",
@@ -32,11 +33,12 @@
         "몸무게는 원래의 몸무게로 돌아가려는 성향이 있다.",
         "신체가 유지하려고 하는 몸무게를 파악하는 것이 중요하다."
       ],
-      "answer": 4
+      "answer": 4,
+      "id": "2"
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "본문 문장을 원래 순서대로 배열하시오.",
       "items": [
         "One popular theory of why people can maintain their body weight at a relatively stable level is the set-point theory.",
         "The set-point theory proposes that body weight, like body temperature, is physiologically regulated.",
@@ -45,7 +47,8 @@
         "Research confirms that the body adjusts its metabolism whenever it gains or loses weight — in the direction that returns to the initial body weight: the body burns more calories with weight gain and burns fewer calories with weight loss.",
         "These changes in energy expenditure are great and help to explain why it is so difficult for an obese person to maintain weight losses.",
         "An individual's set point for body weight may be adjustable, shifting over the life span in response to physiological changes and to genetic, dietary, and other factors."
-      ]
+      ],
+      "id": "3"
     }
   ]
 }

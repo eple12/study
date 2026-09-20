@@ -1,26 +1,24 @@
 {
   "title": "3142 5회 37번",
-  "subtitle": "3142 모의고사 5회 변형문제",
+  "subtitle": "3142 원문 지문 + 변형문제",
   "passages": [
     {
       "id": "p1",
       "title": "37번 지문",
-      "text": "As Charles Darwin points out, species diversity can increase the productivity of ecosystems due to the division of labour among species, because each species is unique in how it exploits its environment. A large number of species may imply a certain level of functional redundancy: the loss of one species has a smaller effect in a diverse system than in a species-poor one. Diversity within one population of the same species may also improve resistance to environmental change. For example, it is well documented that the diversity of a population can increase its resistance to epidemics. Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies. It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems. Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses."
+      "text": "As Charles Darwin points out, species diversity can increase the productivity of ecosystems due to the division of labour among species, because each species is unique in how it exploits its environment. It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems. Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses. A large number of species may imply a certain level of functional redundancy: the loss of one species has a smaller effect in a diverse system than in a species-poor one. Diversity within one population of the same species may also improve resistance to environmental change. For example, it is well documented that the diversity of a population can increase its resistance to epidemics. Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies."
     }
   ],
   "questions": [
     {
-      "type": "choice",
-      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오. (원문은 정답 순서(A-B-C)로 정렬되어 있음)",
-      "choices": [
-        "(A) – (C) – (B)",
-        "(B) – (A) – (C)",
-        "(B) – (C) – (A)",
-        "(C) – (A) – (B)",
-        "(C) – (B) – (A)"
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "As Charles Darwin points out, species diversity can increase the productivity of ecosystems due to the division of labour among species, because each species is unique in how it exploits its environment.",
+      "items": [
+        "It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems. Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses.",
+        "A large number of species may imply a certain level of functional redundancy: the loss of one species has a smaller effect in a diverse system than in a species-poor one. Diversity within one population of the same species may also improve resistance to environmental change.",
+        "For example, it is well documented that the diversity of a population can increase its resistance to epidemics. Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies."
       ],
-      "answer": 1,
-      "context": ""
+      "id": "1"
     },
     {
       "type": "choice",
@@ -32,20 +30,22 @@
         "종 다양성은 생태계의 생산성 향상을 포함한 여러 이점이 있다.",
         "종 다양성을 가진 생태계에서 한 종의 멸종의 영향은 치명적이다."
       ],
-      "answer": 4
+      "answer": 4,
+      "id": "2"
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "본문 문장을 원래 순서대로 배열하시오.",
       "items": [
         "As Charles Darwin points out, species diversity can increase the productivity of ecosystems due to the division of labour among species, because each species is unique in how it exploits its environment.",
+        "It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems.",
+        "Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses.",
         "A large number of species may imply a certain level of functional redundancy: the loss of one species has a smaller effect in a diverse system than in a species-poor one.",
         "Diversity within one population of the same species may also improve resistance to environmental change.",
         "For example, it is well documented that the diversity of a population can increase its resistance to epidemics.",
-        "Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies.",
-        "It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems.",
-        "Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses."
-      ]
+        "Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies."
+      ],
+      "id": "3"
     }
   ]
 }

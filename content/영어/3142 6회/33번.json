@@ -1,6 +1,6 @@
 {
   "title": "3142 6회 33번",
-  "subtitle": "3142 모의고사 6회 변형문제",
+  "subtitle": "3142 원문 지문 + 변형문제",
   "passages": [
     {
       "id": "p1",
@@ -12,6 +12,7 @@
     {
       "type": "choice",
       "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "The significance of crises is the indication they provide that ________________.",
       "choices": [
         "a given paradigm must be settled",
         "retooling is unnecessary in science",
@@ -20,7 +21,7 @@
         "paradigms are inevitable aspects of science"
       ],
       "answer": 3,
-      "context": "The significance of crises is the indication they provide that __________."
+      "id": "1"
     },
     {
       "type": "choice",
@@ -32,11 +33,12 @@
         "necessity of regularly retooling scientific paradigms",
         "differences between manufacture and science in crises"
       ],
-      "answer": 1
+      "answer": 1,
+      "id": "2"
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "본문 문장을 원래 순서대로 배열하시오.",
       "items": [
         "Philosophers of science have repeatedly demonstrated that more than one theoretical construction can always be placed upon a given collection of data.",
         "History of science indicates that, particularly in the early developmental stages of a new paradigm, it is not even very difficult to invent such alternates.",
@@ -45,7 +47,8 @@
         "The reason is clear.",
         "As in manufacture so in science — retooling is an extravagance to be reserved for the occasion that demands it.",
         "The significance of crises is the indication they provide that an occasion for retooling has arrived."
-      ]
+      ],
+      "id": "3"
     }
   ]
 }

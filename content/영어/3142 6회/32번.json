@@ -1,6 +1,6 @@
 {
   "title": "3142 6회 32번",
-  "subtitle": "3142 모의고사 6회 변형문제",
+  "subtitle": "3142 원문 지문 + 변형문제",
   "passages": [
     {
       "id": "p1",
@@ -12,6 +12,7 @@
     {
       "type": "choice",
       "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "He should take the best of his generally applicable skills and apply them to his training; in other words, ________________.",
       "choices": [
         "practice for the purpose",
         "attempt for the first time",
@@ -20,7 +21,7 @@
         "integrate varied perspectives"
       ],
       "answer": 1,
-      "context": "He should take the best of his generally applicable skills and apply them to his training; in other words, __________."
+      "id": "1"
     },
     {
       "type": "choice",
@@ -32,11 +33,12 @@
         "모든 운동 종목에는 빠르게 달리는 연습이 필수적이다.",
         "전략적 사고는 여러 방면에 걸쳐 일반적인 의미를 지닌다."
       ],
-      "answer": 1
+      "answer": 1,
+      "id": "2"
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "본문 문장을 원래 순서대로 배열하시오.",
       "items": [
         "In marketing, the term strategic thinking is thrown around with abandon.",
         "It's a very general term that really only takes on meaning when applied to a specific situation.",
@@ -49,7 +51,8 @@
         "For a track runner, those skills are meaningless.",
         "He should take the best of his generally applicable skills and apply them to his training; in other words, practice for the purpose.",
         "Without the application, his preparation isn't even halfway complete."
-      ]
+      ],
+      "id": "3"
     }
   ]
 }

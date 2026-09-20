@@ -1,17 +1,18 @@
 {
   "title": "3142 5회 31번",
-  "subtitle": "3142 모의고사 5회 변형문제",
+  "subtitle": "3142 원문 지문 + 변형문제",
   "passages": [
     {
       "id": "p1",
       "title": "31번 지문",
-      "text": "People have always noticed that works of art affect them, and have variously explained, classified, evaluated, justified, regulated, and enjoyed this phenomenon. Whereas Plato banned poets from his republic in order to restrict influences upon the citizenry, Aristotle formulated his theory of catharsis to legitimate the effects of art upon persons. Noting that drama consistently produces in audiences certain effects — fear, pity, admiration, awe, superiority, affinity, belief, skepticism, compassion, and relief — Aristotle identified these responses as official aims of art. Since the late seventeenth century, when mass print culture provided greater numbers of persons with the regular affective experience of literature, the novel became another focal point in the ongoing debate and discourse about the effects of representation. Even more than drama and poetry, the novel seemed to demand the reader's engagement."
+      "text": "People have always noticed that works of art affect them, and have variously explained, classified, evaluated, justified, regulated, and enjoyed this phenomenon. Whereas Plato banned poets from his republic in order to restrict influences upon the citizenry, Aristotle formulated his theory of catharsis to legitimate the effects of art upon persons. Noting that drama consistently produces in audiences certain effects — fear, pity, admiration, awe, superiority, affinity, belief, skepticism, compassion, and relief — Aristotle identified these responses as official aims of art. Since the late seventeenth century, when mass print culture provided greater numbers of persons with the regular affective experience of literature, the novel became another focal point in the ongoing debate and discourse about the effects of representation. Even more than drama and poetry, the novel seemed to demand the reader’s sentiments."
     }
   ],
   "questions": [
     {
       "type": "choice",
       "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Even more than drama and poetry, the novel seemed to demand the reader’s __________.",
       "choices": [
         "patience",
         "attention",
@@ -19,31 +20,33 @@
         "engagement",
         "expectations"
       ],
-      "answer": 4,
-      "context": "Even more than drama and poetry, the novel seemed to demand the reader's __________."
+      "answer": 3,
+      "id": "1"
     },
     {
       "type": "choice",
       "prompt": "윗글의 제목으로 가장 적절한 것은?",
       "choices": [
         "The Most Effective Motivation to Read",
-        "Aristotle's Theory of How Catharsis Works",
+        "Aristotle’s Theory of How Catharsis Works",
         "The Impact of Literature: Emotion Triggers",
         "The Functions of Literature in the Historical View",
         "Lack of Representing Reality in Traditional Literature"
       ],
-      "answer": 4
+      "answer": 3,
+      "id": "2"
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "본문 문장을 원래 순서대로 배열하시오.",
       "items": [
         "People have always noticed that works of art affect them, and have variously explained, classified, evaluated, justified, regulated, and enjoyed this phenomenon.",
         "Whereas Plato banned poets from his republic in order to restrict influences upon the citizenry, Aristotle formulated his theory of catharsis to legitimate the effects of art upon persons.",
         "Noting that drama consistently produces in audiences certain effects — fear, pity, admiration, awe, superiority, affinity, belief, skepticism, compassion, and relief — Aristotle identified these responses as official aims of art.",
         "Since the late seventeenth century, when mass print culture provided greater numbers of persons with the regular affective experience of literature, the novel became another focal point in the ongoing debate and discourse about the effects of representation.",
-        "Even more than drama and poetry, the novel seemed to demand the reader's engagement."
-      ]
+        "Even more than drama and poetry, the novel seemed to demand the reader’s sentiments."
+      ],
+      "id": "3"
     }
   ]
 }

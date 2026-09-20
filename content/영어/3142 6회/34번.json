@@ -1,6 +1,6 @@
 {
   "title": "3142 6회 34번",
-  "subtitle": "3142 모의고사 6회 변형문제",
+  "subtitle": "3142 원문 지문 + 변형문제",
   "passages": [
     {
       "id": "p1",
@@ -12,6 +12,7 @@
     {
       "type": "choice",
       "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "As soon as you recognize the influence of this belief on your perceptions and ________________, you will be able to learn more in every situation.",
       "choices": [
         "discover that fairness is tied directly to your experiences",
         "abandon all power confining you to unrealistic expectations",
@@ -20,7 +21,7 @@
         "acquire as much power as possible in as short a time as you can"
       ],
       "answer": 3,
-      "context": "As soon as you recognize the influence of this belief on your perceptions and __________, you will be able to learn more in every situation."
+      "id": "1"
     },
     {
       "type": "choice",
@@ -32,11 +33,12 @@
         "Everyone has some quality you can learn from.",
         "There is much power you can get without learning."
       ],
-      "answer": 4
+      "answer": 4,
+      "id": "2"
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "본문 문장을 원래 순서대로 배열하시오.",
       "items": [
         "People prefer to believe that the world is a just and fair place and that everyone gets what he or she deserves.",
         "And since people tend to think they themselves are deserving, they come to think that if they just do a good job and behave appropriately, things will take care of themselves.",
@@ -45,7 +47,8 @@
         "It hinders people's ability to learn from all situations and all people, even those whom they don't like or respect.",
         "If you are in a position of modest power and want to attain a position of great power, you need to pay particular attention to those holding the positions you aspire to.",
         "As soon as you recognize the influence of this belief on your perceptions and try to combat the tendency to see the world as inherently fair, you will be able to learn more in every situation."
-      ]
+      ],
+      "id": "3"
     }
   ]
 }
