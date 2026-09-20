@@ -1,0 +1,54 @@
+{
+  "title": "2024년 09월 36번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "It would seem obvious that the more competent someone is, the more we will like that person. By \"competence,\" I mean a cluster of qualities: smartness, the ability to get things done, wise decisions, etc. We stand a better chance of doing well at our life tasks if we surround ourselves with people who know what they're doing and have a lot to teach us. But the research evidence is paradoxical: In problem-solving groups, the participants who are considered the most competent and have the best ideas tend not to be the ones who are best liked. Why? One possibility is that, although we like to be around competent people, those who are too competent make us uncomfortable. They may seem unapproachable, distant, superhuman ― and make us look bad (and feel worse) by comparison. If this were true, we might like people more if they reveal some evidence of fallibility. For example, if your friend is a brilliant mathematician, superb athlete, and gourmet cook, you might like him or her better if, every once in a while, they screwed up."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Why We Always Like the Most Competent People Best",
+        "The Paradox of Competence: Why Being Too Good Can Make You Less Likeable",
+        "How to Become the Most Competent Person in Your Field",
+        "The Dangers of Surrounding Yourself with Skilled People",
+        "Competence as the Sole Determinant of Social Success"
+      ],
+      "answer": 2,
+      "explanation": "능력이 뛰어날수록 호감도가 높아질 것 같지만 실제로는 그렇지 않은 역설적 연구 결과를 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "It seems obvious, on the surface, that more competent people would be liked more.",
+        "Research shows that the most competent, best-idea-having members of problem-solving groups are always rated as the best liked.",
+        "One explanation offered is that highly competent people can seem unapproachable or distant.",
+        "The passage suggests people might like a brilliant friend more if that friend occasionally makes a mistake.",
+        "\"Competence\" is defined in the passage as including smartness and the ability to get things done."
+      ],
+      "answer": 2,
+      "explanation": "가장 유능한 사람들이 오히려 가장 호감을 얻지 못하는 경향이 있다(tend not to be)고 했으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "It would seem obvious that the more competent someone is, the more we will like that person.",
+        "By \"competence,\" I mean a cluster of qualities: smartness, the ability to get things done, wise decisions, etc.",
+        "We stand a better chance of doing well at our life tasks if we surround ourselves with people who know what they're doing and have a lot to teach us.",
+        "But the research evidence is paradoxical: In problem-solving groups, the participants who are considered the most competent and have the best ideas tend not to be the ones who are best liked.",
+        "Why?",
+        "One possibility is that, although we like to be around competent people, those who are too competent make us uncomfortable.",
+        "They may seem unapproachable, distant, superhuman ― and make us look bad (and feel worse) by comparison.",
+        "If this were true, we might like people more if they reveal some evidence of fallibility.",
+        "For example, if your friend is a brilliant mathematician, superb athlete, and gourmet cook, you might like him or her better if, every once in a while, they screwed up."
+      ]
+    }
+  ]
+}

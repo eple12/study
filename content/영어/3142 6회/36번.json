@@ -1,0 +1,52 @@
+{
+  "title": "3142 6회 36번",
+  "subtitle": "3142 모의고사 6회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "Wolves disappeared from Yellowstone, the world's first national park, in the 1920s. When they left, the entire ecosystem changed. Elks, a type of large deer, in the park increased their numbers and began to make quite a meal of the aspens, willows, and cottonwoods that lined the streams. Vegetation declined and animals that depended on the trees left. When the wolves returned, the elks' languorous browsing days were over, and the roots of cottonwoods and willows once again stabilized stream banks and slowed the flow of water. This, in turn, created space for semiaquatic animals such as beavers to return, and these industrious builders could now find the materials they needed to construct their lodges and raise their families. This space allowed animals that depended on the meadows near streams to come back, as well. The wolves turned out to be better stewards of the land than people, creating conditions that allowed the trees to grow and exert their influence on the landscape."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오. (원문은 정답 순서(C-A-B)로 정렬되어 있음)",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 4,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Nature's Splendor is Coming Back One by One",
+        "Nature's Brilliant Ability to Recover from Disasters",
+        "A Variety of Trees for Species Diversity near Streams",
+        "Who Should Be Considered the Best Guardian of the Meadow?",
+        "Role of Vegetation in Making an Agreeable Living Environment"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Wolves disappeared from Yellowstone, the world's first national park, in the 1920s.",
+        "When they left, the entire ecosystem changed.",
+        "Elks, a type of large deer, in the park increased their numbers and began to make quite a meal of the aspens, willows, and cottonwoods that lined the streams.",
+        "Vegetation declined and animals that depended on the trees left.",
+        "When the wolves returned, the elks' languorous browsing days were over, and the roots of cottonwoods and willows once again stabilized stream banks and slowed the flow of water.",
+        "This, in turn, created space for semiaquatic animals such as beavers to return, and these industrious builders could now find the materials they needed to construct their lodges and raise their families.",
+        "This space allowed animals that depended on the meadows near streams to come back, as well.",
+        "The wolves turned out to be better stewards of the land than people, creating conditions that allowed the trees to grow and exert their influence on the landscape."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "3142 5회 34번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "Among the monkeys and apes there is some evidence of abstract thinking. But it is only with man that artifacts and abstraction have run free. With his weak body, he has dramatically externalized his behavior, scattering the surface of the globe with his artifacts — his implements, machines, weapons, vehicles, roads, works of art, buildings, villages and cities. He has become a thinking, building animal, surrounded by everything he built. One might almost suppose that simple animal action would be beneath him, surviving only as a remnant from the past. But this is not so. Throughout it all, he has remained a creature of action, a gesturing, posturing, moving, expressive primate. He is as far today from becoming a creation of science fiction as he was in prehistoric times. Philosophy and engineering have not replaced animal activity, but they have added to it. We have developed a concept of happiness and words to express it, but we also still perform the action-pattern of stretching our lips into a smile. The fact that we have boats doesn't stop us from swimming."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "choices": [
+        "You don't have to swing hard to hit a home run",
+        "The water does not flow until the faucet is turned on",
+        "While one door seems to be closing, another is opening",
+        "We do not have to reinvent the wheel with each generation",
+        "The fact that we have boats doesn't stop us from swimming"
+      ],
+      "answer": 5,
+      "context": "We have developed a concept of happiness and words to express it, but we also still perform the action-pattern of stretching our lips into a smile. __________."
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "We Are Still Creatures of Action",
+        "How to Externalize Human Behavior",
+        "Smiling: Distinct Action-Pattern of Man",
+        "Artifacts: The Result of Human's Activity",
+        "What Makes Humans Far Beyond Animals"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Among the monkeys and apes there is some evidence of abstract thinking.",
+        "But it is only with man that artifacts and abstraction have run free.",
+        "With his weak body, he has dramatically externalized his behavior, scattering the surface of the globe with his artifacts — his implements, machines, weapons, vehicles, roads, works of art, buildings, villages and cities.",
+        "He has become a thinking, building animal, surrounded by everything he built.",
+        "One might almost suppose that simple animal action would be beneath him, surviving only as a remnant from the past.",
+        "But this is not so.",
+        "Throughout it all, he has remained a creature of action, a gesturing, posturing, moving, expressive primate.",
+        "He is as far today from becoming a creation of science fiction as he was in prehistoric times.",
+        "Philosophy and engineering have not replaced animal activity, but they have added to it.",
+        "We have developed a concept of happiness and words to express it, but we also still perform the action-pattern of stretching our lips into a smile.",
+        "The fact that we have boats doesn't stop us from swimming."
+      ]
+    }
+  ]
+}

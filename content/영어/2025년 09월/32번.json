@@ -1,0 +1,51 @@
+{
+  "title": "2025년 09월 32번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "A great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior. This stands in contrast to many strategic situations ― for example, in political negotiations ― in which it is wise not to let the other side know what one's true preferences or production capacities are. A perfectly competitive market that clears on the spot leaves no room for such strategies. If prices are not sticky ― as many models assume ― individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change. They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items. If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "how the market mechanism incentivizes the honest revelation of preferences, unlike strategic political negotiation",
+        "why political negotiations are more efficient than markets",
+        "the history of price stickiness in economic theory",
+        "methods for hiding one's true production capacity",
+        "the psychological effects of market failure"
+      ],
+      "answer": 1,
+      "explanation": "시장 기구는 정치적 협상과 달리 개인이 진짜 선호를 행동으로 드러내도록 유도한다는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "In political negotiations, it is often wise to conceal one's true preferences.",
+        "A perfectly competitive market leaves ample room for strategic concealment of preferences, according to the passage.",
+        "If prices are not sticky, individuals are said to adapt their behavior instantly as preferences or circumstances change.",
+        "People stop buying items that don't satisfy their needs, according to the passage.",
+        "Markets can reveal to people, sometimes brutally, that there is no demand for their products."
+      ],
+      "answer": 2,
+      "explanation": "완전 경쟁 시장은 그런 전략을 위한 여지를 남기지 않는다(leaves no room)고 했으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior.",
+        "This stands in contrast to many strategic situations ― for example, in political negotiations ― in which it is wise not to let the other side know what one's true preferences or production capacities are.",
+        "A perfectly competitive market that clears on the spot leaves no room for such strategies.",
+        "If prices are not sticky ― as many models assume ― individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change.",
+        "They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items.",
+        "If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact."
+      ]
+    }
+  ]
+}

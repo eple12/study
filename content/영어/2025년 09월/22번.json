@@ -1,0 +1,49 @@
+{
+  "title": "2025년 09월 22번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "22번 지문",
+      "text": "The future of work depends on two forces: a harmful substituting force and a helpful complementing one. Many tales have a hero and a villain fighting each other for dominance, but in our story, technology plays both roles at once, displacing workers while simultaneously raising the demand for their efforts elsewhere in the economy. This interaction helps explain why past worries about automation were misplaced: our ancestors had predicted the wrong winner in that fight, underestimating quite how powerful the complementing force would prove to be or simply ignoring that factor altogether. It also helps to explain why economists have traditionally been dismissive of the idea of technological unemployment: there appeared to be firm limits to the substituting force, leaving lots of tasks that could not be performed by machines, and a growing demand for human beings to do them instead."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "The future of work depends on the balance between technology's job-displacing and job-creating (complementing) effects, and past predictions underestimated the latter.",
+        "Technology only ever destroys jobs, never creates demand for new labor.",
+        "Economists have always correctly predicted the effects of automation.",
+        "There are firm limits to technology's ability to complement human labor.",
+        "Technological unemployment has never been a subject of economic debate."
+      ],
+      "answer": 1,
+      "explanation": "일자리를 대체하는 힘과 보완하는 힘 사이의 균형이 일의 미래를 결정하며, 과거에는 보완하는 힘을 과소평가했다는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "The passage describes technology as playing both a \"villain\" (substituting) and \"hero\" (complementing) role at once.",
+        "Past predictions about automation are said to have correctly identified the winner between the two forces.",
+        "Economists have traditionally been dismissive of the idea of technological unemployment.",
+        "There were traditionally thought to be firm limits to the substituting force.",
+        "The complementing force raises demand for human effort elsewhere in the economy."
+      ],
+      "answer": 2,
+      "explanation": "과거 사람들은 '잘못된 승자를 예측했다(predicted the wrong winner)'고 했으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The future of work depends on two forces: a harmful substituting force and a helpful complementing one.",
+        "Many tales have a hero and a villain fighting each other for dominance, but in our story, technology plays both roles at once, displacing workers while simultaneously raising the demand for their efforts elsewhere in the economy.",
+        "This interaction helps explain why past worries about automation were misplaced: our ancestors had predicted the wrong winner in that fight, underestimating quite how powerful the complementing force would prove to be or simply ignoring that factor altogether.",
+        "It also helps to explain why economists have traditionally been dismissive of the idea of technological unemployment: there appeared to be firm limits to the substituting force, leaving lots of tasks that could not be performed by machines, and a growing demand for human beings to do them instead."
+      ]
+    }
+  ]
+}

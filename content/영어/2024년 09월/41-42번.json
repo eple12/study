@@ -1,0 +1,56 @@
+{
+  "title": "2024년 09월 41~42번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "41~42번 지문",
+      "text": "What makes questioning authority so hard? The difficulties start in childhood, when parents ― the first and most powerful authority figures ― show children \"the way things are.\" This is a necessary element of learning language and socialization, and certainly most things learned in early childhood are noncontroversial: the English alphabet starts with A and ends with Z, the numbers 1 through 10 come before the numbers 11 through 20, and so on. Children, however, will spontaneously question things that are quite obvious to adults and even to older kids. The word \"why?\" becomes a challenge, as in, \"Why is the sky blue?\" Answers such as \"because it just is\" or \"because I say so\" tell children that they must unquestioningly accept what authorities say \"just because,\" and children who persist in their questioning are likely to find themselves dismissed or yelled at for \"bothering\" adults with \"meaningless\" or \"unimportant\" questions. But these questions are, in fact, perfectly reasonable. Why is the sky blue? Many adults do not themselves know the answer. And who says the sky's color needs to be called \"blue,\" anyway? How do we know that what one person calls \"blue\" is the same color that another calls \"blue\"? The scientific answers come from physics, but those are not the answers that children are seeking. They are trying to understand the world, and no matter how irritating the repeated questions may become to stressed and time-pressed parents, it is important to take them seriously to encourage kids to question authority to think for themselves."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Dangers of Letting Children Ask Too Many Questions",
+        "Taking Children's Questions Seriously to Nurture Independent Thinkers",
+        "How Physics Explains the Color of the Sky",
+        "Why Parents Should Always Say \"Because I Say So\"",
+        "The Universal Stages of Language Acquisition"
+      ],
+      "answer": 2,
+      "explanation": "아이들의 '왜?'라는 질문을 진지하게 받아들여 스스로 생각하는 힘을 길러줘야 한다는 것이 글의 핵심이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Learning most things in early childhood, like the alphabet order, is typically noncontroversial.",
+        "Children's \"why\" questions are portrayed in the passage as meaningless distractions best dismissed.",
+        "Many adults do not themselves know why the sky is blue.",
+        "Taking children's questions seriously is described as important for encouraging them to think for themselves.",
+        "Parents who are stressed and time-pressed may find repeated questions irritating."
+      ],
+      "answer": 2,
+      "explanation": "글은 오히려 이런 질문들이 '완전히 합리적(perfectly reasonable)'이라고 했으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "What makes questioning authority so hard?",
+        "The difficulties start in childhood, when parents ― the first and most powerful authority figures ― show children \"the way things are.\" This is a necessary element of learning language and socialization, and certainly most things learned in early childhood are noncontroversial: the English alphabet starts with A and ends with Z, the numbers 1 through 10 come before the numbers 11 through 20, and so on.",
+        "Children, however, will spontaneously question things that are quite obvious to adults and even to older kids.",
+        "The word \"why?\" becomes a challenge, as in, \"Why is the sky blue?\" Answers such as \"because it just is\" or \"because I say so\" tell children that they must unquestioningly accept what authorities say \"just because,\" and children who persist in their questioning are likely to find themselves dismissed or yelled at for \"bothering\" adults with \"meaningless\" or \"unimportant\" questions.",
+        "But these questions are, in fact, perfectly reasonable.",
+        "Why is the sky blue?",
+        "Many adults do not themselves know the answer.",
+        "And who says the sky's color needs to be called \"blue,\" anyway?",
+        "How do we know that what one person calls \"blue\" is the same color that another calls \"blue\"?",
+        "The scientific answers come from physics, but those are not the answers that children are seeking.",
+        "They are trying to understand the world, and no matter how irritating the repeated questions may become to stressed and time-pressed parents, it is important to take them seriously to encourage kids to question authority to think for themselves."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "2025년 09월 29번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "29번 지문",
+      "text": "All human cultures mark the passing of time by the differences they observe in the world around them. Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives. How we mark the differences ― the shapes of our calendars and our rituals ― depends on the connections we make between those two things. In the agricultural society of pre-modern Europe, where higher latitudes make the seasons easily observable, it was natural to monitor the solar cycle. Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice. That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "The particular calendar a culture adopts (solar or lunar) is shaped by what is observable and important given its geography and lifestyle, not by inevitability.",
+        "All human cultures eventually adopt the same calendar system.",
+        "Only religious decisions determine whether a culture uses a solar or lunar calendar.",
+        "Nomadic peoples always adopt a solar calendar.",
+        "The seasons are equally significant to every culture regardless of geography."
+      ],
+      "answer": 1,
+      "explanation": "달력의 형태는 관찰 가능성과 중요성, 그리고 지리·생활방식에 따라 결정되는 것이지 필연적인 것이 아니라는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Higher latitudes in pre-modern Europe made the seasons easily observable.",
+        "Arabia's largely nomadic peoples found the lunar calendar more sensible because seasonal change was less significant to them.",
+        "It was strictly inevitable, according to the passage, that Islam would use a lunar calendar.",
+        "Political and religious decisions about calendars were made within options limited by geography and lifestyle.",
+        "How a culture marks time depends on the connections it makes between what it can observe and what matters to it."
+      ],
+      "answer": 3,
+      "explanation": "글에서는 '그것이 필연적이었던 것은 아니다(That did not make it inevitable)'라고 명시했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "All human cultures mark the passing of time by the differences they observe in the world around them.",
+        "Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives.",
+        "How we mark the differences ― the shapes of our calendars and our rituals ― depends on the connections we make between those two things.",
+        "In the agricultural society of pre-modern Europe, where higher latitudes make the seasons easily observable, it was natural to monitor the solar cycle.",
+        "Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice.",
+        "That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition."
+      ]
+    }
+  ]
+}

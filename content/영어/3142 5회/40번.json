@@ -1,0 +1,56 @@
+{
+  "title": "3142 5회 40번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "What a woman might see as a simple request — no big deal — is seen by a man as an attempt to manipulate him into a “one-down” position. These traits can lead women and men to starkly different views of the same situation. Here is an example. When John's old high school friend called him at work to say he'd be in town, John invited him to stay for the weekend. That evening he told Linda they were having a house guest. Linda was upset. How could John make these plans without discussing them with her beforehand? She would never do that to him. “Why don't you tell your friend you have to check with your wife?” she asked. John replied, “I can't tell my friend, ‘I have to ask my wife for permission’!” To John, checking with his wife would mean he was not free to act on his own. It would make him feel like a child or an underling. But Linda actually enjoys telling someone, “I have to check with John.” It makes her feel good to show that her life is intertwined with her husband's."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은? (Since women often think in terms of consensus, they struggle to preserve (A), when men, concerned with status, focus on (B).)",
+      "choices": [
+        "(A) rights – (B) dignity",
+        "(A) closeness – (B) confirmation",
+        "(A) intimacy – (B) independence",
+        "(A) courtesy – (B) control",
+        "(A) mutuality – (B) competition"
+      ],
+      "answer": 3,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "여성과 남성은 같은 상황을 서로 다르게 해석하는 경향이 있다.",
+        "부부는 중요한 결정을 반드시 상의해서 내려야 한다.",
+        "남성은 친구 관계를, 여성은 가족 관계를 더 중시한다.",
+        "여성은 독립성을, 남성은 친밀감을 더 중시한다.",
+        "손님 초대와 같은 문제는 미리 상의하는 것이 예의이다."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "What a woman might see as a simple request — no big deal — is seen by a man as an attempt to manipulate him into a “one-down” position.",
+        "These traits can lead women and men to starkly different views of the same situation.",
+        "Here is an example.",
+        "When John's old high school friend called him at work to say he'd be in town, John invited him to stay for the weekend.",
+        "That evening he told Linda they were having a house guest.",
+        "Linda was upset.",
+        "How could John make these plans without discussing them with her beforehand?",
+        "She would never do that to him.",
+        "“Why don't you tell your friend you have to check with your wife?” she asked.",
+        "John replied, “I can't tell my friend, ‘I have to ask my wife for permission’!” To John, checking with his wife would mean he was not free to act on his own.",
+        "It would make him feel like a child or an underling.",
+        "But Linda actually enjoys telling someone, “I have to check with John.” It makes her feel good to show that her life is intertwined with her husband's."
+      ]
+    }
+  ]
+}

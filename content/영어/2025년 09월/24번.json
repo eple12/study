@@ -1,0 +1,52 @@
+{
+  "title": "2025년 09월 24번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "24번 지문",
+      "text": "Everything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of. Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do. Indeed, all differences are arbitrary, but drawing hard lines between categories hides this arbitrariness and can be severely damaging. I call this resulting damage \"the borderline effect.\" The examples are endless. Someone's IQ is 69 and someone else's is 70 ― but only the score of 70 is deemed to be within the range of normal. We don't have to be statisticians to know there is not a meaningful difference between 69 and 70. Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Borderline Effect: How Arbitrary Category Lines Can Drastically Alter Lives",
+        "The Precise Science Behind IQ Testing",
+        "Why All Human Traits Exist on a Continuum",
+        "Statisticians' Methods for Measuring Cognitive Impairment",
+        "The History of Categorization in Psychology"
+      ],
+      "answer": 1,
+      "explanation": "임의적인 경계선을 긋는 것이 삶에 극적인 영향을 미칠 수 있다는 'borderline effect'를 설명하는 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "According to the passage, all differences in the world are meaningful, not arbitrary.",
+        "A person scoring 70 on an IQ test is considered within the \"normal\" range, while a person scoring 69 is not.",
+        "The author argues there is a large, meaningful gap between an IQ of 69 and 70.",
+        "The \"borderline effect\" refers to changes caused by marginal, gradual differences rather than sharp categorical lines.",
+        "Once labeled \"cognitively impaired,\" a person's life outcome is said to remain unaffected by the label."
+      ],
+      "answer": 2,
+      "explanation": "70점은 '정상' 범위로 간주되지만 69점은 그렇지 않다고 직접 언급된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Everything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of.",
+        "Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do.",
+        "Indeed, all differences are arbitrary, but drawing hard lines between categories hides this arbitrariness and can be severely damaging.",
+        "I call this resulting damage \"the borderline effect.\" The examples are endless.",
+        "Someone's IQ is 69 and someone else's is 70 ― but only the score of 70 is deemed to be within the range of normal.",
+        "We don't have to be statisticians to know there is not a meaningful difference between 69 and 70.",
+        "Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage."
+      ]
+    }
+  ]
+}

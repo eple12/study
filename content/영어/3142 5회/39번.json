@@ -1,0 +1,53 @@
+{
+  "title": "3142 5회 39번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "39번 지문",
+      "text": "“What's in a name? That which we call a rose, by any other name would smell as sweet.” This thought of Shakespeare's points up a difference between roses and, say, paintings. Natural objects, such as roses, are not interpreted. They are not taken as vehicles of meanings and messages. They belong to no tradition, strictly speaking have no style, and are not understood within a framework of culture and convention. Rather, they are sensed and savored relatively directly, without intellectual mediation, and so what they are called, either individually or collectively, has little bearing on our experience of them. A painting of a rose, by a name other than the one it has, might very well smell different, aesthetically speaking. What a work of art is titled, on the other hand, has a significant effect on the aesthetic face it presents and on the qualities we correctly perceive in it. The painting titled Rose of Summer and an indiscernible painting titled Vermillion Womanhood are physically, but also semantically and aesthetically, distinct objects of art."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오. (원문은 정답 위치(④)에 삽입되어 있음)",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "ways to intuitively appreciate a work of art",
+        "the importance of grasping the essence of things",
+        "reasons why paintings can't keep up with natural objects",
+        "common misunderstandings of interpretations and intentions",
+        "impacts of names in understanding artworks and natural objects"
+      ],
+      "answer": 5
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "“What's in a name?",
+        "That which we call a rose, by any other name would smell as sweet.” This thought of Shakespeare's points up a difference between roses and, say, paintings.",
+        "Natural objects, such as roses, are not interpreted.",
+        "They are not taken as vehicles of meanings and messages.",
+        "They belong to no tradition, strictly speaking have no style, and are not understood within a framework of culture and convention.",
+        "Rather, they are sensed and savored relatively directly, without intellectual mediation, and so what they are called, either individually or collectively, has little bearing on our experience of them.",
+        "A painting of a rose, by a name other than the one it has, might very well smell different, aesthetically speaking.",
+        "What a work of art is titled, on the other hand, has a significant effect on the aesthetic face it presents and on the qualities we correctly perceive in it.",
+        "The painting titled Rose of Summer and an indiscernible painting titled Vermillion Womanhood are physically, but also semantically and aesthetically, distinct objects of art."
+      ]
+    }
+  ]
+}

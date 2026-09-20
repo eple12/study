@@ -1,0 +1,50 @@
+{
+  "title": "2025년 09월 40번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "Mother cats can tell which kittens belong to them ― when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers. Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them. The reason for this is uncertain, although distress vocalizations from kittens that are lost from their nest are known to be very powerful, so it may just be hard for the mother to resist retrieving them, regardless of whether they are hers. In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it. A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Despite being able to recognize their own kittens by scent, mother cats retrieve any distressed kitten regardless of parentage, likely because it deters predators.",
+        "Mother cats can never distinguish their own kittens from others.",
+        "Mother cats always ignore kittens that are not their own.",
+        "Distress vocalizations from kittens have no effect on adult cats.",
+        "Predators are attracted only to kittens that make no sound at all."
+      ],
+      "answer": 1,
+      "explanation": "어미 고양이는 냄새로 자기 새끼를 구별할 수 있지만, 구조할 때는 자기 새끼를 우대하지 않는다는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Mother cats use scent to distinguish their own kittens from others' offspring when litters are mixed up.",
+        "When retrieving wandering kittens, a mother cat clearly favors her own offspring over others.",
+        "Distress vocalizations from lost kittens are described as very powerful.",
+        "A crying kitten out in the open is likely to attract predators in the wild.",
+        "A rapid rescue of any crying kitten is suggested as a good strategy to avoid attracting unwanted attention."
+      ],
+      "answer": 2,
+      "explanation": "어미 고양이는 자기 새끼를 우대하는 것처럼 보이지 않는다(doesn't appear to favor her own offspring)고 했으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Mother cats can tell which kittens belong to them ― when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers.",
+        "Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them.",
+        "The reason for this is uncertain, although distress vocalizations from kittens that are lost from their nest are known to be very powerful, so it may just be hard for the mother to resist retrieving them, regardless of whether they are hers.",
+        "In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it.",
+        "A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention."
+      ]
+    }
+  ]
+}

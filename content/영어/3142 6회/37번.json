@@ -1,0 +1,51 @@
+{
+  "title": "3142 6회 37번",
+  "subtitle": "3142 모의고사 6회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "37번 지문",
+      "text": "The measure of velocity, and subsequent acceleration, is one of the most important measures in sport because this variable is very useful for determining whether an athlete's current performance is better than a previous performance, or if it is better or worse than the opposition's. To calculate the direction and the speed at which someone is traveling, we need to accurately measure the distance and the time. Tests to measure this, such as 30m sprint drills, are often used in sport as part of an athlete's training. By measuring the speed of the smaller intervals within this length, coaches can identify “where” an athlete is running fast and where she is slowing down. Once the velocity has been calculated, the acceleration can be determined; and often in sport, acceleration, the rate of change in velocity, is what separates an athlete from an elite athlete. From this new information, the coach can devise specific training for each individual athlete. For example, if it is known that an athlete has a velocity over 30m, technique and strength training can be developed that appropriately match it."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오. (원문은 정답 순서(B-A-C)로 정렬되어 있음)",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 2,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "엘리트 선수에게 개별화되고 정교한 기술이 요구된다.",
+        "측정 장비의 발달로 속도 측정의 정확성은 향상되었다.",
+        "속도와 가속도는 선수별 맞춤 훈련에 중요한 요소이다.",
+        "선수의 실력 향상은 이전과 현재의 속도를 비교하여 이루어진다.",
+        "속도를 정확히 측정하기 위해 거리와 시간이 제공되어야 한다."
+      ],
+      "answer": 3
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The measure of velocity, and subsequent acceleration, is one of the most important measures in sport because this variable is very useful for determining whether an athlete's current performance is better than a previous performance, or if it is better or worse than the opposition's.",
+        "To calculate the direction and the speed at which someone is traveling, we need to accurately measure the distance and the time.",
+        "Tests to measure this, such as 30m sprint drills, are often used in sport as part of an athlete's training.",
+        "By measuring the speed of the smaller intervals within this length, coaches can identify “where” an athlete is running fast and where she is slowing down.",
+        "Once the velocity has been calculated, the acceleration can be determined; and often in sport, acceleration, the rate of change in velocity, is what separates an athlete from an elite athlete.",
+        "From this new information, the coach can devise specific training for each individual athlete.",
+        "For example, if it is known that an athlete has a velocity over 30m, technique and strength training can be developed that appropriately match it."
+      ]
+    }
+  ]
+}

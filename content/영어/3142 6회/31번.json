@@ -1,0 +1,49 @@
+{
+  "title": "3142 6회 31번",
+  "subtitle": "3142 모의고사 6회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "Since birds consume up to 65 percent of a year's seed production and squirrels and mice take care of a good part of the rest, it is not surprising that fewer than one-tenth of 1 percent of Douglas-fir seeds survive where they fall to become new trees. Seed production is one way trees attempt to compensate for such huge losses. Douglas-fir seed production is trifling compared with that of some flowering plants — a single capsule of some orchids, for example, can contain up to 4 million seeds and has a much lower rate of success than a Douglas-fir. Medieval philosophers such as Saint Thomas Aquinas, attempting to make a synthesis of reason and faith, saw in this seed production evidence of the Creator's grand design. Nature was “God's work” and overabundance was seen both as a sign of God's will and as the result of a natural cause."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "choices": [
+        "conformity",
+        "asymmetry",
+        "predictability",
+        "underestimation",
+        "overabundance"
+      ],
+      "answer": 5,
+      "context": "Nature was “God's work” and __________ was seen both as a sign of God's will and as the result of a natural cause."
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Philosophical Doctrine about Nature",
+        "How to Increase Plants' Seed Production",
+        "Nature's Failure at Successful Proliferation",
+        "Natural Causes Leading to Overproduction",
+        "Balanced Production of Plants and Their Predators"
+      ],
+      "answer": 5
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Since birds consume up to 65 percent of a year's seed production and squirrels and mice take care of a good part of the rest, it is not surprising that fewer than one-tenth of 1 percent of Douglas-fir seeds survive where they fall to become new trees.",
+        "Seed production is one way trees attempt to compensate for such huge losses.",
+        "Douglas-fir seed production is trifling compared with that of some flowering plants — a single capsule of some orchids, for example, can contain up to 4 million seeds and has a much lower rate of success than a Douglas-fir.",
+        "Medieval philosophers such as Saint Thomas Aquinas, attempting to make a synthesis of reason and faith, saw in this seed production evidence of the Creator's grand design.",
+        "Nature was “God's work” and overabundance was seen both as a sign of God's will and as the result of a natural cause."
+      ]
+    }
+  ]
+}

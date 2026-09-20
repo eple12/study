@@ -1,0 +1,52 @@
+{
+  "title": "3142 6회 38번",
+  "subtitle": "3142 모의고사 6회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "38번 지문",
+      "text": "When an underwater object is seen from outside the water, its appearance becomes distorted. This is because refraction changes the direction of the light rays that come from the object. When these rays enter the eyes of an observer, nerves in the eyes send signals to the observer's brain. The brain then constructs a picture based on where the rays appear to have come from. It does this without accounting for the effects of refraction, so the object's appearance is distorted. When one looks at a straw in a glass of water, light rays from the part of the straw that is underwater refract at the surfaces between the water and the glass and between the glass and the air. The rays appear to come from closer to the surface than they are, and the straw looks bent. If the straw were viewed from underwater, the part above water would be distorted."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오. (원문은 정답 위치(③)에 삽입되어 있음)",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "How Light Rays Leave the Water and Enter the Air",
+        "How Accurately The Optic Nerves Transmit Information",
+        "An Explanation of Why Things Seem to Bend in Water",
+        "A Smart Human Brain Considers the Effects of Refraction",
+        "Distortion: The Dangers of Not Seeing Things as They Are"
+      ],
+      "answer": 3
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "When an underwater object is seen from outside the water, its appearance becomes distorted.",
+        "This is because refraction changes the direction of the light rays that come from the object.",
+        "When these rays enter the eyes of an observer, nerves in the eyes send signals to the observer's brain.",
+        "The brain then constructs a picture based on where the rays appear to have come from.",
+        "It does this without accounting for the effects of refraction, so the object's appearance is distorted.",
+        "When one looks at a straw in a glass of water, light rays from the part of the straw that is underwater refract at the surfaces between the water and the glass and between the glass and the air.",
+        "The rays appear to come from closer to the surface than they are, and the straw looks bent.",
+        "If the straw were viewed from underwater, the part above water would be distorted."
+      ]
+    }
+  ]
+}

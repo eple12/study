@@ -1,0 +1,52 @@
+{
+  "title": "2025년 09월 37번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "37번 지문",
+      "text": "Once a nail is hammered in, it is friction that holds it in place. Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other. If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail. The nail feels a force trying to rip it apart along its length, and we call that force tension. Your experiment can now fail in one of two ways ― either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome. The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former. It's the friction with which we need to concern ourselves."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "why friction, rather than tension, is the primary force of concern when a nailed joint fails",
+        "the manufacturing process of nails",
+        "how to calculate the tensile strength of different metals",
+        "methods for preventing wood from splitting",
+        "the history of woodworking tools"
+      ],
+      "answer": 1,
+      "explanation": "못이 박힌 상태를 유지하는 데는 장력보다 마찰력이 훨씬 더 중요한 고려 대상이라는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Friction is described as the force that holds a hammered nail in place.",
+        "Tension is the force trying to pull the nail apart along its length.",
+        "According to the passage, the force needed to stretch and split the nail is much smaller than the friction force on its surface.",
+        "A nailed joint can fail either because the nail splits or because friction is overcome.",
+        "The passage concludes that friction is the force we mainly need to be concerned with."
+      ],
+      "answer": 3,
+      "explanation": "못을 늘리는 데 필요한 힘이 마찰력보다 '훨씬 크다(much larger)'고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Once a nail is hammered in, it is friction that holds it in place.",
+        "Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other.",
+        "If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail.",
+        "The nail feels a force trying to rip it apart along its length, and we call that force tension.",
+        "Your experiment can now fail in one of two ways ― either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome.",
+        "The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former.",
+        "It's the friction with which we need to concern ourselves."
+      ]
+    }
+  ]
+}

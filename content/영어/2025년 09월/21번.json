@@ -1,0 +1,52 @@
+{
+  "title": "2025년 09월 21번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "21번 지문",
+      "text": "Mirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells? And this is exactly where modern research now stands: all researchers know so far is that apes possess mirror neurons. We still need to test to see which other species are like us in this respect. Scientists often publicly speculate that we can probably expect surprises here, too. They assume that all animals that live in herds or large groups possess similar brain mechanisms, because social units function only if individuals can see things from the perspective of others in the group and feel what they are feeling. I can see a goldfish waving its fin at us. As an animal that travels around in a tightly-knit group, it's on board with this idea ― or at least swimming alongside the boat."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the confirmed discovery of mirror neurons in all group-living animals",
+        "the search for mirror neurons—the biological basis of empathy—across group-living species",
+        "why goldfish cannot feel any form of empathy",
+        "the anatomical structure of mirror neurons in apes",
+        "how researchers train animals to recognize human emotions"
+      ],
+      "answer": 2,
+      "explanation": "공감의 하드웨어인 거울 뉴런을 어떤 동물들이 가지고 있는지 탐구하는 연구 현황을 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "Mirror neurons are described as the hardware of empathy.",
+        "All animal species have already been confirmed to possess mirror neurons.",
+        "Scientists have ruled out the possibility of surprises in future research on this topic.",
+        "Social units are said to function only if individuals cannot see things from others' perspectives.",
+        "Goldfish are used in the passage as proof that all fish possess mirror neurons."
+      ],
+      "answer": 1,
+      "explanation": "글 첫 문장에서 거울 뉴런을 '공감의 하드웨어(hardware of empathy)'라고 직접 정의한다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Mirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells?",
+        "And this is exactly where modern research now stands: all researchers know so far is that apes possess mirror neurons.",
+        "We still need to test to see which other species are like us in this respect.",
+        "Scientists often publicly speculate that we can probably expect surprises here, too.",
+        "They assume that all animals that live in herds or large groups possess similar brain mechanisms, because social units function only if individuals can see things from the perspective of others in the group and feel what they are feeling.",
+        "I can see a goldfish waving its fin at us.",
+        "As an animal that travels around in a tightly-knit group, it's on board with this idea ― or at least swimming alongside the boat."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "2025년 09월 33번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge. In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors. The word eventually came to be associated with drug dependency: one becomes a slave to one's addiction. The word \"husband\" originally referred to being a homeowner; it had nothing to do with being married. But because owning your own property made it more likely you'd find a mate, the word eventually came to mean a male who has been wed. On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament. He was captured and put to death. Loyalists burned his effigy, which they nicknamed the \"guy.\" Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway. In American slang, bad means good, cool means great, and wicked means excellent. If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "how word meanings evolve over time, reflected in ongoing revisions of dictionary definitions",
+        "the legal history of debt slavery in ancient Rome",
+        "why the word \"husband\" should return to its original meaning",
+        "the failure of the Gunpowder Plot in 1605",
+        "how Broadway musicals influence English vocabulary"
+      ],
+      "answer": 1,
+      "explanation": "addict, husband, guy 등의 예를 통해 단어의 의미가 시간에 따라 변화하고 사전 정의도 계속 개정된다는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "In Roman times, \"addicts\" referred to people enslaved to their creditors due to unpaid debts.",
+        "The word \"husband\" originally referred to being married, and later came to mean being a homeowner.",
+        "Guy Fawkes's effigy, nicknamed the \"guy,\" eventually lost its negative connotation.",
+        "In American slang, \"bad\" can mean good and \"wicked\" can mean excellent.",
+        "The passage suggests that language a century from now would likely be confusing to us today."
+      ],
+      "answer": 2,
+      "explanation": "husband는 원래 '집주인'을 뜻했고 이후에 '결혼한 남성'을 뜻하게 되었으므로 순서가 반대로 서술된 ②가 사실과 다르다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge.",
+        "In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors.",
+        "The word eventually came to be associated with drug dependency: one becomes a slave to one's addiction.",
+        "The word \"husband\" originally referred to being a homeowner; it had nothing to do with being married.",
+        "But because owning your own property made it more likely you'd find a mate, the word eventually came to mean a male who has been wed.",
+        "On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament.",
+        "He was captured and put to death.",
+        "Loyalists burned his effigy, which they nicknamed the \"guy.\" Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway.",
+        "In American slang, bad means good, cool means great, and wicked means excellent.",
+        "If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention."
+      ]
+    }
+  ]
+}

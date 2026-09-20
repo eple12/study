@@ -1,0 +1,54 @@
+{
+  "title": "2024년 09월 23번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "23번 지문",
+      "text": "People seem to recognize that the arts are cultural activities that draw on (or react against) certain cultural traditions, certain shared understanding, and certain values and ideas that are characteristic of the time and place in which the art is created. In the case of science, however, opinions differ. Some scientists, like the great biologist J. B. S. Haldane, see science in a similar light ― as a historical activity that occurs in a particular time and place, and that needs to be understood within that context. Others, however, see science as a purely \"objective\" pursuit, uninfluenced by the cultural viewpoint and values of those who create it. In describing this view of science, philosopher Hugh Lacey speaks of the belief that there is an underlying order of the world which is simply there to be discovered ― the world of pure \"fact\" stripped of any link with value. The aim of science according to this view is to represent this world of pure \"fact\", independently of any relationship it might bear contingently to human practices and experiences."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "why the arts are more influenced by tradition than science is",
+        "the debate over whether science is a culturally situated activity or a purely objective pursuit",
+        "Haldane's contributions to the history of biology",
+        "how cultural traditions shape artistic creation exclusively",
+        "the importance of removing all values from scientific practice"
+      ],
+      "answer": 2,
+      "explanation": "과학이 예술처럼 특정 시대·문화에 속박된 활동인지, 아니면 순수하게 객관적인 활동인지에 대한 견해 차이를 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "People generally agree that the arts are cultural activities shaped by the time and place of their creation.",
+        "All scientists agree that science should be understood as a purely objective pursuit unrelated to culture.",
+        "J. B. S. Haldane viewed science as a historical activity situated in a particular time and place.",
+        "Philosopher Hugh Lacey describes a view in which the world has an underlying order that is simply there to be discovered.",
+        "According to the \"objective pursuit\" view, science aims to represent pure fact independent of human practices."
+      ],
+      "answer": 2,
+      "explanation": "과학에 대해서는 'opinions differ'라고 명시되어 있으므로 모든 과학자가 동의한다는 것은 사실과 다르다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "People seem to recognize that the arts are cultural activities that draw on (or react against) certain cultural traditions, certain shared understanding, and certain values and ideas that are characteristic of the time and place in which the art is created.",
+        "In the case of science, however, opinions differ.",
+        "Some scientists, like the great biologist J.",
+        "B.",
+        "S.",
+        "Haldane, see science in a similar light ― as a historical activity that occurs in a particular time and place, and that needs to be understood within that context.",
+        "Others, however, see science as a purely \"objective\" pursuit, uninfluenced by the cultural viewpoint and values of those who create it.",
+        "In describing this view of science, philosopher Hugh Lacey speaks of the belief that there is an underlying order of the world which is simply there to be discovered ― the world of pure \"fact\" stripped of any link with value.",
+        "The aim of science according to this view is to represent this world of pure \"fact\", independently of any relationship it might bear contingently to human practices and experiences."
+      ]
+    }
+  ]
+}

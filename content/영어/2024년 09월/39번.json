@@ -1,0 +1,54 @@
+{
+  "title": "2024년 09월 39번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "39번 지문",
+      "text": "Sleep is clearly about more than just resting. One curious fact is that animals that are hibernating also have periods of sleep. It comes as a surprise to most of us, but hibernation and sleep are not the same thing at all, at least not from a neurological and metabolic perspective. Hibernating is more like being anesthetized: the subject is unconscious but not actually asleep. So a hibernating animal needs to get a few hours of conventional sleep each day within the larger unconsciousness. A further surprise to most of us is that bears, the most famous of wintry sleepers, don't actually hibernate. Real hibernation involves profound unconsciousness and a dramatic fall in body temperature ― often to around 32 degrees Fahrenheit. By this definition, bears don't hibernate, because their body temperature stays near normal and they are easily awakened. Their winter sleeps are more accurately called a state of torpor."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Why Bears Sleep All Winter Without Waking",
+        "Sleep vs. Hibernation: Why Even Hibernators Still Need to Sleep",
+        "The Evolutionary Origins of Winter Sleep",
+        "How Body Temperature Regulates the Sleep Cycle",
+        "The Physical Dangers of True Hibernation"
+      ],
+      "answer": 2,
+      "explanation": "동면과 수면은 다르며, 동면하는 동물도 수면이 필요하다는 것과 곰은 사실 진짜 동면을 하지 않는다는 내용을 다룬다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Hibernation and sleep are, from a neurological and metabolic perspective, not the same thing.",
+        "A hibernating animal still needs a few hours of conventional sleep within its larger period of unconsciousness.",
+        "Bears are given as a classic example of \"real\" hibernation, with a dramatic drop in body temperature.",
+        "Real hibernation is said to involve a dramatic fall in body temperature, often to around 32 degrees Fahrenheit.",
+        "Bears' winter sleep is more accurately described as a state of torpor."
+      ],
+      "answer": 3,
+      "explanation": "글에서는 곰은 실제로 동면하지 않으며(don't actually hibernate) 체온이 정상에 가깝게 유지된다고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Sleep is clearly about more than just resting.",
+        "One curious fact is that animals that are hibernating also have periods of sleep.",
+        "It comes as a surprise to most of us, but hibernation and sleep are not the same thing at all, at least not from a neurological and metabolic perspective.",
+        "Hibernating is more like being anesthetized: the subject is unconscious but not actually asleep.",
+        "So a hibernating animal needs to get a few hours of conventional sleep each day within the larger unconsciousness.",
+        "A further surprise to most of us is that bears, the most famous of wintry sleepers, don't actually hibernate.",
+        "Real hibernation involves profound unconsciousness and a dramatic fall in body temperature ― often to around 32 degrees Fahrenheit.",
+        "By this definition, bears don't hibernate, because their body temperature stays near normal and they are easily awakened.",
+        "Their winter sleeps are more accurately called a state of torpor."
+      ]
+    }
+  ]
+}

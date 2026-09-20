@@ -1,0 +1,51 @@
+{
+  "title": "2024년 09월 32번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "The well-known American ethnologist Alfred Louis Kroeber made a rich and in-depth study of women's evening dress in the West, stretching back about three centuries and using reproductions of engravings. Having adjusted the dimensions of these plates due to their diverse origins, he was able to analyse the constant elements in fashion features and to come up with a study that was neither intuitive nor approximate, but precise, mathematical and statistical. He reduced women's clothing to a certain number of features: length and size of the skirt, size and depth of the neckline, height of the waistline. He demonstrated unambiguously that fashion is a profoundly regular phenomenon which is not located at the level of annual variations but on the scale of history. For practically 300 years, women's dress was subject to a very precise periodic cycle: forms reach the furthest point in their variations every fifty years. If, at any one moment, skirts are at their longest, fifty years later they will be at their shortest; thus skirts become long again fifty years after being short and a hundred years after being long."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "Kroeber's mathematical discovery of a regular, long-term cyclical pattern in Western fashion",
+        "the difficulty of measuring historical clothing using engravings",
+        "why annual fashion trends are impossible to predict",
+        "the cultural significance of the neckline in Western dress",
+        "how fashion designers today use statistical analysis"
+      ],
+      "answer": 1,
+      "explanation": "Kroeber가 통계적 방법으로 서양 여성 의복에서 약 50년 주기의 규칙적인 변화를 발견했다는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Kroeber's study was based on reproductions of engravings spanning roughly three centuries.",
+        "Kroeber reduced women's clothing to features such as skirt length/size, neckline size/depth, and waistline height.",
+        "According to Kroeber, fashion variation operates mainly on an annual scale rather than a historical one.",
+        "Skirts that are at their longest at one point will be at their shortest fifty years later.",
+        "Kroeber's approach was precise, mathematical, and statistical rather than intuitive."
+      ],
+      "answer": 3,
+      "explanation": "글에서는 연 단위 변화가 아니라 역사적 규모(the scale of history)에서 나타나는 현상이라고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The well-known American ethnologist Alfred Louis Kroeber made a rich and in-depth study of women's evening dress in the West, stretching back about three centuries and using reproductions of engravings.",
+        "Having adjusted the dimensions of these plates due to their diverse origins, he was able to analyse the constant elements in fashion features and to come up with a study that was neither intuitive nor approximate, but precise, mathematical and statistical.",
+        "He reduced women's clothing to a certain number of features: length and size of the skirt, size and depth of the neckline, height of the waistline.",
+        "He demonstrated unambiguously that fashion is a profoundly regular phenomenon which is not located at the level of annual variations but on the scale of history.",
+        "For practically 300 years, women's dress was subject to a very precise periodic cycle: forms reach the furthest point in their variations every fifty years.",
+        "If, at any one moment, skirts are at their longest, fifty years later they will be at their shortest; thus skirts become long again fifty years after being short and a hundred years after being long."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "2024년 09월 31번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "When we get an unfavorable outcome, in some ways the last thing we want to hear is that the process was fair. As outraging as the combination of an unfavorable outcome and an unfair process is, this combination also brings with it a consolation prize: the possibility of attributing the bad outcome to something other than ourselves. We may reassure ourselves by believing that our bad outcome had little to do with us and everything to do with the unfair process. If the process is fair, however, we cannot nearly as easily externalize the outcome; we got what we got \"fair and square.\" When the process is fair we believe that our outcome is deserved, which is another way of saying that there must have been something about ourselves (what we did or who we are) that caused the outcome."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "People tend to attribute bad outcomes to an unfair process in order to avoid blaming themselves.",
+        "People always trust fair processes more than unfair ones regardless of outcome.",
+        "An unfavorable outcome is always preferred over a favorable one.",
+        "Fair processes guarantee favorable outcomes.",
+        "People never consider the fairness of a process when evaluating outcomes."
+      ],
+      "answer": 1,
+      "explanation": "불리한 결과가 나왔을 때 사람들은 불공정한 과정을 탓함으로써 자신에게서 책임을 돌리려 한다는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "Hearing that a process was fair is described as comforting news when we get an unfavorable outcome.",
+        "An unfair process combined with a bad outcome offers a \"consolation prize\" of being able to blame something other than ourselves.",
+        "When a process is fair, people find it easy to externalize a bad outcome.",
+        "People never attribute an outcome to their own actions or character.",
+        "A fair process makes people believe the outcome was caused entirely by external forces."
+      ],
+      "answer": 2,
+      "explanation": "불공정한 과정과 나쁜 결과의 조합은 '위안 상(consolation prize)'을 제공한다고 직접 언급된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "When we get an unfavorable outcome, in some ways the last thing we want to hear is that the process was fair.",
+        "As outraging as the combination of an unfavorable outcome and an unfair process is, this combination also brings with it a consolation prize: the possibility of attributing the bad outcome to something other than ourselves.",
+        "We may reassure ourselves by believing that our bad outcome had little to do with us and everything to do with the unfair process.",
+        "If the process is fair, however, we cannot nearly as easily externalize the outcome; we got what we got \"fair and square.\" When the process is fair we believe that our outcome is deserved, which is another way of saying that there must have been something about ourselves (what we did or who we are) that caused the outcome."
+      ]
+    }
+  ]
+}

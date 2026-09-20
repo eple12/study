@@ -1,0 +1,53 @@
+{
+  "title": "2025년 09월 36번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "We're naturally wired to organize the world into a hierarchy. We do this to help make sense of the world, maintain our beliefs, and generally feel better. But when someone infringes on our place in the world and our understanding of how it works, we react without thinking. When someone cuts you off on the highway and road rage kicks in, that's your unconscious mind saying, \"Who are you to cut me off?\" You're reacting to a threat to your inherent sense of hierarchy. On the road we are all equals. We're all supposed to play by the same rules. Cutting someone off violates those rules and implies higher status. Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\") In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Humans instinctively react to protect their perceived place in a natural hierarchy when it feels threatened.",
+        "Road rage is caused mainly by external traffic conditions, not psychological factors.",
+        "Hierarchical thinking is a purely cultural, not biological, tendency.",
+        "People never react emotionally to perceived violations of social rules.",
+        "\"Because I said so\" is presented as a rational, well-reasoned argument."
+      ],
+      "answer": 1,
+      "explanation": "인간은 위계질서 속 자신의 위치가 위협받을 때 본능적으로 반응한다는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "We organize the world into a hierarchy partly to help make sense of it and feel better.",
+        "On the road, the passage states that we are all supposed to play by the same rules, and cutting someone off violates those rules.",
+        "Road rage is described as a conscious, carefully reasoned response to being cut off.",
+        "Ending an argument with kids by saying \"Because I said so\" is given as an example of reaffirming hierarchy.",
+        "The office equivalent of \"Because I said so\" is given as \"Because I'm the boss.\""
+      ],
+      "answer": 3,
+      "explanation": "도로 위 분노는 '무의식적인 마음(unconscious mind)'의 반응이라고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "We're naturally wired to organize the world into a hierarchy.",
+        "We do this to help make sense of the world, maintain our beliefs, and generally feel better.",
+        "But when someone infringes on our place in the world and our understanding of how it works, we react without thinking.",
+        "When someone cuts you off on the highway and road rage kicks in, that's your unconscious mind saying, \"Who are you to cut me off?\" You're reacting to a threat to your inherent sense of hierarchy.",
+        "On the road we are all equals.",
+        "We're all supposed to play by the same rules.",
+        "Cutting someone off violates those rules and implies higher status.",
+        "Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\") In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "2026년 09월 31번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "Human geography is becoming unclear. As people find themselves regularly on the move, we are experiencing a phase shift like when matter transitions from solid to liquid to gas: molecules heat up and loosen from one another, vibrating more rapidly. One might even say that humans are becoming like particles in quantum physics, their velocity and location always in flux. It would be nice to return to some form of stability, but that's not how things work in a quantum world. Instead, the complexity of today's world makes it increasingly difficult to settle permanently anywhere. Highly paid digital nomads and billionaires with multiple passports as well as migratory workers are all part of the diverse and growing global demographic of quantum people."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the increasing instability and fluidity of human settlement patterns in the modern world",
+        "the economic gap between digital nomads and migratory workers",
+        "scientific principles of quantum physics applied to chemistry",
+        "the decline of migratory work in a globalized economy",
+        "efforts by governments to control human mobility"
+      ],
+      "answer": 1,
+      "explanation": "인간의 이동이 점점 잦아지며 정착이 어려워지는 현상을 상전이·양자 입자에 빗대어 설명하는 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "Human geography is becoming increasingly fixed and predictable.",
+        "The author compares people's movement to a phase shift from solid to liquid to gas.",
+        "It is becoming easier for people to settle permanently in one place.",
+        "Only wealthy individuals are included among \"quantum people.\"",
+        "Migratory workers are excluded from the concept of quantum people."
+      ],
+      "answer": 2,
+      "explanation": "글은 사람들의 이동을 고체-액체-기체로의 상전이에 비유했다. ①③은 반대, ④⑤는 'migratory workers'도 quantum people에 포함된다는 내용과 어긋난다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Human geography is becoming unclear.",
+        "As people find themselves regularly on the move, we are experiencing a phase shift like when matter transitions from solid to liquid to gas: molecules heat up and loosen from one another, vibrating more rapidly.",
+        "One might even say that humans are becoming like particles in quantum physics, their velocity and location always in flux.",
+        "It would be nice to return to some form of stability, but that's not how things work in a quantum world.",
+        "Instead, the complexity of today's world makes it increasingly difficult to settle permanently anywhere.",
+        "Highly paid digital nomads and billionaires with multiple passports as well as migratory workers are all part of the diverse and growing global demographic of quantum people."
+      ]
+    }
+  ]
+}

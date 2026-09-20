@@ -1,0 +1,54 @@
+{
+  "title": "2025년 09월 38번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "38번 지문",
+      "text": "The traditional bank manager in the 1950s was usually a respected pillar of the community, a cautious, careful sort of person who probably went to bed early and didn't drink too much. But from the 1970s a new kind of banker appeared ― loud, flashy, and arrogant. These bankers loved taking big risks. They wanted to get rich quick and blow their money on fast cars and expensive champagne. They made their money through what's called 'speculation'. Normally, people buy things because they want to use them, such as wheat to make bread and petrol to run the car. But when people speculate, they buy things even when they have no interest in using them. They might buy a load of wheat simply because they think that its price is going to rise when a drought is predicted in wheat-growing areas. If their guess is right, they later sell the wheat for a profit."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Rise of the Speculative Banker: From Caution to Risk-Taking",
+        "How Central Banks Regulate Commodity Prices",
+        "The History of Wheat Farming in Drought-Prone Regions",
+        "Why Traditional Bankers Always Outperform Speculators",
+        "The Decline of the Banking Industry Since the 1970s"
+      ],
+      "answer": 1,
+      "explanation": "신중했던 전통적 은행가에서 위험을 즐기는 투기적 은행가로의 변화를 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "The traditional 1950s bank manager is described as cautious and careful.",
+        "From the 1970s, a new type of loud, flashy, and arrogant banker appeared.",
+        "Speculators are said to buy goods primarily because they intend to use them personally.",
+        "Speculators might buy wheat because they expect its price to rise due to a predicted drought.",
+        "If their guess about price movement is correct, speculators later sell for a profit."
+      ],
+      "answer": 3,
+      "explanation": "투기자들은 사용할 의사가 없어도(even when they have no interest in using them) 물건을 산다고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The traditional bank manager in the 1950s was usually a respected pillar of the community, a cautious, careful sort of person who probably went to bed early and didn't drink too much.",
+        "But from the 1970s a new kind of banker appeared ― loud, flashy, and arrogant.",
+        "These bankers loved taking big risks.",
+        "They wanted to get rich quick and blow their money on fast cars and expensive champagne.",
+        "They made their money through what's called 'speculation'.",
+        "Normally, people buy things because they want to use them, such as wheat to make bread and petrol to run the car.",
+        "But when people speculate, they buy things even when they have no interest in using them.",
+        "They might buy a load of wheat simply because they think that its price is going to rise when a drought is predicted in wheat-growing areas.",
+        "If their guess is right, they later sell the wheat for a profit."
+      ]
+    }
+  ]
+}

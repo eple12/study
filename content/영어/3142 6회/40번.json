@@ -1,0 +1,54 @@
+{
+  "title": "3142 6회 40번",
+  "subtitle": "3142 모의고사 6회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "Suppose that a school administrator argues, “Let's cut out the pledge of allegiance each morning. We'll be able to save two minutes a day. That's ten minutes a week. That'll be nearly an entire extra day by the end of the year.” Such computation is true on paper only. The extra two minutes a day are, in fact, less effective in achieving your goal than one single day, and even potentially harmful to your morale. A variation of this fallacy also occurs when people try to redistribute something, claiming that “as long as it all comes out the same in the end, everything will be fine.” An administrator says to a football coach, “You will not be able to have ninety minutes a day, Monday through Thursday, for football practice. However, don't worry: You won't lose anything. You can have from noon until six P.M. on Friday.” The problem here is that a football team needs time each day; its improvement is cumulative. The administrator has fallaciously presumed that six hours is six hours, no matter how it is distributed, that a team can get the same results from one six-hour session as from four ninety-minute sessions. The administrator has ignored the fact that after a while the long practice will become unproductive."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은? (The assumption that a small amount over time is (A) in value compared to the full amount of time is a fallacy, because it does not consider the effect of (B) returns.)",
+      "choices": [
+        "(A) larger – (B) expected",
+        "(A) equivalent – (B) diminishing",
+        "(A) differentiated – (B) indirect",
+        "(A) similar – (B) flexible",
+        "(A) lower – (B) increasing"
+      ],
+      "answer": 5,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "짧은 시간을 여러 번 나누어 쓰는 것이 항상 효율적이다.",
+        "누적되는 활동은 시간을 나눠 배분해도 동일한 효과를 낸다.",
+        "시간을 잘게 쪼개어 쓰면 총량은 같아도 효과가 줄어들 수 있다.",
+        "일과를 단축하는 것이 사기 저하의 주된 원인이다.",
+        "훈련 시간이 길수록 항상 더 큰 효과를 낸다."
+      ],
+      "answer": 3
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Suppose that a school administrator argues, “Let's cut out the pledge of allegiance each morning.",
+        "We'll be able to save two minutes a day.",
+        "That's ten minutes a week.",
+        "That'll be nearly an entire extra day by the end of the year.” Such computation is true on paper only.",
+        "The extra two minutes a day are, in fact, less effective in achieving your goal than one single day, and even potentially harmful to your morale.",
+        "A variation of this fallacy also occurs when people try to redistribute something, claiming that “as long as it all comes out the same in the end, everything will be fine.” An administrator says to a football coach, “You will not be able to have ninety minutes a day, Monday through Thursday, for football practice.",
+        "However, don't worry: You won't lose anything.",
+        "You can have from noon until six P.M. on Friday.” The problem here is that a football team needs time each day; its improvement is cumulative.",
+        "The administrator has fallaciously presumed that six hours is six hours, no matter how it is distributed, that a team can get the same results from one six-hour session as from four ninety-minute sessions.",
+        "The administrator has ignored the fact that after a while the long practice will become unproductive."
+      ]
+    }
+  ]
+}

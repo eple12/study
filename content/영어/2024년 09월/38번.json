@@ -1,0 +1,52 @@
+{
+  "title": "2024년 09월 38번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "38번 지문",
+      "text": "There are deep similarities between viral contagion and behavioral contagion. For example, people in close or extended proximity to others infected by a virus are themselves more likely to become infected, just as people are more likely to drink excessively when they spend more time in the company of heavy drinkers. But there are also important differences between the two types of contagion. One is that visibility promotes behavioral contagion but inhibits the spread of infectious diseases. Solar panels that are visible from the street, for instance, are more likely to stimulate neighboring installations. In contrast, we try to avoid others who are visibly ill. Another important difference is that whereas viral contagion is almost always a bad thing, behavioral contagion is sometimes negative ― as in the case of smoking ― but sometimes positive, as in the case of solar installations."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Behavioral contagion and viral contagion share some similarities but differ importantly in how visibility affects their spread and their moral valence.",
+        "Behavioral contagion is always harmful, just like viral contagion.",
+        "Visibility has the same effect on both viral and behavioral contagion.",
+        "People are more likely to avoid visibly ill others in order to encourage behavioral contagion.",
+        "Solar panel installation is an example of harmful behavioral contagion."
+      ],
+      "answer": 1,
+      "explanation": "바이러스성 전염과 행동적 전염은 유사점이 있지만, 가시성의 영향과 긍정/부정 여부에서 중요한 차이가 있다는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "People are more likely to drink excessively when spending time around heavy drinkers.",
+        "Visible solar panels are more likely to encourage neighbors to install their own.",
+        "We tend to avoid others who are visibly ill, which is an example of visibility inhibiting viral contagion.",
+        "Viral contagion is described as sometimes positive and sometimes negative, just like behavioral contagion.",
+        "Smoking is given as an example of a negative form of behavioral contagion."
+      ],
+      "answer": 4,
+      "explanation": "바이러스성 전염은 '거의 항상 나쁜 것(almost always a bad thing)'이라고 했으므로 ④는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "There are deep similarities between viral contagion and behavioral contagion.",
+        "For example, people in close or extended proximity to others infected by a virus are themselves more likely to become infected, just as people are more likely to drink excessively when they spend more time in the company of heavy drinkers.",
+        "But there are also important differences between the two types of contagion.",
+        "One is that visibility promotes behavioral contagion but inhibits the spread of infectious diseases.",
+        "Solar panels that are visible from the street, for instance, are more likely to stimulate neighboring installations.",
+        "In contrast, we try to avoid others who are visibly ill.",
+        "Another important difference is that whereas viral contagion is almost always a bad thing, behavioral contagion is sometimes negative ― as in the case of smoking ― but sometimes positive, as in the case of solar installations."
+      ]
+    }
+  ]
+}

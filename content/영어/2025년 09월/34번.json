@@ -1,0 +1,52 @@
+{
+  "title": "2025년 09월 34번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "The term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning. Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction. In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation. The viewer is not asked to recognize what they see but to understand why they see it and what it means to them. By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations. The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others. It \"remote-controls\" the reader towards a meaning chosen in advance."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Decline of Symbolic Meaning in Modern Advertising",
+        "Anchoring: How Text Directs the Interpretation of Images in Advertising",
+        "Roland Barthes's Contributions to Photography Techniques",
+        "Why Images Are More Persuasive Than Text in Ads",
+        "The History of Advertising Headlines"
+      ],
+      "answer": 2,
+      "explanation": "Barthes의 '닻 내리기(anchoring)' 개념, 즉 텍스트가 이미지의 해석을 특정 방향으로 유도한다는 내용의 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "The term \"anchoring\" was introduced by Roland Barthes.",
+        "According to Barthes, the symbolic message in advertising guides recognition rather than interpretation.",
+        "Text is said to point the viewer toward a desired, specific interpretation among many possible ones.",
+        "Combining images with text is said to add depth while narrowing (eliminating breadth of) possible interpretations.",
+        "A headline or tagline is described as \"remote-controlling\" the reader toward a predetermined meaning."
+      ],
+      "answer": 2,
+      "explanation": "상징적 메시지는 '식별(identification)'이 아니라 '해석(interpretation)'을 이끈다고 했으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning.",
+        "Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction.",
+        "In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation.",
+        "The viewer is not asked to recognize what they see but to understand why they see it and what it means to them.",
+        "By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations.",
+        "The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others.",
+        "It \"remote-controls\" the reader towards a meaning chosen in advance."
+      ]
+    }
+  ]
+}

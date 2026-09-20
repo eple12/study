@@ -1,0 +1,54 @@
+{
+  "title": "2025년 09월 31번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "Paradoxically, it's uncertainty that makes us feel most alive. Think of events that shake you out of your everyday routine: maybe attending a family wedding, making a big presentation, or going somewhere you've never been. It's on those occasions that time seems to slow down a little, and you feel more fully engaged. The same holds true if the experience is risky, like mountain climbing or parasailing. Your senses are sharper. You notice more. Thanks to the release of a feel-good chemical in the brain called dopamine, you get a greater rush of pleasure from chance encounters with people than planned meetings. Good news, financial rewards, and gifts are more enjoyable if they are surprises. It's why the most popular television shows and movies are the ones with unexpected plot twists and astonishing endings."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Why Routine Is the Key to Happiness",
+        "The Paradox of Uncertainty: Why the Unexpected Makes Us Feel Most Alive",
+        "How to Avoid Risky Situations in Daily Life",
+        "Dopamine's Role in Regulating Sleep Cycles",
+        "The Dangers of Watching Unpredictable Television Shows"
+      ],
+      "answer": 2,
+      "explanation": "역설적으로 불확실성과 예상치 못한 일이 우리를 가장 살아있다고 느끼게 만든다는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Everyday routine events, rather than novel ones, are said to make us feel most engaged.",
+        "Time seems to slow down during events that break from our everyday routine.",
+        "Risky experiences like mountain climbing are said to sharpen the senses.",
+        "People get a greater rush of pleasure from chance encounters than from planned meetings, due to dopamine.",
+        "Popular movies and shows often rely on unexpected plot twists."
+      ],
+      "answer": 1,
+      "explanation": "우리를 가장 몰입하게 만드는 것은 일상적인 일이 아니라 '불확실성'이라고 했으므로 ①은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Paradoxically, it's uncertainty that makes us feel most alive.",
+        "Think of events that shake you out of your everyday routine: maybe attending a family wedding, making a big presentation, or going somewhere you've never been.",
+        "It's on those occasions that time seems to slow down a little, and you feel more fully engaged.",
+        "The same holds true if the experience is risky, like mountain climbing or parasailing.",
+        "Your senses are sharper.",
+        "You notice more.",
+        "Thanks to the release of a feel-good chemical in the brain called dopamine, you get a greater rush of pleasure from chance encounters with people than planned meetings.",
+        "Good news, financial rewards, and gifts are more enjoyable if they are surprises.",
+        "It's why the most popular television shows and movies are the ones with unexpected plot twists and astonishing endings."
+      ]
+    }
+  ]
+}

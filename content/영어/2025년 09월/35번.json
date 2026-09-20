@@ -1,0 +1,51 @@
+{
+  "title": "2025년 09월 35번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "35번 지문",
+      "text": "According to Einstein's theory, a large mass like the Sun 'bends' space-time. Newton's theory makes no such prediction. This bending of space-time leads to phenomena such as 'gravitational lensing' where the light of distant stars appears to be in different locations when they pass by a large mass like the Sun. We don't normally see this lensing because stars aren't visible during the day when the Sun is out, but a solar eclipse in 1919 allowed scientists to observe what the Sun's gravity was doing to the light from distant stars. The stars around the Sun appeared to have moved from their normal positions in the night sky. The shift was much larger than Newton's theory predicted, but exactly in the positions predicted by Einstein's theory."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "how the 1919 solar eclipse provided observational confirmation of Einstein's prediction of gravitational lensing",
+        "the discovery of new stars during a solar eclipse",
+        "why Newton's theory of gravity is now considered completely incorrect",
+        "the technical challenges of observing solar eclipses",
+        "how gravitational lensing is used in modern telescopes"
+      ],
+      "answer": 1,
+      "explanation": "1919년 일식 관측이 아인슈타인의 중력 렌즈 효과 예측을 확인해 주었다는 내용의 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "According to Einstein's theory, a large mass like the Sun bends space-time.",
+        "Newton's theory makes the same prediction about space-time bending as Einstein's theory.",
+        "Gravitational lensing normally cannot be observed because stars aren't visible during the day.",
+        "A solar eclipse in 1919 allowed scientists to observe the effect of the Sun's gravity on starlight.",
+        "The observed shift in stars' positions matched Einstein's predicted positions, not Newton's."
+      ],
+      "answer": 2,
+      "explanation": "뉴턴의 이론은 그러한 예측을 하지 않는다(makes no such prediction)고 명시되어 있으므로 ②는 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "According to Einstein's theory, a large mass like the Sun 'bends' space-time.",
+        "Newton's theory makes no such prediction.",
+        "This bending of space-time leads to phenomena such as 'gravitational lensing' where the light of distant stars appears to be in different locations when they pass by a large mass like the Sun.",
+        "We don't normally see this lensing because stars aren't visible during the day when the Sun is out, but a solar eclipse in 1919 allowed scientists to observe what the Sun's gravity was doing to the light from distant stars.",
+        "The stars around the Sun appeared to have moved from their normal positions in the night sky.",
+        "The shift was much larger than Newton's theory predicted, but exactly in the positions predicted by Einstein's theory."
+      ]
+    }
+  ]
+}

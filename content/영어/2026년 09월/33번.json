@@ -1,0 +1,52 @@
+{
+  "title": "2026년 09월 33번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "Psychological theories across the field agree on the importance of grieving our losses, from the highly personal through to the broadly collective. Grief is a dynamic emotional process essential to consciousness. At a psychological level, it supports us to both face into our own and others' vulnerability, transience and mortality, and to repair life energy after significant loss. Grief work honours the loss, the sadness and the experience of diminishment or absence, while also setting up the ground for self-transformation and the continuation of life. Psychotherapist Fran Weller describes grief work is \"an act of devotion, rooted in love and compassion\" that requires \"an ongoing practice of deepening, attending and listening.\" When we grieve for what is lost, it clears the way towards a strengthening of love and commitment for what remains. In time this may build a desire to make good from the loss by repairing as many damages as we can and/or compensating for them. Grief can make us both very sad and very motivated to act."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Dangers of Suppressing Grief in Modern Society",
+        "Grief as a Dynamic Process of Healing and Transformation",
+        "How to Avoid Feeling Sadness After a Loss",
+        "The Biological Mechanisms Behind Human Emotion",
+        "Why Collective Mourning Is Declining Today"
+      ],
+      "answer": 2,
+      "explanation": "슬픔(grief)이 상실을 애도하고 자기 변형과 삶의 지속으로 이어지는 역동적 과정임을 설명하는 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "Grief is described as a static, one-time emotional reaction rather than a process.",
+        "Grief work only concerns personal losses, not collective ones.",
+        "Psychotherapist Fran Weller describes grief work as an act of devotion rooted in love and compassion.",
+        "Grieving prevents people from ever feeling motivated to take action.",
+        "Grief work is described as undermining, rather than enabling, self-transformation."
+      ],
+      "answer": 3,
+      "explanation": "글에서 심리치료사 Fran Weller의 말을 직접 인용하여 grief work를 'an act of devotion, rooted in love and compassion'이라고 설명했다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Psychological theories across the field agree on the importance of grieving our losses, from the highly personal through to the broadly collective.",
+        "Grief is a dynamic emotional process essential to consciousness.",
+        "At a psychological level, it supports us to both face into our own and others' vulnerability, transience and mortality, and to repair life energy after significant loss.",
+        "Grief work honours the loss, the sadness and the experience of diminishment or absence, while also setting up the ground for self-transformation and the continuation of life.",
+        "Psychotherapist Fran Weller describes grief work is \"an act of devotion, rooted in love and compassion\" that requires \"an ongoing practice of deepening, attending and listening.\" When we grieve for what is lost, it clears the way towards a strengthening of love and commitment for what remains.",
+        "In time this may build a desire to make good from the loss by repairing as many damages as we can and/or compensating for them.",
+        "Grief can make us both very sad and very motivated to act."
+      ]
+    }
+  ]
+}

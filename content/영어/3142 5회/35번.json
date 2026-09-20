@@ -1,0 +1,50 @@
+{
+  "title": "3142 5회 35번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "35번 지문",
+      "text": "It's tempting to believe that we can trust the media with our kids, that we don't need to pay close attention to what movies or TV shows our kids are watching, what computer games they're playing, or where they're surfing on the Internet. It's much easier to believe that we can trust the media. After all, we're only adding more work and more worry to our lives if we admit that we now need to be as wary of the media as we are of strangers approaching our children on the street. As a result, many parents are in a state of “media denial,” while others feel overwhelmed and helpless. But the fact is, we need to take as much responsibility for our children's media consumption as we do for their performance in school and their physical well-being. If we're worried about what our kids eat, then we should certainly be worried about what our kids are watching."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장을 포함하지 않은, 원문 그대로의 지문이다. 이 글의 요지로 가장 적절한 것을 고르시오.",
+      "choices": [
+        "Parents should build a relationship of trust with their children.",
+        "Parents need to take an active role in monitoring their children's media use.",
+        "Parents should reduce the amount of time their children spend on media.",
+        "Parents should refrain from using media in front of their children.",
+        "Parents should not interfere with their children's social media activity."
+      ],
+      "answer": 2,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글에서 필자의 주장으로 가장 적절한 것은?",
+      "choices": [
+        "부모는 자녀와 신뢰 관계를 구축해야 한다.",
+        "부모는 자녀의 미디어 사용에 관여해야 한다.",
+        "부모는 자녀의 미디어 노출 시간을 줄여야 한다.",
+        "부모는 자녀 앞에서 미디어 이용을 자제해야 한다.",
+        "부모는 자녀의 소셜 미디어 활동에 간섭하지 말아야 한다."
+      ],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "It's tempting to believe that we can trust the media with our kids, that we don't need to pay close attention to what movies or TV shows our kids are watching, what computer games they're playing, or where they're surfing on the Internet.",
+        "It's much easier to believe that we can trust the media.",
+        "After all, we're only adding more work and more worry to our lives if we admit that we now need to be as wary of the media as we are of strangers approaching our children on the street.",
+        "As a result, many parents are in a state of “media denial,” while others feel overwhelmed and helpless.",
+        "But the fact is, we need to take as much responsibility for our children's media consumption as we do for their performance in school and their physical well-being.",
+        "If we're worried about what our kids eat, then we should certainly be worried about what our kids are watching."
+      ]
+    }
+  ]
+}

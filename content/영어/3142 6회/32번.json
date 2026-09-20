@@ -1,0 +1,55 @@
+{
+  "title": "3142 6회 32번",
+  "subtitle": "3142 모의고사 6회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "In marketing, the term strategic thinking is thrown around with abandon. It's a very general term that really only takes on meaning when applied to a specific situation. As a general proposition, the term is quite vague. As a specific application, it can be indispensable. Much the same is true of practice. Practicing to become faster has benefits, no doubt, but those benefits may not apply to every situation. Being fast in football is not necessarily the same as being fast at a track meet. In football, the application of “fast” likely includes knowing how to make sharp cuts while running, following routes, or avoiding being tackled. For a track runner, those skills are meaningless. He should take the best of his generally applicable skills and apply them to his training; in other words, practice for the purpose. Without the application, his preparation isn't even halfway complete."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "choices": [
+        "practice for the purpose",
+        "attempt for the first time",
+        "set a realistic time frame",
+        "maximize personal strengths",
+        "integrate varied perspectives"
+      ],
+      "answer": 1,
+      "context": "He should take the best of his generally applicable skills and apply them to his training; in other words, __________."
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "목적에 맞는 최적의 전략을 선택해야 한다.",
+        "성공을 위해 전략적 사고는 필수 불가결하다.",
+        "지나친 전문화는 전략적 사고에 오히려 해가 된다.",
+        "모든 운동 종목에는 빠르게 달리는 연습이 필수적이다.",
+        "전략적 사고는 여러 방면에 걸쳐 일반적인 의미를 지닌다."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "In marketing, the term strategic thinking is thrown around with abandon.",
+        "It's a very general term that really only takes on meaning when applied to a specific situation.",
+        "As a general proposition, the term is quite vague.",
+        "As a specific application, it can be indispensable.",
+        "Much the same is true of practice.",
+        "Practicing to become faster has benefits, no doubt, but those benefits may not apply to every situation.",
+        "Being fast in football is not necessarily the same as being fast at a track meet.",
+        "In football, the application of “fast” likely includes knowing how to make sharp cuts while running, following routes, or avoiding being tackled.",
+        "For a track runner, those skills are meaningless.",
+        "He should take the best of his generally applicable skills and apply them to his training; in other words, practice for the purpose.",
+        "Without the application, his preparation isn't even halfway complete."
+      ]
+    }
+  ]
+}

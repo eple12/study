@@ -1,0 +1,51 @@
+{
+  "title": "2024년 09월 33번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "Over the last few centuries, humanity's collective prosperity has skyrocketed, as technological progress has made us far wealthier than ever before. To share out those riches, almost all societies have settled upon the market mechanism, rewarding people in various ways for the work that they do and the things that they own. But rising inequality, itself often driven by technology, has started to put that mechanism under strain. Today, markets already provide immense rewards to some people but leave many others with very little. And now, technological unemployment threatens to become a more radical version of the same story, taking place in the particular market we rely upon the most: the labor market. As that market begins to break down, more and more people will be in danger of not receiving a share of society's prosperity at all."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The End of the Market Mechanism as We Know It",
+        "Technological Unemployment: A New Threat to the Labor Market's Role in Sharing Prosperity",
+        "How Automation Has Always Benefited Workers Equally",
+        "The History of Wealth Redistribution Policies",
+        "Why Inequality Has Decreased in Recent Centuries"
+      ],
+      "answer": 2,
+      "explanation": "기술 실업이 번영을 분배해 온 노동 시장의 기능을 위협하는 새로운 요인이 되고 있다는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Humanity's collective prosperity has increased dramatically due to technological progress.",
+        "Almost all societies rely on the market mechanism to distribute wealth.",
+        "Rising inequality has had no connection to technology whatsoever.",
+        "Technological unemployment is described as a more radical version of the strain already placed on the market mechanism.",
+        "As the labor market breaks down, more people risk receiving no share of society's prosperity."
+      ],
+      "answer": 3,
+      "explanation": "글에서는 불평등 심화가 '기술에 의해 종종 촉발된다(itself often driven by technology)'고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Over the last few centuries, humanity's collective prosperity has skyrocketed, as technological progress has made us far wealthier than ever before.",
+        "To share out those riches, almost all societies have settled upon the market mechanism, rewarding people in various ways for the work that they do and the things that they own.",
+        "But rising inequality, itself often driven by technology, has started to put that mechanism under strain.",
+        "Today, markets already provide immense rewards to some people but leave many others with very little.",
+        "And now, technological unemployment threatens to become a more radical version of the same story, taking place in the particular market we rely upon the most: the labor market.",
+        "As that market begins to break down, more and more people will be in danger of not receiving a share of society's prosperity at all."
+      ]
+    }
+  ]
+}

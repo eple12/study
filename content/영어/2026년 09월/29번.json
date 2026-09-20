@@ -1,0 +1,52 @@
+{
+  "title": "2026년 09월 29번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "29번 지문",
+      "text": "Capitalism is not a system where cash is everywhere but rather one in which islands of cash exchange exist within oceans of cheap ― or potentially cheap ― natures. Reproducing life within the cash nexus is expensive, and it grows more expensive over time. Workers' wages can be frozen, even rolled back, but in the end inequality leads to crises of the kind we've recently seen bring about populist protests in the United States and the United Kingdom. Workers demand dignity, and their labor becomes expensive. Production processes burn through an island, and energy is no longer cheap. The climate changes, and crops can no longer grow as abundantly as they once did. Frontiers are so important in these processes because they offer places where the new cheap things can be seized ― and the cheap work of humans and other natures can be forcefully taken."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the necessity of raising workers' wages to prevent protests",
+        "capitalism's dependence on ever-renewing frontiers of cheap nature and labor",
+        "the historical origin of populist protests in the US and UK",
+        "how energy costs have remained stable over time",
+        "the difference between cash exchange and barter systems"
+      ],
+      "answer": 2,
+      "explanation": "자본주의는 값싼(혹은 값싸질 수 있는) 자연·노동을 새로 확보할 수 있는 프런티어에 의존한다는 것이 글의 핵심이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Capitalism is not simply a system in which cash is everywhere.",
+        "Reproducing life within the cash nexus becomes cheaper over time.",
+        "Rising inequality has contributed to populist protests in the US and UK.",
+        "Frontiers matter because they provide new sources of cheap things to seize.",
+        "Environmental change can make crops harder to grow as abundantly as before."
+      ],
+      "answer": 2,
+      "explanation": "글에서는 현금 관계 안에서 삶을 재생산하는 것이 시간이 갈수록 더 비싸진다(grows more expensive over time)고 했으므로 ②는 내용과 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Capitalism is not a system where cash is everywhere but rather one in which islands of cash exchange exist within oceans of cheap ― or potentially cheap ― natures.",
+        "Reproducing life within the cash nexus is expensive, and it grows more expensive over time.",
+        "Workers' wages can be frozen, even rolled back, but in the end inequality leads to crises of the kind we've recently seen bring about populist protests in the United States and the United Kingdom.",
+        "Workers demand dignity, and their labor becomes expensive.",
+        "Production processes burn through an island, and energy is no longer cheap.",
+        "The climate changes, and crops can no longer grow as abundantly as they once did.",
+        "Frontiers are so important in these processes because they offer places where the new cheap things can be seized ― and the cheap work of humans and other natures can be forcefully taken."
+      ]
+    }
+  ]
+}

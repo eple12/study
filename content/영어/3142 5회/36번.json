@@ -1,0 +1,53 @@
+{
+  "title": "3142 5회 36번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "Beech trees and oak trees register pain as soon as some creature starts nibbling on them. When a caterpillar takes a hearty bite out of a leaf, the tissue around the site of the damage changes. In addition, it sends out electrical signals, just as human tissue does when it is hurt. However, the signal is not transmitted in milliseconds, as human signals are; instead, the plant signal travels at the slow speed of a third of an inch per minute. If the roots find themselves in trouble, this information is broadcast throughout the tree, which can trigger the leaves to release scent compounds. And those are not just any old scent compounds, but ones that are specifically formulated for the task at hand. Accordingly, it takes an hour or so before defensive compounds reach the leaves to spoil the pest's meal. Trees live their lives in the really slow lane, even when they are in danger. But this slow tempo doesn't mean that a tree is not on top of what is happening in different parts of its structure."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오. (원문은 정답 순서(C-B-A)로 정렬되어 있음)",
+      "choices": [
+        "(A) – (C) – (B)",
+        "(B) – (A) – (C)",
+        "(B) – (C) – (A)",
+        "(C) – (A) – (B)",
+        "(C) – (B) – (A)"
+      ],
+      "answer": 4,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "나무의 방어 속도는 느리지만 효과가 있다.",
+        "어떤 나무는 특히 느린 방어 속도를 갖는다.",
+        "나무의 방어 속도는 고통이 클수록 빨라진다.",
+        "나무는 향기 화합물을 방출하여 적을 물리친다.",
+        "나무의 전기 신호는 인간의 신호만큼 강하지 않다."
+      ],
+      "answer": 1
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Beech trees and oak trees register pain as soon as some creature starts nibbling on them.",
+        "When a caterpillar takes a hearty bite out of a leaf, the tissue around the site of the damage changes.",
+        "In addition, it sends out electrical signals, just as human tissue does when it is hurt.",
+        "However, the signal is not transmitted in milliseconds, as human signals are; instead, the plant signal travels at the slow speed of a third of an inch per minute.",
+        "If the roots find themselves in trouble, this information is broadcast throughout the tree, which can trigger the leaves to release scent compounds.",
+        "And those are not just any old scent compounds, but ones that are specifically formulated for the task at hand.",
+        "Accordingly, it takes an hour or so before defensive compounds reach the leaves to spoil the pest's meal.",
+        "Trees live their lives in the really slow lane, even when they are in danger.",
+        "But this slow tempo doesn't mean that a tree is not on top of what is happening in different parts of its structure."
+      ]
+    }
+  ]
+}

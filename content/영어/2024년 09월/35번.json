@@ -1,0 +1,51 @@
+{
+  "title": "2024년 09월 35번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "35번 지문",
+      "text": "Minimal processing can be one of the best ways to keep original flavors and taste, without any need to add artificial flavoring or additives, or too much salt. This would also be the efficient way to keep most nutrients, especially the most sensitive ones such as many vitamins and anti-oxidants. Milling of cereals is one of the most harsh processes which dramatically affect nutrient content. While grains are naturally very rich in micronutrients, anti-oxidants and fiber (i.e. in wholemeal flour or flakes), milling usually removes the vast majority of minerals, vitamins and fibers to raise white flour. Such a spoilage of key nutrients and fiber is no longer acceptable in the context of a sustainable diet aiming at an optimal nutrient density and health protection. In contrast, fermentation of various foodstuffs or germination of grains are traditional, locally accessible, low-energy and highly nutritious processes of sounded interest."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the benefits of minimal food processing and the nutrient costs of milling grains",
+        "how to make bread using traditional fermentation techniques",
+        "the history of white flour production in Europe",
+        "why artificial flavoring is necessary in modern food production",
+        "the environmental impact of industrial farming"
+      ],
+      "answer": 1,
+      "explanation": "최소 가공의 이점과, 제분(밀링)이 곡물의 영양소를 크게 손실시킨다는 문제를 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Minimal processing helps preserve original flavor without needing artificial additives.",
+        "Milling is described as one of the harshest processes affecting nutrient content in cereals.",
+        "Milling generally increases the vitamin, mineral, and fiber content of grains compared to whole grain.",
+        "Fermentation and germination are described as traditional, low-energy, and highly nutritious processes.",
+        "Whole grains (wholemeal flour or flakes) are naturally rich in micronutrients, anti-oxidants, and fiber."
+      ],
+      "answer": 3,
+      "explanation": "제분은 오히려 대부분의 미네랄, 비타민, 섬유질을 제거한다(removes the vast majority)고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Minimal processing can be one of the best ways to keep original flavors and taste, without any need to add artificial flavoring or additives, or too much salt.",
+        "This would also be the efficient way to keep most nutrients, especially the most sensitive ones such as many vitamins and anti-oxidants.",
+        "Milling of cereals is one of the most harsh processes which dramatically affect nutrient content.",
+        "While grains are naturally very rich in micronutrients, anti-oxidants and fiber (i.e. in wholemeal flour or flakes), milling usually removes the vast majority of minerals, vitamins and fibers to raise white flour.",
+        "Such a spoilage of key nutrients and fiber is no longer acceptable in the context of a sustainable diet aiming at an optimal nutrient density and health protection.",
+        "In contrast, fermentation of various foodstuffs or germination of grains are traditional, locally accessible, low-energy and highly nutritious processes of sounded interest."
+      ]
+    }
+  ]
+}

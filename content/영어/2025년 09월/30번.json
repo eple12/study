@@ -1,0 +1,54 @@
+{
+  "title": "2025년 09월 30번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "30번 지문",
+      "text": "Although empathy is widely praised by scholars and public figures, not everyone is an empathy booster. Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict. In fact, they argue, empathy makes such conflicts worse. These critics maintain that empathy can be exhausting and lead to burnout or insensitivity to suffering. They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts. Thus, the prescription for more empathy is often counterproductive in cases of conflict. Empathy, they argue, can further encourage conflict and force us into an us vs. them mentality. Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration. Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "criticisms of empathy as a tool for resolving intergroup and interpersonal conflict",
+        "universal praise for empathy among scholars",
+        "how to increase empathy toward out-groups",
+        "the biological origins of compassion",
+        "methods for measuring empathy in children"
+      ],
+      "answer": 1,
+      "explanation": "공감이 갈등 해결에 도움이 되지 않고 오히려 악화시킬 수 있다는 비판적 견해들을 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Critics argue that empathy can sometimes make interpersonal and intergroup conflicts worse.",
+        "According to critics, people tend to empathize more strongly with their in-group than with out-groups.",
+        "Critics claim empathy is always easy to apply accurately, even toward unfamiliar others.",
+        "Critics suggest that more empathy is often counterproductive in cases of conflict.",
+        "Critics propose alternatives such as rational compassion or moral emotions like fear, anger, and shame."
+      ],
+      "answer": 3,
+      "explanation": "낯선 상황의 타인에게는 정확하게 공감하지 못할 때가 있다(sometimes we are unable to)고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Although empathy is widely praised by scholars and public figures, not everyone is an empathy booster.",
+        "Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict.",
+        "In fact, they argue, empathy makes such conflicts worse.",
+        "These critics maintain that empathy can be exhausting and lead to burnout or insensitivity to suffering.",
+        "They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts.",
+        "Thus, the prescription for more empathy is often counterproductive in cases of conflict.",
+        "Empathy, they argue, can further encourage conflict and force us into an us vs. them mentality.",
+        "Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration.",
+        "Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame."
+      ]
+    }
+  ]
+}

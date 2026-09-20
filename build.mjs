@@ -10,7 +10,7 @@ const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT = path.join(ROOT, 'content');
 const hidden = n => n.startsWith('_') || n.startsWith('.');
 const nat = new Intl.Collator('ko', { numeric: true, sensitivity: 'base' }).compare;
-const label = n => n.replace(/^\d+[_.\-\s]+(?=\S)/, ''); // "01_영어" → "영어"
+const label = n => n.replace(/^\d+[_.\-]+\s*(?=\S)/, ''); // "01_영어" → "영어" ("3142 5회"는 그대로)
 
 async function walk(dir, rel = []) {
   let ents;

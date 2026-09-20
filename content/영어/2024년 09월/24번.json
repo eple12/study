@@ -1,0 +1,52 @@
+{
+  "title": "2024년 09월 24번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "24번 지문",
+      "text": "Mental development consists of individuals increasingly mastering social codes and signals themselves, which they can master only in social situations with the support of more competent individuals, typically adults. In this sense, mental development consists of internalizing social patterns and gradually becoming a responsible actor among other responsible actors. In Denmark, the age of criminal responsibility is 15 years, which means that we then say that people have developed sufficient mental maturity to be accountable for their actions at this point. And at the age of 18 people are given the right to vote and are thereby formally included in the basic democratic process. I do not know whether these age boundaries are optimal, but it is clear that mental development takes place at different rates for different individuals, and depends especially on the social and family environment they have been given. Therefore, having formal limits for responsibility from a specific age that apply to everyone is a somewhat questionable practice. But the question, of course, is whether it can be done any differently."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Formal age limits for legal responsibility are not always well matched to individuals' actual mental development, which varies by person.",
+        "All countries should adopt Denmark's age of criminal responsibility.",
+        "Mental development is entirely determined by biological factors regardless of environment.",
+        "Children should be given voting rights before the age of 18.",
+        "Social codes and signals are universally mastered at the exact same age for everyone."
+      ],
+      "answer": 1,
+      "explanation": "정신적 발달 속도는 사람마다 다르므로, 모두에게 똑같이 적용되는 나이 기준은 다소 의문스러운 관행이라는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "In Denmark, the age of criminal responsibility is 18.",
+        "People are formally included in the basic democratic process by being given the right to vote at 18 in the example given.",
+        "The author firmly states that current age boundaries are optimal.",
+        "Mental development is said to occur at the same rate for every individual.",
+        "Formal responsibility limits are described in the passage as an unquestionably fair and precise practice."
+      ],
+      "answer": 2,
+      "explanation": "18세에 투표권을 부여받아 민주적 절차에 공식적으로 포함된다고 명시되어 있다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Mental development consists of individuals increasingly mastering social codes and signals themselves, which they can master only in social situations with the support of more competent individuals, typically adults.",
+        "In this sense, mental development consists of internalizing social patterns and gradually becoming a responsible actor among other responsible actors.",
+        "In Denmark, the age of criminal responsibility is 15 years, which means that we then say that people have developed sufficient mental maturity to be accountable for their actions at this point.",
+        "And at the age of 18 people are given the right to vote and are thereby formally included in the basic democratic process.",
+        "I do not know whether these age boundaries are optimal, but it is clear that mental development takes place at different rates for different individuals, and depends especially on the social and family environment they have been given.",
+        "Therefore, having formal limits for responsibility from a specific age that apply to everyone is a somewhat questionable practice.",
+        "But the question, of course, is whether it can be done any differently."
+      ]
+    }
+  ]
+}

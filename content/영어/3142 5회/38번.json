@@ -1,0 +1,51 @@
+{
+  "title": "3142 5회 38번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "38번 지문",
+      "text": "To economists, the benefits of both exports and imports are so obvious that it's one of the few things this notoriously fractious profession agrees on. Yet, in recent years, trade has changed radically, rattling even normally faithful supporters. Traditionally, Americans bought toys, clothing, and other things from poor countries that required more manual and less intellectual labor. They bought more advanced products like aircraft, software, and microprocessor chips from other rich countries. But in recent decades, China, India, and Russia have joined the global workforce and now sell the sorts of advanced products Americans long thought were invulnerable to such competition. The decrease in the cost of using huge quantities of data across undersea cables in other countries makes it possible for foreigners to read Americans' X-rays, take their hotel reservations, or report on town council meetings. Alan Blinder, a former vice-chairman of the Federal Reserve Board, has estimated that perhaps a quarter of U.S. jobs can now be done abroad."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오. (원문은 정답 위치(②)에 삽입되어 있음)",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "context": ""
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Trends in Global Trade and Prospects for the Near Future",
+        "How Shifts in International Trade Have Hurt the US Economy",
+        "The Spread of Advanced Technology: An International Trend",
+        "Breakthroughs in Competition: Removing Traditional Thought",
+        "The Monopoly of Developed Countries' Intellectual Commodities"
+      ],
+      "answer": 2
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "To economists, the benefits of both exports and imports are so obvious that it's one of the few things this notoriously fractious profession agrees on.",
+        "Yet, in recent years, trade has changed radically, rattling even normally faithful supporters.",
+        "Traditionally, Americans bought toys, clothing, and other things from poor countries that required more manual and less intellectual labor.",
+        "They bought more advanced products like aircraft, software, and microprocessor chips from other rich countries.",
+        "But in recent decades, China, India, and Russia have joined the global workforce and now sell the sorts of advanced products Americans long thought were invulnerable to such competition.",
+        "The decrease in the cost of using huge quantities of data across undersea cables in other countries makes it possible for foreigners to read Americans' X-rays, take their hotel reservations, or report on town council meetings.",
+        "Alan Blinder, a former vice-chairman of the Federal Reserve Board, has estimated that perhaps a quarter of U.S. jobs can now be done abroad."
+      ]
+    }
+  ]
+}

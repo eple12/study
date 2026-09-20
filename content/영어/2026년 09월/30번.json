@@ -1,0 +1,51 @@
+{
+  "title": "2026년 09월 30번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "30번 지문",
+      "text": "Some people are more likely to cheat and steal after purchasing \"eco-friendly\" products, probably because they feel licensed to do so since they morally account the \"eco-friendly\" choice as a \"good\" deed. Moral licensing has also been observed in the context of cooperation for the good of the environment. When people are reminded of deeds they have done that they know were harmful to the environment, they might be left with a feeling of \"eco-guilt.\" People who experience eco-guilt seek pro-environmental actions to compensate for this guilt and restore balance. In their search for such a balance, people are inclined to believe in \"quick-fixes,\" because they want to re-establish the moral balance and escape the guilt as quickly and easily as possible. In the same way that people may change their attitudes to reduce inconsistencies between attitudes and behavior, people may also change their evaluation of past environmentally burdening behaviors and future environmentally friendly behaviors. For instance, people are more likely to sign a petition addressing environmental damage after viewing evidence of human-caused environmental damage."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Environmental Benefits of Green Consumerism",
+        "Moral Licensing and the Search for Moral Balance",
+        "Why Eco-Friendly Products Are More Expensive",
+        "How Petitions Change Environmental Policy",
+        "The History of the Eco-Guilt Movement"
+      ],
+      "answer": 2,
+      "explanation": "도덕적 면허 효과(moral licensing)와, 죄책감을 해소해 도덕적 균형을 되찾으려는 심리를 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "People may act unethically after buying \"eco-friendly\" products because they feel morally licensed.",
+        "Eco-guilt can motivate people to pursue actions that compensate for past harm to the environment.",
+        "People experiencing eco-guilt generally prefer slow, thorough solutions over quick fixes.",
+        "People may change how they evaluate past harmful behaviors as well as future eco-friendly ones.",
+        "Viewing evidence of environmental damage can make people more willing to sign a petition."
+      ],
+      "answer": 3,
+      "explanation": "글에서는 eco-guilt를 느끼는 사람들이 'quick-fixes'를 믿는 경향이 있다고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Some people are more likely to cheat and steal after purchasing \"eco-friendly\" products, probably because they feel licensed to do so since they morally account the \"eco-friendly\" choice as a \"good\" deed.",
+        "Moral licensing has also been observed in the context of cooperation for the good of the environment.",
+        "When people are reminded of deeds they have done that they know were harmful to the environment, they might be left with a feeling of \"eco-guilt.\" People who experience eco-guilt seek pro-environmental actions to compensate for this guilt and restore balance.",
+        "In their search for such a balance, people are inclined to believe in \"quick-fixes,\" because they want to re-establish the moral balance and escape the guilt as quickly and easily as possible.",
+        "In the same way that people may change their attitudes to reduce inconsistencies between attitudes and behavior, people may also change their evaluation of past environmentally burdening behaviors and future environmentally friendly behaviors.",
+        "For instance, people are more likely to sign a petition addressing environmental damage after viewing evidence of human-caused environmental damage."
+      ]
+    }
+  ]
+}

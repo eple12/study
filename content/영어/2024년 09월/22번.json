@@ -1,0 +1,53 @@
+{
+  "title": "2024년 09월 22번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "22번 지문",
+      "text": "Any new or threatening situation may require us to make decisions and this requires information. So important is communication during a disaster that normal social barriers are often lowered. We will talk to strangers in a way we would never consider normally. Even relatively low grade disruption of our life such as a fire drill or a very late train seems to give us the permission to break normal etiquette and talk to strangers. The more important an event to a particular public, the more detailed and urgent the requirement for news becomes. Without an authoritative source of facts, whether that is a newspaper or trusted broadcast station, rumours often run riot. Rumours start because people believe their group to be in danger and so, although the rumour is unproven, feel they should pass it on. For example, if a worker heard that their employer's business was doing badly and people were going to be made redundant, they would pass that information on to colleagues."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "why people avoid talking to strangers under normal circumstances",
+        "how communication needs during crises lower social barriers and fuel rumors",
+        "the role of newspapers in preventing workplace layoffs",
+        "methods for improving communication technology during disasters",
+        "the psychological effects of long-term unemployment"
+      ],
+      "answer": 2,
+      "explanation": "재난 상황에서는 정보에 대한 절박함이 평소의 사회적 장벽을 낮추고, 신뢰할 만한 정보원이 없으면 소문이 퍼진다는 내용이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "Normal social barriers tend to become stronger during disasters.",
+        "Even minor disruptions such as fire drills can lead people to break normal etiquette and talk to strangers.",
+        "Rumours are typically based on proven facts.",
+        "The less important an event, the more urgent the need for detailed news.",
+        "Workers rarely share information about their employer's financial troubles with colleagues."
+      ],
+      "answer": 2,
+      "explanation": "화재 대피 훈련 같은 경미한 사건도 평소 예절을 깨고 낯선 사람과 대화하게 만든다고 언급된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Any new or threatening situation may require us to make decisions and this requires information.",
+        "So important is communication during a disaster that normal social barriers are often lowered.",
+        "We will talk to strangers in a way we would never consider normally.",
+        "Even relatively low grade disruption of our life such as a fire drill or a very late train seems to give us the permission to break normal etiquette and talk to strangers.",
+        "The more important an event to a particular public, the more detailed and urgent the requirement for news becomes.",
+        "Without an authoritative source of facts, whether that is a newspaper or trusted broadcast station, rumours often run riot.",
+        "Rumours start because people believe their group to be in danger and so, although the rumour is unproven, feel they should pass it on.",
+        "For example, if a worker heard that their employer's business was doing badly and people were going to be made redundant, they would pass that information on to colleagues."
+      ]
+    }
+  ]
+}

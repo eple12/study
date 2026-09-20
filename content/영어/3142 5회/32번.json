@@ -1,0 +1,51 @@
+{
+  "title": "3142 5회 32번",
+  "subtitle": "3142 모의고사 5회 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "Natural selection, a process in which an organism adapts to its environment by means of selectively reproducing changes in its genotype, does not plan ahead. Our current adaptations are “designed” to work well in past environments: Those who had more offspring in past environments tended to pass their traits on to current generations. If the environment stays relatively constant, then those traits will function well in the current environment. However, if the environment has changed recently, then traits which were once adaptive may no longer be adaptive. This idea is known as “evolutionary lag” or “mismatch,” because the changes in genes lag slightly behind the changes in environments. The classic example of evolutionary lag is our preferences for sweets, salts, and fats: it was adaptive to crave these when they were rare, because they were valuable sources of energy and nutrients. People still crave them even though they are overabundant in modern environments and lead to obesity and other health problems."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "choices": [
+        "leads to complexity",
+        "does not plan ahead",
+        "directs genetic changes",
+        "works for all organisms",
+        "controls evolutionary mechanisms"
+      ],
+      "answer": 2,
+      "context": "Natural selection, a process in which an organism adapts to its environment by means of selectively reproducing changes in its genotype, __________."
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "factors that affect the rates of adaptation",
+        "role of natural selection in human evolution",
+        "reasons why humans become non-adaptive",
+        "importance of keeping up with environmental change",
+        "misconceptions about natural selection and adaptation"
+      ],
+      "answer": 5
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Natural selection, a process in which an organism adapts to its environment by means of selectively reproducing changes in its genotype, does not plan ahead.",
+        "Our current adaptations are “designed” to work well in past environments: Those who had more offspring in past environments tended to pass their traits on to current generations.",
+        "If the environment stays relatively constant, then those traits will function well in the current environment.",
+        "However, if the environment has changed recently, then traits which were once adaptive may no longer be adaptive.",
+        "This idea is known as “evolutionary lag” or “mismatch,” because the changes in genes lag slightly behind the changes in environments.",
+        "The classic example of evolutionary lag is our preferences for sweets, salts, and fats: it was adaptive to crave these when they were rare, because they were valuable sources of energy and nutrients.",
+        "People still crave them even though they are overabundant in modern environments and lead to obesity and other health problems."
+      ]
+    }
+  ]
+}

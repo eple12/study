@@ -1,0 +1,55 @@
+{
+  "title": "2026년 09월 34번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "When we focus on the obvious aspects of media, we miss the changes that accumulate over time but are not apparent day to day. Most of us notice the obvious aspects of a new medium or technology while missing the more subtle aspects. Take, for example, the microwave oven. It was introduced in the early 1980s and revolutionized food preparation. Traditionally, one person spent the better part of an afternoon fixing an evening meal for a family. Now, it was possible to prepare foods very quickly, and this shortening of preparation time was liberating for the cooks in the family, most of whom tended to be women. But the short-term, obvious implications of greater convenience made it easy to overlook the long-term implications of no longer having one person fix food for the family to eat together at an evening meal. As time went on, fewer and fewer families sat down together to eat dinner. Meals that took a long time to prepare became a luxury of the past, except perhaps for special occasions. The effects of the microwave oven on family life were not anticipated and would have been difficult to foresee."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the invention process behind the microwave oven",
+        "how obvious short-term benefits of new technology can obscure its subtle long-term effects on social life",
+        "the nutritional drawbacks of microwaved food",
+        "why women historically did most of the cooking",
+        "methods for reducing meal preparation time"
+      ],
+      "answer": 2,
+      "explanation": "전자레인지의 명백한 단기적 편리함 뒤에 가려진, 가족 식사 문화 쇠퇴라는 장기적·미묘한 변화를 다룬 글이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "The microwave oven was introduced in the early 1980s and transformed food preparation.",
+        "The time saved by microwave cooking freed up cooks, who were mostly women, from lengthy meal prep.",
+        "Families continued to eat dinner together at the same rate even after the microwave's introduction.",
+        "Long meal preparation eventually became rare, reserved mostly for special occasions.",
+        "The long-term effects of the microwave oven on family life were not something people foresaw."
+      ],
+      "answer": 3,
+      "explanation": "글에서는 시간이 지나며 가족이 함께 저녁을 먹는 경우가 점점 줄었다(fewer and fewer families sat down together)고 했으므로 ③은 반대된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "When we focus on the obvious aspects of media, we miss the changes that accumulate over time but are not apparent day to day.",
+        "Most of us notice the obvious aspects of a new medium or technology while missing the more subtle aspects.",
+        "Take, for example, the microwave oven.",
+        "It was introduced in the early 1980s and revolutionized food preparation.",
+        "Traditionally, one person spent the better part of an afternoon fixing an evening meal for a family.",
+        "Now, it was possible to prepare foods very quickly, and this shortening of preparation time was liberating for the cooks in the family, most of whom tended to be women.",
+        "But the short-term, obvious implications of greater convenience made it easy to overlook the long-term implications of no longer having one person fix food for the family to eat together at an evening meal.",
+        "As time went on, fewer and fewer families sat down together to eat dinner.",
+        "Meals that took a long time to prepare became a luxury of the past, except perhaps for special occasions.",
+        "The effects of the microwave oven on family life were not anticipated and would have been difficult to foresee."
+      ]
+    }
+  ]
+}

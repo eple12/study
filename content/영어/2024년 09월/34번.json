@@ -1,0 +1,53 @@
+{
+  "title": "2024년 09월 34번",
+  "subtitle": "고2 모의고사 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "It's often said that those who can't do, teach. It would be more accurate to say that those who can do, can't teach the basics. A great deal of expert knowledge is implicit, not explicit. The further you progress toward mastery, the less conscious awareness you often have of the fundamentals. Experiments show that skilled golfers and wine aficionados have a hard time describing their putting and tasting techniques ― even asking them to explain their approaches is enough to interfere with their performance, so they often stay on autopilot. When I first saw an elite diver do four and a half somersaults, I asked how he managed to spin so fast. His answer: \"Just go up in a ball.\" Experts often have an intuitive understanding of a route, but they struggle to clearly express all the steps to take. Their brain dump is partially filled with garbage."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "The more expert someone becomes, the less consciously aware they often are of the fundamentals, making it hard for them to teach.",
+        "Teaching ability always increases with expertise.",
+        "Golfers and wine experts are better teachers than average people.",
+        "Explaining one's technique always improves performance.",
+        "Expert knowledge is entirely explicit and easy to communicate."
+      ],
+      "answer": 1,
+      "explanation": "전문성이 깊어질수록 기본기에 대한 의식적 인식이 줄어들어 오히려 가르치기 어려워진다는 것이 요지이다."
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하는 것은?",
+      "choices": [
+        "Being asked to explain their technique has no effect on skilled performers' performance.",
+        "The elite diver was able to give a highly detailed, step-by-step technical explanation of his diving technique.",
+        "A great deal of expert knowledge is implicit rather than explicit.",
+        "Experts' intuitive understanding of a task is described as easy for them to express in clear steps.",
+        "The saying \"those who can't do, teach\" is affirmed by the passage as fully accurate."
+      ],
+      "answer": 3,
+      "explanation": "전문 지식의 상당 부분이 암묵적(implicit)이며 명시적이지 않다고 직접 언급된다."
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "It's often said that those who can't do, teach.",
+        "It would be more accurate to say that those who can do, can't teach the basics.",
+        "A great deal of expert knowledge is implicit, not explicit.",
+        "The further you progress toward mastery, the less conscious awareness you often have of the fundamentals.",
+        "Experiments show that skilled golfers and wine aficionados have a hard time describing their putting and tasting techniques ― even asking them to explain their approaches is enough to interfere with their performance, so they often stay on autopilot.",
+        "When I first saw an elite diver do four and a half somersaults, I asked how he managed to spin so fast.",
+        "His answer: \"Just go up in a ball.\" Experts often have an intuitive understanding of a route, but they struggle to clearly express all the steps to take.",
+        "Their brain dump is partially filled with garbage."
+      ]
+    }
+  ]
+}
