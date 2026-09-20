@@ -48,6 +48,31 @@
         "Rumours start because people believe their group to be in danger and so, although the rumour is unproven, feel they should pass it on.",
         "For example, if a worker heard that their employer's business was doing badly and people were going to be made redundant, they would pass that information on to colleagues."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Any new or threatening situation may require us to make decisions and this requires information.",
+      "items": [
+        "So important is communication during a disaster that normal social barriers are often lowered. We will talk to strangers in a way we would never consider normally. Even relatively low grade disruption of our life such as a fire drill or a very late train seems to give us the permission to break normal etiquette and talk to strangers.",
+        "The more important an event to a particular public, the more detailed and urgent the requirement for news becomes. Without an authoritative source of facts, whether that is a newspaper or trusted broadcast station, rumours often run riot.",
+        "Rumours start because people believe their group to be in danger and so, although the rumour is unproven, feel they should pass it on. For example, if a worker heard that their employer's business was doing badly and people were going to be made redundant, they would pass that information on to colleagues."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The more important an event to a particular public, the more detailed and urgent the requirement for news becomes.\n\nAny new or threatening situation may require us to make decisions and this requires information. So important is communication during a disaster that normal social barriers are often lowered. ① We will talk to strangers in a way we would never consider normally. ② Even relatively low grade disruption of our life such as a fire drill or a very late train seems to give us the permission to break normal etiquette and talk to strangers. ③ Without an authoritative source of facts, whether that is a newspaper or trusted broadcast station, rumours often run riot. ④ Rumours start because people believe their group to be in danger and so, although the rumour is unproven, feel they should pass it on. ⑤ For example, if a worker heard that their employer's business was doing badly and people were going to be made redundant, they would pass that information on to colleagues.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

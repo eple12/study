@@ -156,6 +156,10 @@ u { text-underline-offset: .22em; text-decoration-thickness: 1.5px; }
 .ord .pool { display: grid; gap: 6px; }
 .it { display: flex; gap: 8px; text-align: left; padding: 10px 12px; line-height: 1.55; border: 1.5px solid var(--line); border-radius: 10px; background: var(--card); word-break: normal; }
 .it .n { flex: none; color: var(--acc); font-weight: 700; }
+.it .grip { flex: none; display: grid; place-items: center; align-self: stretch; width: 30px; margin: -6px 8px -6px -6px; border-radius: 9px; background: var(--bg); color: var(--mute); touch-action: none; cursor: grab; }
+.it .grip .ic { width: 18px; height: 18px; }
+.it.drag { position: relative; z-index: 2; border-color: var(--acc); box-shadow: 0 8px 22px rgba(0, 0, 0, .18); }
+.it.drag .grip { cursor: grabbing; color: var(--acc); }
 .ord:not(.chips) .it.used { display: none; }
 .chips .slots, .chips .pool { display: flex; flex-wrap: wrap; align-content: flex-start; }
 .chips .it { padding: 7px 13px; border-radius: 10px; font-size: 16.5px; }

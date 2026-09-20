@@ -47,6 +47,18 @@
         "Even more than drama and poetry, the novel seemed to demand the reader’s sentiments."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Since the late seventeenth century, when mass print culture provided greater numbers of persons with the regular affective experience of literature, the novel became another focal point in the ongoing debate and discourse about the effects of representation.\n\nPeople have always noticed that works of art affect them, and have variously explained, classified, evaluated, justified, regulated, and enjoyed this phenomenon. ① Whereas Plato banned poets from his republic in order to restrict influences upon the citizenry, Aristotle formulated his theory of catharsis to legitimate the effects of art upon persons. ② Noting that drama consistently produces in audiences certain effects — fear, pity, admiration, awe, superiority, affinity, belief, skepticism, compassion, and relief — Aristotle identified these responses as official aims of art. ③ Even more than drama and poetry, the novel seemed to demand the reader’s sentiments.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 3
     }
   ]
 }

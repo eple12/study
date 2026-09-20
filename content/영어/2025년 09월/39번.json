@@ -47,6 +47,31 @@
         "Plastic sheeting doesn't tend to hold a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material.",
         "So it is its ability to hold a crease while remaining stiff that makes paper uniquely suited to this purpose."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Paper's mechanical properties lend themselves to folding and bending.",
+      "items": [
+        "The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent crease to form, while sufficient fibers remain undamaged for the material not to crack and fall apart. Indeed, in this state it pretty much maintains its ability to resist being pulled apart, but it can also be torn easily and accurately along the crease if a point of weakness ― a small, initial tear ― is opened up.",
+        "This winning combination of mechanical properties allows it to assume the shape of any object through creasing and folding ― hence the art of origami. There are very few materials as good: metal foils can hold a crease, but control of the crease is somewhat more difficult.",
+        "Plastic sheeting doesn't tend to hold a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material. So it is its ability to hold a crease while remaining stiff that makes paper uniquely suited to this purpose."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Indeed, in this state it pretty much maintains its ability to resist being pulled apart, but it can also be torn easily and accurately along the crease if a point of weakness ― a small, initial tear ― is opened up.\n\nPaper's mechanical properties lend themselves to folding and bending. ① The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent crease to form, while sufficient fibers remain undamaged for the material not to crack and fall apart. ② This winning combination of mechanical properties allows it to assume the shape of any object through creasing and folding ― hence the art of origami. ③ There are very few materials as good: metal foils can hold a crease, but control of the crease is somewhat more difficult. ④ Plastic sheeting doesn't tend to hold a crease at all, unless it is very soft, in which case it lacks the rigidity required of a good wrapping material. ⑤ So it is its ability to hold a crease while remaining stiff that makes paper uniquely suited to this purpose.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

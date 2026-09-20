@@ -46,6 +46,31 @@
         "Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "As Charles Darwin points out, species diversity can increase the productivity of ecosystems due to the division of labour among species, because each species is unique in how it exploits its environment.",
+      "items": [
+        "It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems. Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses.",
+        "A large number of species may imply a certain level of functional redundancy: the loss of one species has a smaller effect in a diverse system than in a species-poor one. Diversity within one population of the same species may also improve resistance to environmental change.",
+        "For example, it is well documented that the diversity of a population can increase its resistance to epidemics. Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Diversity is also thought to make ecosystems, species and populations more resilient to environmental stresses.\n\nAs Charles Darwin points out, species diversity can increase the productivity of ecosystems due to the division of labour among species, because each species is unique in how it exploits its environment. ① It thus follows that species-rich systems can exploit resources more efficiently than species-poor systems. ② A large number of species may imply a certain level of functional redundancy: the loss of one species has a smaller effect in a diverse system than in a species-poor one. ③ Diversity within one population of the same species may also improve resistance to environmental change. ④ For example, it is well documented that the diversity of a population can increase its resistance to epidemics. ⑤ Diversity could also favor the emergence of complex collective behaviors, as demonstrated by the cooperative behavior in army ants, which self-assemble to form bridges and even nests out of their own bodies.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

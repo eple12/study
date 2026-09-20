@@ -42,6 +42,31 @@
         "The administrator has ignored the fact that after a while the long practice will become unproductive."
       ],
       "id": "2"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Suppose that a school administrator argues, “Let's cut out the pledge of allegiance each morning.",
+      "items": [
+        "We'll be able to save two minutes a day. That's ten minutes a week. That'll be nearly an entire extra day by the end of the year.” Such computation is true on paper only.",
+        "The extra two minutes a day are, in fact, less effective in achieving your goal than one single day, and even potentially harmful to your morale. A variation of this fallacy also occurs when people try to redistribute something, claiming that “as long as it all comes out the same in the end, everything will be fine.” An administrator says to a football coach, “You will not be able to have ninety minutes a day, Monday through Thursday, for football practice. However, don't worry: You won't lose anything.",
+        "You can have from noon until six P.M. on Friday.” The problem here is that a football team needs time each day; its improvement is cumulative. The administrator has fallaciously presumed that six hours is six hours, no matter how it is distributed, that a team can get the same results from one six-hour session as from four ninety-minute sessions. The administrator has ignored the fact that after a while the long practice will become unproductive."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The administrator has fallaciously presumed that six hours is six hours, no matter how it is distributed, that a team can get the same results from one six-hour session as from four ninety-minute sessions.\n\nSuppose that a school administrator argues, “Let's cut out the pledge of allegiance each morning. We'll be able to save two minutes a day. That's ten minutes a week. That'll be nearly an entire extra day by the end of the year.” Such computation is true on paper only. The extra two minutes a day are, in fact, less effective in achieving your goal than one single day, and even potentially harmful to your morale. A variation of this fallacy also occurs when people try to redistribute something, claiming that “as long as it all comes out the same in the end, everything will be fine.” ① An administrator says to a football coach, “You will not be able to have ninety minutes a day, Monday through Thursday, for football practice. ② However, don't worry: You won't lose anything. ③ You can have from noon until six P.M. on Friday.” ④ The problem here is that a football team needs time each day; its improvement is cumulative. ⑤ The administrator has ignored the fact that after a while the long practice will become unproductive.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

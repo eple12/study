@@ -47,6 +47,31 @@
         "The wolves turned out to be better stewards of the land than people, creating conditions that allowed the trees to grow and exert their influence on the landscape."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Wolves disappeared from Yellowstone, the world's first national park, in the 1920s.",
+      "items": [
+        "When they left, the entire ecosystem changed. Elks, a type of large deer, in the park increased their numbers and began to make quite a meal of the aspens, willows, and cottonwoods that lined the streams. Vegetation declined and animals that depended on the trees left.",
+        "When the wolves returned, the elks' languorous browsing days were over, and the roots of cottonwoods and willows once again stabilized stream banks and slowed the flow of water. This, in turn, created space for semiaquatic animals such as beavers to return, and these industrious builders could now find the materials they needed to construct their lodges and raise their families.",
+        "This space allowed animals that depended on the meadows near streams to come back, as well. The wolves turned out to be better stewards of the land than people, creating conditions that allowed the trees to grow and exert their influence on the landscape."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** When the wolves returned, the elks' languorous browsing days were over, and the roots of cottonwoods and willows once again stabilized stream banks and slowed the flow of water.\n\nWolves disappeared from Yellowstone, the world's first national park, in the 1920s. When they left, the entire ecosystem changed. ① Elks, a type of large deer, in the park increased their numbers and began to make quite a meal of the aspens, willows, and cottonwoods that lined the streams. ② Vegetation declined and animals that depended on the trees left. ③ This, in turn, created space for semiaquatic animals such as beavers to return, and these industrious builders could now find the materials they needed to construct their lodges and raise their families. ④ This space allowed animals that depended on the meadows near streams to come back, as well. ⑤ The wolves turned out to be better stewards of the land than people, creating conditions that allowed the trees to grow and exert their influence on the landscape.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

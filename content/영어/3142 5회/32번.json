@@ -50,6 +50,31 @@
         "People still crave them even though they are overabundant in modern environments and lead to obesity and other health problems."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Natural selection, a process in which an organism adapts to its environment by means of selectively reproducing changes in its genotype, does not plan ahead.",
+      "items": [
+        "Our current adaptations are “designed” to work well in past environments: Those who had more offspring in past environments tended to pass their traits on to current generations. If the environment stays relatively constant, then those traits will function well in the current environment.",
+        "However, if the environment has changed recently, then traits which were once adaptive may no longer be adaptive. This idea is known as “evolutionary lag” or “mismatch,” because the changes in genes lag slightly behind the changes in environments.",
+        "The classic example of evolutionary lag is our preferences for sweets, salts, and fats: it was adaptive to crave these when they were rare, because they were valuable sources of energy and nutrients. People still crave them even though they are overabundant in modern environments and lead to obesity and other health problems."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** If the environment stays relatively constant, then those traits will function well in the current environment.\n\nNatural selection, a process in which an organism adapts to its environment by means of selectively reproducing changes in its genotype, does not plan ahead. ① Our current adaptations are “designed” to work well in past environments: Those who had more offspring in past environments tended to pass their traits on to current generations. ② However, if the environment has changed recently, then traits which were once adaptive may no longer be adaptive. ③ This idea is known as “evolutionary lag” or “mismatch,” because the changes in genes lag slightly behind the changes in environments. ④ The classic example of evolutionary lag is our preferences for sweets, salts, and fats: it was adaptive to crave these when they were rare, because they were valuable sources of energy and nutrients. ⑤ People still crave them even though they are overabundant in modern environments and lead to obesity and other health problems.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

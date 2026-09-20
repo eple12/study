@@ -46,6 +46,30 @@
         "The stars around the Sun appeared to have moved from their normal positions in the night sky.",
         "The shift was much larger than Newton's theory predicted, but exactly in the positions predicted by Einstein's theory."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "According to Einstein's theory, a large mass like the Sun 'bends' space-time.",
+      "items": [
+        "Newton's theory makes no such prediction. This bending of space-time leads to phenomena such as 'gravitational lensing' where the light of distant stars appears to be in different locations when they pass by a large mass like the Sun.",
+        "We don't normally see this lensing because stars aren't visible during the day when the Sun is out, but a solar eclipse in 1919 allowed scientists to observe what the Sun's gravity was doing to the light from distant stars. The stars around the Sun appeared to have moved from their normal positions in the night sky.",
+        "The shift was much larger than Newton's theory predicted, but exactly in the positions predicted by Einstein's theory."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** This bending of space-time leads to phenomena such as 'gravitational lensing' where the light of distant stars appears to be in different locations when they pass by a large mass like the Sun.\n\nAccording to Einstein's theory, a large mass like the Sun 'bends' space-time. ① Newton's theory makes no such prediction. ② We don't normally see this lensing because stars aren't visible during the day when the Sun is out, but a solar eclipse in 1919 allowed scientists to observe what the Sun's gravity was doing to the light from distant stars. ③ The stars around the Sun appeared to have moved from their normal positions in the night sky. ④ The shift was much larger than Newton's theory predicted, but exactly in the positions predicted by Einstein's theory.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

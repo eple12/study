@@ -46,6 +46,30 @@
         "Instead, the complexity of today's world makes it increasingly difficult to settle permanently anywhere.",
         "Highly paid digital nomads and billionaires with multiple passports as well as migratory workers are all part of the diverse and growing global demographic of quantum people."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Human geography is becoming unclear.",
+      "items": [
+        "As people find themselves regularly on the move, we are experiencing a phase shift like when matter transitions from solid to liquid to gas: molecules heat up and loosen from one another, vibrating more rapidly. One might even say that humans are becoming like particles in quantum physics, their velocity and location always in flux.",
+        "It would be nice to return to some form of stability, but that's not how things work in a quantum world. Instead, the complexity of today's world makes it increasingly difficult to settle permanently anywhere.",
+        "Highly paid digital nomads and billionaires with multiple passports as well as migratory workers are all part of the diverse and growing global demographic of quantum people."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** One might even say that humans are becoming like particles in quantum physics, their velocity and location always in flux.\n\nHuman geography is becoming unclear. ① As people find themselves regularly on the move, we are experiencing a phase shift like when matter transitions from solid to liquid to gas: molecules heat up and loosen from one another, vibrating more rapidly. ② It would be nice to return to some form of stability, but that's not how things work in a quantum world. ③ Instead, the complexity of today's world makes it increasingly difficult to settle permanently anywhere. ④ Highly paid digital nomads and billionaires with multiple passports as well as migratory workers are all part of the diverse and growing global demographic of quantum people.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

@@ -49,6 +49,31 @@
         "Some bees might not bother to make the journey, considering it not worthwhile.",
         "The input, such as it is, is processed in the light of the organism's own internal states and history; there is nothing prescriptive about its effects."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A computational algorithm that takes input data and generates some output from it doesn't really embody any notion of meaning.",
+      "items": [
+        "Certainly, such a computation does not generally have as its purpose its own survival and well-being. It does not, in general, assign value to the inputs. Compare, for example, a computer algorithm with the waggle dance of the honeybee, by which means a foraging bee conveys to others in the hive information about the source of food (such as nectar) it has located.",
+        "The \"dance\" ― a series of stylized movements on the comb ― shows the bees how far away the food is and in which direction. But this input does not simply program other bees to go out and look for it. Rather, they evaluate this information, comparing it with their own knowledge of the surroundings.",
+        "Some bees might not bother to make the journey, considering it not worthwhile. The input, such as it is, is processed in the light of the organism's own internal states and history; there is nothing prescriptive about its effects."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Compare, for example, a computer algorithm with the waggle dance of the honeybee, by which means a foraging bee conveys to others in the hive information about the source of food (such as nectar) it has located.\n\nA computational algorithm that takes input data and generates some output from it doesn't really embody any notion of meaning. ① Certainly, such a computation does not generally have as its purpose its own survival and well-being. ② It does not, in general, assign value to the inputs. ③ The \"dance\" ― a series of stylized movements on the comb ― shows the bees how far away the food is and in which direction. ④ But this input does not simply program other bees to go out and look for it. ⑤ Rather, they evaluate this information, comparing it with their own knowledge of the surroundings. Some bees might not bother to make the journey, considering it not worthwhile. The input, such as it is, is processed in the light of the organism's own internal states and history; there is nothing prescriptive about its effects.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

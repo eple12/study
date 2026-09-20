@@ -52,6 +52,31 @@
         "What about the learning that comes from really slowing down and paying attention to what you are undertaking?"
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "You might first come up with advanced technology in the classroom when asked, “What is the most influential factor in teaching and learning?”",
+      "items": [
+        "However, there is no greater influence in the teaching and learning process than how time is viewed and used. We live in an era shaped not by the rising and setting of the sun and moon, as in eons ago, but in an era when technology and a sense of urgency speed up everything we do. This cultural reality slips into early care and education programs with policies and mandates that fragment our time into little boxes on a schedule.",
+        "Teachers move children through the day as if they are cars on an assembly line. Neither the teachers nor the children are afforded time to ponder, wonder, and make meaning out of the day’s activities. Some early childhood commercial curricula even market themselves proclaiming, “This lesson will only take five minutes of your day.”",
+        "You should question why that might be a good thing. If it’s worth learning and adding to your program, doesn’t it deserve more time? What about the learning that comes from really slowing down and paying attention to what you are undertaking?"
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** We live in an era shaped not by the rising and setting of the sun and moon, as in eons ago, but in an era when technology and a sense of urgency speed up everything we do.\n\nYou might first come up with advanced technology in the classroom when asked, “What is the most influential factor in teaching and learning?” ① However, there is no greater influence in the teaching and learning process than how time is viewed and used. ② This cultural reality slips into early care and education programs with policies and mandates that fragment our time into little boxes on a schedule. ③ Teachers move children through the day as if they are cars on an assembly line. ④ Neither the teachers nor the children are afforded time to ponder, wonder, and make meaning out of the day’s activities. ⑤ Some early childhood commercial curricula even market themselves proclaiming, “This lesson will only take five minutes of your day.” You should question why that might be a good thing. If it’s worth learning and adding to your program, doesn’t it deserve more time? What about the learning that comes from really slowing down and paying attention to what you are undertaking?",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

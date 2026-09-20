@@ -18,6 +18,7 @@ const I = {
   retry: '<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>',
   swap: '<path d="M7 20V4M3 8l4-4 4 4M17 4v16M13 16l4 4 4-4"/>',
   play: '<path d="M7 4v16l13-8z"/>',
+  grip: '<path d="M9 5h.01M9 12h.01M9 19h.01M15 5h.01M15 12h.01M15 19h.01" stroke-width="2.6"/>',
 };
 const icon = n => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
 
@@ -343,16 +344,21 @@ const KIND = {
     if (pool.every((k, i) => items[k] === items[i])) pool.push(pool.shift());
     const picked = [];
     let lock = false;
-    const it = (k, cls, j) => `<button class="it ${cls}" data-k="${k}">${!chips && j != null ? `<span class="n">${j + 1}</span>` : ''}<span>${md(items[k])}</span></button>`;
+    const it = (k, cls, j) => `<button class="it ${cls}" data-k="${k}">${
+      !chips && j != null ? `<span class="grip">${icon('grip')}</span><span class="n">${j + 1}</span>` : ''}<span>${md(items[k])}</span></button>`;
     const draw = () => {
       el.innerHTML = `${q.given ? `<div class="ctx">${md(q.given)}</div>` : ''}<div class="ord${chips ? ' chips' : ''}">
         <div class="slots">${picked.map((k, j) => it(k, 'in', j)).join('')}</div>
         <div class="pool">${pool.map(k => it(k, picked.includes(k) ? 'used' : '')).join('')}</div></div>`;
+      if (!chips) sortable(el.querySelector('.slots'), picked, changed, () => lock);
     };
     draw();
+    let dragged = false;
+    el.addEventListener('dragdone', () => { dragged = true; });
     el.onclick = e => {
       const b = e.target.closest('.it');
-      if (lock || !b) return;
+      if (lock || !b || e.target.closest('.grip')) return;
+      if (dragged) { dragged = false; return; }
       const k = +b.dataset.k;
       if (b.classList.contains('in')) picked.splice(picked.indexOf(k), 1);
       else if (!picked.includes(k)) picked.push(k);
@@ -549,6 +555,50 @@ function cards(set, path) {
     else if (e.key === 'ArrowRight') mark(true);
     else if (e.key === 'ArrowLeft') mark(false);
   };
+}
+
+// 배열 문제: 왼쪽 손잡이를 잡고 끌어서 순서 바꾸기
+function sortable(box, order, changed, locked) {
+  for (const g of box.querySelectorAll('.grip')) {
+    g.addEventListener('pointerdown', e => {
+      if (locked()) return;
+      e.preventDefault();
+      const node = g.closest('.it');
+      const grab = e.clientY - node.getBoundingClientRect().top;
+      node.classList.add('drag');
+      try { g.setPointerCapture(e.pointerId); } catch { /* 캡처는 없어도 동작 */ }
+
+      const move = ev => {
+        node.style.transform = '';
+        const top = node.getBoundingClientRect().top;
+        const dy = ev.clientY - grab - top;
+        node.style.transform = `translateY(${dy}px)`;
+        const mid = top + dy + node.offsetHeight / 2;
+        for (const s of box.children) {
+          if (s === node) continue;
+          const r = s.getBoundingClientRect();
+          if (mid > r.top && mid < r.bottom) {
+            box.insertBefore(node, mid < r.top + r.height / 2 ? s : s.nextSibling);
+            break;
+          }
+        }
+      };
+      const up = () => {
+        removeEventListener('pointermove', move);
+        removeEventListener('pointerup', up);
+        removeEventListener('pointercancel', up);
+        node.style.transform = '';
+        node.classList.remove('drag');
+        order.splice(0, order.length, ...[...box.children].map(c => +c.dataset.k));
+        [...box.children].forEach((c, i) => { const n = c.querySelector('.n'); if (n) n.textContent = i + 1; });
+        box.dispatchEvent(new Event('dragdone', { bubbles: true }));
+        changed();
+      };
+      addEventListener('pointermove', move);
+      addEventListener('pointerup', up);
+      addEventListener('pointercancel', up);
+    });
+  }
 }
 
 function swipe(el, cb) {

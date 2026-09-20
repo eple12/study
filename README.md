@@ -30,6 +30,18 @@ node serve.mjs
 > 무료 요금제에서 Pages를 쓰려면 저장소가 public이어야 함. 즉 자료도 공개됨.
 > 비공개로 두고 싶으면 Cloudflare Pages나 Netlify에 저장소를 연결하고 빌드 명령을 `node build.mjs`, 출력 폴더를 `/`(루트)로 지정.
 
+### 변형문제 자동 생성
+
+본문만 있으면 순서배열(도입부 + 세 덩어리)과 문장삽입 문제를 만들어 각 파일에 넣어 준다.
+
+```bash
+node tools/variants.mjs --apply
+```
+
+- `--apply` 없이 실행하면 무엇이 만들어지는지만 보여 줌
+- 만들어진 문제는 `auto-order3`, `auto-insert` id를 가짐. 다시 실행하면 덮어쓰므로 중복되지 않음
+- 본문 문장이 5개 미만이면 건너뜀. 직접 만든 문제는 건드리지 않음
+
 ### 파일 검사
 
 ```bash
@@ -211,6 +223,7 @@ content/
 ```
 
 - `items`는 **정답 순서대로** 적음. 화면에서는 섞여서 나옴
+- 골라 놓은 항목은 왼쪽 손잡이를 잡고 끌어서 순서를 바꿀 수 있음 (문단처럼 긴 항목일 때)
 - `given`: 선택. 고정으로 먼저 보여 줄 글
 - 항목이 모두 30자 이하면 단어 칩 모양, 아니면 문단 카드 모양으로 표시
 - 시험지처럼 (A)(B)(C) 라벨을 붙여도 되지만 섞여서 나오므로 필요는 없음
@@ -247,6 +260,7 @@ content/
 |---|---|
 | `index.html`, `assets/` | 사이트 본체 (`schema.js`는 형식 검사 규칙, 앱과 빌드가 같이 씀) |
 | `build.mjs` | `content/` 검사 + 목록 파일 생성 |
+| `tools/variants.mjs` | 본문에서 순서배열·문장삽입 문제 생성 |
 | `serve.mjs` | 로컬 미리보기 서버 |
 | `sw.js`, `manifest.webmanifest` | 오프라인 캐시, 홈 화면에 추가 |
 | `.github/workflows/pages.yml` | push하면 자동 배포 |

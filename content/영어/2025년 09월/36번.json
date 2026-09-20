@@ -48,6 +48,31 @@
         "Cutting someone off violates those rules and implies higher status.",
         "Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\") In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "We're naturally wired to organize the world into a hierarchy.",
+      "items": [
+        "We do this to help make sense of the world, maintain our beliefs, and generally feel better. But when someone infringes on our place in the world and our understanding of how it works, we react without thinking. When someone cuts you off on the highway and road rage kicks in, that's your unconscious mind saying, \"Who are you to cut me off?\"",
+        "You're reacting to a threat to your inherent sense of hierarchy. On the road we are all equals. We're all supposed to play by the same rules.",
+        "Cutting someone off violates those rules and implies higher status. Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" (Or the office equivalent: \"Because I'm the boss.\") In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** You're reacting to a threat to your inherent sense of hierarchy.\n\nWe're naturally wired to organize the world into a hierarchy. We do this to help make sense of the world, maintain our beliefs, and generally feel better. But when someone infringes on our place in the world and our understanding of how it works, we react without thinking. When someone cuts you off on the highway and road rage kicks in, that's your unconscious mind saying, \"Who are you to cut me off?\" ① On the road we are all equals. ② We're all supposed to play by the same rules. ③ Cutting someone off violates those rules and implies higher status. ④ Or consider when you get frustrated with your kids and end an argument with \"Because I said so.\" ⑤ (Or the office equivalent: \"Because I'm the boss.\") In these moments you've stopped thinking and regressed to your biological tendencies of reaffirming the hierarchy.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

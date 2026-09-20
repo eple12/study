@@ -47,6 +47,31 @@
         "I can see a goldfish waving its fin at us.",
         "As an animal that travels around in a tightly-knit group, it's on board with this idea ― or at least swimming alongside the boat."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Mirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells?",
+      "items": [
+        "And this is exactly where modern research now stands: all researchers know so far is that apes possess mirror neurons. We still need to test to see which other species are like us in this respect.",
+        "Scientists often publicly speculate that we can probably expect surprises here, too. They assume that all animals that live in herds or large groups possess similar brain mechanisms, because social units function only if individuals can see things from the perspective of others in the group and feel what they are feeling.",
+        "I can see a goldfish waving its fin at us. As an animal that travels around in a tightly-knit group, it's on board with this idea ― or at least swimming alongside the boat."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** They assume that all animals that live in herds or large groups possess similar brain mechanisms, because social units function only if individuals can see things from the perspective of others in the group and feel what they are feeling.\n\nMirror neurons are the hardware of empathy, and so what would make more sense than to look and see which animals possess these cells? ① And this is exactly where modern research now stands: all researchers know so far is that apes possess mirror neurons. ② We still need to test to see which other species are like us in this respect. ③ Scientists often publicly speculate that we can probably expect surprises here, too. ④ I can see a goldfish waving its fin at us. ⑤ As an animal that travels around in a tightly-knit group, it's on board with this idea ― or at least swimming alongside the boat.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

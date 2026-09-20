@@ -47,6 +47,31 @@
         "The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former.",
         "It's the friction with which we need to concern ourselves."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Once a nail is hammered in, it is friction that holds it in place.",
+      "items": [
+        "Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other. If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail.",
+        "The nail feels a force trying to rip it apart along its length, and we call that force tension. Your experiment can now fail in one of two ways ― either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome.",
+        "The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former. It's the friction with which we need to concern ourselves."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Your experiment can now fail in one of two ways ― either the nail stretches and splits in half because the tension force is too large for the nail, or the nail comes loose because the friction force is overcome.\n\nOnce a nail is hammered in, it is friction that holds it in place. ① Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other. ② If you try to pull apart two blocks of wood that have been nailed together, the wood fibers grip the shaft of the nail. ③ The nail feels a force trying to rip it apart along its length, and we call that force tension. ④ The force it would take to stretch the nail is much larger than the friction forces on the surface, so we don't have to worry too much about the former. ⑤ It's the friction with which we need to concern ourselves.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

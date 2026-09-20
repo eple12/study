@@ -49,6 +49,31 @@
         "The uncertainty itself is the problem.",
         "People lack a shared social understanding, normally developed from membership in a stable group."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Of the cognitive motivations, the most fundamental one encourages people to understand their environment to predict what is going to happen in case of uncertainties.",
+      "items": [
+        "Most important, people prefer to develop meanings that are shared with other people. For example, if in a given year more people accept offers of admission than a college expects, quite a few students end up living in dorm lounges or campus hotels. It is easy to understand why living in the lounge is problematic (no closet, for one thing).",
+        "But what is wrong with a room at campus hotels? After all, students in a hotel get private bathrooms, their own TV, and larger rooms. In fact, living in those hotels is problematic because the student residents are not a part of a stable group with people who will be their neighbors for the year; they must wait in uncertainty before finding their social niche.",
+        "The uncertainty itself is the problem. People lack a shared social understanding, normally developed from membership in a stable group."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** It is easy to understand why living in the lounge is problematic (no closet, for one thing).\n\nOf the cognitive motivations, the most fundamental one encourages people to understand their environment to predict what is going to happen in case of uncertainties. Most important, people prefer to develop meanings that are shared with other people. For example, if in a given year more people accept offers of admission than a college expects, quite a few students end up living in dorm lounges or campus hotels. ① But what is wrong with a room at campus hotels? ② After all, students in a hotel get private bathrooms, their own TV, and larger rooms. ③ In fact, living in those hotels is problematic because the student residents are not a part of a stable group with people who will be their neighbors for the year; they must wait in uncertainty before finding their social niche. ④ The uncertainty itself is the problem. ⑤ People lack a shared social understanding, normally developed from membership in a stable group.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

@@ -50,6 +50,31 @@
         "If the straw were viewed from underwater, the part above water would be distorted."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "When an underwater object is seen from outside the water, its appearance becomes distorted.",
+      "items": [
+        "This is because refraction changes the direction of the light rays that come from the object. When these rays enter the eyes of an observer, nerves in the eyes send signals to the observer's brain. The brain then constructs a picture based on where the rays appear to have come from.",
+        "It does this without accounting for the effects of refraction, so the object's appearance is distorted. When one looks at a straw in a glass of water, light rays from the part of the straw that is underwater refract at the surfaces between the water and the glass and between the glass and the air.",
+        "The rays appear to come from closer to the surface than they are, and the straw looks bent. If the straw were viewed from underwater, the part above water would be distorted."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** When these rays enter the eyes of an observer, nerves in the eyes send signals to the observer's brain.\n\nWhen an underwater object is seen from outside the water, its appearance becomes distorted. ① This is because refraction changes the direction of the light rays that come from the object. ② The brain then constructs a picture based on where the rays appear to have come from. ③ It does this without accounting for the effects of refraction, so the object's appearance is distorted. ④ When one looks at a straw in a glass of water, light rays from the part of the straw that is underwater refract at the surfaces between the water and the glass and between the glass and the air. ⑤ The rays appear to come from closer to the surface than they are, and the straw looks bent. If the straw were viewed from underwater, the part above water would be distorted.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

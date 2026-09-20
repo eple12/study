@@ -44,6 +44,18 @@
         "We may reassure ourselves by believing that our bad outcome had little to do with us and everything to do with the unfair process.",
         "If the process is fair, however, we cannot nearly as easily externalize the outcome; we got what we got \"fair and square.\" When the process is fair we believe that our outcome is deserved, which is another way of saying that there must have been something about ourselves (what we did or who we are) that caused the outcome."
       ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** We may reassure ourselves by believing that our bad outcome had little to do with us and everything to do with the unfair process.\n\nWhen we get an unfavorable outcome, in some ways the last thing we want to hear is that the process was fair. ① As outraging as the combination of an unfavorable outcome and an unfair process is, this combination also brings with it a consolation prize: the possibility of attributing the bad outcome to something other than ourselves. ② If the process is fair, however, we cannot nearly as easily externalize the outcome; we got what we got \"fair and square.\" ③ When the process is fair we believe that our outcome is deserved, which is another way of saying that there must have been something about ourselves (what we did or who we are) that caused the outcome.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 2
     }
   ]
 }

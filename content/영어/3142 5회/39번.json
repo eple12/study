@@ -53,6 +53,31 @@
         "The painting titled Rose of Summer and an indiscernible painting titled Vermillion Womanhood are physically, but also semantically and aesthetically, distinct objects of art."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "“What’s in a name?",
+      "items": [
+        "That which we call a rose, by any other name would smell as sweet.” This thought of Shakespeare’s points up a difference between roses and, say, paintings. Natural objects, such as roses, are not interpreted.",
+        "They are not taken as vehicles of meanings and messages. They belong to no tradition, strictly speaking have no style, and are not understood within a framework of culture and convention. Rather, they are sensed and savored relatively directly, without intellectual mediation, and so what they are called, either individually or collectively, has little bearing on our experience of them.",
+        "What a work of art is titled, on the other hand, has a significant effect on the aesthetic face it presents and on the qualities we correctly perceive in it. A painting of a rose, by a name other than the one it has, might very well smell different, aesthetically speaking. The painting titled Rose of Summer and an indiscernible painting titled Vermillion Womanhood are physically, but also semantically and aesthetically, distinct objects of art."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** They are not taken as vehicles of meanings and messages.\n\n“What’s in a name? That which we call a rose, by any other name would smell as sweet.” This thought of Shakespeare’s points up a difference between roses and, say, paintings. Natural objects, such as roses, are not interpreted. ① They belong to no tradition, strictly speaking have no style, and are not understood within a framework of culture and convention. ② Rather, they are sensed and savored relatively directly, without intellectual mediation, and so what they are called, either individually or collectively, has little bearing on our experience of them. ③ What a work of art is titled, on the other hand, has a significant effect on the aesthetic face it presents and on the qualities we correctly perceive in it. ④ A painting of a rose, by a name other than the one it has, might very well smell different, aesthetically speaking. ⑤ The painting titled Rose of Summer and an indiscernible painting titled Vermillion Womanhood are physically, but also semantically and aesthetically, distinct objects of art.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

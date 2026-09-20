@@ -45,6 +45,18 @@
         "In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it.",
         "A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention."
       ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In the wild, a squeaking kitten out in the open is likely to attract predators, which is bad news for any other kittens around it.\n\nMother cats can tell which kittens belong to them ― when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers. ① Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them. ② The reason for this is uncertain, although distress vocalizations from kittens that are lost from their nest are known to be very powerful, so it may just be hard for the mother to resist retrieving them, regardless of whether they are hers. ③ A rapid rescue of any crying kitten would be a good strategy to prevent them from drawing unwanted attention.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 3
     }
   ]
 }

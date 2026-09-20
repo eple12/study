@@ -49,6 +49,31 @@
         "They might buy a load of wheat simply because they think that its price is going to rise when a drought is predicted in wheat-growing areas.",
         "If their guess is right, they later sell the wheat for a profit."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The traditional bank manager in the 1950s was usually a respected pillar of the community, a cautious, careful sort of person who probably went to bed early and didn't drink too much.",
+      "items": [
+        "But from the 1970s a new kind of banker appeared ― loud, flashy, and arrogant. These bankers loved taking big risks. They wanted to get rich quick and blow their money on fast cars and expensive champagne.",
+        "They made their money through what's called 'speculation'. Normally, people buy things because they want to use them, such as wheat to make bread and petrol to run the car. But when people speculate, they buy things even when they have no interest in using them.",
+        "They might buy a load of wheat simply because they think that its price is going to rise when a drought is predicted in wheat-growing areas. If their guess is right, they later sell the wheat for a profit."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Normally, people buy things because they want to use them, such as wheat to make bread and petrol to run the car.\n\nThe traditional bank manager in the 1950s was usually a respected pillar of the community, a cautious, careful sort of person who probably went to bed early and didn't drink too much. ① But from the 1970s a new kind of banker appeared ― loud, flashy, and arrogant. ② These bankers loved taking big risks. ③ They wanted to get rich quick and blow their money on fast cars and expensive champagne. ④ They made their money through what's called 'speculation'. ⑤ But when people speculate, they buy things even when they have no interest in using them. They might buy a load of wheat simply because they think that its price is going to rise when a drought is predicted in wheat-growing areas. If their guess is right, they later sell the wheat for a profit.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

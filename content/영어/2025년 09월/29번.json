@@ -46,6 +46,30 @@
         "Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice.",
         "That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "All human cultures mark the passing of time by the differences they observe in the world around them.",
+      "items": [
+        "Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives. How we mark the differences ― the shapes of our calendars and our rituals ― depends on the connections we make between those two things.",
+        "In the agricultural society of pre-modern Europe, where higher latitudes make the seasons easily observable, it was natural to monitor the solar cycle. Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice.",
+        "That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** How we mark the differences ― the shapes of our calendars and our rituals ― depends on the connections we make between those two things.\n\nAll human cultures mark the passing of time by the differences they observe in the world around them. ① Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives. ② In the agricultural society of pre-modern Europe, where higher latitudes make the seasons easily observable, it was natural to monitor the solar cycle. ③ Conversely, among the largely nomadic peoples of Arabia, for whom seasonal changes were less significant, the lunar calendar was a more sensible choice. ④ That did not make it inevitable that Islam would use a lunar calendar and Roman Christianity a solar one, but political and religious decisions were made from options limited by geography and lifestyle, filtered through tradition.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

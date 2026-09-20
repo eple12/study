@@ -46,6 +46,30 @@
         "They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items.",
         "If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior.",
+      "items": [
+        "This stands in contrast to many strategic situations ― for example, in political negotiations ― in which it is wise not to let the other side know what one's true preferences or production capacities are. A perfectly competitive market that clears on the spot leaves no room for such strategies.",
+        "If prices are not sticky ― as many models assume ― individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change. They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items.",
+        "If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** If prices are not sticky ― as many models assume ― individuals adapt their behavior instantaneously, whenever their preferences or the circumstances change.\n\nA great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior. ① This stands in contrast to many strategic situations ― for example, in political negotiations ― in which it is wise not to let the other side know what one's true preferences or production capacities are. ② A perfectly competitive market that clears on the spot leaves no room for such strategies. ③ They stop buying items that do not satisfy their needs and stop selling items that do not provide them with optimal gains, maybe switching to the production of other items. ④ If they have motivational problems, for example, falling into denial about the fact that there is no demand for their products, markets reveal to them, sometimes in quite brutal ways, that they better accept this fact.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3
     }
   ]
 }

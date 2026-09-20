@@ -49,6 +49,31 @@
         "By this definition, bears don't hibernate, because their body temperature stays near normal and they are easily awakened.",
         "Their winter sleeps are more accurately called a state of torpor."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Sleep is clearly about more than just resting.",
+      "items": [
+        "One curious fact is that animals that are hibernating also have periods of sleep. It comes as a surprise to most of us, but hibernation and sleep are not the same thing at all, at least not from a neurological and metabolic perspective. Hibernating is more like being anesthetized: the subject is unconscious but not actually asleep.",
+        "So a hibernating animal needs to get a few hours of conventional sleep each day within the larger unconsciousness. A further surprise to most of us is that bears, the most famous of wintry sleepers, don't actually hibernate. Real hibernation involves profound unconsciousness and a dramatic fall in body temperature ― often to around 32 degrees Fahrenheit.",
+        "By this definition, bears don't hibernate, because their body temperature stays near normal and they are easily awakened. Their winter sleeps are more accurately called a state of torpor."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** It comes as a surprise to most of us, but hibernation and sleep are not the same thing at all, at least not from a neurological and metabolic perspective.\n\nSleep is clearly about more than just resting. One curious fact is that animals that are hibernating also have periods of sleep. ① Hibernating is more like being anesthetized: the subject is unconscious but not actually asleep. ② So a hibernating animal needs to get a few hours of conventional sleep each day within the larger unconsciousness. ③ A further surprise to most of us is that bears, the most famous of wintry sleepers, don't actually hibernate. ④ Real hibernation involves profound unconsciousness and a dramatic fall in body temperature ― often to around 32 degrees Fahrenheit. ⑤ By this definition, bears don't hibernate, because their body temperature stays near normal and they are easily awakened. Their winter sleeps are more accurately called a state of torpor.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

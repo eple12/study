@@ -49,6 +49,31 @@
         "Alan Blinder, a former vice-chairman of the Federal Reserve Board, has estimated that perhaps a quarter of U.S. jobs can now be done abroad."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "To economists, the benefits of both exports and imports are so obvious that it’s one of the few things this notoriously fractious profession agrees on.",
+      "items": [
+        "Yet, in recent years, trade has changed radically, rattling even normally faithful supporters. Traditionally, Americans bought toys, clothing, and other things from poor countries that required more manual and less intellectual labor.",
+        "They bought more advanced products like aircraft, software, and microprocessor chips from other rich countries. But in recent decades, China, India, and Russia have joined the global workforce and now sell the sorts of advanced products Americans long thought were invulnerable to such competition.",
+        "The decrease in the cost of using huge quantities of data across undersea cables in other countries makes it possible for foreigners to read Americans’ X-rays, take their hotel reservations, or report on town council meetings. Alan Blinder, a former vice-chairman of the Federal Reserve Board, has estimated that perhaps a quarter of U.S. jobs can now be done abroad."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The decrease in the cost of using huge quantities of data across undersea cables in other countries makes it possible for foreigners to read Americans’ X-rays, take their hotel reservations, or report on town council meetings.\n\nTo economists, the benefits of both exports and imports are so obvious that it’s one of the few things this notoriously fractious profession agrees on. ① Yet, in recent years, trade has changed radically, rattling even normally faithful supporters. ② Traditionally, Americans bought toys, clothing, and other things from poor countries that required more manual and less intellectual labor. ③ They bought more advanced products like aircraft, software, and microprocessor chips from other rich countries. ④ But in recent decades, China, India, and Russia have joined the global workforce and now sell the sorts of advanced products Americans long thought were invulnerable to such competition. ⑤ Alan Blinder, a former vice-chairman of the Federal Reserve Board, has estimated that perhaps a quarter of U.S. jobs can now be done abroad.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

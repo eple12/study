@@ -49,6 +49,31 @@
         "If this were true, we might like people more if they reveal some evidence of fallibility.",
         "For example, if your friend is a brilliant mathematician, superb athlete, and gourmet cook, you might like him or her better if, every once in a while, they screwed up."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "It would seem obvious that the more competent someone is, the more we will like that person.",
+      "items": [
+        "By \"competence,\" I mean a cluster of qualities: smartness, the ability to get things done, wise decisions, etc. We stand a better chance of doing well at our life tasks if we surround ourselves with people who know what they're doing and have a lot to teach us. But the research evidence is paradoxical: In problem-solving groups, the participants who are considered the most competent and have the best ideas tend not to be the ones who are best liked. Why?",
+        "One possibility is that, although we like to be around competent people, those who are too competent make us uncomfortable. They may seem unapproachable, distant, superhuman ― and make us look bad (and feel worse) by comparison.",
+        "If this were true, we might like people more if they reveal some evidence of fallibility. For example, if your friend is a brilliant mathematician, superb athlete, and gourmet cook, you might like him or her better if, every once in a while, they screwed up."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** They may seem unapproachable, distant, superhuman ― and make us look bad (and feel worse) by comparison.\n\nIt would seem obvious that the more competent someone is, the more we will like that person. By \"competence,\" I mean a cluster of qualities: smartness, the ability to get things done, wise decisions, etc. We stand a better chance of doing well at our life tasks if we surround ourselves with people who know what they're doing and have a lot to teach us. ① But the research evidence is paradoxical: In problem-solving groups, the participants who are considered the most competent and have the best ideas tend not to be the ones who are best liked. ② Why? ③ One possibility is that, although we like to be around competent people, those who are too competent make us uncomfortable. ④ If this were true, we might like people more if they reveal some evidence of fallibility. ⑤ For example, if your friend is a brilliant mathematician, superb athlete, and gourmet cook, you might like him or her better if, every once in a while, they screwed up.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

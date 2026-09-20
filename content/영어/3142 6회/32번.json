@@ -53,6 +53,31 @@
         "Without the application, his preparation isn't even halfway complete."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "In marketing, the term strategic thinking is thrown around with abandon.",
+      "items": [
+        "It's a very general term that really only takes on meaning when applied to a specific situation. As a general proposition, the term is quite vague. As a specific application, it can be indispensable. Much the same is true of practice.",
+        "Practicing to become faster has benefits, no doubt, but those benefits may not apply to every situation. Being fast in football is not necessarily the same as being fast at a track meet. In football, the application of “fast” likely includes knowing how to make sharp cuts while running, following routes, or avoiding being tackled.",
+        "For a track runner, those skills are meaningless. He should take the best of his generally applicable skills and apply them to his training; in other words, practice for the purpose. Without the application, his preparation isn't even halfway complete."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** For a track runner, those skills are meaningless.\n\nIn marketing, the term strategic thinking is thrown around with abandon. It's a very general term that really only takes on meaning when applied to a specific situation. As a general proposition, the term is quite vague. As a specific application, it can be indispensable. ① Much the same is true of practice. ② Practicing to become faster has benefits, no doubt, but those benefits may not apply to every situation. ③ Being fast in football is not necessarily the same as being fast at a track meet. ④ In football, the application of “fast” likely includes knowing how to make sharp cuts while running, following routes, or avoiding being tackled. ⑤ He should take the best of his generally applicable skills and apply them to his training; in other words, practice for the purpose. Without the application, his preparation isn't even halfway complete.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

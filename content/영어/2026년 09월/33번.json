@@ -47,6 +47,31 @@
         "In time this may build a desire to make good from the loss by repairing as many damages as we can and/or compensating for them.",
         "Grief can make us both very sad and very motivated to act."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Psychological theories across the field agree on the importance of grieving our losses, from the highly personal through to the broadly collective.",
+      "items": [
+        "Grief is a dynamic emotional process essential to consciousness. At a psychological level, it supports us to both face into our own and others' vulnerability, transience and mortality, and to repair life energy after significant loss. Grief work honours the loss, the sadness and the experience of diminishment or absence, while also setting up the ground for self-transformation and the continuation of life.",
+        "Psychotherapist Fran Weller describes grief work is \"an act of devotion, rooted in love and compassion\" that requires \"an ongoing practice of deepening, attending and listening.\" When we grieve for what is lost, it clears the way towards a strengthening of love and commitment for what remains.",
+        "In time this may build a desire to make good from the loss by repairing as many damages as we can and/or compensating for them. Grief can make us both very sad and very motivated to act."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In time this may build a desire to make good from the loss by repairing as many damages as we can and/or compensating for them.\n\nPsychological theories across the field agree on the importance of grieving our losses, from the highly personal through to the broadly collective. Grief is a dynamic emotional process essential to consciousness. ① At a psychological level, it supports us to both face into our own and others' vulnerability, transience and mortality, and to repair life energy after significant loss. ② Grief work honours the loss, the sadness and the experience of diminishment or absence, while also setting up the ground for self-transformation and the continuation of life. ③ Psychotherapist Fran Weller describes grief work is \"an act of devotion, rooted in love and compassion\" that requires \"an ongoing practice of deepening, attending and listening.\" ④ When we grieve for what is lost, it clears the way towards a strengthening of love and commitment for what remains. ⑤ Grief can make us both very sad and very motivated to act.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

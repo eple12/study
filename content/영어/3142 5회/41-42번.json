@@ -62,6 +62,31 @@
         "So the next time you think that other races all look alike, don’t worry, it isn’t racism — it’s your excess of brain flexibility."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Faces are an unusual class of patterns because they all share the same basic structure of two eyes, a nose and a mouth.",
+      "items": [
+        "Yet despite the similarity, the average human can recognize thousands of separate faces. Our love of faces begins very early. Infants have built-in brain circuitry for following faces. Even though their vision is bad enough to qualify them as legally blind, faces are like magnets to young babies. They can hardly take their eyes off a human face even if it is just a rudimentary pattern made up of two dots for eyes and a third for a mouth. This initial preference for face-like patterns is quickly replaced by a system that learns to recognize specific faces.",
+        "By six months, if you show infants a face they have never seen before, they easily remember it much later. They are learning who’s who. Early face experience also shapes human brains. For example, children born with cataracts never see faces clearly as infants. When their vision is surgically corrected later in life, they still have problems with recognizing faces even though they can then see clearly. No matter how much training and practice you have later in life, some early exposures are important for affecting brain development.",
+        "The same goes for telling the difference between individuals from another race. Unlike most adults who think members of other ethnic groups look very similar, babies initially have no problem. They can tell everyone apart. It is only after exposure to lots of faces from the same race that our discrimination kicks in. However, you can train babies not to become tuned into their own race if you keep exposing them to faces from other races. So the next time you think that other races all look alike, don’t worry, it isn’t racism — it’s your excess of brain flexibility."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** No matter how much training and practice you have later in life, some early exposures are important for affecting brain development.\n\nFaces are an unusual class of patterns because they all share the same basic structure of two eyes, a nose and a mouth. Yet despite the similarity, the average human can recognize thousands of separate faces. Our love of faces begins very early. Infants have built-in brain circuitry for following faces. Even though their vision is bad enough to qualify them as legally blind, faces are like magnets to young babies. They can hardly take their eyes off a human face even if it is just a rudimentary pattern made up of two dots for eyes and a third for a mouth. This initial preference for face-like patterns is quickly replaced by a system that learns to recognize specific faces. By six months, if you show infants a face they have never seen before, they easily remember it much later. They are learning who’s who. Early face experience also shapes human brains. For example, children born with cataracts never see faces clearly as infants. ① When their vision is surgically corrected later in life, they still have problems with recognizing faces even though they can then see clearly. ② The same goes for telling the difference between individuals from another race. ③ Unlike most adults who think members of other ethnic groups look very similar, babies initially have no problem. ④ They can tell everyone apart. ⑤ It is only after exposure to lots of faces from the same race that our discrimination kicks in. However, you can train babies not to become tuned into their own race if you keep exposing them to faces from other races. So the next time you think that other races all look alike, don’t worry, it isn’t racism — it’s your excess of brain flexibility.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

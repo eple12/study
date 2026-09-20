@@ -45,6 +45,30 @@
         "Staub suggested that younger children might feel more comfortable acting when they have the company of a peer, whereas older children might feel more concern about being judged by their peers and fear feeling embarrassed by overreacting.",
         "Staub noted that \"older children seemed to discuss the distress sounds less and to react to them less openly than younger children.\" In other words, the older children were deliberately putting on a poker face in front of their peers."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The concern about how we appear to others can be seen in children, though work by the psychologist Ervin Staub suggests that the effect may vary with age.",
+      "items": [
+        "In a study where children heard another child in distress, young children (kindergarten through second grade) were more likely to help the child in distress when with another child than when alone. But for older children ― in fourth and sixth grade ― the effect reversed: they were less likely to help a child in distress when they were with a peer than when they were alone.",
+        "Staub suggested that younger children might feel more comfortable acting when they have the company of a peer, whereas older children might feel more concern about being judged by their peers and fear feeling embarrassed by overreacting. Staub noted that \"older children seemed to discuss the distress sounds less and to react to them less openly than younger children.\"",
+        "In other words, the older children were deliberately putting on a poker face in front of their peers."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Staub noted that \"older children seemed to discuss the distress sounds less and to react to them less openly than younger children.\"\n\nThe concern about how we appear to others can be seen in children, though work by the psychologist Ervin Staub suggests that the effect may vary with age. ① In a study where children heard another child in distress, young children (kindergarten through second grade) were more likely to help the child in distress when with another child than when alone. ② But for older children ― in fourth and sixth grade ― the effect reversed: they were less likely to help a child in distress when they were with a peer than when they were alone. ③ Staub suggested that younger children might feel more comfortable acting when they have the company of a peer, whereas older children might feel more concern about being judged by their peers and fear feeling embarrassed by overreacting. ④ In other words, the older children were deliberately putting on a poker face in front of their peers.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4
     }
   ]
 }

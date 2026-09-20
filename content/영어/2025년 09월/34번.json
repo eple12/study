@@ -47,6 +47,31 @@
         "The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others.",
         "It \"remote-controls\" the reader towards a meaning chosen in advance."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning.",
+      "items": [
+        "Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction. In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation.",
+        "The viewer is not asked to recognize what they see but to understand why they see it and what it means to them. By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations.",
+        "The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others. It \"remote-controls\" the reader towards a meaning chosen in advance."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The viewer is not asked to recognize what they see but to understand why they see it and what it means to them.\n\nThe term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning. ① Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction. ② In advertising, as Barthes argues, the symbolic message does not guide identification but interpretation. ③ By combining images with text, advertising produces symbolic meaning that is accurate and specific on the one hand, richer on the other, thus adding depth and eliminating breadth of rational and emotional interpretations. ④ The headline or tagline of an ad directs the reader through the intended meanings of the image, so that the reader avoids some and receives others. ⑤ It \"remote-controls\" the reader towards a meaning chosen in advance.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

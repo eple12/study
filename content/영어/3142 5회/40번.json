@@ -43,6 +43,31 @@
         "It makes her feel good to show that her life is intertwined with her husband’s."
       ],
       "id": "2"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "What a woman might see as a simple request — no big deal — is seen by a man as an attempt to manipulate him into a “one-down” position.",
+      "items": [
+        "These traits can lead women and men to starkly different views of the same situation. Here is an example. When John’s old high school friend called him at work to say he’d be in town, John invited him to stay for the weekend. That evening he told Linda they were having a house guest. Linda was upset.",
+        "How could John make these plans without discussing them with her beforehand? She would never do that to him. “Why don’t you tell your friend you have to check with your wife?” she asked. John replied, “I can’t tell my friend, ‘I have to ask my wife for permission’!”",
+        "To John, checking with his wife would mean he was not free to act on his own. It would make him feel like a child or an underling. But Linda actually enjoys telling someone, “I have to check with John.” It makes her feel good to show that her life is intertwined with her husband’s."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** That evening he told Linda they were having a house guest.\n\nWhat a woman might see as a simple request — no big deal — is seen by a man as an attempt to manipulate him into a “one-down” position. ① These traits can lead women and men to starkly different views of the same situation. ② Here is an example. ③ When John’s old high school friend called him at work to say he’d be in town, John invited him to stay for the weekend. ④ Linda was upset. ⑤ How could John make these plans without discussing them with her beforehand? She would never do that to him. “Why don’t you tell your friend you have to check with your wife?” she asked. John replied, “I can’t tell my friend, ‘I have to ask my wife for permission’!” To John, checking with his wife would mean he was not free to act on his own. It would make him feel like a child or an underling. But Linda actually enjoys telling someone, “I have to check with John.” It makes her feel good to show that her life is intertwined with her husband’s.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

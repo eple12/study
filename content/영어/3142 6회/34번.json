@@ -49,6 +49,31 @@
         "As soon as you recognize the influence of this belief on your perceptions and try to combat the tendency to see the world as inherently fair, you will be able to learn more in every situation."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "People prefer to believe that the world is a just and fair place and that everyone gets what he or she deserves.",
+      "items": [
+        "And since people tend to think they themselves are deserving, they come to think that if they just do a good job and behave appropriately, things will take care of themselves. Moreover, when they observe others doing things they consider to be inappropriate, most people do not see anything to be learned, believing that even if those people are successful at the moment, in the end they will be brought down.",
+        "This belief has a big negative effect on the ability to acquire power. It hinders people's ability to learn from all situations and all people, even those whom they don't like or respect.",
+        "If you are in a position of modest power and want to attain a position of great power, you need to pay particular attention to those holding the positions you aspire to. As soon as you recognize the influence of this belief on your perceptions and try to combat the tendency to see the world as inherently fair, you will be able to learn more in every situation."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Moreover, when they observe others doing things they consider to be inappropriate, most people do not see anything to be learned, believing that even if those people are successful at the moment, in the end they will be brought down.\n\nPeople prefer to believe that the world is a just and fair place and that everyone gets what he or she deserves. ① And since people tend to think they themselves are deserving, they come to think that if they just do a good job and behave appropriately, things will take care of themselves. ② This belief has a big negative effect on the ability to acquire power. ③ It hinders people's ability to learn from all situations and all people, even those whom they don't like or respect. ④ If you are in a position of modest power and want to attain a position of great power, you need to pay particular attention to those holding the positions you aspire to. ⑤ As soon as you recognize the influence of this belief on your perceptions and try to combat the tendency to see the world as inherently fair, you will be able to learn more in every situation.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

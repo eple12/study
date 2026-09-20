@@ -50,6 +50,31 @@
         "In American slang, bad means good, cool means great, and wicked means excellent.",
         "If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge.",
+      "items": [
+        "In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors. The word eventually came to be associated with drug dependency: one becomes a slave to one's addiction. The word \"husband\" originally referred to being a homeowner; it had nothing to do with being married. But because owning your own property made it more likely you'd find a mate, the word eventually came to mean a male who has been wed.",
+        "On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament. He was captured and put to death. Loyalists burned his effigy, which they nicknamed the \"guy.\"",
+        "Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway. In American slang, bad means good, cool means great, and wicked means excellent. If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** But because owning your own property made it more likely you'd find a mate, the word eventually came to mean a male who has been wed.\n\nDictionary definitions are constantly revised to keep up with our changing uses and knowledge. In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors. The word eventually came to be associated with drug dependency: one becomes a slave to one's addiction. The word \"husband\" originally referred to being a homeowner; it had nothing to do with being married. ① On November 5th, 1605, Guy Fawkes tried to blow up the British Parliament. ② He was captured and put to death. ③ Loyalists burned his effigy, which they nicknamed the \"guy.\" ④ Centuries later, the word lost its negative connotation and a musical named Guys and Dolls ran on Broadway. ⑤ In American slang, bad means good, cool means great, and wicked means excellent. If you could transport yourself one hundred years into the future, you'd find yourself confused by your great-grandchildren's speech because language itself is an ever-changing reflection of human invention.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

@@ -47,6 +47,31 @@
         "Unfortunately we do not have a century or two to make the change.",
         "By clarifying the nature of the old and new perspectives, and by identifying actions on which we might cooperate to move the process along, we can help accelerate the shift."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "One well-known shift took place when the accepted view ― that the Earth was the center of the universe ― changed to one where we understood that we are only inhabitants on one planet orbiting the Sun.",
+      "items": [
+        "With each person who grasped the solar system view, it became easier for the next person to do so. So it is with the notion that the world revolves around the human economy.",
+        "This is slowly being replaced by the view that the economy is a part of the larger system of material flows that connect all living things. When this perspective shifts into place, it will be obvious that our economic well-being requires that we account for, and respond to, factors of ecological health.",
+        "Unfortunately we do not have a century or two to make the change. By clarifying the nature of the old and new perspectives, and by identifying actions on which we might cooperate to move the process along, we can help accelerate the shift."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** This is slowly being replaced by the view that the economy is a part of the larger system of material flows that connect all living things.\n\nOne well-known shift took place when the accepted view ― that the Earth was the center of the universe ― changed to one where we understood that we are only inhabitants on one planet orbiting the Sun. ① With each person who grasped the solar system view, it became easier for the next person to do so. ② So it is with the notion that the world revolves around the human economy. ③ When this perspective shifts into place, it will be obvious that our economic well-being requires that we account for, and respond to, factors of ecological health. ④ Unfortunately we do not have a century or two to make the change. ⑤ By clarifying the nature of the old and new perspectives, and by identifying actions on which we might cooperate to move the process along, we can help accelerate the shift.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

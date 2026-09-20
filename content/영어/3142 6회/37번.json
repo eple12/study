@@ -46,6 +46,31 @@
         "For example, if it is known that an athlete has a velocity over 30m, technique and strength training can be developed that appropriately match it."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The measure of velocity, and subsequent acceleration, is one of the most important measures in sport because this variable is very useful for determining whether an athlete's current performance is better than a previous performance, or if it is better or worse than the opposition's.",
+      "items": [
+        "To calculate the direction and the speed at which someone is traveling, we need to accurately measure the distance and the time. Tests to measure this, such as 30m sprint drills, are often used in sport as part of an athlete's training.",
+        "By measuring the speed of the smaller intervals within this length, coaches can identify “where” an athlete is running fast and where she is slowing down. Once the velocity has been calculated, the acceleration can be determined; and often in sport, acceleration, the rate of change in velocity, is what separates an athlete from an elite athlete.",
+        "From this new information, the coach can devise specific training for each individual athlete. For example, if it is known that an athlete has a velocity over 30m, technique and strength training can be developed that appropriately match it."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Tests to measure this, such as 30m sprint drills, are often used in sport as part of an athlete's training.\n\nThe measure of velocity, and subsequent acceleration, is one of the most important measures in sport because this variable is very useful for determining whether an athlete's current performance is better than a previous performance, or if it is better or worse than the opposition's. ① To calculate the direction and the speed at which someone is traveling, we need to accurately measure the distance and the time. ② By measuring the speed of the smaller intervals within this length, coaches can identify “where” an athlete is running fast and where she is slowing down. ③ Once the velocity has been calculated, the acceleration can be determined; and often in sport, acceleration, the rate of change in velocity, is what separates an athlete from an elite athlete. ④ From this new information, the coach can devise specific training for each individual athlete. ⑤ For example, if it is known that an athlete has a velocity over 30m, technique and strength training can be developed that appropriately match it.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

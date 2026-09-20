@@ -49,6 +49,30 @@
         "If we’re worried about what our kids eat, then we should certainly be worried about what our kids are watching."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "It’s tempting to believe that we can trust the media with our kids, that we don’t need to pay close attention to what movies or TV shows our kids are watching, what computer games they’re playing, or where they’re surfing on the Internet.",
+      "items": [
+        "It’s much easier to believe that we can trust the media. After all, we’re only adding more work and more worry to our lives if we admit that we now need to be as wary of the media as we are of strangers approaching our children on the street.",
+        "As a result, many parents are in a state of “media denial,” while others feel overwhelmed and helpless. But the fact is, we need to take as much responsibility for our children’s media consumption as we do for their performance in school and their physical well-being.",
+        "If we’re worried about what our kids eat, then we should certainly be worried about what our kids are watching."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** But the fact is, we need to take as much responsibility for our children’s media consumption as we do for their performance in school and their physical well-being.\n\nIt’s tempting to believe that we can trust the media with our kids, that we don’t need to pay close attention to what movies or TV shows our kids are watching, what computer games they’re playing, or where they’re surfing on the Internet. ① It’s much easier to believe that we can trust the media. ② After all, we’re only adding more work and more worry to our lives if we admit that we now need to be as wary of the media as we are of strangers approaching our children on the street. ③ As a result, many parents are in a state of “media denial,” while others feel overwhelmed and helpless. ④ If we’re worried about what our kids eat, then we should certainly be worried about what our kids are watching.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4
     }
   ]
 }

@@ -47,6 +47,31 @@
         "The climate changes, and crops can no longer grow as abundantly as they once did.",
         "Frontiers are so important in these processes because they offer places where the new cheap things can be seized ― and the cheap work of humans and other natures can be forcefully taken."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Capitalism is not a system where cash is everywhere but rather one in which islands of cash exchange exist within oceans of cheap ― or potentially cheap ― natures.",
+      "items": [
+        "Reproducing life within the cash nexus is expensive, and it grows more expensive over time. Workers' wages can be frozen, even rolled back, but in the end inequality leads to crises of the kind we've recently seen bring about populist protests in the United States and the United Kingdom.",
+        "Workers demand dignity, and their labor becomes expensive. Production processes burn through an island, and energy is no longer cheap.",
+        "The climate changes, and crops can no longer grow as abundantly as they once did. Frontiers are so important in these processes because they offer places where the new cheap things can be seized ― and the cheap work of humans and other natures can be forcefully taken."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The climate changes, and crops can no longer grow as abundantly as they once did.\n\nCapitalism is not a system where cash is everywhere but rather one in which islands of cash exchange exist within oceans of cheap ― or potentially cheap ― natures. ① Reproducing life within the cash nexus is expensive, and it grows more expensive over time. ② Workers' wages can be frozen, even rolled back, but in the end inequality leads to crises of the kind we've recently seen bring about populist protests in the United States and the United Kingdom. ③ Workers demand dignity, and their labor becomes expensive. ④ Production processes burn through an island, and energy is no longer cheap. ⑤ Frontiers are so important in these processes because they offer places where the new cheap things can be seized ― and the cheap work of humans and other natures can be forcefully taken.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

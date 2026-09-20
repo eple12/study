@@ -46,6 +46,30 @@
         "And now, technological unemployment threatens to become a more radical version of the same story, taking place in the particular market we rely upon the most: the labor market.",
         "As that market begins to break down, more and more people will be in danger of not receiving a share of society's prosperity at all."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Over the last few centuries, humanity's collective prosperity has skyrocketed, as technological progress has made us far wealthier than ever before.",
+      "items": [
+        "To share out those riches, almost all societies have settled upon the market mechanism, rewarding people in various ways for the work that they do and the things that they own. But rising inequality, itself often driven by technology, has started to put that mechanism under strain.",
+        "Today, markets already provide immense rewards to some people but leave many others with very little. And now, technological unemployment threatens to become a more radical version of the same story, taking place in the particular market we rely upon the most: the labor market.",
+        "As that market begins to break down, more and more people will be in danger of not receiving a share of society's prosperity at all."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** But rising inequality, itself often driven by technology, has started to put that mechanism under strain.\n\nOver the last few centuries, humanity's collective prosperity has skyrocketed, as technological progress has made us far wealthier than ever before. ① To share out those riches, almost all societies have settled upon the market mechanism, rewarding people in various ways for the work that they do and the things that they own. ② Today, markets already provide immense rewards to some people but leave many others with very little. ③ And now, technological unemployment threatens to become a more radical version of the same story, taking place in the particular market we rely upon the most: the labor market. ④ As that market begins to break down, more and more people will be in danger of not receiving a share of society's prosperity at all.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

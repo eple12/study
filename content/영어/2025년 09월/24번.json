@@ -47,6 +47,31 @@
         "We don't have to be statisticians to know there is not a meaningful difference between 69 and 70.",
         "Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Everything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of.",
+      "items": [
+        "Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do. Indeed, all differences are arbitrary, but drawing hard lines between categories hides this arbitrariness and can be severely damaging. I call this resulting damage \"the borderline effect.\"",
+        "The examples are endless. Someone's IQ is 69 and someone else's is 70 ― but only the score of 70 is deemed to be within the range of normal.",
+        "We don't have to be statisticians to know there is not a meaningful difference between 69 and 70. Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Indeed, all differences are arbitrary, but drawing hard lines between categories hides this arbitrariness and can be severely damaging.\n\nEverything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of. ① Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do. ② I call this resulting damage \"the borderline effect.\" ③ The examples are endless. ④ Someone's IQ is 69 and someone else's is 70 ― but only the score of 70 is deemed to be within the range of normal. ⑤ We don't have to be statisticians to know there is not a meaningful difference between 69 and 70. Yet once the person with the lower score is labeled \"cognitively impaired,\" his or her life will unfold differently than the person with a one-point advantage.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

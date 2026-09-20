@@ -47,6 +47,18 @@
         "Nature was “God's work” and overabundance was seen both as a sign of God's will and as the result of a natural cause."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Medieval philosophers such as Saint Thomas Aquinas, attempting to make a synthesis of reason and faith, saw in this seed production evidence of the Creator's grand design.\n\nSince birds consume up to 65 percent of a year's seed production and squirrels and mice take care of a good part of the rest, it is not surprising that fewer than one-tenth of 1 percent of Douglas-fir seeds survive where they fall to become new trees. ① Seed production is one way trees attempt to compensate for such huge losses. ② Douglas-fir seed production is trifling compared with that of some flowering plants — a single capsule of some orchids, for example, can contain up to 4 million seeds and has a much lower rate of success than a Douglas-fir. ③ Nature was “God's work” and overabundance was seen both as a sign of God's will and as the result of a natural cause.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 3
     }
   ]
 }

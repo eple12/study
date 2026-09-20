@@ -46,6 +46,30 @@
         "For practically 300 years, women's dress was subject to a very precise periodic cycle: forms reach the furthest point in their variations every fifty years.",
         "If, at any one moment, skirts are at their longest, fifty years later they will be at their shortest; thus skirts become long again fifty years after being short and a hundred years after being long."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The well-known American ethnologist Alfred Louis Kroeber made a rich and in-depth study of women's evening dress in the West, stretching back about three centuries and using reproductions of engravings.",
+      "items": [
+        "Having adjusted the dimensions of these plates due to their diverse origins, he was able to analyse the constant elements in fashion features and to come up with a study that was neither intuitive nor approximate, but precise, mathematical and statistical. He reduced women's clothing to a certain number of features: length and size of the skirt, size and depth of the neckline, height of the waistline.",
+        "He demonstrated unambiguously that fashion is a profoundly regular phenomenon which is not located at the level of annual variations but on the scale of history. For practically 300 years, women's dress was subject to a very precise periodic cycle: forms reach the furthest point in their variations every fifty years.",
+        "If, at any one moment, skirts are at their longest, fifty years later they will be at their shortest; thus skirts become long again fifty years after being short and a hundred years after being long."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** For practically 300 years, women's dress was subject to a very precise periodic cycle: forms reach the furthest point in their variations every fifty years.\n\nThe well-known American ethnologist Alfred Louis Kroeber made a rich and in-depth study of women's evening dress in the West, stretching back about three centuries and using reproductions of engravings. ① Having adjusted the dimensions of these plates due to their diverse origins, he was able to analyse the constant elements in fashion features and to come up with a study that was neither intuitive nor approximate, but precise, mathematical and statistical. ② He reduced women's clothing to a certain number of features: length and size of the skirt, size and depth of the neckline, height of the waistline. ③ He demonstrated unambiguously that fashion is a profoundly regular phenomenon which is not located at the level of annual variations but on the scale of history. ④ If, at any one moment, skirts are at their longest, fifty years later they will be at their shortest; thus skirts become long again fifty years after being short and a hundred years after being long.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4
     }
   ]
 }

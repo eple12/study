@@ -47,6 +47,31 @@
         "Therefore, having formal limits for responsibility from a specific age that apply to everyone is a somewhat questionable practice.",
         "But the question, of course, is whether it can be done any differently."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Mental development consists of individuals increasingly mastering social codes and signals themselves, which they can master only in social situations with the support of more competent individuals, typically adults.",
+      "items": [
+        "In this sense, mental development consists of internalizing social patterns and gradually becoming a responsible actor among other responsible actors. In Denmark, the age of criminal responsibility is 15 years, which means that we then say that people have developed sufficient mental maturity to be accountable for their actions at this point.",
+        "And at the age of 18 people are given the right to vote and are thereby formally included in the basic democratic process. I do not know whether these age boundaries are optimal, but it is clear that mental development takes place at different rates for different individuals, and depends especially on the social and family environment they have been given.",
+        "Therefore, having formal limits for responsibility from a specific age that apply to everyone is a somewhat questionable practice. But the question, of course, is whether it can be done any differently."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In Denmark, the age of criminal responsibility is 15 years, which means that we then say that people have developed sufficient mental maturity to be accountable for their actions at this point.\n\nMental development consists of individuals increasingly mastering social codes and signals themselves, which they can master only in social situations with the support of more competent individuals, typically adults. ① In this sense, mental development consists of internalizing social patterns and gradually becoming a responsible actor among other responsible actors. ② And at the age of 18 people are given the right to vote and are thereby formally included in the basic democratic process. ③ I do not know whether these age boundaries are optimal, but it is clear that mental development takes place at different rates for different individuals, and depends especially on the social and family environment they have been given. ④ Therefore, having formal limits for responsibility from a specific age that apply to everyone is a somewhat questionable practice. ⑤ But the question, of course, is whether it can be done any differently.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

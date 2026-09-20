@@ -49,6 +49,31 @@
         "The significance of crises is the indication they provide that an occasion for retooling has arrived."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Philosophers of science have repeatedly demonstrated that more than one theoretical construction can always be placed upon a given collection of data.",
+      "items": [
+        "History of science indicates that, particularly in the early developmental stages of a new paradigm, it is not even very difficult to invent such alternates. But that invention of alternates is just what scientists seldom undertake except during the pre-paradigm stage of their science's development and at very special occasions during its subsequent evolution.",
+        "So long as the tools a paradigm supplies continue to prove capable of solving the problems it defines, science moves fastest and penetrates most deeply through confident employment of those tools. The reason is clear.",
+        "As in manufacture so in science — retooling is an extravagance to be reserved for the occasion that demands it. The significance of crises is the indication they provide that an occasion for retooling has arrived."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** So long as the tools a paradigm supplies continue to prove capable of solving the problems it defines, science moves fastest and penetrates most deeply through confident employment of those tools.\n\nPhilosophers of science have repeatedly demonstrated that more than one theoretical construction can always be placed upon a given collection of data. ① History of science indicates that, particularly in the early developmental stages of a new paradigm, it is not even very difficult to invent such alternates. ② But that invention of alternates is just what scientists seldom undertake except during the pre-paradigm stage of their science's development and at very special occasions during its subsequent evolution. ③ The reason is clear. ④ As in manufacture so in science — retooling is an extravagance to be reserved for the occasion that demands it. ⑤ The significance of crises is the indication they provide that an occasion for retooling has arrived.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

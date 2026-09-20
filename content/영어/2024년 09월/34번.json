@@ -48,6 +48,31 @@
         "His answer: \"Just go up in a ball.\" Experts often have an intuitive understanding of a route, but they struggle to clearly express all the steps to take.",
         "Their brain dump is partially filled with garbage."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "It's often said that those who can't do, teach.",
+      "items": [
+        "It would be more accurate to say that those who can do, can't teach the basics. A great deal of expert knowledge is implicit, not explicit. The further you progress toward mastery, the less conscious awareness you often have of the fundamentals.",
+        "Experiments show that skilled golfers and wine aficionados have a hard time describing their putting and tasting techniques ― even asking them to explain their approaches is enough to interfere with their performance, so they often stay on autopilot. When I first saw an elite diver do four and a half somersaults, I asked how he managed to spin so fast. His answer: \"Just go up in a ball.\"",
+        "Experts often have an intuitive understanding of a route, but they struggle to clearly express all the steps to take. Their brain dump is partially filled with garbage."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Experiments show that skilled golfers and wine aficionados have a hard time describing their putting and tasting techniques ― even asking them to explain their approaches is enough to interfere with their performance, so they often stay on autopilot.\n\nIt's often said that those who can't do, teach. It would be more accurate to say that those who can do, can't teach the basics. A great deal of expert knowledge is implicit, not explicit. ① The further you progress toward mastery, the less conscious awareness you often have of the fundamentals. ② When I first saw an elite diver do four and a half somersaults, I asked how he managed to spin so fast. ③ His answer: \"Just go up in a ball.\" ④ Experts often have an intuitive understanding of a route, but they struggle to clearly express all the steps to take. ⑤ Their brain dump is partially filled with garbage.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

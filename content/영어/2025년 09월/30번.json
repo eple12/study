@@ -49,6 +49,31 @@
         "Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration.",
         "Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Although empathy is widely praised by scholars and public figures, not everyone is an empathy booster.",
+      "items": [
+        "Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict. In fact, they argue, empathy makes such conflicts worse. These critics maintain that empathy can be exhausting and lead to burnout or insensitivity to suffering.",
+        "They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts. Thus, the prescription for more empathy is often counterproductive in cases of conflict. Empathy, they argue, can further encourage conflict and force us into an us vs. them mentality.",
+        "Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration. Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** These critics maintain that empathy can be exhausting and lead to burnout or insensitivity to suffering.\n\nAlthough empathy is widely praised by scholars and public figures, not everyone is an empathy booster. ① Critics of empathy argue that empathy will not save us from interpersonal and intergroup conflict. ② In fact, they argue, empathy makes such conflicts worse. ③ They argue that we tend to empathize strongly with our in-group and resist empathizing with out-groups, and even enjoy the suffering of out-groups in competitive or threatening contexts. ④ Thus, the prescription for more empathy is often counterproductive in cases of conflict. ⑤ Empathy, they argue, can further encourage conflict and force us into an us vs. them mentality. Finally, even when we try to empathize with others who are dissimilar from us or in unfamiliar contexts, sometimes we are unable to accurately empathize with their experiences, causing further misunderstandings and frustration. Critics of empathy argue that we should give up on empathy and employ other tools in pursuit of social harmony, e.g., rational compassion or moral emotions like fear, anger, and shame.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

@@ -47,6 +47,31 @@
         "In contrast, we try to avoid others who are visibly ill.",
         "Another important difference is that whereas viral contagion is almost always a bad thing, behavioral contagion is sometimes negative ― as in the case of smoking ― but sometimes positive, as in the case of solar installations."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "There are deep similarities between viral contagion and behavioral contagion.",
+      "items": [
+        "For example, people in close or extended proximity to others infected by a virus are themselves more likely to become infected, just as people are more likely to drink excessively when they spend more time in the company of heavy drinkers. But there are also important differences between the two types of contagion.",
+        "One is that visibility promotes behavioral contagion but inhibits the spread of infectious diseases. Solar panels that are visible from the street, for instance, are more likely to stimulate neighboring installations.",
+        "In contrast, we try to avoid others who are visibly ill. Another important difference is that whereas viral contagion is almost always a bad thing, behavioral contagion is sometimes negative ― as in the case of smoking ― but sometimes positive, as in the case of solar installations."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In contrast, we try to avoid others who are visibly ill.\n\nThere are deep similarities between viral contagion and behavioral contagion. ① For example, people in close or extended proximity to others infected by a virus are themselves more likely to become infected, just as people are more likely to drink excessively when they spend more time in the company of heavy drinkers. ② But there are also important differences between the two types of contagion. ③ One is that visibility promotes behavioral contagion but inhibits the spread of infectious diseases. ④ Solar panels that are visible from the street, for instance, are more likely to stimulate neighboring installations. ⑤ Another important difference is that whereas viral contagion is almost always a bad thing, behavioral contagion is sometimes negative ― as in the case of smoking ― but sometimes positive, as in the case of solar installations.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

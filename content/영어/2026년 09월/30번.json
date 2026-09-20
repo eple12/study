@@ -46,6 +46,31 @@
         "In the same way that people may change their attitudes to reduce inconsistencies between attitudes and behavior, people may also change their evaluation of past environmentally burdening behaviors and future environmentally friendly behaviors.",
         "For instance, people are more likely to sign a petition addressing environmental damage after viewing evidence of human-caused environmental damage."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Some people are more likely to cheat and steal after purchasing \"eco-friendly\" products, probably because they feel licensed to do so since they morally account the \"eco-friendly\" choice as a \"good\" deed.",
+      "items": [
+        "Moral licensing has also been observed in the context of cooperation for the good of the environment. When people are reminded of deeds they have done that they know were harmful to the environment, they might be left with a feeling of \"eco-guilt.\"",
+        "People who experience eco-guilt seek pro-environmental actions to compensate for this guilt and restore balance. In their search for such a balance, people are inclined to believe in \"quick-fixes,\" because they want to re-establish the moral balance and escape the guilt as quickly and easily as possible.",
+        "In the same way that people may change their attitudes to reduce inconsistencies between attitudes and behavior, people may also change their evaluation of past environmentally burdening behaviors and future environmentally friendly behaviors. For instance, people are more likely to sign a petition addressing environmental damage after viewing evidence of human-caused environmental damage."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In the same way that people may change their attitudes to reduce inconsistencies between attitudes and behavior, people may also change their evaluation of past environmentally burdening behaviors and future environmentally friendly behaviors.\n\nSome people are more likely to cheat and steal after purchasing \"eco-friendly\" products, probably because they feel licensed to do so since they morally account the \"eco-friendly\" choice as a \"good\" deed. ① Moral licensing has also been observed in the context of cooperation for the good of the environment. ② When people are reminded of deeds they have done that they know were harmful to the environment, they might be left with a feeling of \"eco-guilt.\" ③ People who experience eco-guilt seek pro-environmental actions to compensate for this guilt and restore balance. ④ In their search for such a balance, people are inclined to believe in \"quick-fixes,\" because they want to re-establish the moral balance and escape the guilt as quickly and easily as possible. ⑤ For instance, people are more likely to sign a petition addressing environmental damage after viewing evidence of human-caused environmental damage.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

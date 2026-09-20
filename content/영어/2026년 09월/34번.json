@@ -50,6 +50,31 @@
         "Meals that took a long time to prepare became a luxury of the past, except perhaps for special occasions.",
         "The effects of the microwave oven on family life were not anticipated and would have been difficult to foresee."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "When we focus on the obvious aspects of media, we miss the changes that accumulate over time but are not apparent day to day.",
+      "items": [
+        "Most of us notice the obvious aspects of a new medium or technology while missing the more subtle aspects. Take, for example, the microwave oven. It was introduced in the early 1980s and revolutionized food preparation.",
+        "Traditionally, one person spent the better part of an afternoon fixing an evening meal for a family. Now, it was possible to prepare foods very quickly, and this shortening of preparation time was liberating for the cooks in the family, most of whom tended to be women. But the short-term, obvious implications of greater convenience made it easy to overlook the long-term implications of no longer having one person fix food for the family to eat together at an evening meal.",
+        "As time went on, fewer and fewer families sat down together to eat dinner. Meals that took a long time to prepare became a luxury of the past, except perhaps for special occasions. The effects of the microwave oven on family life were not anticipated and would have been difficult to foresee."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Traditionally, one person spent the better part of an afternoon fixing an evening meal for a family.\n\nWhen we focus on the obvious aspects of media, we miss the changes that accumulate over time but are not apparent day to day. ① Most of us notice the obvious aspects of a new medium or technology while missing the more subtle aspects. ② Take, for example, the microwave oven. ③ It was introduced in the early 1980s and revolutionized food preparation. ④ Now, it was possible to prepare foods very quickly, and this shortening of preparation time was liberating for the cooks in the family, most of whom tended to be women. ⑤ But the short-term, obvious implications of greater convenience made it easy to overlook the long-term implications of no longer having one person fix food for the family to eat together at an evening meal. As time went on, fewer and fewer families sat down together to eat dinner. Meals that took a long time to prepare became a luxury of the past, except perhaps for special occasions. The effects of the microwave oven on family life were not anticipated and would have been difficult to foresee.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

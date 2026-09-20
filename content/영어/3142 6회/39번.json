@@ -49,6 +49,31 @@
         "An individual's set point for body weight may be adjustable, shifting over the life span in response to physiological changes and to genetic, dietary, and other factors."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "One popular theory of why people can maintain their body weight at a relatively stable level is the set-point theory.",
+      "items": [
+        "The set-point theory proposes that body weight, like body temperature, is physiologically regulated. Researchers have noted that many people who lose weight on reducing diets quickly regain all their lost weight.",
+        "This suggests that somehow the body chooses a weight that it wants to be and defends that weight by regulating eating behaviors and hormonal actions. Research confirms that the body adjusts its metabolism whenever it gains or loses weight — in the direction that returns to the initial body weight: the body burns more calories with weight gain and burns fewer calories with weight loss.",
+        "These changes in energy expenditure are great and help to explain why it is so difficult for an obese person to maintain weight losses. An individual's set point for body weight may be adjustable, shifting over the life span in response to physiological changes and to genetic, dietary, and other factors."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** This suggests that somehow the body chooses a weight that it wants to be and defends that weight by regulating eating behaviors and hormonal actions.\n\nOne popular theory of why people can maintain their body weight at a relatively stable level is the set-point theory. ① The set-point theory proposes that body weight, like body temperature, is physiologically regulated. ② Researchers have noted that many people who lose weight on reducing diets quickly regain all their lost weight. ③ Research confirms that the body adjusts its metabolism whenever it gains or loses weight — in the direction that returns to the initial body weight: the body burns more calories with weight gain and burns fewer calories with weight loss. ④ These changes in energy expenditure are great and help to explain why it is so difficult for an obese person to maintain weight losses. ⑤ An individual's set point for body weight may be adjustable, shifting over the life span in response to physiological changes and to genetic, dietary, and other factors.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

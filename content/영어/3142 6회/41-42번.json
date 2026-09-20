@@ -59,6 +59,31 @@
         "The benefits this will provide for us go beyond improving our own self-discipline; it will ultimately enhance our emotional health and quality of life."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "We can't choose our families, but we can certainly choose whom we spend our free time with.",
+      "items": [
+        "We should be selective in the people we associate with. It becomes clear that we must choose our friends wisely. This allows us to reinforce the same dynamic — the influence that those close to us have on our decisions — in a positive direction. Our brains, it seems, see others the same way they see ourselves. This provides a clear explanation for why behavior can be so contagious. When others do something, we literally feel ourselves engaging in it, and manifest the urge to do it, too.",
+        "In many cases, social pressure drives behavior. We know of the examples of teens doing dumb things because of peer pressure. But it can be a positive influence as well. As adults, we like to think that we are no longer as easily swayed by peer behaviors, but we are still undoubtedly influenced in one way or another by the people surrounding us. Social pressure is commonly utilized by organizations such as sports teams and the military.",
+        "People feel a sense of loyalty to their teammates and don't want to hold them back, so they give minimum effort. A deeply felt sense of loyalty can be a powerful source of self-discipline. Armed with this insight, what can we do to improve our lives? We need to fill our networks with people that we admire and whom we look up to. The benefits this will provide for us go beyond improving our own self-discipline; it will ultimately enhance our emotional health and quality of life."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** It becomes clear that we must choose our friends wisely.\n\nWe can't choose our families, but we can certainly choose whom we spend our free time with. ① We should be selective in the people we associate with. ② This allows us to reinforce the same dynamic — the influence that those close to us have on our decisions — in a positive direction. ③ Our brains, it seems, see others the same way they see ourselves. ④ This provides a clear explanation for why behavior can be so contagious. ⑤ When others do something, we literally feel ourselves engaging in it, and manifest the urge to do it, too. In many cases, social pressure drives behavior. We know of the examples of teens doing dumb things because of peer pressure. But it can be a positive influence as well. As adults, we like to think that we are no longer as easily swayed by peer behaviors, but we are still undoubtedly influenced in one way or another by the people surrounding us. Social pressure is commonly utilized by organizations such as sports teams and the military. People feel a sense of loyalty to their teammates and don't want to hold them back, so they give minimum effort. A deeply felt sense of loyalty can be a powerful source of self-discipline. Armed with this insight, what can we do to improve our lives? We need to fill our networks with people that we admire and whom we look up to. The benefits this will provide for us go beyond improving our own self-discipline; it will ultimately enhance our emotional health and quality of life.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

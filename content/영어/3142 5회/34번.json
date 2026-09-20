@@ -54,6 +54,31 @@
         "The fact that we have boats doesn’t stop us from swimming."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Among the monkeys and apes there is some evidence of abstract thinking.",
+      "items": [
+        "But it is only with man that artifacts and abstraction have run free. With his weak body, he has dramatically externalized his behavior, scattering the surface of the globe with his artifacts — his implements, machines, weapons, vehicles, roads, works of art, buildings, villages and cities. He has become a thinking, building animal, surrounded by everything he built. One might almost suppose that simple animal action would be beneath him, surviving only as a remnant from the past.",
+        "But this is not so. Throughout it all, he has remained a creature of action, a gesturing, posturing, moving, expressive primate. He is as far today from becoming a creation of science fiction as he was in prehistoric times.",
+        "Philosophy and engineering have not replaced animal activity, but they have added to it. We have developed a concept of happiness and words to express it, but we also still perform the action-pattern of stretching our lips into a smile. The fact that we have boats doesn’t stop us from swimming."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Philosophy and engineering have not replaced animal activity, but they have added to it.\n\nAmong the monkeys and apes there is some evidence of abstract thinking. But it is only with man that artifacts and abstraction have run free. With his weak body, he has dramatically externalized his behavior, scattering the surface of the globe with his artifacts — his implements, machines, weapons, vehicles, roads, works of art, buildings, villages and cities. He has become a thinking, building animal, surrounded by everything he built. One might almost suppose that simple animal action would be beneath him, surviving only as a remnant from the past. ① But this is not so. ② Throughout it all, he has remained a creature of action, a gesturing, posturing, moving, expressive primate. ③ He is as far today from becoming a creation of science fiction as he was in prehistoric times. ④ We have developed a concept of happiness and words to express it, but we also still perform the action-pattern of stretching our lips into a smile. ⑤ The fact that we have boats doesn’t stop us from swimming.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

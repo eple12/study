@@ -51,6 +51,31 @@
         "Leave the conductor and the sheet music behind.",
         "Build a jazz band instead."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "In today's information age, in many companies and on many teams, the objective is no longer error prevention and replicability.",
+      "items": [
+        "On the contrary, it's creativity, speed, and keenness. In the industrial era, the goal was to minimize variation. But in creative companies today, maximizing variation is more essential. In these situations, the biggest risk isn't making a mistake or losing consistency; it's failing to attract top talent, to invent new products, or to change direction quickly when the environment shifts.",
+        "Consistency and repeatability are more likely to suppress fresh thinking than to bring your company profit. A lot of little mistakes, while sometimes painful, help the organization learn quickly and are a critical part of the innovation cycle. In these situations, rules and process are no longer the best answer.",
+        "A symphony isn't what you're going for. Leave the conductor and the sheet music behind. Build a jazz band instead."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In these situations, rules and process are no longer the best answer.\n\nIn today's information age, in many companies and on many teams, the objective is no longer error prevention and replicability. On the contrary, it's creativity, speed, and keenness. In the industrial era, the goal was to minimize variation. But in creative companies today, maximizing variation is more essential. In these situations, the biggest risk isn't making a mistake or losing consistency; it's failing to attract top talent, to invent new products, or to change direction quickly when the environment shifts. ① Consistency and repeatability are more likely to suppress fresh thinking than to bring your company profit. ② A lot of little mistakes, while sometimes painful, help the organization learn quickly and are a critical part of the innovation cycle. ③ A symphony isn't what you're going for. ④ Leave the conductor and the sheet music behind. ⑤ Build a jazz band instead.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

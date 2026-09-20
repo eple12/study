@@ -46,6 +46,30 @@
         "Such a spoilage of key nutrients and fiber is no longer acceptable in the context of a sustainable diet aiming at an optimal nutrient density and health protection.",
         "In contrast, fermentation of various foodstuffs or germination of grains are traditional, locally accessible, low-energy and highly nutritious processes of sounded interest."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Minimal processing can be one of the best ways to keep original flavors and taste, without any need to add artificial flavoring or additives, or too much salt.",
+      "items": [
+        "This would also be the efficient way to keep most nutrients, especially the most sensitive ones such as many vitamins and anti-oxidants. Milling of cereals is one of the most harsh processes which dramatically affect nutrient content.",
+        "While grains are naturally very rich in micronutrients, anti-oxidants and fiber (i.e. in wholemeal flour or flakes), milling usually removes the vast majority of minerals, vitamins and fibers to raise white flour. Such a spoilage of key nutrients and fiber is no longer acceptable in the context of a sustainable diet aiming at an optimal nutrient density and health protection.",
+        "In contrast, fermentation of various foodstuffs or germination of grains are traditional, locally accessible, low-energy and highly nutritious processes of sounded interest."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Milling of cereals is one of the most harsh processes which dramatically affect nutrient content.\n\nMinimal processing can be one of the best ways to keep original flavors and taste, without any need to add artificial flavoring or additives, or too much salt. ① This would also be the efficient way to keep most nutrients, especially the most sensitive ones such as many vitamins and anti-oxidants. ② While grains are naturally very rich in micronutrients, anti-oxidants and fiber (i.e. in wholemeal flour or flakes), milling usually removes the vast majority of minerals, vitamins and fibers to raise white flour. ③ Such a spoilage of key nutrients and fiber is no longer acceptable in the context of a sustainable diet aiming at an optimal nutrient density and health protection. ④ In contrast, fermentation of various foodstuffs or germination of grains are traditional, locally accessible, low-energy and highly nutritious processes of sounded interest.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

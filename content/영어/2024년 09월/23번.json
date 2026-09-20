@@ -49,6 +49,30 @@
         "In describing this view of science, philosopher Hugh Lacey speaks of the belief that there is an underlying order of the world which is simply there to be discovered ― the world of pure \"fact\" stripped of any link with value.",
         "The aim of science according to this view is to represent this world of pure \"fact\", independently of any relationship it might bear contingently to human practices and experiences."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "People seem to recognize that the arts are cultural activities that draw on (or react against) certain cultural traditions, certain shared understanding, and certain values and ideas that are characteristic of the time and place in which the art is created.",
+      "items": [
+        "In the case of science, however, opinions differ. Some scientists, like the great biologist J. B. S. Haldane, see science in a similar light ― as a historical activity that occurs in a particular time and place, and that needs to be understood within that context.",
+        "Others, however, see science as a purely \"objective\" pursuit, uninfluenced by the cultural viewpoint and values of those who create it. In describing this view of science, philosopher Hugh Lacey speaks of the belief that there is an underlying order of the world which is simply there to be discovered ― the world of pure \"fact\" stripped of any link with value.",
+        "The aim of science according to this view is to represent this world of pure \"fact\", independently of any relationship it might bear contingently to human practices and experiences."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Some scientists, like the great biologist J. B. S. Haldane, see science in a similar light ― as a historical activity that occurs in a particular time and place, and that needs to be understood within that context.\n\nPeople seem to recognize that the arts are cultural activities that draw on (or react against) certain cultural traditions, certain shared understanding, and certain values and ideas that are characteristic of the time and place in which the art is created. ① In the case of science, however, opinions differ. ② Others, however, see science as a purely \"objective\" pursuit, uninfluenced by the cultural viewpoint and values of those who create it. ③ In describing this view of science, philosopher Hugh Lacey speaks of the belief that there is an underlying order of the world which is simply there to be discovered ― the world of pure \"fact\" stripped of any link with value. ④ The aim of science according to this view is to represent this world of pure \"fact\", independently of any relationship it might bear contingently to human practices and experiences.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

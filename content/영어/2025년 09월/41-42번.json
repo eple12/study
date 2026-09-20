@@ -51,6 +51,31 @@
         "A large accumulation of body fat adds to an animal's fasting capacity, especially large animals, permitting some animals to enter prolonged dormancy in the relative security of a hibernaculum.",
         "Thus, both fat accumulation and food storage have some decided advantages."
       ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Many animals pursue a mixed strategy of accumulating both body fat and food, which leads one to ask, \"What are the relative advantages and disadvantages of these two forms of energy storage?\"",
+      "items": [
+        "Maximum fat deposition increases with body mass whereas maximum food storage is not constrained by body size. This means that animals, especially small animals, can accumulate much greater energy reserves in the form of stored food than they can in the form of body fat. Further, stored food is more economical than body fat because fat contributes to body mass, and metabolic rate increases with body mass. In other words, there is a metabolic expense to maintaining fat.",
+        "Excessive fat accumulations may also have a negative effect on an animal's ability to avoid predators. And, if maintaining a high body temperature is advantageous, animals might be expected to accumulate more energy in the form of a food store than as body fat. On the other hand, stored food may rot over time, may be removed by robbers, or may simply be lost. Many animals must expend energy managing and protecting their food stores.",
+        "Eating food and converting it to fat avoids these types of losses and the energetic costs of managing stored food. A large accumulation of body fat adds to an animal's fasting capacity, especially large animals, permitting some animals to enter prolonged dormancy in the relative security of a hibernaculum. Thus, both fat accumulation and food storage have some decided advantages."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Eating food and converting it to fat avoids these types of losses and the energetic costs of managing stored food.\n\nMany animals pursue a mixed strategy of accumulating both body fat and food, which leads one to ask, \"What are the relative advantages and disadvantages of these two forms of energy storage?\" Maximum fat deposition increases with body mass whereas maximum food storage is not constrained by body size. This means that animals, especially small animals, can accumulate much greater energy reserves in the form of stored food than they can in the form of body fat. Further, stored food is more economical than body fat because fat contributes to body mass, and metabolic rate increases with body mass. In other words, there is a metabolic expense to maintaining fat. ① Excessive fat accumulations may also have a negative effect on an animal's ability to avoid predators. ② And, if maintaining a high body temperature is advantageous, animals might be expected to accumulate more energy in the form of a food store than as body fat. ③ On the other hand, stored food may rot over time, may be removed by robbers, or may simply be lost. ④ Many animals must expend energy managing and protecting their food stores. ⑤ A large accumulation of body fat adds to an animal's fasting capacity, especially large animals, permitting some animals to enter prolonged dormancy in the relative security of a hibernaculum. Thus, both fat accumulation and food storage have some decided advantages.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

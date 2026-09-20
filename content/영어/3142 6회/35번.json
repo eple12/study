@@ -48,6 +48,30 @@
         "While the key elements of a culture can be understood intuitively through its arts, a more structured understanding of the major themes of artistic expression can help add depth and order to this understanding."
       ],
       "id": "3"
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Most of us are limited in our linguistic fluency.",
+      "items": [
+        "While we may have some acquaintance with languages other than our native tongue, few would claim mastery of more than a handful of the world's languages. But, through art, we have before us an avenue for understanding and appreciating the extraordinary diversity of thoughts, feelings, and cultures in the world.",
+        "Taken together, the visual arts and music of a culture, which are not tied as directly to narrative and, therefore, to language as literature and theater, comprise an integrated cultural style that is accessible to the outsider. There is a potential for cross-cultural understanding and appreciation inherent in each culture's artistic expression.",
+        "While the key elements of a culture can be understood intuitively through its arts, a more structured understanding of the major themes of artistic expression can help add depth and order to this understanding."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** But, through art, we have before us an avenue for understanding and appreciating the extraordinary diversity of thoughts, feelings, and cultures in the world.\n\nMost of us are limited in our linguistic fluency. ① While we may have some acquaintance with languages other than our native tongue, few would claim mastery of more than a handful of the world's languages. ② Taken together, the visual arts and music of a culture, which are not tied as directly to narrative and, therefore, to language as literature and theater, comprise an integrated cultural style that is accessible to the outsider. ③ There is a potential for cross-cultural understanding and appreciation inherent in each culture's artistic expression. ④ While the key elements of a culture can be understood intuitively through its arts, a more structured understanding of the major themes of artistic expression can help add depth and order to this understanding.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }
