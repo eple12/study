@@ -19,6 +19,9 @@ const I = {
   swap: '<path d="M7 20V4M3 8l4-4 4 4M17 4v16M13 16l4 4 4-4"/>',
   play: '<path d="M7 4v16l13-8z"/>',
   grip: '<path d="M9 5h.01M9 12h.01M9 19h.01M15 5h.01M15 12h.01M15 19h.01" stroke-width="2.6"/>',
+  next: '<path d="M9 18l6-6-6-6"/>',
+  home: '<path d="M3 11l9-8 9 8M5 9.5V20h5v-6h4v6h5V9.5"/>',
+  checks: '<path d="M2 12l5 5L17 6M13 16l2 2L22 7"/>',
 };
 const icon = n => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
 
@@ -83,7 +86,14 @@ document.addEventListener('keydown', e => {
   if (e.isComposing || e.metaKey || e.ctrlKey || e.altKey) return;
   onKey?.(e);
 });
-addEventListener('hashchange', route);
+// 화면을 떠날 때의 스크롤 위치를 주소별로 기억해 두었다가, 본문·목록으로 돌아오면 복원한다.
+const scrollMem = new Map();
+let curHash = location.hash;
+addEventListener('hashchange', () => {
+  scrollMem.set(curHash, scrollY);
+  curHash = location.hash;
+  route();
+});
 route();
 
 async function route() {
@@ -91,51 +101,141 @@ async function route() {
   document.querySelectorAll('.sheet').forEach(s => s.remove());
   const [v = '', p = ''] = location.hash.replace(/^#\/?/, '').split('/');
   const path = decodeURIComponent(p);
+  let keep = false;
   try {
-    if (!v || !path) await home();
+    if (v === 'm') await mix();
+    else if (!v || !path) { await home(); keep = true; }
     else {
-      const set = await loadSet(path);
+      const [set] = await Promise.all([loadSet(path), loadManifest()]);
       const has = { r: set.passages.length, q: set.questions.length, c: set.vocab.length };
       const first = Object.keys(has).find(k => has[k]);
       if (!first) throw new Error(`${path}\n∅`);
       if (!has[v]) return location.replace(`#/${first}/${enc(path)}`);
       document.title = set.title;
       ({ r: reader, q: quiz, c: cards })[v](set, path);
+      keep = v === 'r';
     }
   } catch (e) { fail(e); }
-  scrollTo(0, 0);
+  scrollTo(0, keep ? scrollMem.get(location.hash) ?? 0 : 0);
 }
 
 function fail(e) {
   console.error(e);
-  app.innerHTML = `<header class="top"><a class="ib" href="#/" aria-label="홈">${icon('back')}</a></header><pre class="err">${esc(e.message || e)}</pre>`;
+  app.innerHTML = `<header class="top"><a class="ib" href="#/" aria-label="홈">${icon('home')}</a></header><pre class="err">${esc(e.message || e)}</pre>`;
 }
 
 function shell(set, path, tab) {
   const tabs = [['r', '본문', set.passages.length], ['q', '문제', set.questions.length], ['c', '단어', set.vocab.length]].filter(t => t[2]);
+  const all = manifest?.sets || [], at = all.findIndex(s => s.path === path);
+  const hop = d => {
+    const t = all[at + d], ic = icon(d < 0 ? 'back' : 'next'), lb = d < 0 ? '이전 지문' : '다음 지문';
+    return t ? `<a class="nb" href="#/${tab}/${enc(t.path)}" aria-label="${lb}">${ic}</a>` : `<span class="nb off">${ic}</span>`;
+  };
+  const nav = at >= 0 && all.length > 1;
   app.innerHTML = `<div class="head">
-    <header class="top"><a class="ib" href="#/" aria-label="홈">${icon('back')}</a><h1>${esc(set.title)}</h1><div class="tools"></div></header>
-    ${tabs.length > 1 ? `<nav class="tabs">${tabs.map(([k, l, n]) => `<a href="#/${k}/${enc(path)}" class="${k === tab ? 'on' : ''}">${l}<small>${n}</small></a>`).join('')}</nav>` : ''}
+    <header class="top"><a class="ib" href="#/" aria-label="홈">${icon('home')}</a><h1><button data-a="pick" aria-label="지문 목록">${esc(set.title)}</button></h1><div class="tools"></div></header>
+    ${nav || tabs.length > 1 ? `<nav class="tabs">${nav ? hop(-1) : ''}${
+      tabs.length > 1 ? tabs.map(([k, l, n]) => `<a href="#/${k}/${enc(path)}" class="${k === tab ? 'on' : ''}">${l}<small>${n}</small></a>`).join('') : '<span class="sp"></span>'}${nav ? hop(1) : ''}</nav>` : ''}
   </div><main></main>`;
+  app.querySelector('.head').onclick = e => { if (e.target.closest('[data-a=pick]')) picker(path, tab); };
   const main = app.querySelector('main');
   main.onclick = null;
   return main;
 }
 
+// 제목을 누르면 홈으로 돌아가지 않고 다른 지문으로 바로 이동
+function picker(path, tab) {
+  const groups = new Map();
+  for (const s of manifest.sets) {
+    const k = s.dir.join(' / ');
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(s);
+  }
+  const o = overlay('', [...groups].map(([g, items]) => `<section class="grp">${g ? `<h2>${esc(g)}</h2>` : ''}<div class="list">${
+    items.map(s => row(s, `#/${tab}/${enc(s.path)}`, s.path === path ? ' cur' : '')).join('')}</div></section>`).join(''));
+  o.d.addEventListener('click', e => { if (e.target.closest('a')) o.close(); });
+  const cur = o.body.querySelector('.cur');
+  if (cur) o.panel.scrollTop = cur.getBoundingClientRect().top - o.panel.getBoundingClientRect().top + o.panel.scrollTop - o.panel.clientHeight / 2;
+}
+
+// 아래에서 올라오는 시트 공통
+function overlay(head, body, cls = '', style = '') {
+  const d = document.createElement('div');
+  d.className = 'sheet';
+  d.innerHTML = `<div class="scrim"></div><div class="panel"><div class="ph">${head}<span></span><button class="ib" data-a="close" aria-label="닫기">${icon('x')}</button></div><div class="pb ${cls}" style="${style}">${body}</div></div>`;
+  document.body.append(d);
+  requestAnimationFrame(() => requestAnimationFrame(() => d.classList.add('in')));
+  const prevKey = onKey;
+  const o = { d, panel: d.querySelector('.panel'), body: d.querySelector('.pb'), onClose: null };
+  o.close = () => { o.onClose?.(); onKey = prevKey; d.classList.remove('in'); setTimeout(() => d.remove(), 250); };
+  onKey = e => { if (e.key === 'Escape') o.close(); };
+  d.addEventListener('click', e => { if (e.target.classList.contains('scrim') || e.target.closest('[data-a=close]')) o.close(); });
+  return o;
+}
+
 /* ── home ── */
 let prefetched = false;
+let picking = false; // 홈에서 랜덤 학습할 지문을 고르는 중인지
 async function home() {
   document.title = TITLE;
   const { sets: list = [] } = await loadManifest();
+  const usable = new Set(list.filter(s => s.n.q).map(s => s.path));
+  const sel = new Set(store.get('sel', []).filter(p => usable.has(p)));
   const groups = new Map();
   for (const s of list) {
     const k = s.dir.join(' / ');
     if (!groups.has(k)) groups.set(k, []);
     groups.get(k).push(s);
   }
-  app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1></header><main>${
-    [...groups].map(([g, items]) => `<section class="grp">${g ? `<h2>${esc(g)}</h2>` : ''}<div class="list">${items.map(row).join('')}</div></section>`).join('')
-    || '<p class="empty">content / *.json</p>'}</main>`;
+  const gp = [...groups.values()].map(items => items.filter(s => usable.has(s.path)).map(s => s.path));
+
+  const section = ([g, items], gi) => {
+    const head = !g ? '' : picking && gp[gi].length
+      ? `<button class="gh" data-g="${gi}"><h2>${esc(g)}</h2><span class="chk">${icon('check')}</span></button>`
+      : `<h2>${esc(g)}</h2>`;
+    const rows = items.map(s => picking
+      ? `<button class="row pk${usable.has(s.path) ? '' : ' dis'}" data-p="${esc(s.path)}"><span class="chk">${icon('check')}</span><span class="bd">${rowBody(s)}</span></button>`
+      : row(s)).join('');
+    return `<section class="grp">${head}<div class="list">${rows}</div></section>`;
+  };
+
+  app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
+    [...groups].map(section).join('') || '<p class="empty">content / *.json</p>'}</main>${
+    picking ? `<div class="dock"><div class="in"><button class="btn sq" data-a="all" aria-label="전체 선택">${icon('checks')}</button><button class="btn primary" data-a="start" aria-label="시작">${icon('play')}<b class="num"></b></button></div></div>` : ''}`;
+
+  app.querySelector('.top').onclick = e => {
+    if (!e.target.closest('[data-a=pick]')) return;
+    picking = !picking;
+    home();
+  };
+
+  if (picking) {
+    const count = () => list.reduce((t, s) => t + (sel.has(s.path) ? s.n.q : 0), 0);
+    const startBtn = app.querySelector('[data-a=start]'), allBtn = app.querySelector('[data-a=all]');
+    const refresh = () => {
+      app.querySelectorAll('[data-p]').forEach(r => r.classList.toggle('on', sel.has(r.dataset.p)));
+      app.querySelectorAll('[data-g]').forEach(h => { const ps = gp[+h.dataset.g]; h.classList.toggle('on', ps.every(p => sel.has(p))); });
+      const n = count();
+      startBtn.disabled = !n;
+      startBtn.querySelector('.num').textContent = n || '';
+      allBtn.classList.toggle('on', usable.size > 0 && sel.size === usable.size);
+      store.set('sel', [...sel]);
+    };
+    const flip = ps => { const all = ps.every(p => sel.has(p)); ps.forEach(p => (all ? sel.delete(p) : sel.add(p))); };
+    app.querySelector('main').onclick = e => {
+      const r = e.target.closest('[data-p]'), g = e.target.closest('[data-g]');
+      if (r && usable.has(r.dataset.p)) flip([r.dataset.p]);
+      else if (g) flip(gp[+g.dataset.g]);
+      else return;
+      refresh();
+    };
+    app.querySelector('.dock').onclick = e => {
+      const a = e.target.closest('[data-a]')?.dataset.a;
+      if (a === 'all') { flip([...usable]); refresh(); }
+      else if (a === 'start' && count()) location.hash = '#/m';
+    };
+    refresh();
+  }
 
   if (!prefetched && navigator.serviceWorker?.controller) {
     prefetched = true;
@@ -143,12 +243,16 @@ async function home() {
   }
 }
 
-function row(s) {
+function rowBody(s) {
   const p = prog(s.path);
   const done = Object.values(p.q).filter(v => v === 1).length;
   const meta = [s.subtitle && esc(s.subtitle), s.n.p && `본문 ${s.n.p}`, s.n.q && `문제 ${s.n.q}`, s.n.v && `단어 ${s.n.v}`].filter(Boolean).join(' · ');
-  return `<a class="row" href="#/s/${enc(s.path)}"><div class="t">${esc(s.title)}</div><div class="m"><span>${meta}</span>${
-    s.n.q ? `<i class="pbar"><b style="width:${Math.min(100, (100 * done) / s.n.q)}%"></b></i>` : ''}</div></a>`;
+  return `<div class="t">${esc(s.title)}</div><div class="m"><span>${meta}</span>${
+    s.n.q ? `<i class="pbar"><b style="width:${Math.min(100, (100 * done) / s.n.q)}%"></b></i>` : ''}</div>`;
+}
+
+function row(s, href = `#/s/${enc(s.path)}`, cls = '') {
+  return `<a class="row${cls}" href="${href}">${rowBody(s)}</a>`;
 }
 
 /* ── reader ── */
@@ -199,33 +303,22 @@ function reader(set, path) {
   };
 }
 
-function sheet(p) {
+const sheetMem = new Map(); // 본문 시트를 닫을 때의 스크롤 위치
+function sheet(p, key) {
   if (!p) return;
   let mode = 'en';
-  const d = document.createElement('div');
-  d.className = 'sheet';
-  d.innerHTML = `<div class="scrim"></div><div class="panel">
-    <div class="ph">${p.hasKo ? `<button class="ib txt" data-a="mode">${MODE_LABEL[mode]}</button>` : ''}<span></span><button class="ib" data-a="close" aria-label="닫기">${icon('x')}</button></div>
-    <div class="pb m-${mode}" style="--fs:${store.get('fs', 18)}px">${passageHTML(p)}</div></div>`;
-  document.body.append(d);
-  requestAnimationFrame(() => requestAnimationFrame(() => d.classList.add('in')));
-
-  const body = d.querySelector('.pb');
-  bindUnits(body);
-  const prevKey = onKey;
-  const close = () => { onKey = prevKey; d.classList.remove('in'); setTimeout(() => d.remove(), 250); };
-  onKey = e => { if (e.key === 'Escape') close(); };
-  d.onclick = e => {
-    if (e.target.classList.contains('scrim')) return close();
-    const a = e.target.closest('[data-a]')?.dataset.a;
-    if (a === 'close') close();
-    if (a === 'mode') {
-      mode = next(MODES, mode);
-      body.className = `pb m-${mode}`;
-      body.querySelectorAll('.u.open').forEach(u => u.classList.remove('open'));
-      e.target.closest('[data-a]').textContent = MODE_LABEL[mode];
-    }
-  };
+  const o = overlay(p.hasKo ? `<button class="ib txt" data-a="mode">${MODE_LABEL[mode]}</button>` : '', passageHTML(p), `m-${mode}`, `--fs:${store.get('fs', 18)}px`);
+  bindUnits(o.body);
+  o.panel.scrollTop = sheetMem.get(key) ?? 0;
+  o.onClose = () => sheetMem.set(key, o.panel.scrollTop);
+  o.d.addEventListener('click', e => {
+    const b = e.target.closest('[data-a=mode]');
+    if (!b) return;
+    mode = next(MODES, mode);
+    o.body.className = `pb m-${mode}`;
+    o.body.querySelectorAll('.u.open').forEach(u => u.classList.remove('open'));
+    b.textContent = MODE_LABEL[mode];
+  });
 }
 
 /* ── question types ── */
@@ -391,12 +484,17 @@ const KIND = {
 };
 
 /* ── quiz ── */
+// S = { set?, mix?, src?, list: [{q, set, path}], i, res: [], snaps: [] }
 let S = null;
 
 function quiz(set, path) {
   const main = shell(set, path, 'q');
   const qs = set.questions;
-  if (S?.set === set && S.i < S.list.length) ask();
+  const hooks = {
+    exit: () => overview(null),
+    finish: () => overview([S.res.filter(Boolean).length, S.list.length]),
+  };
+  if (S?.set === set && S.i < S.list.length) play(main, S, hooks);
   else overview(null);
 
   function overview(score) {
@@ -429,23 +527,82 @@ function quiz(set, path) {
   }
 
   function begin(list) {
-    S = { set, list, i: 0, res: [] };
-    ask();
+    S = { set, list: list.map(q => ({ q, set, path })), i: 0, res: [], snaps: [] };
+    play(main, S, hooks);
   }
+}
 
-  function ask() {
+// 선택한 지문들의 문제를 끝없이 섞어서 보여 준다. 한 바퀴 안에서는 겹치지 않는다.
+async function mix() {
+  const { sets: list = [] } = await loadManifest();
+  const want = new Set(store.get('sel', []));
+  const paths = list.filter(s => s.n.q && want.has(s.path)).map(s => s.path);
+  if (!paths.length) return location.replace('#/');
+  const loaded = await Promise.all(paths.map(loadSet));
+  const src = loaded.flatMap((set, k) => set.questions.map(q => ({ q, set, path: paths[k] })));
+  document.title = TITLE;
+  app.innerHTML = '<main></main>';
+  S = { mix: true, src, list: [], i: 0, res: [], snaps: [] };
+  deal(S);
+  play(app.querySelector('main'), S, { exit: () => { picking = true; location.hash = '#/'; } });
+}
+
+function deal(s) {
+  const round = shuffle(s.src), last = s.list.at(-1);
+  if (last && round.length > 1 && round[0] === last) round.push(round.shift()); // 바퀴가 바뀔 때 같은 문제가 연속되지 않게
+  s.list.push(...round);
+}
+
+function play(main, S, { exit, finish }) {
+  const mixed = !!S.mix;
+  const step = d => {
+    if (d < 0) { if (S.i > 0) goto(S.i - 1); return; }
+    if (!mixed && S.i + 1 >= S.list.length) return finish();
+    goto(S.i + 1);
+  };
+  const goto = i => { S.leave?.(); S.i = i; show(); };
+  show();
+
+  function show() {
     scrollTo(0, 0);
-    const q = S.list[S.i], n = S.list.length;
-    main.innerHTML = `<div class="qtop"><span class="cnt">${S.i + 1}<small>/${n}</small></span><i class="pbar"><b style="width:${(100 * S.i) / n}%"></b></i>${
-      q.passage ? `<button class="ib" data-a="psg" aria-label="본문">${icon('book')}</button>` : ''}<button class="ib" data-a="quit" aria-label="그만">${icon('x')}</button></div>
+    if (S.i >= S.list.length) deal(S);
+    const { q, set, path } = S.list[S.i];
+    const n = mixed ? S.src.length : S.list.length;
+    const pos = mixed ? S.i % n : S.i, round = mixed ? Math.floor(S.i / n) : 0;
+    const lastQ = !mixed && S.i === S.list.length - 1;
+    const ps = q.passage ? set.passages.find(p => p.id === q.passage) : null;
+
+    main.innerHTML = `<div class="qtop"><span class="cnt">${pos + 1}<small>/${n}</small></span>${round ? `<span class="round">${icon('retry')}${round + 1}</span>` : ''}<i class="pbar"><b style="width:${(100 * pos) / n}%"></b></i>${
+      ps ? `<button class="ib" data-a="psg" aria-label="본문">${icon('book')}</button>` : ''}<button class="ib" data-a="quit" aria-label="그만">${icon('x')}</button></div>${
+      mixed ? `<div class="from">${esc(set.title)}</div>` : ''}
     <div class="qcard">${q.prompt ? `<div class="prompt">${md(q.prompt)}</div>` : ''}${q.context ? `<div class="ctx">${md(q.context)}</div>` : ''}<div class="qb"></div><div class="fb" hidden></div></div>
-    <div class="dock"><div class="in"><button class="btn primary" data-a="go">확인</button></div></div>`;
+    <div class="dock"><div class="in"></div></div>`;
 
     const card = main.querySelector('.qcard'), fb = main.querySelector('.fb'), dock = main.querySelector('.dock .in');
-    const go = () => dock.querySelector('[data-a=go]');
-    const ctl = KIND[q.type](q, main.querySelector('.qb'), () => { if (go()) go().disabled = !ctl.ready(); });
-    go().disabled = !ctl.ready();
-    let phase = 'ask', shown = '';
+    const arrows = mid => `<button class="btn sq" data-a="prev" aria-label="이전 문제"${S.i === 0 ? ' disabled' : ''}>${icon('back')}</button>${mid}<button class="btn sq" data-a="skip" aria-label="다음 문제">${icon('next')}</button>`;
+    const goBtn = () => dock.querySelector('[data-a=go]');
+    const nextLabel = lastQ ? '결과' : '다음';
+    let phase = 'ask', shown = '', ctl = null;
+
+    const saved = S.snaps[S.i];
+    if (saved) { // 이미 푼 문제로 돌아온 경우: 채점된 모습 그대로
+      phase = 'done';
+      card.className = saved.cls;
+      card.innerHTML = saved.html;
+      dock.innerHTML = arrows(`<button class="btn primary" data-a="go">${nextLabel}</button>`);
+    } else {
+      dock.innerHTML = arrows('<button class="btn primary" data-a="go">확인</button>');
+      ctl = KIND[q.type](q, card.querySelector('.qb'), () => { if (goBtn()) goBtn().disabled = !ctl.ready(); });
+      goBtn().disabled = !ctl.ready();
+    }
+
+    // 다른 문제로 떠날 때 채점된 화면을 저장해 두었다가, 돌아오면 그대로 보여 준다
+    S.leave = () => {
+      if (phase !== 'done') return;
+      card.querySelectorAll('input').forEach(i => i.setAttribute('value', i.value));
+      card.querySelectorAll('textarea').forEach(t => { t.textContent = t.value; });
+      S.snaps[S.i] = { cls: card.className, html: card.innerHTML };
+    };
 
     const feedback = ok => {
       fb.innerHTML = `${ok == null ? '' : `<span class="verdict ${ok ? 'ok' : 'bad'}">${icon(ok ? 'check' : 'x')}</span>`}${
@@ -461,7 +618,7 @@ function quiz(set, path) {
       saveProg(path, p);
       card.classList.add(ok ? 'ok' : 'bad');
       feedback(ok);
-      dock.innerHTML = `<button class="btn primary" data-a="go">${S.i + 1 < n ? '다음' : '결과'}</button>`;
+      dock.innerHTML = arrows(`<button class="btn primary" data-a="go">${nextLabel}</button>`);
       document.activeElement?.blur?.();
     };
     const submit = () => {
@@ -472,32 +629,32 @@ function quiz(set, path) {
         if (r.pending) {
           phase = 'self';
           feedback(null);
-          dock.innerHTML = `<button class="btn bad" data-a="no" aria-label="틀림">${icon('x')}</button><button class="btn ok" data-a="yes" aria-label="맞음">${icon('check')}</button>`;
+          dock.innerHTML = arrows(`<button class="btn bad" data-a="no" aria-label="틀림">${icon('x')}</button><button class="btn ok" data-a="yes" aria-label="맞음">${icon('check')}</button>`);
         } else done(r.ok);
-      } else if (phase === 'done') {
-        S.i++;
-        if (S.i < n) ask();
-        else overview([S.res.filter(Boolean).length, n]);
-      }
+      } else if (phase === 'done') step(1);
     };
 
     main.onclick = e => {
       const a = e.target.closest('[data-a]')?.dataset.a;
       if (a === 'go') submit();
       else if ((a === 'yes' || a === 'no') && phase === 'self') done(a === 'yes');
-      else if (a === 'quit') overview(null);
-      else if (a === 'psg') sheet(set.passages.find(p => p.id === q.passage));
+      else if (a === 'prev') step(-1);
+      else if (a === 'skip') step(1);
+      else if (a === 'quit') { S.leave(); exit(); }
+      else if (a === 'psg') sheet(ps, `${path}#${ps.id}`);
     };
     onKey = e => {
+      const typing = /^(INPUT|TEXTAREA)$/.test(e.target.tagName);
+      const lr = e.key === 'ArrowLeft' || e.key === 'ArrowRight';
       if (e.key === 'Enter') {
         if (e.target.tagName === 'TEXTAREA') return;
         e.preventDefault();
         if (phase === 'ask' && ctl.next?.(e.target)) return;
         if (phase === 'self') return;
         submit();
-      } else if (phase === 'self' && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')) {
-        done(e.key === 'ArrowRight');
-      } else if (phase === 'ask' && !/^(INPUT|TEXTAREA)$/.test(e.target.tagName)) ctl.key?.(e);
+      } else if (phase === 'self' && lr) done(e.key === 'ArrowRight');
+      else if (lr && !typing) step(e.key === 'ArrowRight' ? 1 : -1);
+      else if (phase === 'ask' && !typing) ctl.key?.(e);
     };
   }
 }

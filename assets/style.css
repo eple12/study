@@ -211,3 +211,33 @@ u { text-underline-offset: .22em; text-decoration-thickness: 1.5px; }
 .card .ex { margin-top: 14px; font-size: 15px; font-weight: 400; color: var(--sub); line-height: 1.65; }
 .card[data-lean=ok] { border-color: var(--ok); }
 .card[data-lean=bad] { border-color: var(--bad); }
+
+/* 지문 이동 (탭 줄 양끝) */
+.tabs .nb { flex: none; width: 40px; display: grid; place-items: center; border-radius: 10px; color: var(--sub); }
+.tabs a.nb:active { background: var(--line); }
+.tabs .nb.off { opacity: .25; }
+.tabs .sp { flex: 1; }
+.top h1 button { display: block; width: 100%; padding: 6px 8px; margin: 0 -8px; border-radius: 8px; font: inherit; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.top h1 button:active { background: var(--line); }
+.row.cur { background: var(--acc-bg); }
+.row.cur .t { color: var(--acc); }
+
+/* 랜덤 학습 지문 선택 */
+.top.home .ib { flex: none; margin-right: -4px; }
+.gh { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 0 4px 8px; text-align: left; }
+.gh h2 { padding: 0; }
+.chk { flex: none; width: 22px; height: 22px; display: grid; place-items: center; border: 1.5px solid var(--mute); border-radius: 50%; color: transparent; transition: background .12s, border-color .12s; }
+.chk .ic { width: 14px; height: 14px; stroke-width: 3; }
+.on > .chk, .gh.on .chk { background: var(--acc); border-color: var(--acc); color: #fff; }
+.row.pk { display: flex; align-items: center; gap: 14px; width: 100%; text-align: left; }
+.row.pk .bd { flex: 1; min-width: 0; }
+.row.pk.on { background: var(--acc-bg); }
+.row.pk.dis { opacity: .4; pointer-events: none; }
+.btn .num { font-weight: 700; font-variant-numeric: tabular-nums; }
+.btn:disabled .num { display: none; }
+
+/* 문제 화면 */
+.qtop .round { display: inline-flex; align-items: center; gap: 2px; font-size: 12px; font-weight: 600; color: var(--mute); }
+.qtop .round .ic { width: 13px; height: 13px; }
+.from { margin: -2px 4px 8px; font-size: 13px; color: var(--mute); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.btn.sq:disabled { opacity: .3; }
