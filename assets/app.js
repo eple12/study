@@ -433,38 +433,20 @@ const KIND = {
 
   order(q, el, changed) {
     const items = q.items, chips = items.every(s => s.length <= 30);
-    const pool = shuffle(items.map((_, i) => i));
-    if (pool.every((k, i) => items[k] === items[i])) pool.push(pool.shift());
-    const picked = [];
+    const order = shuffle(items.map((_, i) => i)); // 처음부터 전부 놓여 있고, 끌어서 순서만 바꾼다
+    if (order.every((k, i) => items[k] === items[i])) order.push(order.shift());
     let lock = false;
-    const it = (k, cls, j) => `<button class="it ${cls}" data-k="${k}">${
-      !chips && j != null ? `<span class="grip">${icon('grip')}</span><span class="n">${j + 1}</span>` : ''}<span>${md(items[k])}</span></button>`;
-    const draw = () => {
-      el.innerHTML = `${q.given ? `<div class="ctx">${md(q.given)}</div>` : ''}<div class="ord${chips ? ' chips' : ''}">
-        <div class="slots">${picked.map((k, j) => it(k, 'in', j)).join('')}</div>
-        <div class="pool">${pool.map(k => it(k, picked.includes(k) ? 'used' : '')).join('')}</div></div>`;
-      if (!chips) sortable(el.querySelector('.slots'), picked, changed, () => lock);
-    };
-    draw();
-    let dragged = false;
-    el.addEventListener('dragdone', () => { dragged = true; });
-    el.onclick = e => {
-      const b = e.target.closest('.it');
-      if (lock || !b || e.target.closest('.grip')) return;
-      if (dragged) { dragged = false; return; }
-      const k = +b.dataset.k;
-      if (b.classList.contains('in')) picked.splice(picked.indexOf(k), 1);
-      else if (!picked.includes(k)) picked.push(k);
-      draw();
-      changed();
-    };
+    const it = (k, j) => `<button class="it" data-k="${k}">${
+      chips ? '' : `<span class="grip">${icon('grip')}</span><span class="n">${j + 1}</span>`}<span>${md(items[k])}</span></button>`;
+    el.innerHTML = `${q.given ? `<div class="ctx">${md(q.given)}</div>` : ''}<div class="ord${chips ? ' chips' : ''}"><div class="slots">${order.map(it).join('')}</div></div>`;
+    const box = el.querySelector('.slots');
+    sortable(box, order, changed, () => lock, chips);
     return {
-      ready: () => picked.length === items.length,
+      ready: () => true,
       check() {
         lock = true;
-        const ok = picked.every((k, j) => items[k] === items[j]);
-        el.querySelectorAll('.slots .it').forEach((b, j) => b.classList.add(items[+b.dataset.k] === items[j] ? 'ok' : 'bad'));
-        el.querySelector('.pool').remove();
+        const ok = order.every((k, j) => items[k] === items[j]);
+        box.querySelectorAll('.it').forEach((b, j) => b.classList.add(items[+b.dataset.k] === items[j] ? 'ok' : 'bad'));
         const show = chips ? md(items.join(' ')) : `<ol class="sol">${items.map(s => `<li>${md(s)}</li>`).join('')}</ol>`;
         return { ok, show: ok ? '' : show };
       },
@@ -582,6 +564,7 @@ function play(main, S, { exit, finish }) {
     const arrows = mid => `<button class="btn sq" data-a="prev" aria-label="이전 문제"${S.i === 0 ? ' disabled' : ''}>${icon('back')}</button>${mid}<button class="btn sq" data-a="skip" aria-label="다음 문제">${icon('next')}</button>`;
     const goBtn = () => dock.querySelector('[data-a=go]');
     const nextLabel = lastQ ? '결과' : '다음';
+    const doneMid = bad => `${bad ? `<button class="btn" data-a="retry" aria-label="다시 풀기">${icon('retry')}</button>` : ''}<button class="btn primary" data-a="go">${nextLabel}</button>`;
     let phase = 'ask', shown = '', ctl = null;
 
     const saved = S.snaps[S.i];
@@ -589,7 +572,7 @@ function play(main, S, { exit, finish }) {
       phase = 'done';
       card.className = saved.cls;
       card.innerHTML = saved.html;
-      dock.innerHTML = arrows(`<button class="btn primary" data-a="go">${nextLabel}</button>`);
+      dock.innerHTML = arrows(doneMid(card.classList.contains('bad')));
     } else {
       dock.innerHTML = arrows('<button class="btn primary" data-a="go">확인</button>');
       ctl = KIND[q.type](q, card.querySelector('.qb'), () => { if (goBtn()) goBtn().disabled = !ctl.ready(); });
@@ -618,7 +601,7 @@ function play(main, S, { exit, finish }) {
       saveProg(path, p);
       card.classList.add(ok ? 'ok' : 'bad');
       feedback(ok);
-      dock.innerHTML = arrows(`<button class="btn primary" data-a="go">${nextLabel}</button>`);
+      dock.innerHTML = arrows(doneMid(!ok));
       document.activeElement?.blur?.();
     };
     const submit = () => {
@@ -638,6 +621,7 @@ function play(main, S, { exit, finish }) {
       const a = e.target.closest('[data-a]')?.dataset.a;
       if (a === 'go') submit();
       else if ((a === 'yes' || a === 'no') && phase === 'self') done(a === 'yes');
+      else if (a === 'retry') { delete S.snaps[S.i]; show(); }
       else if (a === 'prev') step(-1);
       else if (a === 'skip') step(1);
       else if (a === 'quit') { S.leave(); exit(); }
@@ -714,46 +698,63 @@ function cards(set, path) {
   };
 }
 
-// 배열 문제: 왼쪽 손잡이를 잡고 끌어서 순서 바꾸기
-function sortable(box, order, changed, locked) {
-  for (const g of box.querySelectorAll('.grip')) {
-    g.addEventListener('pointerdown', e => {
-      if (locked()) return;
+// 배열 문제: 끌어서 순서 바꾸기. 목록형은 왼쪽 손잡이, 칩형(flow)은 칩 자체를 잡는다.
+// 화면 위·아래 가장자리로 가져가면 페이지가 따라서 스크롤된다.
+function sortable(box, order, changed, locked, flow) {
+  for (const h of box.querySelectorAll(flow ? '.it' : '.grip')) {
+    h.addEventListener('pointerdown', e => {
+      if (locked() || (e.pointerType === 'mouse' && e.button !== 0)) return;
       e.preventDefault();
-      const node = g.closest('.it');
-      const grab = e.clientY - node.getBoundingClientRect().top;
+      const node = h.closest('.it');
+      const r0 = node.getBoundingClientRect();
+      const gx = e.clientX - r0.left, gy = e.clientY - r0.top;
+      let px = e.clientX, py = e.clientY, raf = 0;
       node.classList.add('drag');
-      try { g.setPointerCapture(e.pointerId); } catch { /* 캡처는 없어도 동작 */ }
+      document.body.classList.add('dragging');
+      try { h.setPointerCapture(e.pointerId); } catch { /* 캡처는 없어도 동작 */ }
 
-      const move = ev => {
+      const renum = () => [...box.children].forEach((c, i) => { const n = c.querySelector('.n'); if (n) n.textContent = i + 1; });
+      const place = () => {
         node.style.transform = '';
-        const top = node.getBoundingClientRect().top;
-        const dy = ev.clientY - grab - top;
-        node.style.transform = `translateY(${dy}px)`;
-        const mid = top + dy + node.offsetHeight / 2;
+        const r = node.getBoundingClientRect();
+        node.style.transform = `translate(${px - gx - r.left}px, ${py - gy - r.top}px)`;
         for (const s of box.children) {
           if (s === node) continue;
-          const r = s.getBoundingClientRect();
-          if (mid > r.top && mid < r.bottom) {
-            box.insertBefore(node, mid < r.top + r.height / 2 ? s : s.nextSibling);
+          const b = s.getBoundingClientRect();
+          if (px > b.left && px < b.right && py > b.top && py < b.bottom) {
+            const before = flow ? px < b.left + b.width / 2 : py < b.top + b.height / 2;
+            box.insertBefore(node, before ? s : s.nextSibling);
+            renum();
             break;
           }
         }
       };
-      const up = () => {
+      const tick = () => {
+        raf = 0;
+        const zone = Math.min(120, innerHeight * 0.25);
+        const up = zone - py, down = py - (innerHeight - zone - 20);
+        const v = up > 0 ? -Math.max(4, Math.min(1, up / zone) * 22) : down > 0 ? Math.max(4, Math.min(1, down / zone) * 22) : 0;
+        if (!v) return;
+        const y0 = scrollY;
+        scrollBy(0, v);
+        if (scrollY !== y0) place();
+        raf = setTimeout(tick, 16);
+      };
+      const move = ev => { px = ev.clientX; py = ev.clientY; place(); if (!raf) raf = setTimeout(tick, 16); };
+      const end = () => {
         removeEventListener('pointermove', move);
-        removeEventListener('pointerup', up);
-        removeEventListener('pointercancel', up);
+        removeEventListener('pointerup', end);
+        removeEventListener('pointercancel', end);
+        clearTimeout(raf);
         node.style.transform = '';
         node.classList.remove('drag');
+        document.body.classList.remove('dragging');
         order.splice(0, order.length, ...[...box.children].map(c => +c.dataset.k));
-        [...box.children].forEach((c, i) => { const n = c.querySelector('.n'); if (n) n.textContent = i + 1; });
-        box.dispatchEvent(new Event('dragdone', { bubbles: true }));
         changed();
       };
       addEventListener('pointermove', move);
-      addEventListener('pointerup', up);
-      addEventListener('pointercancel', up);
+      addEventListener('pointerup', end);
+      addEventListener('pointercancel', end);
     });
   }
 }
