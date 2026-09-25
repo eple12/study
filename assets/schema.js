@@ -48,7 +48,7 @@ function question(q, e) {
       : /\{\{.+?\}\}/.test(str(q.text)) ? 'blank' : 'short';
   }
   if (!TYPES.includes(type)) return e(`알 수 없는 type "${q.type}"`);
-  const o = { type, prompt: str(q.prompt ?? q.question), context: str(q.context), explanation: str(q.explanation), passage: '' };
+  const o = { type, prompt: str(q.prompt ?? q.question), context: str(q.context), explanation: str(q.explanation), passage: '', kind: str(q.kind).trim() };
 
   switch (type) {
     case 'choice': {
@@ -146,4 +146,28 @@ export function normalize(raw, path = '') {
   });
 
   return { set, errors };
+}
+
+// 문제 유형 이름. 랜덤 학습에서 유형별로 골라 낼 때 쓴다. 문제에 "kind"를 직접 적으면 그 이름이 우선한다.
+export const KIND_ORDER = ['객관식', '빈칸추론', '문장삽입', '무관한 문장', '문단배열', '문장배열', '단어배열', 'O/X', '단답', '빈칸 입력', '서술형'];
+
+export function kindOf(q) {
+  if (q.kind) return q.kind;
+  const p = q.prompt || '';
+  switch (q.type) {
+    case 'choice':
+      return /주어진 문장이 들어가기/.test(p) ? '문장삽입' : /관계\s*없는 문장/.test(p) ? '무관한 문장' : /빈칸/.test(p) ? '빈칸추론' : '객관식';
+    case 'order': {
+      const it = q.items || [];
+      if (it.every(s => s.length <= 30)) return '단어배열';
+      // 주어진 글이 있거나, 한 항목에 문장이 3개 이상이거나, 항목이 매우 길면 문단. 그 밖에는 문장
+      const breaks = s => (s.match(/[.!?]["')’”]?\s+[A-Z"“(]/g) || []).length;
+      const avg = it.reduce((t, s) => t + s.length, 0) / (it.length || 1);
+      return q.given || it.some(s => breaks(s) >= 2) || avg >= 320 ? '문단배열' : '문장배열';
+    }
+    case 'ox': return 'O/X';
+    case 'short': return '단답';
+    case 'blank': return '빈칸 입력';
+    default: return '서술형';
+  }
 }

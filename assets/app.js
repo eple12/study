@@ -1,4 +1,4 @@
-import { normalize } from './schema.js';
+import { normalize, kindOf, KIND_ORDER } from './schema.js';
 
 const TITLE = document.title;
 const app = document.getElementById('app');
@@ -188,6 +188,11 @@ async function home() {
     groups.get(k).push(s);
   }
   const gp = [...groups.values()].map(items => items.filter(s => usable.has(s.path)).map(s => s.path));
+  const kinds = [...new Set(list.flatMap(s => Object.keys(s.k || {})))].sort((a, b) => {
+    const i = KIND_ORDER.indexOf(a), j = KIND_ORDER.indexOf(b);
+    return (i < 0 ? 99 : i) - (j < 0 ? 99 : j) || a.localeCompare(b, 'ko');
+  });
+  const off = new Set(store.get('kindsOff', [])); // 꺼 둔 유형
 
   const section = ([g, items], gi) => {
     const head = !g ? '' : picking && gp[gi].length
@@ -200,6 +205,7 @@ async function home() {
   };
 
   app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
+    picking && kinds.length ? `<div class="kchips">${kinds.map(k => `<button class="kc" data-kind="${esc(k)}">${esc(k)}<small></small></button>`).join('')}</div>` : ''}${
     [...groups].map(section).join('') || '<p class="empty">content / *.json</p>'}</main>${
     picking ? `<div class="dock"><div class="in"><button class="btn sq" data-a="all" aria-label="전체 선택">${icon('checks')}</button><button class="btn primary" data-a="start" aria-label="시작">${icon('play')}<b class="num"></b></button></div></div>` : ''}`;
 
@@ -210,7 +216,8 @@ async function home() {
   };
 
   if (picking) {
-    const count = () => list.reduce((t, s) => t + (sel.has(s.path) ? s.n.q : 0), 0);
+    const inKinds = s => (s.k ? Object.entries(s.k).reduce((t, [k, v]) => t + (off.has(k) ? 0 : v), 0) : s.n.q);
+    const count = () => list.reduce((t, s) => t + (sel.has(s.path) ? inKinds(s) : 0), 0);
     const startBtn = app.querySelector('[data-a=start]'), allBtn = app.querySelector('[data-a=all]');
     const refresh = () => {
       app.querySelectorAll('[data-p]').forEach(r => r.classList.toggle('on', sel.has(r.dataset.p)));
@@ -219,12 +226,20 @@ async function home() {
       startBtn.disabled = !n;
       startBtn.querySelector('.num').textContent = n || '';
       allBtn.classList.toggle('on', usable.size > 0 && sel.size === usable.size);
+      const base = list.filter(s => (sel.size ? sel.has(s.path) : usable.has(s.path)));
+      app.querySelectorAll('[data-kind]').forEach(c => {
+        const n = base.reduce((t, s) => t + (s.k?.[c.dataset.kind] || 0), 0);
+        c.classList.toggle('on', !off.has(c.dataset.kind));
+        c.classList.toggle('z', !n);
+        c.querySelector('small').textContent = n;
+      });
       store.set('sel', [...sel]);
     };
     const flip = ps => { const all = ps.every(p => sel.has(p)); ps.forEach(p => (all ? sel.delete(p) : sel.add(p))); };
     app.querySelector('main').onclick = e => {
-      const r = e.target.closest('[data-p]'), g = e.target.closest('[data-g]');
-      if (r && usable.has(r.dataset.p)) flip([r.dataset.p]);
+      const r = e.target.closest('[data-p]'), g = e.target.closest('[data-g]'), kc = e.target.closest('[data-kind]');
+      if (kc) { const k = kc.dataset.kind; if (off.has(k)) off.delete(k); else off.add(k); store.set('kindsOff', [...off]); }
+      else if (r && usable.has(r.dataset.p)) flip([r.dataset.p]);
       else if (g) flip(gp[+g.dataset.g]);
       else return;
       refresh();
@@ -433,20 +448,46 @@ const KIND = {
 
   order(q, el, changed) {
     const items = q.items, chips = items.every(s => s.length <= 30);
-    const order = shuffle(items.map((_, i) => i)); // 처음부터 전부 놓여 있고, 끌어서 순서만 바꾼다
-    if (order.every((k, i) => items[k] === items[i])) order.push(order.shift());
-    let lock = false;
-    const it = (k, j) => `<button class="it" data-k="${k}">${
-      chips ? '' : `<span class="grip">${icon('grip')}</span><span class="n">${j + 1}</span>`}<span>${md(items[k])}</span></button>`;
-    el.innerHTML = `${q.given ? `<div class="ctx">${md(q.given)}</div>` : ''}<div class="ord${chips ? ' chips' : ''}"><div class="slots">${order.map(it).join('')}</div></div>`;
-    const box = el.querySelector('.slots');
-    sortable(box, order, changed, () => lock, chips);
+    const pool = shuffle(items.map((_, i) => i));
+    if (pool.every((k, i) => items[k] === items[i])) pool.push(pool.shift());
+    const picked = [...pool]; // 처음에는 전부 선택된(놓인) 상태. 탭하면 선택/취소, 끌면 순서 변경
+    let lock = false, lastDrag = 0;
+    const it = (k, j) => `<button class="it${j == null ? '' : ' in'}" data-k="${k}">${
+      chips || j == null ? '' : `<span class="grip">${icon('grip')}</span><span class="n">${j + 1}</span>`}<span>${md(items[k])}</span></button>`;
+    const draw = () => {
+      const rest = pool.filter(k => !picked.includes(k));
+      el.innerHTML = `${q.given ? `<div class="ctx">${md(q.given)}</div>` : ''}<div class="ord${chips ? ' chips' : ''}">
+        <div class="otool"><button class="ib" data-o="none" aria-label="모두 선택 취소">${icon('x')}</button><button class="ib" data-o="all" aria-label="모두 선택">${icon('checks')}</button></div>
+        <div class="slots">${picked.map((k, j) => it(k, j)).join('')}</div>
+        ${rest.length ? `<div class="pool">${rest.map(k => it(k)).join('')}</div>` : ''}</div>`;
+      sortable(el.querySelector('.slots'), picked, changed, () => lock, chips, () => { lastDrag = Date.now(); });
+    };
+    draw();
+    el.onclick = e => {
+      if (lock) return;
+      const o = e.target.closest('[data-o]')?.dataset.o;
+      if (o) {
+        if (o === 'none') picked.length = 0;
+        else picked.push(...pool.filter(k => !picked.includes(k)));
+        draw();
+        changed();
+        return;
+      }
+      const b = e.target.closest('.it');
+      if (!b || e.target.closest('.grip') || Date.now() - lastDrag < 350) return;
+      const k = +b.dataset.k, at = picked.indexOf(k);
+      if (at >= 0) picked.splice(at, 1); else picked.push(k);
+      draw();
+      changed();
+    };
     return {
-      ready: () => true,
+      ready: () => picked.length === items.length,
       check() {
         lock = true;
-        const ok = order.every((k, j) => items[k] === items[j]);
-        box.querySelectorAll('.it').forEach((b, j) => b.classList.add(items[+b.dataset.k] === items[j] ? 'ok' : 'bad'));
+        const ok = picked.every((k, j) => items[k] === items[j]);
+        el.querySelectorAll('.slots .it').forEach((b, j) => b.classList.add(items[+b.dataset.k] === items[j] ? 'ok' : 'bad'));
+        el.querySelector('.otool')?.remove();
+        el.querySelector('.pool')?.remove();
         const show = chips ? md(items.join(' ')) : `<ol class="sol">${items.map(s => `<li>${md(s)}</li>`).join('')}</ol>`;
         return { ok, show: ok ? '' : show };
       },
@@ -521,7 +562,9 @@ async function mix() {
   const paths = list.filter(s => s.n.q && want.has(s.path)).map(s => s.path);
   if (!paths.length) return location.replace('#/');
   const loaded = await Promise.all(paths.map(loadSet));
-  const src = loaded.flatMap((set, k) => set.questions.map(q => ({ q, set, path: paths[k] })));
+  const off = new Set(store.get('kindsOff', []));
+  const src = loaded.flatMap((set, k) => set.questions.filter(q => !off.has(kindOf(q))).map(q => ({ q, set, path: paths[k] })));
+  if (!src.length) return location.replace('#/');
   document.title = TITLE;
   app.innerHTML = '<main></main>';
   S = { mix: true, src, list: [], i: 0, res: [], snaps: [] };
@@ -700,7 +743,7 @@ function cards(set, path) {
 
 // 배열 문제: 끌어서 순서 바꾸기. 목록형은 왼쪽 손잡이, 칩형(flow)은 칩 자체를 잡는다.
 // 화면 위·아래 가장자리로 가져가면 페이지가 따라서 스크롤된다.
-function sortable(box, order, changed, locked, flow) {
+function sortable(box, order, changed, locked, flow, onDrag) {
   for (const h of box.querySelectorAll(flow ? '.it' : '.grip')) {
     h.addEventListener('pointerdown', e => {
       if (locked() || (e.pointerType === 'mouse' && e.button !== 0)) return;
@@ -708,9 +751,8 @@ function sortable(box, order, changed, locked, flow) {
       const node = h.closest('.it');
       const r0 = node.getBoundingClientRect();
       const gx = e.clientX - r0.left, gy = e.clientY - r0.top;
-      let px = e.clientX, py = e.clientY, raf = 0;
-      node.classList.add('drag');
-      document.body.classList.add('dragging');
+      const sx = e.clientX, sy = e.clientY;
+      let px = sx, py = sy, raf = 0, moved = false;
       try { h.setPointerCapture(e.pointerId); } catch { /* 캡처는 없어도 동작 */ }
 
       const renum = () => [...box.children].forEach((c, i) => { const n = c.querySelector('.n'); if (n) n.textContent = i + 1; });
@@ -740,7 +782,17 @@ function sortable(box, order, changed, locked, flow) {
         if (scrollY !== y0) place();
         raf = setTimeout(tick, 16);
       };
-      const move = ev => { px = ev.clientX; py = ev.clientY; place(); if (!raf) raf = setTimeout(tick, 16); };
+      const move = ev => {
+        px = ev.clientX; py = ev.clientY;
+        if (!moved) {
+          if (Math.hypot(px - sx, py - sy) < 6) return; // 탭은 드래그로 치지 않음
+          moved = true;
+          node.classList.add('drag');
+          document.body.classList.add('dragging');
+        }
+        place();
+        if (!raf) raf = setTimeout(tick, 16);
+      };
       const end = () => {
         removeEventListener('pointermove', move);
         removeEventListener('pointerup', end);
@@ -749,7 +801,9 @@ function sortable(box, order, changed, locked, flow) {
         node.style.transform = '';
         node.classList.remove('drag');
         document.body.classList.remove('dragging');
+        if (!moved) return;
         order.splice(0, order.length, ...[...box.children].map(c => +c.dataset.k));
+        onDrag?.();
         changed();
       };
       addEventListener('pointermove', move);

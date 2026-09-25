@@ -4,7 +4,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { normalize } from './assets/schema.js';
+import { normalize, kindOf } from './assets/schema.js';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT = path.join(ROOT, 'content');
@@ -43,7 +43,9 @@ export async function build() {
       problems.push({ file: rel, errors: ['본문·문제·단어가 하나도 없어 제외됨'] });
       continue;
     }
-    sets.push({ path: rel, dir: parts.slice(0, -1).map(label), title: set.title, subtitle: set.subtitle, n, _k: parts, _o: set.order ?? Infinity });
+    const k = {};
+    for (const q of set.questions) k[kindOf(q)] = (k[kindOf(q)] || 0) + 1;
+    sets.push({ path: rel, dir: parts.slice(0, -1).map(label), title: set.title, subtitle: set.subtitle, n, k, _k: parts, _o: set.order ?? Infinity });
   }
 
   sets.sort((a, b) =>

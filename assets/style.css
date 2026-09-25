@@ -247,3 +247,17 @@ u { text-underline-offset: .22em; text-decoration-thickness: 1.5px; }
 .chips .it { touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
 .chips .it.drag { cursor: grabbing; }
 body.dragging { user-select: none; -webkit-user-select: none; cursor: grabbing; }
+
+/* 배열 문제: 선택/취소 도구, 다시 점선 슬롯 */
+.ord .slots { border: 1.5px dashed var(--line); padding: 8px; min-height: 54px; margin-bottom: 12px; }
+.otool { display: flex; justify-content: flex-end; gap: 2px; margin: -6px -8px 2px 0; }
+.otool .ib { width: 36px; height: 36px; }
+.otool .ic { width: 20px; height: 20px; }
+.it:not(.in) { cursor: pointer; }
+
+/* 랜덤 학습: 유형 칩 */
+.kchips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; }
+.kc { display: inline-flex; align-items: baseline; gap: 5px; padding: 6px 12px; border: 1.5px solid var(--line); border-radius: 99px; font-size: 14px; font-weight: 600; color: var(--mute); background: var(--card); }
+.kc small { font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.kc.on { color: var(--acc); border-color: var(--acc); background: var(--acc-bg); }
+.kc.z { opacity: .45; }
