@@ -9,4 +9,12 @@
 //   projectId: '프로젝트ID',
 //   appId: '...',
 // };
-export const firebaseConfig = null;
+export const firebaseConfig = {
+  apiKey: "AIzaSyBMXPsAmEfjS0pdn99c8WFJzWwZ1q1tK2k",
+  authDomain: "study-d349f.firebaseapp.com",
+  projectId: "study-d349f",
+  storageBucket: "study-d349f.firebasestorage.app",
+  messagingSenderId: "741863325810",
+  appId: "1:741863325810:web:d4772fae0844ee78e5c2eb",
+  measurementId: "G-F6E29WZ8M3"
+};
