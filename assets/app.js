@@ -217,7 +217,7 @@ async function home() {
   };
 
   app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1>${sync.enabled ? `<button class="ib${sync.state.user ? ' on' : ''}" data-a="acct" aria-label="계정">${icon('user')}</button>` : ''}<a class="ib" href="#/w" aria-label="단어장">${icon('book')}</a>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
-    picking && kinds.length ? `<div class="kchips">${kinds.map(k => `<button class="kc" data-kind="${esc(k)}">${esc(k)}<small></small></button>`).join('')}</div>` : ''}${
+    picking && kinds.length ? `<div class="kchips"><button class="kc uns" data-uns="1">안 푼 문제<small></small></button>${kinds.map(k => `<button class="kc" data-kind="${esc(k)}">${esc(k)}<small></small></button>`).join('')}</div>` : ''}${
     [...groups].map(section).join('') || '<p class="empty">content / *.json</p>'}</main>${
     picking ? `<div class="dock"><div class="in"><button class="btn sq" data-a="all" aria-label="전체 선택">${icon('checks')}</button><button class="btn primary" data-a="start" aria-label="시작">${icon('play')}<b class="num"></b></button></div></div>` : ''}`;
 
@@ -229,7 +229,11 @@ async function home() {
   };
 
   if (picking) {
-    const inKinds = s => (s.k ? Object.entries(s.k).reduce((t, [k, v]) => t + (off.has(k) ? 0 : v), 0) : s.n.q);
+    const uns = () => store.get('unsolved', false); // 안 푼 문제만
+    const solved = new Map();
+    const fresh = (s, id) => { if (!solved.has(s.path)) solved.set(s.path, prog(s.path).q); return solved.get(s.path)[id] === undefined; };
+    const fits = (s, [id, k]) => !off.has(k) && (!uns() || fresh(s, id));
+    const inKinds = s => (s.qs ? s.qs.filter(x => fits(s, x)).length : s.k ? Object.entries(s.k).reduce((t, [k, v]) => t + (off.has(k) ? 0 : v), 0) : s.n.q);
     const count = () => list.reduce((t, s) => t + (sel.has(s.path) ? inKinds(s) : 0), 0);
     const startBtn = app.querySelector('[data-a=start]'), allBtn = app.querySelector('[data-a=all]');
     const refresh = () => {
@@ -241,17 +245,25 @@ async function home() {
       allBtn.classList.toggle('on', usable.size > 0 && sel.size === usable.size);
       const base = list.filter(s => (sel.size ? sel.has(s.path) : usable.has(s.path)));
       app.querySelectorAll('[data-kind]').forEach(c => {
-        const n = base.reduce((t, s) => t + (s.k?.[c.dataset.kind] || 0), 0);
+        const n = base.reduce((t, s) => t + (s.qs ? s.qs.filter(([id, k]) => k === c.dataset.kind && (!uns() || fresh(s, id))).length : (s.k?.[c.dataset.kind] || 0)), 0);
         c.classList.toggle('on', !off.has(c.dataset.kind));
         c.classList.toggle('z', !n);
         c.querySelector('small').textContent = n;
       });
+      const uc = app.querySelector('[data-uns]');
+      if (uc) {
+        const nu = base.reduce((t, s) => t + (s.qs ? s.qs.filter(([id, k]) => !off.has(k) && fresh(s, id)).length : 0), 0);
+        uc.classList.toggle('on', uns());
+        uc.classList.toggle('z', !nu);
+        uc.querySelector('small').textContent = nu;
+      }
       store.set('sel', [...sel]);
     };
     const flip = ps => { const all = ps.every(p => sel.has(p)); ps.forEach(p => (all ? sel.delete(p) : sel.add(p))); };
     app.querySelector('main').onclick = e => {
       const r = e.target.closest('[data-p]'), g = e.target.closest('[data-g]'), kc = e.target.closest('[data-kind]');
-      if (kc) { const k = kc.dataset.kind; if (off.has(k)) off.delete(k); else off.add(k); store.set('kindsOff', [...off]); }
+      if (e.target.closest('[data-uns]')) store.set('unsolved', !uns());
+      else if (kc) { const k = kc.dataset.kind; if (off.has(k)) off.delete(k); else off.add(k); store.set('kindsOff', [...off]); }
       else if (r && usable.has(r.dataset.p)) flip([r.dataset.p]);
       else if (g) flip(gp[+g.dataset.g]);
       else return;
@@ -1039,19 +1051,26 @@ async function mix() {
   if (!paths.length) return location.replace('#/');
   const loaded = await Promise.all(paths.map(loadSet));
   const off = new Set(store.get('kindsOff', []));
-  const src = loaded.flatMap((set, k) => set.questions.filter(q => !off.has(kindOf(q))).map(q => ({ q, set, path: paths[k] })));
-  if (!src.length) return location.replace('#/');
+  const all = loaded.flatMap((set, k) => set.questions.filter(q => !off.has(kindOf(q))).map(q => ({ q, set, path: paths[k] })));
+  if (!all.length) return location.replace('#/');
   document.title = TITLE;
   app.innerHTML = '<main></main>';
-  S = { mix: true, src, list: [], i: 0, res: [], snaps: [] };
+  S = { mix: true, all, unsolved: store.get('unsolved', false), src: [], list: [], marks: [], i: 0, res: [], snaps: [] };
   deal(S);
   play(app.querySelector('main'), S, { exit: () => { picking = true; location.hash = '#/'; } });
 }
 
+// 다음 한 바퀴를 만든다. 안 푼 문제만 모드에서는 그 사이에 푼 문제를 뺀다. 낼 문제가 없으면 false
 function deal(s) {
+  const p = new Map();
+  const fresh = it => { if (!p.has(it.path)) p.set(it.path, prog(it.path).q); return p.get(it.path)[it.q.id] === undefined; };
+  s.src = s.unsolved ? s.all.filter(fresh) : s.all;
+  if (!s.src.length) return false;
   const round = shuffle(s.src), last = s.list.at(-1);
   if (last && round.length > 1 && round[0] === last) round.push(round.shift()); // 바퀴가 바뀔 때 같은 문제가 연속되지 않게
+  s.marks.push({ start: s.list.length, n: round.length });
   s.list.push(...round);
+  return true;
 }
 
 function play(main, S, { exit, finish }) {
@@ -1064,12 +1083,29 @@ function play(main, S, { exit, finish }) {
   const goto = i => { S.leave?.(); S.i = i; show(); };
   show();
 
+  // 안 푼 문제만 모드에서 더 낼 문제가 없을 때
+  function allDone() {
+    S.leave = null;
+    main.innerHTML = `<div class="qtop"><span class="cnt"></span><i class="pbar"><b style="width:100%"></b></i><button class="ib" data-a="quit" aria-label="그만">${icon('x')}</button></div>
+      <div class="start"><div class="big fresh alldone">${icon('check')}</div></div>
+      <div class="dock"><div class="in"><button class="btn sq" data-a="prev" aria-label="이전 문제"${S.list.length ? '' : ' disabled'}>${icon('back')}</button><button class="btn primary" data-a="again" aria-label="푼 문제도 다시">${icon('retry')}</button></div></div>`;
+    const again = () => { S.unsolved = false; show(); }; // 푼 문제까지 포함해서 계속
+    main.onclick = e => {
+      const a = e.target.closest('[data-a]')?.dataset.a;
+      if (a === 'again') again();
+      else if (a === 'prev' && S.list.length) goto(S.list.length - 1);
+      else if (a === 'quit') exit();
+    };
+    onKey = e => { if (e.key === 'Enter') again(); };
+  }
+
   function show() {
     scrollTo(0, 0);
-    if (S.i >= S.list.length) deal(S);
+    if (S.i >= S.list.length && !deal(S)) return allDone();
     const { q, set, path } = S.list[S.i];
-    const n = mixed ? S.src.length : S.list.length;
-    const pos = mixed ? S.i % n : S.i, round = mixed ? Math.floor(S.i / n) : 0;
+    const mk = mixed ? S.marks.findLast(x => x.start <= S.i) : null;
+    const n = mixed ? mk.n : S.list.length;
+    const pos = mixed ? S.i - mk.start : S.i, round = mixed ? S.marks.indexOf(mk) : 0;
     const lastQ = !mixed && S.i === S.list.length - 1;
     const ps = q.passage ? set.passages.find(p => p.id === q.passage) : null;
 

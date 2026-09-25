@@ -45,7 +45,8 @@ export async function build() {
     }
     const k = {};
     for (const q of set.questions) k[kindOf(q)] = (k[kindOf(q)] || 0) + 1;
-    sets.push({ path: rel, dir: parts.slice(0, -1).map(label), title: set.title, subtitle: set.subtitle, n, k, _k: parts, _o: set.order ?? Infinity });
+    const qs = set.questions.map(q => [q.id, kindOf(q)]); // 홈에서 안 푼 문제 수를 세기 위한 목록
+    sets.push({ path: rel, dir: parts.slice(0, -1).map(label), title: set.title, subtitle: set.subtitle, n, k, qs, _k: parts, _o: set.order ?? Infinity });
   }
 
   sets.sort((a, b) =>

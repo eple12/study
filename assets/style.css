@@ -321,3 +321,7 @@ body.lk .panel { padding-bottom: calc(var(--lk, 0px) + 20px); }
 .acct-st.bad, .acct .lk-err { color: var(--bad); }
 .acct .acts { display: flex; gap: 10px; width: 100%; margin-top: 8px; }
 .acct > .btn { width: 100%; }
+
+/* 안 푼 문제 칩, 다 풀었을 때 */
+.kc.uns.on { color: var(--ok); border-color: var(--ok); background: var(--ok-bg); }
+.big.alldone .ic { width: 72px; height: 72px; color: var(--ok); stroke-width: 2.4; }
