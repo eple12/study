@@ -5,6 +5,6 @@
   "scripts": {
     "dev": "node serve.mjs",
     "build": "node build.mjs",
-    "test": "node tools/sync.test.mjs"
+    "test": "node tools/sync.test.mjs && node tools/dict.test.mjs"
   }
 }

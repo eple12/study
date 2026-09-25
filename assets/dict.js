@@ -30,14 +30,18 @@ export function findGloss(text, entries) {
 }
 
 /* ── 문맥에 맞는 뜻 고르기 ── */
-// 후보 뜻(cand)이 문장 번역(ko)에 나타나는가. 용언은 어미를 떼고 어간만 본다.
+// 후보 뜻(cand)이 문장 번역(ko)에 나타나는가. 용언은 어미를 떼고, 어간이 바뀌는 활용(안심시키다→안심시킬)도 인정한다.
+// 한 글자 뜻은 다른 낱말 속에 우연히 들어 있을 수 있으므로("예"⊂"예절") 조사가 붙은 어절일 때만 인정한다.
+const JOSA_ONLY = /^(?:으로|에서|에게|까지|부터|보다|처럼|만큼|조차도|조차|마저|은|는|이|가|을|를|의|에|와|과|도|로|만)?$/;
 export function inContext(cand, ko) {
   const c = cand.replace(/\s+/g, '');
+  if (!c || !ko) return false;
+  if (c.length === 1) return ko.split(/\s+/).some(t => { const x = t.replace(/[.,!?"'“”‘’()…·]/g, ''); return x.startsWith(c) && JOSA_ONLY.test(x.slice(1)); });
   const k = ko.replace(/\s+/g, '');
-  if (!c || !k) return false;
   const core = c.replace(/(하다|되다|이다)$/, '').replace(/다$/, '');
   if (!core) return false;
-  return (core.length >= 2 || core === c) && k.includes(core);
+  if (core.length >= 2 && k.includes(core)) return true;
+  return c.endsWith('다') && core.length >= 3 && k.includes(core.slice(0, -1)); // 마지막 음절이 바뀌는 활용
 }
 
 /* ── 온라인 조회 (Google 번역 공개 엔드포인트) ── */
@@ -79,46 +83,22 @@ async function gt(q, withDict) {
   } finally { clearTimeout(timer); }
 }
 
-// 단어 하나의 문맥 뜻 후보: 뒤 3단어와 함께 번역한 것(없으면 앞 3단어)에서, 그 단어를 뺀 번역에 없는 어절만 남긴다.
-//   "disruption of our life" → "우리 삶의 혼란"  /  "of our life" → "우리 삶의"  ⇒ "혼란"
-const JOSA = /(으로|에서|에게|까지|부터|보다|처럼|만큼|이라|은|는|이|가|을|를|의|에|와|과|도|로|만)$/;
-const clean = w => {
-  const x = w.replace(/[.,!?"'“”‘’()…·]/g, '');
-  const y = x.replace(JOSA, '');
-  return y.length >= 2 ? y : x;
-};
-async function contextual(text, sentence) {
-  const i = sentence.toLowerCase().indexOf(text.toLowerCase());
-  if (i < 0) return [];
-  const after = sentence.slice(i + text.length).trim().split(/\s+/).filter(Boolean).slice(0, 3).join(' ');
-  const before = sentence.slice(0, i).trim().split(/\s+/).filter(Boolean).slice(-3).join(' ');
-  const [w1, w0] = after ? [text + ' ' + after, after] : before ? [before + ' ' + text, before] : ['', ''];
-  if (!w0) return [];
-  const [a, b] = await Promise.all([gt(w1, false), gt(w0, false)]);
-  const drop = new Set(b.text.split(/\s+/).map(clean));
-  return a.text.split(/\s+/).map(clean).filter(x => x.length >= 2 && !drop.has(x));
-}
-
 // text: 선택한 단어/구, sentence: 그 문장(영어), ko: 문장의 한국어 해석(있으면)
 // → { main, groups: [{ pos, items: [{ w, ctx }] }], best, sentenceKo }
+// "문맥에 맞다"는 표시(ctx)는 그 뜻이 문장 번역에 실제로 나타날 때만 붙인다. 근거가 없으면 표시하지 않는다.
 export async function lookup(text, sentence, ko = '') {
   const short = tokens(text).length <= 3;
-  const one = tokens(text).length === 1 && sentence && sentence !== text;
-  const [w, s, c] = await Promise.all([
+  const [w, s] = await Promise.all([
     gt(text, short),
     ko || !sentence || sentence === text ? null : gt(sentence, false).catch(() => null),
-    one ? contextual(text, sentence).catch(() => []) : [],
   ]);
   const sentenceKo = ko || (s && s.text) || '';
   const groups = w.dict.map(d => ({
     pos: d.pos,
     items: d.words.map(x => ({ w: x, ctx: inContext(x, sentenceKo) })).sort((a, b) => b.ctx - a.ctx),
   }));
-  // 사전 후보에 문맥에 맞는 뜻이 없을 때, 문장 번역에도 실제로 나타나는 어절이 정확히 하나면 그것을 문맥 뜻으로 맨 앞에 세운다
-  if (!groups.some(g => g.items.some(i => i.ctx))) {
-    const cs = [...new Set((c || []).filter(x => inContext(x, sentenceKo)))];
-    if (cs.length === 1) groups.unshift({ pos: '문맥', items: [{ w: cs[0], ctx: true }] });
-  }
+  // 사전 후보 중에 문맥에 맞는 것이 없을 때, 단어 자체의 번역이 문장 번역에 나타나면 그것을 맨 앞에 세운다
+  if (!groups.some(g => g.items.some(i => i.ctx)) && w.text && inContext(w.text, sentenceKo)) groups.unshift({ pos: '문맥', items: [{ w: w.text, ctx: true }] });
   const first = groups.flatMap(g => g.items).find(i => i.ctx);
   return { main: w.text, groups, best: first ? first.w : w.text, sentenceKo };
 }
