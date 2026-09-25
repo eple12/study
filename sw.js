@@ -1,6 +1,6 @@
 // 네트워크 우선, 실패하면 캐시. 한 번 열어 본 자료는 오프라인에서도 열린다.
-const CACHE = 'study-v1';
-const SHELL = ['./', 'index.html', 'assets/app.js', 'assets/schema.js', 'assets/style.css', 'icon.svg', 'manifest.webmanifest'];
+const CACHE = 'study-v2';
+const SHELL = ['./', 'index.html', 'assets/app.js', 'assets/schema.js', 'assets/dict.js', 'assets/style.css', 'icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
   self.skipWaiting();

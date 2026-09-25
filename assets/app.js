@@ -1,4 +1,5 @@
 import { normalize, kindOf, KIND_ORDER } from './schema.js';
+import { tokens, forms, findGloss, lookup, translate } from './dict.js';
 
 const TITLE = document.title;
 const app = document.getElementById('app');
@@ -22,6 +23,9 @@ const I = {
   next: '<path d="M9 18l6-6-6-6"/>',
   home: '<path d="M3 11l9-8 9 8M5 9.5V20h5v-6h4v6h5V9.5"/>',
   checks: '<path d="M2 12l5 5L17 6M13 16l2 2L22 7"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  copy: '<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/>',
+  trash: '<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>',
 };
 const icon = n => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
 
@@ -84,6 +88,7 @@ async function loadSet(path) {
 let onKey = null;
 document.addEventListener('keydown', e => {
   if (e.isComposing || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === 'Escape' && LK) return clearSel();
   onKey?.(e);
 });
 // 화면을 떠날 때의 스크롤 위치를 주소별로 기억해 두었다가, 본문·목록으로 돌아오면 복원한다.
@@ -94,16 +99,17 @@ addEventListener('hashchange', () => {
   curHash = location.hash;
   route();
 });
-route();
 
 async function route() {
   onKey = null;
+  clearSel();
   document.querySelectorAll('.sheet').forEach(s => s.remove());
-  const [v = '', p = ''] = location.hash.replace(/^#\/?/, '').split('/');
+  const [v = '', p = '', t = ''] = location.hash.replace(/^#\/?/, '').split('/');
   const path = decodeURIComponent(p);
   let keep = false;
   try {
     if (v === 'm') await mix();
+    else if (v === 'w') { if (p) wbView(p, t || 'l'); else wordbooks(); }
     else if (!v || !path) { await home(); keep = true; }
     else {
       const [set] = await Promise.all([loadSet(path), loadManifest()]);
@@ -204,7 +210,7 @@ async function home() {
     return `<section class="grp">${head}<div class="list">${rows}</div></section>`;
   };
 
-  app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
+  app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1><a class="ib" href="#/w" aria-label="단어장">${icon('book')}</a>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
     picking && kinds.length ? `<div class="kchips">${kinds.map(k => `<button class="kc" data-kind="${esc(k)}">${esc(k)}<small></small></button>`).join('')}</div>` : ''}${
     [...groups].map(section).join('') || '<p class="empty">content / *.json</p>'}</main>${
     picking ? `<div class="dock"><div class="in"><button class="btn sq" data-a="all" aria-label="전체 선택">${icon('checks')}</button><button class="btn primary" data-a="start" aria-label="시작">${icon('play')}<b class="num"></b></button></div></div>` : ''}`;
@@ -273,16 +279,9 @@ function row(s, href = `#/s/${enc(s.path)}`, cls = '') {
 /* ── reader ── */
 function passageHTML(p) {
   const unit = u => `<span class="u${u.ko ? ' k' : ''}"><span class="en">${md(u.en)}</span>${u.ko ? `<span class="ko">${md(u.ko)}</span>` : ''}</span>`;
-  return `<article class="psg${p.lines ? ' lines' : ''}">${p.title ? `<h2>${md(p.title)}</h2>` : ''}${
+  return `<article class="psg${p.lines ? ' lines' : ''}" data-pid="${esc(p.id)}">${p.title ? `<h2>${md(p.title)}</h2>` : ''}${
     p.paras.map(par => `<p>${par.map(unit).join(' ')}</p>`).join('')}${
     p.source ? `<div class="src">${md(p.source)}</div>` : ''}</article>`;
-}
-
-function bindUnits(el) {
-  el.addEventListener('click', e => {
-    const u = e.target.closest('.u.k');
-    if (u && !String(getSelection())) u.classList.toggle('open');
-  });
 }
 
 function reader(set, path) {
@@ -294,7 +293,8 @@ function reader(set, path) {
 
   tools.innerHTML = `${anyKo ? '<button class="ib txt" data-a="mode"></button>' : ''}<button class="ib txt" data-a="fs">Aa</button>`;
   main.innerHTML = set.passages.map(passageHTML).join('');
-  bindUnits(main);
+  main.classList.add('m-' + mode);
+  bindWords(main, { set, path });
 
   const apply = () => {
     main.className = `m-${mode}`;
@@ -319,13 +319,13 @@ function reader(set, path) {
 }
 
 const sheetMem = new Map(); // 본문 시트를 닫을 때의 스크롤 위치
-function sheet(p, key) {
+function sheet(p, key, ctx) {
   if (!p) return;
   let mode = 'en';
   const o = overlay(p.hasKo ? `<button class="ib txt" data-a="mode">${MODE_LABEL[mode]}</button>` : '', passageHTML(p), `m-${mode}`, `--fs:${store.get('fs', 18)}px`);
-  bindUnits(o.body);
+  bindWords(o.body, ctx);
   o.panel.scrollTop = sheetMem.get(key) ?? 0;
-  o.onClose = () => sheetMem.set(key, o.panel.scrollTop);
+  o.onClose = () => { sheetMem.set(key, o.panel.scrollTop); if (SEL?.root === o.body) clearSel(); };
   o.d.addEventListener('click', e => {
     const b = e.target.closest('[data-a=mode]');
     if (!b) return;
@@ -334,6 +334,433 @@ function sheet(p, key) {
     o.body.querySelectorAll('.u.open').forEach(u => u.classList.remove('open'));
     b.textContent = MODE_LABEL[mode];
   });
+}
+
+/* ── 단어 선택 · 뜻 조회 · 단어장 ── */
+const tidy = s => s.replace(/\s+/g, ' ').trim();
+const uid = () => Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-3);
+const net = () => store.get('net', true);
+
+const wb = {
+  books: () => store.get('wb', []),
+  put: b => store.set('wb', b),
+  ensure() {
+    let b = wb.books();
+    if (!b.length) { b = [{ id: uid(), name: '내 단어장', words: [] }]; wb.put(b); }
+    return b;
+  },
+  cur() { const b = wb.ensure(); return b.find(x => x.id === store.get('wbcur', '')) || b[0]; },
+  find: id => wb.books().find(b => b.id === id),
+  // 같은 단어(구)가 이미 있으면 뜻을 갱신한다. 새로 추가했으면 true
+  save(bookId, e) {
+    const all = wb.books(), b = all.find(x => x.id === bookId);
+    const at = b.words.findIndex(x => norm(x.w) === norm(e.w));
+    if (at >= 0) b.words[at] = { ...b.words[at], ...e };
+    else b.words.push({ id: uid(), t: Date.now(), ...e });
+    wb.put(all);
+    return at < 0;
+  },
+  has: (bookId, text) => !!wb.find(bookId)?.words.some(x => norm(x.w) === norm(text)),
+};
+
+// 본문의 영어 단어를 눌러 볼 수 있게 <span class="w">로 감싼다
+function wrapWords(root) {
+  for (const en of root.querySelectorAll('.en')) {
+    const tw = document.createTreeWalker(en, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (tw.nextNode()) nodes.push(tw.currentNode);
+    for (const n of nodes) {
+      const t = n.nodeValue;
+      if (!/[A-Za-z]/.test(t)) continue;
+      const frag = document.createDocumentFragment();
+      let last = 0;
+      for (const m of t.matchAll(/[A-Za-z]+(?:['’][A-Za-z]+)*(?:-[A-Za-z]+)*/g)) {
+        if (m.index > last) frag.append(t.slice(last, m.index));
+        const s = document.createElement('span');
+        s.className = 'w';
+        s.textContent = m[0];
+        frag.append(s);
+        last = m.index + m[0].length;
+      }
+      if (last < t.length) frag.append(t.slice(last));
+      n.replaceWith(frag);
+    }
+    const spans = sentenceSpans(en.textContent), rr = document.createRange();
+    rr.setStart(en, 0);
+    for (const w of en.querySelectorAll('.w')) {
+      rr.setEndBefore(w);
+      const off = rr.toString().length;
+      w.dataset.s = Math.max(0, spans.findIndex(([a, b]) => off >= a && off < b));
+    }
+  }
+}
+
+// 단어장에 저장한 단어는 본문에서 표시해 준다
+function markSaved(root) {
+  const have = new Set(wb.books().flatMap(b => b.words).filter(x => tokens(x.w).length === 1).flatMap(x => [...forms(x.w)]));
+  root.querySelectorAll('.w').forEach(w => w.classList.toggle('has', have.size > 0 && [...forms(w.textContent)].some(f => have.has(f))));
+}
+
+let SEL = null;  // { root, ctx, unit, ws } 지금 선택된 단어들
+let LK = null;   // 뜻 패널 { el, ro, q, picked, touched }
+let lkSeq = 0, lkTimer = 0;
+
+function setSel(root, ctx, unit, ws) {
+  document.querySelectorAll('.w.sel').forEach(w => w.classList.remove('sel'));
+  ws.forEach(w => w.classList.add('sel'));
+  if (!ws.length) { SEL = null; closeLookup(); return; }
+  SEL = { root, ctx, unit, ws };
+  openLookup();
+}
+const clearSel = () => setSel(null, null, null, []);
+
+// 탭: 단어 선택 → 다른 단어를 탭하면 그 사이가 구로 선택 → 끝 단어를 탭하면 줄어듦. 마우스는 끌어서도 선택
+function bindWords(root, ctx) {
+  wrapWords(root);
+  markSaved(root);
+  let lastDrag = 0;
+  const wordsOf = (u, s) => [...u.querySelectorAll('.en .w')].filter(x => x.dataset.s === s); // 같은 문장의 단어들
+
+  root.addEventListener('click', e => {
+    if (Date.now() - lastDrag < 300) return;
+    const u = e.target.closest('.u');
+    if (!u) { if (SEL) clearSel(); return; }
+    const w = e.target.closest('.w');
+    const blurred = root.classList.contains('m-ko') && u.classList.contains('k') && !u.classList.contains('open');
+    if (blurred || !w) {
+      if (u.classList.contains('k')) u.classList.toggle('open');
+      else if (SEL) clearSel();
+      return;
+    }
+    const ws = wordsOf(u, w.dataset.s), i = ws.indexOf(w);
+    let next;
+    if (!SEL || SEL.unit !== u || SEL.ws[0].dataset.s !== w.dataset.s) next = [w];
+    else {
+      const idx = SEL.ws.map(x => ws.indexOf(x)), lo = Math.min(...idx), hi = Math.max(...idx);
+      if (i >= lo && i <= hi) next = lo === hi ? [] : i === lo ? ws.slice(lo + 1, hi + 1) : i === hi ? ws.slice(lo, hi) : [w];
+      else next = ws.slice(Math.min(lo, i), Math.max(hi, i) + 1);
+    }
+    setSel(root, ctx, u, next);
+  });
+
+  root.addEventListener('pointerdown', e => {
+    if (e.pointerType !== 'mouse' || e.button !== 0) return;
+    const w = e.target.closest('.w');
+    if (!w) return;
+    const u = w.closest('.u'), ws = wordsOf(u, w.dataset.s), a = ws.indexOf(w);
+    let dragged = false;
+    const move = ev => {
+      const t = document.elementFromPoint(ev.clientX, ev.clientY)?.closest('.w');
+      if (!t || t.closest('.u') !== u || t.dataset.s !== w.dataset.s) return;
+      const b = ws.indexOf(t);
+      if (b === a && !dragged) return;
+      dragged = true;
+      setSel(root, ctx, u, ws.slice(Math.min(a, b), Math.max(a, b) + 1));
+    };
+    const up = () => {
+      removeEventListener('pointermove', move);
+      removeEventListener('pointerup', up);
+      if (dragged) lastDrag = Date.now();
+    };
+    addEventListener('pointermove', move);
+    addEventListener('pointerup', up);
+  });
+}
+
+// 뜻을 이미 적어 둔 곳: 이 지문의 vocab, 세트의 vocab, 저장해 둔 단어장
+function glossFor(ctx) {
+  const set = ctx?.set;
+  const pid = SEL?.unit.closest('.psg')?.dataset.pid;
+  const own = [...(set?.passages.find(p => p.id === pid)?.vocab || []), ...(set?.vocab || [])].map(x => ({ ...x, tag: '지문' }));
+  const saved = wb.books().flatMap(b => b.words).map(x => ({ ...x, tag: '저장' }));
+  return [...own, ...saved];
+}
+
+// 문단 텍스트를 문장 구간 [시작, 끝]으로 나눈다. 약어(J. B. S., Mr. 등) 뒤는 문장 끝으로 보지 않는다
+function sentenceSpans(full) {
+  const spans = [];
+  let start = 0;
+  for (const m of full.matchAll(/(?<=[.!?]["')’”]?)\s+(?=[A-Z"“(])/g)) {
+    if (/(?:\s|^)[A-Z]\.$|\b(?:Mr|Mrs|Ms|Dr|St|vs|etc)\.$|\be\.g\.$|\bi\.e\.$/.test(full.slice(start, m.index))) continue;
+    spans.push([start, m.index]);
+    start = m.index + m[0].length;
+  }
+  spans.push([start, full.length]);
+  return spans;
+}
+
+// 문단(.en) 안에서 first 단어가 속한 문장. 문단 전체가 한 문장이면 single = true
+function sentenceAt(en, first) {
+  const full = en.textContent, spans = sentenceSpans(full);
+  const k = +first.dataset.s || 0, [a, b] = spans[k] || spans[0];
+  return { text: tidy(full.slice(a, b)), single: spans.length === 1 };
+}
+
+function openLookup() {
+  const { ws, unit, ctx } = SEL;
+  const r = document.createRange();
+  r.setStartBefore(ws[0]);
+  r.setEndAfter(ws.at(-1));
+  let text = tidy(r.toString());
+  const sFirst = [...unit.querySelectorAll('.en .w')].find(x => x.dataset.s === ws[0].dataset.s); // 이 문장의 첫 단어
+  if (ws[0] === sFirst && /^[A-Z][a-z'’-]+$/.test(tokens(text)[0] || '')) text = text[0].toLowerCase() + text.slice(1); // 문장 첫 단어의 대문자 보정
+  const sen = sentenceAt(unit.querySelector('.en'), ws[0]);
+  const koFull = tidy(unit.querySelector('.ko')?.textContent || '');
+  const q = { text, sentence: sen.text, ko: sen.single ? koFull : '', koFull, ctx }; // 해석이 문단 단위면 문장 해석은 온라인으로 받는다
+  const lk = ensurePanel();
+  lk.q = q;
+  lk.picked = new Set();
+  lk.touched = false;
+  const el = lk.el;
+  el.querySelector('.lk-t').textContent = text;
+  el.querySelector('.lk-tag').textContent = '';
+  el.querySelector('.lk-in').value = '';
+  el.querySelector('.lk-b').innerHTML = '<i class="lk-spin"></i>';
+  paintBook();
+  const seq = ++lkSeq;
+  clearTimeout(lkTimer);
+  lkTimer = setTimeout(() => runLookup(q, seq), 220);
+}
+
+async function runLookup(q, seq) {
+  const hit = findGloss(q.text, glossFor(q.ctx));
+  const st = { hit, groups: [], main: '', best: hit ? hit.m : '', sentenceKo: q.ko, err: '', loading: true };
+  fillLookup(q, st);
+  try {
+    if (!net()) { st.sentenceKo = q.koFull; if (!hit) st.err = '오프라인'; }
+    else if (hit) { if (!q.ko) st.sentenceKo = await translate(q.sentence); }
+    else Object.assign(st, await lookup(q.text, q.sentence, q.ko));
+  } catch { st.sentenceKo ||= q.koFull; st.err = navigator.onLine ? '조회 실패' : '오프라인'; }
+  if (seq !== lkSeq) return;
+  st.loading = false;
+  fillLookup(q, st);
+}
+
+function ensurePanel() {
+  if (LK) return LK;
+  const el = document.createElement('div');
+  el.className = 'lookup';
+  el.innerHTML = `<div class="lk-h"><b class="lk-t"></b><span class="lk-tag"></span><button class="ib" data-a="lkx" aria-label="닫기">${icon('x')}</button></div>
+    <div class="lk-b"></div>
+    <div class="lk-f"><input class="lk-in" placeholder="뜻" autocomplete="off" spellcheck="false"><button class="lk-bk" data-a="lkbook" aria-label="단어장 선택"></button><button class="btn primary lk-sv" data-a="lksave" aria-label="저장">${icon('check')}</button></div>`;
+  document.body.append(el);
+  document.body.classList.add('lk');
+  const ro = new ResizeObserver(() => {
+    document.documentElement.style.setProperty('--lk', el.offsetHeight + 'px');
+    if (!SEL) return;
+    const rc = SEL.ws[0].getBoundingClientRect(), lim = innerHeight - el.offsetHeight - 14; // 선택한 단어가 패널에 가리지 않게
+    if (rc.bottom > lim) (SEL.root.closest('.panel') || window).scrollBy(0, rc.bottom - lim + 10);
+  });
+  ro.observe(el);
+  LK = { el, ro, q: null, picked: new Set(), touched: false };
+  el.querySelector('.lk-in').addEventListener('input', () => { LK.touched = true; });
+  el.addEventListener('click', e => {
+    const mc = e.target.closest('.mc'), a = e.target.closest('[data-a]')?.dataset.a;
+    if (mc) {
+      const m = mc.dataset.m;
+      if (LK.picked.has(m)) LK.picked.delete(m); else LK.picked.add(m);
+      el.querySelector('.lk-in').value = [...LK.picked].join(', ');
+      LK.touched = true;
+      mc.classList.toggle('on');
+    } else if (a === 'lkx') clearSel();
+    else if (a === 'lkbook') bookPicker(paintBook);
+    else if (a === 'lksave') saveLookup();
+  });
+  return LK;
+}
+
+function closeLookup() {
+  if (!LK) return;
+  clearTimeout(lkTimer);
+  LK.ro.disconnect();
+  LK.el.remove();
+  LK = null;
+  document.body.classList.remove('lk');
+  document.documentElement.style.removeProperty('--lk');
+}
+
+function paintBook() {
+  if (!LK?.q) return;
+  const book = wb.cur();
+  LK.el.querySelector('.lk-bk').textContent = book.name;
+  LK.el.querySelector('.lk-sv').classList.toggle('done', wb.has(book.id, LK.q.text));
+}
+
+function fillLookup(q, st) {
+  if (!LK || LK.q !== q) return;
+  const el = LK.el, all = st.groups.flatMap(g => g.items.map(i => i.w));
+  let h = '';
+  const mainChip = st.main && !all.includes(st.main) ? `<div class="lk-g"><button class="mc" data-m="${esc(st.main)}">${esc(st.main)}</button></div>` : '';
+  const hasCtx = st.groups.some(g => g.items.some(i => i.ctx));
+  if (st.hit) h += `<div class="lk-hit"><b>${md(st.hit.m)}</b>${st.hit.ex ? `<span>${md(st.hit.ex)}</span>` : ''}</div>`;
+  else if (!hasCtx) h += mainChip;
+  h += st.groups.map(g => `<div class="lk-g"><small>${esc(g.pos)}</small>${g.items.map(i => `<button class="mc${i.ctx ? ' ctx' : ''}" data-m="${esc(i.w)}">${esc(i.w)}</button>`).join('')}</div>`).join('');
+  if (!st.hit && hasCtx) h += mainChip;
+  if (st.loading) h += '<i class="lk-spin"></i>';
+  if (st.err) h += `<div class="lk-err">${esc(st.err)}</div>`;
+  if (st.sentenceKo) h += `<div class="lk-s">${esc(st.sentenceKo)}</div>`;
+  el.querySelector('.lk-b').innerHTML = h;
+  el.querySelector('.lk-tag').textContent = st.hit ? st.hit.tag : '';
+  const inp = el.querySelector('.lk-in');
+  if (!LK.touched && st.best) { inp.value = st.best; LK.picked = new Set([st.best]); }
+  el.querySelectorAll('.mc').forEach(c => c.classList.toggle('on', LK.picked.has(c.dataset.m)));
+  paintBook();
+}
+
+function saveLookup() {
+  const { q } = LK, inp = LK.el.querySelector('.lk-in'), m = inp.value.trim();
+  if (!m) { inp.focus(); return; }
+  const book = wb.cur();
+  const isNew = wb.save(book.id, { w: q.text, m, ex: q.sentence, src: q.ctx?.set?.title || '', path: q.ctx?.path || '' });
+  const root = SEL?.root;
+  toast(`${q.text} → ${book.name}${isNew ? '' : ' (수정)'}`);
+  clearSel();
+  if (root) markSaved(root);
+}
+
+let toastT = 0;
+function toast(msg) {
+  let t = document.querySelector('.toast');
+  if (!t) { t = document.createElement('div'); t.className = 'toast'; document.body.append(t); }
+  t.textContent = msg;
+  t.classList.add('in');
+  clearTimeout(toastT);
+  toastT = setTimeout(() => t.classList.remove('in'), 1800);
+}
+
+function bookPicker(done) {
+  const books = wb.ensure(), cur = wb.cur().id;
+  const o = overlay('', `<div class="list">${books.map(b => `<button class="row bk${b.id === cur ? ' cur' : ''}" data-id="${b.id}"><div class="t">${esc(b.name)}</div><div class="m"><span>${b.words.length}</span></div></button>`).join('')}<button class="row bk" data-id="+"><div class="t">${icon('plus')}</div></button></div>`);
+  o.d.classList.add('over');
+  o.d.addEventListener('click', e => {
+    const r = e.target.closest('[data-id]');
+    if (!r) return;
+    let id = r.dataset.id;
+    if (id === '+') {
+      const name = prompt('새 단어장 이름');
+      if (!name?.trim()) return;
+      const all = wb.ensure();
+      id = uid();
+      all.push({ id, name: name.trim(), words: [] });
+      wb.put(all);
+    }
+    store.set('wbcur', id);
+    o.close();
+    done?.();
+  });
+}
+
+/* ── 단어장 화면 ── */
+const WB_MODES = { mean: '뜻', spell: '철자', both: '혼합' };
+const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const wbTop = (title, tools = '', back = '#/w', titleAttr = '') => `<header class="top"><a class="ib" href="${back}" aria-label="뒤로">${icon('back')}</a><h1>${titleAttr ? `<button ${titleAttr}>${esc(title)}</button>` : esc(title)}</h1><div class="tools">${tools}</div></header>`;
+
+function wordbooks() {
+  document.title = '단어장';
+  const books = wb.ensure();
+  app.innerHTML = `<div class="head">${wbTop('단어장',
+    `<button class="ib txt${net() ? '' : ' off'}" data-a="net" aria-label="온라인 사전">${net() ? 'ONLINE' : 'OFFLINE'}</button><button class="ib" data-a="new" aria-label="새 단어장">${icon('plus')}</button>`, '#/')}</div>
+    <main><div class="list">${books.map(b => `<a class="row" href="#/w/${b.id}"><div class="t">${esc(b.name)}</div><div class="m"><span>${b.words.length}</span></div></a>`).join('')}</div></main>`;
+  app.querySelector('.tools').onclick = e => {
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a === 'net') { store.set('net', !net()); wordbooks(); }
+    else if (a === 'new') {
+      const name = prompt('새 단어장 이름');
+      if (!name?.trim()) return;
+      const all = wb.ensure(), id = uid();
+      all.push({ id, name: name.trim(), words: [] });
+      wb.put(all);
+      location.hash = `#/w/${id}`;
+    }
+  };
+}
+
+function wbView(id, tab = 'l') {
+  const b = wb.find(id);
+  if (!b) return location.replace('#/w');
+  document.title = b.name;
+  const n = b.words.length, mode = store.get('wbmode', 'mean');
+  const tools = tab === 'l'
+    ? `<button class="ib" data-a="copy" aria-label="내보내기">${icon('copy')}</button><button class="ib" data-a="add" aria-label="단어 추가">${icon('plus')}</button><button class="ib" data-a="del" aria-label="단어장 삭제">${icon('trash')}</button>`
+    : tab === 'q' ? `<button class="ib txt" data-a="mode" aria-label="출제 방식">${WB_MODES[mode]}</button>` : '';
+  app.innerHTML = `<div class="head">${wbTop(b.name, tools, '#/w', 'data-a="rename" aria-label="이름 바꾸기"')}<nav class="tabs">${
+    [['l', '단어'], ['q', '시험'], ['c', '카드']].map(([k, l]) => `<a href="#/w/${id}/${k}" class="${k === tab ? 'on' : ''}">${l}<small>${n}</small></a>`).join('')}</nav></div><main></main>`;
+  const main = app.querySelector('main');
+
+  app.querySelector('.head').onclick = e => {
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a === 'rename') {
+      const name = prompt('단어장 이름', b.name);
+      if (!name?.trim()) return;
+      const all = wb.books();
+      all.find(x => x.id === id).name = name.trim();
+      wb.put(all);
+      wbView(id, tab);
+    } else if (a === 'mode') { store.set('wbmode', next(Object.keys(WB_MODES), mode)); wbView(id, tab); }
+    else if (a === 'add') editWord(id, null, () => wbView(id, 'l'));
+    else if (a === 'copy') {
+      const json = JSON.stringify({ title: b.name, vocab: b.words.map(x => (x.ex ? [x.w, x.m, x.ex] : [x.w, x.m])) }, null, 1);
+      (navigator.clipboard?.writeText(json) || Promise.reject()).then(() => toast('복사됨'), () => prompt('복사하세요', json));
+    } else if (a === 'del') {
+      if (!confirm(`'${b.name}' 단어장을 삭제할까요?`)) return;
+      wb.put(wb.books().filter(x => x.id !== id));
+      location.hash = '#/w';
+    }
+  };
+
+  if (!n) { main.innerHTML = `<div class="blank-state">${icon('book')}</div>`; return; }
+  if (tab === 'q') quiz({ title: b.name, passages: [], vocab: [], questions: examQs(b, mode) }, 'wb:' + id, main);
+  else if (tab === 'c') flash(main, { vocab: b.words }, 'wb:' + id);
+  else {
+    main.innerHTML = [...b.words].reverse().map(w => `<button class="wrow" data-id="${w.id}"><div class="wt">${esc(w.w)}</div><div class="wm">${esc(w.m)}</div>${w.ex ? `<div class="we">${esc(w.ex)}</div>` : ''}</button>`).join('');
+    main.onclick = e => {
+      const r = e.target.closest('[data-id]');
+      if (r) editWord(id, b.words.find(x => x.id === r.dataset.id), () => wbView(id, 'l'));
+    };
+  }
+}
+
+function editWord(bookId, w, done) {
+  const o = overlay('', `<div class="frm"><input name="w" placeholder="word" value="${esc(w?.w || '')}" autocomplete="off" spellcheck="false"><input name="m" placeholder="뜻" value="${esc(w?.m || '')}" autocomplete="off"><textarea name="ex" rows="3" placeholder="예문" spellcheck="false">${esc(w?.ex || '')}</textarea>
+    <div class="acts">${w ? `<button class="btn bad" data-a="del" aria-label="삭제">${icon('trash')}</button>` : ''}<button class="btn primary" data-a="ok" aria-label="저장">${icon('check')}</button></div></div>`);
+  o.d.classList.add('over');
+  o.d.addEventListener('click', e => {
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a !== 'ok' && a !== 'del') return;
+    const all = wb.books(), b = all.find(x => x.id === bookId);
+    if (a === 'del') b.words = b.words.filter(x => x.id !== w.id);
+    else {
+      const f = k => o.body.querySelector(`[name=${k}]`).value.trim();
+      if (!f('w') || !f('m')) return;
+      const e2 = { w: f('w'), m: f('m'), ex: f('ex') };
+      if (w) Object.assign(b.words.find(x => x.id === w.id), e2);
+      else b.words.push({ id: uid(), t: Date.now(), ...e2 });
+    }
+    wb.put(all);
+    o.close();
+    done?.();
+  });
+}
+
+// 단어장으로 시험 문제를 만든다: 뜻(영→한 객관식), 철자(한→영 직접 입력), 혼합
+function examQs(book, mode) {
+  const W = book.words, qs = [];
+  for (const e of W) {
+    if (mode !== 'spell') {
+      const opts = shuffle([e, ...shuffle(W.filter(x => x.id !== e.id && norm(x.m) !== norm(e.m))).slice(0, 4)]);
+      if (opts.length >= 2) {
+        qs.push({
+          id: 'm:' + e.id, type: 'choice', kind: '뜻', passage: '', prompt: `**${e.w}**`,
+          context: e.ex ? e.ex.replace(new RegExp(reEsc(e.w), 'i'), m => `**${m}**`) : '',
+          choices: opts.map(x => x.m), answer: [opts.indexOf(e) + 1], explanation: '',
+        });
+      }
+    }
+    if (mode !== 'mean' || W.length < 2) {
+      qs.push({ id: 's:' + e.id, type: 'short', kind: '철자', passage: '', prompt: e.m, context: '', answer: [e.w], explanation: e.ex || '' });
+    }
+  }
+  return qs;
 }
 
 /* ── question types ── */
@@ -510,8 +937,8 @@ const KIND = {
 // S = { set?, mix?, src?, list: [{q, set, path}], i, res: [], snaps: [] }
 let S = null;
 
-function quiz(set, path) {
-  const main = shell(set, path, 'q');
+function quiz(set, path, host) {
+  const main = host || shell(set, path, 'q');
   const qs = set.questions;
   const hooks = {
     exit: () => overview(null),
@@ -668,7 +1095,7 @@ function play(main, S, { exit, finish }) {
       else if (a === 'prev') step(-1);
       else if (a === 'skip') step(1);
       else if (a === 'quit') { S.leave(); exit(); }
-      else if (a === 'psg') sheet(ps, `${path}#${ps.id}`);
+      else if (a === 'psg') sheet(ps, `${path}#${ps.id}`, { set, path });
     };
     onKey = e => {
       const typing = /^(INPUT|TEXTAREA)$/.test(e.target.tagName);
@@ -689,8 +1116,9 @@ function play(main, S, { exit, finish }) {
 /* ── cards ── */
 let C = null;
 
-function cards(set, path) {
-  const main = shell(set, path, 'c');
+function cards(set, path) { flash(shell(set, path, 'c'), set, path); }
+
+function flash(main, set, path) {
   const all = set.vocab.map((_, i) => i);
   if (C?.set !== set) deal(all);
   draw();
@@ -837,6 +1265,8 @@ function swipe(el, cb) {
   el.addEventListener('pointercancel', up);
   el.addEventListener('click', e => { if (moved) { e.stopPropagation(); moved = false; } }, true);
 }
+
+route();
 
 /* ── offline ── */
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
