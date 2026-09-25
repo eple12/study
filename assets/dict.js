@@ -6,10 +6,20 @@
 export const tokens = t => String(t).match(/[A-Za-z]+(?:['’][A-Za-z]+)*(?:-[A-Za-z]+)*/g) || [];
 const low = s => s.toLowerCase().replace(/[’‘]/g, "'");
 
-// 단어의 가능한 기본형 후보 (climbed → climb, running → run, studies → study …)
+// 자주 나오는 불규칙 활용 → 기본형
+const IRREG = Object.fromEntries(('took:take taken:take gave:give given:give went:go gone:go came:come saw:see seen:see made:make told:tell felt:feel found:find had:have ' +
+  'was:be were:be been:be is:be are:be am:be thought:think knew:know known:know ran:run sat:sit stood:stand understood:understand kept:keep left:leave met:meet ' +
+  'paid:pay sent:send spent:spend brought:bring bought:buy caught:catch taught:teach wrote:write written:write spoke:speak spoken:speak broke:break broken:break ' +
+  'chose:choose chosen:choose began:begin begun:begin drew:draw drawn:draw sang:sing sank:sink sunk:sink grew:grow grown:grow fell:fall fallen:fall held:hold heard:hear ' +
+  'lost:lose won:win wore:wear worn:wear got:get gotten:get did:do done:do said:say lay:lie rose:rise risen:rise threw:throw thrown:throw flew:fly flown:fly ' +
+  'ate:eat eaten:eat drank:drink drunk:drink forgot:forget forgotten:forget hid:hide hidden:hide led:lead lent:lend meant:mean read:read rode:ride ridden:ride ' +
+  'sold:sell shook:shake shaken:shake shut:shut slept:sleep swam:swim swum:swim tore:tear torn:tear woke:wake woken:wake').split(' ').map(x => x.split(':')));
+
+// 단어의 가능한 기본형 후보 (climbed → climb, running → run, studies → study, took → take …)
 export function forms(word) {
   const w = low(word).replace(/'s$/, '');
   const f = new Set([w]);
+  if (IRREG[w]) f.add(IRREG[w]);
   const cut = (suf, add = '') => { if (w.length > suf.length + 2 && w.endsWith(suf)) f.add(w.slice(0, -suf.length) + add); };
   cut('s'); cut('es'); cut('ies', 'y'); cut('ied', 'y'); cut('ed'); cut('ed', 'e'); cut('d');
   cut('ing'); cut('ing', 'e'); cut('ly'); cut('ily', 'y'); cut('er'); cut('est'); cut('ier', 'y'); cut('iest', 'y');

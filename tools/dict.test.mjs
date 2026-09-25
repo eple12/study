@@ -17,6 +17,10 @@ test('어형: 활용형과 기본형이 같은 것으로 매칭', () => {
   const E = [{ w: 'require', m: '필요로 하다' }, { w: 'give up', m: '포기하다' }, { w: 'be likely to', m: '~할 것 같다' }];
   for (const t of ['requires', 'required', 'Giving up', 'give up', 'be likely to']) assert.ok(findGloss(t, E), t);
   assert.equal(findGloss('likely', E), null);
+  const T = [{ w: 'take advantage of', m: '~을 이용하다' }, { w: 'give up', m: '포기하다' }];
+  assert.ok(findGloss('took advantage of', T), 'took → take');
+  assert.ok(findGloss('gave up', T), 'gave → give');
+  assert.equal(findGloss('took advice of', T), null);
   assert.ok(forms('stopped').has('stop') && forms('studies').has('study') && forms('running').has('run'));
 });
 
