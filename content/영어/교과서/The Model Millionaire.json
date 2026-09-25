@@ -263,6 +263,309 @@
   ],
   "questions": [
     {
+      "id": "tb1",
+      "type": "ox",
+      "prompt": "Q1) Hughie has enough money to marry Laura Merton right now.",
+      "answer": false,
+      "explanation": "Colonel은 Hughie가 10,000파운드를 가질 때까지 결혼을 허락하지 않는다."
+    },
+    {
+      "id": "tb2",
+      "type": "ox",
+      "prompt": "Q2) Alan receives 2,000 pounds for his painting.",
+      "answer": false,
+      "explanation": "“Pounds?”라는 물음에 Alan은 “Guineas.”라고 바로잡는다. pounds가 아니라 guineas(기니)이다."
+    },
+    {
+      "id": "tb3",
+      "type": "ox",
+      "prompt": "Q3) Alan agrees with Hughie’s opinion that the model works just as hard as the painter.",
+      "answer": false,
+      "explanation": "Alan은 “Nonsense, nonsense!”라며 Hughie의 의견을 받아들이지 않는다."
+    },
+    {
+      "id": "tb4",
+      "type": "ox",
+      "prompt": "Q4) The beggar rested on a chair while Alan was away.",
+      "answer": true,
+      "explanation": "The old beggar took advantage of Alan’s absence to rest for a moment on a chair."
+    },
+    {
+      "id": "tb5",
+      "type": "ox",
+      "prompt": "Q5) Hughie found a large amount of paper money in his pockets.",
+      "answer": false,
+      "explanation": "주머니에서 찾은 것은 a few coins(동전 몇 개)뿐이었다."
+    },
+    {
+      "id": "tb6",
+      "type": "ox",
+      "prompt": "Q6) Giving the money to the beggar meant Hughie couldn’t take a carriage for two weeks.",
+      "answer": true,
+      "explanation": "“…but it means no carriage for two weeks,” he thought to himself."
+    },
+    {
+      "id": "tb7",
+      "type": "ox",
+      "prompt": "Q7) The beggar became angry when Hughie handed him the coins.",
+      "answer": false,
+      "explanation": "The old man was surprised and smiled faintly. 화를 내지 않았다."
+    },
+    {
+      "id": "tb8",
+      "type": "choice",
+      "prompt": "Q8) Why did Hughie have to walk home after spending the day with Laura?\n(= Hughie는 왜 Laura와 시간을 보내고 집으로 걸어와야 했는가?)",
+      "choices": [
+        "He could not find any available carriage on the street.",
+        "He gave his money to the beggar and had no carriage fare left.",
+        "Laura asked him to walk so they could spend more time together.",
+        "Alan Trevor advised him to walk to save money for his wedding."
+      ],
+      "answer": 2,
+      "explanation": "가진 동전을 거지에게 주어서 “no carriage for two weeks”가 되었다."
+    },
+    {
+      "id": "tb9",
+      "type": "choice",
+      "prompt": "Q9) What was Alan’s perspective on the beggar’s worn-out clothes?\n(= 거지의 해진 옷에 대한 Alan의 관점은 어떠한가?)",
+      "choices": [
+        "He thought they looked pitiful and needed to be changed immediately.",
+        "He viewed them as romantic and visually appealing for his painting.",
+        "He felt ashamed that his model had to wear such poor clothes.",
+        "He believed the clothes were too dirty to be used in his studio."
+      ],
+      "answer": 2,
+      "explanation": "“What you call worn clothes I call romance. I find them romantic and appealing.”"
+    },
+    {
+      "id": "tb10",
+      "type": "blank",
+      "prompt": "Q10) Fill in the blank.",
+      "text": "According to Alan, an artist’s heart is his {{head}}. Their job is to show the world as they see it, not to reform it.",
+      "explanation": "“An artist’s heart is his head. Our job is to show the world as we see it, not to reform it as we know it.”"
+    },
+    {
+      "id": "tb11",
+      "type": "self",
+      "prompt": "Q11) What specific “private affairs” of Hughie did Alan reveal to the beggar? (List two items)\n(= Alan이 거지에게 알린 Hughie의 “개인적인 일”은 무엇인가?)",
+      "context": "“You told that old beggar all my private affairs?” cried Hughie, looking very red and angry.",
+      "answer": [
+        "the Colonel, Laura, and the 10,000 pounds (이 중 두 가지)"
+      ],
+      "explanation": "“He knows all about the Colonel, Laura, and the 10,000 pounds,” replied Alan. Colonel, Laura, 10,000파운드 중 두 가지를 쓰면 된다."
+    },
+    {
+      "id": "tb12",
+      "type": "choice",
+      "prompt": "Q12) What is the real identity of the old beggar model?\n(= 늙은 거지 모델의 진짜 정체는 무엇인가?)",
+      "choices": [
+        "Laura’s retired father, the Colonel",
+        "A professional actor hired by Alan Trevor",
+        "Baron Hausberg, one of the richest men in Europe",
+        "A homeless man who secretly owns a frame-making shop"
+      ],
+      "answer": 3,
+      "explanation": "“He is Baron Hausberg.” — one of the richest men in Europe."
+    },
+    {
+      "id": "tb13",
+      "type": "blank",
+      "prompt": "Q13) Fill in the blank.",
+      "text": "When Hughie realized he had given coins to a millionaire, he felt extremely {{embarrassed}} and sank into an armchair.",
+      "explanation": "“Baron Hausberg!” cried Hughie, feeling embarrassed. … sinking into an armchair."
+    },
+    {
+      "id": "tb14",
+      "type": "choice",
+      "prompt": "Q14) What was the main purpose of the old gentleman’s visit to Hughie’s house?\n(= 나이든 신사가 Hughie의 집을 방문한 주요한 목적은 무엇인가?)",
+      "choices": [
+        "To demand money on behalf of the beggar.",
+        "To deliver a letter from Baron Hausberg.",
+        "To ask for an apology from Hughie.",
+        "To invite Hughie to the Baron’s estate."
+      ],
+      "answer": 2,
+      "explanation": "“The Baron has asked me to bring you this letter.”"
+    },
+    {
+      "id": "tb15",
+      "type": "choice",
+      "prompt": "Q15) What was enclosed inside the sealed envelope handed to Hughie?\n(= Hughie가 받은 밀봉된 봉투에 들어 있던 것은 무엇인가?)",
+      "choices": [
+        "A portrait painted by Alan.",
+        "A check for 10,000 pounds.",
+        "An apology letter from the Baron.",
+        "A formal wedding invitation."
+      ],
+      "answer": 2,
+      "explanation": "inside was a check for 10,000 pounds."
+    },
+    {
+      "id": "tb16",
+      "type": "choice",
+      "prompt": "Q16) Which role did Alan play at Hughie and Laura’s wedding?\n(= Alan은 Hughie와 Laura의 결혼식에서 어떤 역할을 했는가?)",
+      "choices": [
+        "He delivered the main speech.",
+        "He served as the best man.",
+        "He officiated the wedding ceremony.",
+        "He brought the wedding envelope."
+      ],
+      "answer": 2,
+      "explanation": "Alan was the best man, and the Baron made a speech at the wedding."
+    },
+    {
+      "id": "tb17",
+      "type": "choice",
+      "prompt": "Q17) What does Alan mean when he says, “Millionaire models are rare enough, but model millionaires are rarer still!”?\n(= Alan의 “백만장자인 모델도 드물지만, 모범적인 백만장자는 더더욱 드물다”라는 말이 의미하는 것은?)",
+      "choices": [
+        "It is difficult for artists to earn ten thousand pounds.",
+        "Exemplary rich people are rarer than wealthy artists’ models.",
+        "Beggars rarely manage to become successful millionaires.",
+        "Rich people rarely agree to pose for portraits."
+      ],
+      "answer": 2,
+      "explanation": "millionaire models(모델이 된 백만장자)보다 model millionaires(모범적인 백만장자)가 훨씬 드물다는 말장난이다. (교과서에는 이 문항 번호가 Q16으로 한 번 더 적혀 있어 Q17로 표기했다.)"
+    },
+    {
+      "id": "sm1",
+      "type": "blank",
+      "kind": "스토리 구조",
+      "prompt": "Complete the first story mountain.\n(= 첫 번째 스토리 마운틴을 완성하시오.)",
+      "text": "**[ Introduction ]**\nHughie was in love with Laura, and they needed 10,000 pounds to {{get}} {{married}}.",
+      "explanation": "Introduction(도입): Hughie와 Laura는 사랑하지만 결혼하려면 10,000파운드가 필요하다."
+    },
+    {
+      "id": "sm2",
+      "type": "blank",
+      "kind": "스토리 구조",
+      "prompt": "Complete the second story mountain.\n(= 두 번째 스토리 마운틴을 완성하시오.)",
+      "text": "**[ Rising Action ]**\nHughie visited his friend Alan, who was a(n) {{painter}}. He was painting a portrait of a beggar. Hughie felt sorry for the beggar and gave him some coins.",
+      "explanation": "Rising Action(전개): 화가 친구 Alan의 작업실에서 거지에게 동전을 준다."
+    },
+    {
+      "id": "sm3",
+      "type": "blank",
+      "kind": "스토리 구조",
+      "prompt": "Complete the third story mountain.\n(= 세 번째 스토리 마운틴을 완성하시오.)",
+      "text": "**[ Climax ]**\nHughie learned that the beggar was Baron Hausberg, one of the {{richest}} men in Europe.",
+      "explanation": "Climax(절정): 거지가 유럽에서 가장 부유한 사람 중 한 명인 Baron Hausberg였음을 알게 된다."
+    },
+    {
+      "id": "sm4",
+      "type": "blank",
+      "kind": "스토리 구조",
+      "prompt": "Complete the fourth and fifth story mountain.\n(= 네 번째와 다섯 번째 스토리 마운틴을 완성하시오.)",
+      "text": "**[ Falling Action ]**\nBaron Hausberg gave Hughie a 10,000-pound check as a {{wedding}} present.\n\n**[ Resolution ]**\nHughie and Laura got married.",
+      "explanation": "Falling Action(하강): Baron이 결혼 선물로 수표를 보낸다. Resolution(결말): 두 사람이 결혼한다."
+    },
+    {
+      "id": "st1",
+      "type": "choice",
+      "kind": "스토리 구조",
+      "prompt": "Which stage of the story mountain does the following event belong to?\n(= 다음 사건은 스토리 마운틴의 어느 단계에 속하는가?)",
+      "context": "Hughie loves Laura, but the Colonel will not let them marry until Hughie has 10,000 pounds.",
+      "choices": [
+        "Introduction",
+        "Rising Action",
+        "Climax",
+        "Falling Action",
+        "Resolution"
+      ],
+      "answer": 1,
+      "explanation": "인물과 상황(문제)을 소개하므로 Introduction."
+    },
+    {
+      "id": "st2",
+      "type": "choice",
+      "kind": "스토리 구조",
+      "prompt": "Which stage of the story mountain does the following event belong to?\n(= 다음 사건은 스토리 마운틴의 어느 단계에 속하는가?)",
+      "context": "Hughie feels sorry for the old beggar and puts some coins into his hand.",
+      "choices": [
+        "Introduction",
+        "Rising Action",
+        "Climax",
+        "Falling Action",
+        "Resolution"
+      ],
+      "answer": 2,
+      "explanation": "사건이 전개되는 부분이므로 Rising Action."
+    },
+    {
+      "id": "st3",
+      "type": "choice",
+      "kind": "스토리 구조",
+      "prompt": "Which stage of the story mountain does the following event belong to?\n(= 다음 사건은 스토리 마운틴의 어느 단계에 속하는가?)",
+      "context": "Hughie finds out that the beggar is the rich Baron Hausberg.",
+      "choices": [
+        "Introduction",
+        "Rising Action",
+        "Climax",
+        "Falling Action",
+        "Resolution"
+      ],
+      "answer": 3,
+      "explanation": "이야기의 긴장이 가장 높아지는 반전이므로 Climax."
+    },
+    {
+      "id": "st4",
+      "type": "choice",
+      "kind": "스토리 구조",
+      "prompt": "Which stage of the story mountain does the following event belong to?\n(= 다음 사건은 스토리 마운틴의 어느 단계에 속하는가?)",
+      "context": "Baron Hausberg sends Hughie a check for 10,000 pounds as a wedding present.",
+      "choices": [
+        "Introduction",
+        "Rising Action",
+        "Climax",
+        "Falling Action",
+        "Resolution"
+      ],
+      "answer": 4,
+      "explanation": "반전 이후 문제가 풀려 가는 과정이므로 Falling Action."
+    },
+    {
+      "id": "st5",
+      "type": "choice",
+      "kind": "스토리 구조",
+      "prompt": "Which stage of the story mountain does the following event belong to?\n(= 다음 사건은 스토리 마운틴의 어느 단계에 속하는가?)",
+      "context": "Hughie and Laura get married.",
+      "choices": [
+        "Introduction",
+        "Rising Action",
+        "Climax",
+        "Falling Action",
+        "Resolution"
+      ],
+      "answer": 5,
+      "explanation": "이야기가 마무리되므로 Resolution."
+    },
+    {
+      "id": "st6",
+      "type": "choice",
+      "kind": "스토리 구조",
+      "prompt": "What is the climax of the story?\n(= 이 이야기의 절정(Climax)은 무엇인가?)",
+      "choices": [
+        "Hughie gives some coins to the beggar.",
+        "Hughie learns that the beggar is the millionaire Baron Hausberg.",
+        "Hughie receives a check for 10,000 pounds.",
+        "Hughie and Laura get married."
+      ],
+      "answer": 2,
+      "explanation": "거지인 줄 알았던 사람이 유럽 최고 부자 중 한 명이라는 것이 밝혀지는 순간이 절정이다."
+    },
+    {
+      "id": "st7",
+      "type": "order",
+      "kind": "스토리 구조",
+      "prompt": "Put the five stages of the story mountain in order.\n(= 스토리 마운틴의 다섯 단계를 순서대로 배열하시오.)",
+      "items": [
+        "Introduction",
+        "Rising Action",
+        "Climax",
+        "Falling Action",
+        "Resolution"
+      ]
+    },
+    {
       "id": "tf1",
       "type": "ox",
       "prompt": "At the beginning of the story, the Colonel allows Hughie and Laura to marry.",
