@@ -63,6 +63,25 @@ node tools/variants.mjs --apply
 
 > 단어장은 이 브라우저(기기)에만 저장됨. 폰과 PC를 오가려면 내보내기 → `content/`에 넣어 배포하는 방식을 씀.
 
+### 기기·계정 동기화 (Firebase)
+
+로그인하면 진행 기록, 단어장, 선택·설정이 같은 계정의 모든 기기에서 똑같이 보임. **설정하지 않으면 지금처럼 이 기기에만 저장**되고 계정 버튼도 보이지 않음. 아래 설정은 Firebase 콘솔에서 직접 해야 함 (무료 Spark 요금제로 충분).
+
+1. [Firebase 콘솔](https://console.firebase.google.com) → **프로젝트 추가**
+2. **Authentication** → 시작하기 → 로그인 방법 → **Google** 사용 설정
+3. Authentication → **설정 → 승인된 도메인**에 `eple12.github.io` 추가 (`localhost`는 기본으로 있음)
+4. **Firestore Database** → 데이터베이스 만들기(프로덕션 모드, 위치 `asia-northeast3` 서울) → **규칙** 탭에 [`firestore.rules`](firestore.rules) 내용을 붙여 넣고 **게시**
+5. 프로젝트 설정 → 일반 → **내 앱 → 웹 앱(`</>`)** 등록 → 화면에 나오는 `firebaseConfig` 값을 [`assets/firebase-config.js`](assets/firebase-config.js)에 붙여 넣고 push
+
+그러면 홈 오른쪽 위에 👤 버튼이 생기고, 눌러서 Google 로그인. 로그인한 기기끼리는 몇 초 안에 서로 반영됨.
+
+- **동기화 대상**: `study:*` 저장값 전부(풀이 기록, 단어장, 랜덤 학습의 선택 지문·유형, 모드 등). 조회 캐시와 글자 크기(`fs`)는 기기별로 둠
+- **충돌**: 같은 항목을 두 기기에서 바꿨으면 나중에 바꾼 쪽이 남음. 이 기기를 **처음** 계정에 연결할 때는 덮어쓰지 않고 합침(단어장은 합집합)
+- **계정 전환**: 다른 계정으로 로그인하면 이 브라우저의 이전 계정 데이터는 지워지고 새 계정의 것으로 채워짐. 같은 계정으로 다시 로그인하면 그대로 이어짐
+- **오프라인**: 변경은 이 기기에 저장되어 있다가 연결되면 올라감
+- **범위**: 계정마다 데이터가 따로임(계정끼리 공유하는 기능은 아님). 지문·문제 파일(`content/`)은 원래 모두 같음
+- `firebaseConfig`의 값(apiKey 등)은 비밀이 아니라서 공개 저장소에 올려도 됨. 접근은 `firestore.rules`가 로그인한 본인 데이터로만 제한함
+
 ### 파일 검사
 
 ```bash
@@ -300,6 +319,7 @@ content/
 | `tools/variants.mjs` | 본문에서 순서배열·문장삽입 문제 생성 |
 | `serve.mjs` | 로컬 미리보기 서버 |
 | `assets/dict.js` | 단어 뜻 조회 로직 (어형 매칭, 온라인 사전, 문맥 뜻 고르기) |
+| `assets/synccore.js`, `sync.js`, `firebase-config.js` | 기기 간 동기화 (병합 규칙 / Firebase 연결 / 설정값) |
 | `sw.js`, `manifest.webmanifest` | 오프라인 캐시, 홈 화면에 추가 |
 | `.github/workflows/pages.yml` | push하면 자동 배포 |
 

@@ -1,5 +1,6 @@
 import { normalize, kindOf, KIND_ORDER } from './schema.js';
 import { tokens, forms, findGloss, lookup, translate } from './dict.js';
+import { makeSync } from './sync.js';
 
 const TITLE = document.title;
 const app = document.getElementById('app');
@@ -24,6 +25,7 @@ const I = {
   home: '<path d="M3 11l9-8 9 8M5 9.5V20h5v-6h4v6h5V9.5"/>',
   checks: '<path d="M2 12l5 5L17 6M13 16l2 2L22 7"/>',
   plus: '<path d="M12 5v14M5 12h14"/>',
+  user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
   copy: '<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/>',
   trash: '<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>',
 };
@@ -56,8 +58,12 @@ const norm = s => String(s).normalize('NFC').toLowerCase()
 
 const store = {
   get(k, d) { try { const v = localStorage.getItem('study:' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
-  set(k, v) { try { localStorage.setItem('study:' + k, JSON.stringify(v)); } catch { /* 저장 불가 환경 */ } },
+  set(k, v) { try { localStorage.setItem('study:' + k, JSON.stringify(v)); sync.touch(k); } catch { /* 저장 불가 환경 */ } },
 };
+
+// 계정 동기화 (Firebase 설정이 없으면 아무 일도 하지 않음)
+const sync = makeSync({ onState: () => paintAcct(), onRemote: () => refreshIfSafe() });
+
 const prog = path => ({ q: {}, c: {}, ...store.get('p:' + path, {}) });
 const saveProg = (path, p) => store.set('p:' + path, p);
 
@@ -210,12 +216,13 @@ async function home() {
     return `<section class="grp">${head}<div class="list">${rows}</div></section>`;
   };
 
-  app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1><a class="ib" href="#/w" aria-label="단어장">${icon('book')}</a>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
+  app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1>${sync.enabled ? `<button class="ib${sync.state.user ? ' on' : ''}" data-a="acct" aria-label="계정">${icon('user')}</button>` : ''}<a class="ib" href="#/w" aria-label="단어장">${icon('book')}</a>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
     picking && kinds.length ? `<div class="kchips">${kinds.map(k => `<button class="kc" data-kind="${esc(k)}">${esc(k)}<small></small></button>`).join('')}</div>` : ''}${
     [...groups].map(section).join('') || '<p class="empty">content / *.json</p>'}</main>${
     picking ? `<div class="dock"><div class="in"><button class="btn sq" data-a="all" aria-label="전체 선택">${icon('checks')}</button><button class="btn primary" data-a="start" aria-label="시작">${icon('play')}<b class="num"></b></button></div></div>` : ''}`;
 
   app.querySelector('.top').onclick = e => {
+    if (e.target.closest('[data-a=acct]')) return acctSheet();
     if (!e.target.closest('[data-a=pick]')) return;
     picking = !picking;
     home();
@@ -648,6 +655,48 @@ function bookPicker(done) {
     o.close();
     done?.();
   });
+}
+
+/* ── 계정 (동기화) ── */
+let acctO = null;
+const SYNC_ERR = {
+  'auth/unauthorized-domain': '이 주소가 Firebase 승인된 도메인에 없어요 (README 참고)',
+  'auth/popup-blocked': '팝업이 막혔어요. 허용한 뒤 다시 눌러 주세요',
+  'auth/network-request-failed': '네트워크 오류',
+  'permission-denied': '접근 규칙 오류 — firestore.rules를 게시했는지 확인하세요',
+  unavailable: '서버에 연결할 수 없어요',
+};
+const errText = e => (!e || /popup-closed-by-user|cancelled-popup/.test(e) ? '' : SYNC_ERR[e] || e);
+
+function acctHTML() {
+  const s = sync.state, err = errText(s.error);
+  if (s.status === 'loading') return '<div class="acct"><i class="lk-spin"></i></div>';
+  if (!s.user) return `<div class="acct"><button class="btn primary" data-a="in">Google 로그인</button>${err ? `<div class="lk-err">${esc(err)}</div>` : ''}</div>`;
+  const time = new Date(s.at).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' });
+  const st = s.status === 'syncing' ? '동기화 중…' : s.status === 'error' ? `오류 · ${err}` : `동기화됨 · ${time}`;
+  return `<div class="acct"><b>${esc(s.user.name || s.user.email)}</b><span>${esc(s.user.email)}</span><div class="acct-st${s.status === 'error' ? ' bad' : ''}">${esc(st)}</div>
+    <div class="acts"><button class="btn" data-a="now" aria-label="지금 동기화">${icon('retry')}</button><button class="btn bad" data-a="out">로그아웃</button></div></div>`;
+}
+
+function paintAcct() {
+  document.querySelector('[data-a=acct]')?.classList.toggle('on', !!sync.state.user);
+  if (acctO) acctO.body.innerHTML = acctHTML();
+}
+
+function acctSheet() {
+  acctO = overlay('', acctHTML());
+  acctO.onClose = () => { acctO = null; };
+  acctO.d.addEventListener('click', e => {
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a === 'in') sync.signIn();
+    else if (a === 'now') sync.syncNow();
+    else if (a === 'out') sync.signOut();
+  });
+}
+
+// 다른 기기의 변경이 들어왔을 때: 풀던 화면은 건드리지 않고, 홈·단어장 목록만 새로 그린다
+function refreshIfSafe() {
+  if (['', '#', '#/', '#/w'].includes(location.hash)) route();
 }
 
 /* ── 단어장 화면 ── */
@@ -1267,6 +1316,7 @@ function swipe(el, cb) {
 }
 
 route();
+sync.start();
 
 /* ── offline ── */
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {

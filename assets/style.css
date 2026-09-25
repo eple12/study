@@ -312,3 +312,12 @@ body.lk .panel { padding-bottom: calc(var(--lk, 0px) + 20px); }
 .frm .acts { display: flex; gap: 10px; }
 .blank-state { display: grid; place-items: center; padding: 90px 0; color: var(--line); }
 .blank-state .ic { width: 56px; height: 56px; }
+
+/* 계정 */
+.acct { display: grid; gap: 8px; padding: 14px 4px 18px; text-align: center; justify-items: center; }
+.acct b { font-size: 17px; }
+.acct span { font-size: 14px; color: var(--sub); }
+.acct-st { font-size: 13px; color: var(--ok); }
+.acct-st.bad, .acct .lk-err { color: var(--bad); }
+.acct .acts { display: flex; gap: 10px; width: 100%; margin-top: 8px; }
+.acct > .btn { width: 100%; }

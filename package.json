@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "node serve.mjs",
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "test": "node tools/sync.test.mjs"
   }
 }
