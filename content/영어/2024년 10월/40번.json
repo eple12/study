@@ -1,0 +1,27 @@
+{
+  "title": "2024년 10월 40번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "In one study, participants chose (A) redness when asked to match the color of objects that are usually red to a background with the same color, which showed that their (B) about the colors of objects influenced their perceptual judgment.",
+      "choices": [
+        "(A) greater / (B) knowledge",
+        "(A) faded / (B) recognition",
+        "(A) intense / (B) indifference",
+        "(A) diminished / (B) experience",
+        "(A) softer / (B) feeling"
+      ],
+      "answer": 1,
+      "id": "1"
+    }
+  ]
+}

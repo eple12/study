@@ -1,0 +1,27 @@
+{
+  "title": "2024년 10월 33번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "Some people argue that there is a single, logically consistent concept known as reading that can be neatly set apart from everything else people do with books. Is reading really that simple? The most productive way to think about reading is as a collection of activities in which many other opinions interact owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait. Consequently, efforts to distinguish reading from nonreading are destined to fail because there is no agreement on what qualifies as reading in the first place. The more one tries to figure out where the border lies between reading and not-reading, the more edge cases will be found to stretch the term's flexible boundaries. Thus, it is worth attempting to collect together these exceptional forms of reading into a single forum, one highlighting the challenges faced by anyone wishing to establish the boundaries where reading begins and ends. The attempt moves toward an understanding of reading as a spectrum that is expansive enough to accommodate the distinct reading activities."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "The most productive way to think about reading is as __________ owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait.",
+      "choices": [
+        "an active process that encourages flexible thinking",
+        "a loosely related set of behaviors that belong together",
+        "an acquired skill and not something that one is born with",
+        "a collection of activities in which many other opinions interact",
+        "a safe territory to relieve a sense of separation from the world"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

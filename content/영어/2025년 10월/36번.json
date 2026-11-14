@@ -1,0 +1,24 @@
+{
+  "title": "2025년 10월 36번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "Even though sea creatures live in it, they still need to take in water for their bodies to function properly. They just need to get rid of any extra salt it might bring with it. Salt absorbs water like a sponge. If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water. Now you have a pile of wet salt. Notice that it has increased in size. The same principle applies to sea creatures. If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater. This can cause them to swell up. On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "Even though sea creatures live in it, they still need to take in water for their bodies to function properly.",
+      "items": [
+        "They just need to get rid of any extra salt it might bring with it. Salt absorbs water like a sponge. If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water. Now you have a pile of wet salt.",
+        "Notice that it has increased in size. The same principle applies to sea creatures. If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater. This can cause them to swell up.",
+        "On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
+      ],
+      "id": "1"
+    }
+  ]
+}

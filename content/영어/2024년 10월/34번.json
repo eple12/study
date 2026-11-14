@@ -1,0 +1,27 @@
+{
+  "title": "2024년 10월 34번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "Weber's law concerns the perception of difference between two stimuli. It suggests that we might not be able to detect a 1-mm difference when we are looking at lines 466 mm and 467 mm in length, but we may be able to detect a 1-mm difference when we are comparing a line 2 mm long with one 3 mm long. Another example of this principle is that we can detect 1 candle when it is lit in an otherwise dark room. But when 1 candle is lit in a room in which 100 candles are already burning, we may not notice the light from this candle. Therefore, the Just-noticeable difference (JND) varies as a function of the strength of the signals. For example, the JND is greater for very loud noises than it is for much more quiet sounds. When a sound is very weak, we can tell that another sound is louder, even if it is barely louder. When a sound is very loud, to tell that another sound is even louder, it has to be much louder. Thus, Weber's law means that it is harder to distinguish between two samples when those samples are larger or stronger levels of the stimuli."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Thus, Weber's law means that it is harder to distinguish between two samples __________.",
+      "choices": [
+        "if their measurement units are not clearly determined",
+        "as long as both rely on human measurement and judgment",
+        "as the researcher's observation method has any little variation",
+        "when those samples are larger or stronger levels of the stimuli",
+        "where they belong to thoroughly different categories of stimuli"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

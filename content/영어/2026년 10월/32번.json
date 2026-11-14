@@ -1,0 +1,27 @@
+{
+  "title": "2026년 10월 32번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is __________.",
+      "choices": [
+        "immune to popular pressure",
+        "supportive for the minority",
+        "responsive to social change",
+        "open to political negotiation",
+        "aligned with public expectations"
+      ],
+      "answer": 1,
+      "id": "1"
+    }
+  ]
+}

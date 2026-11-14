@@ -1,0 +1,27 @@
+{
+  "title": "2025년 10월 31번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Theodore Porter described the use of statistics to create __________: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.",
+      "choices": [
+        "public welfare",
+        "social mobility",
+        "state authority",
+        "market efficiency",
+        "scientific innovation"
+      ],
+      "answer": 3,
+      "id": "1"
+    }
+  ]
+}

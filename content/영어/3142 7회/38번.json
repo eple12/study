@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 38번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "38번 지문",
+      "text": "The shape of a protein is important. Many proteins do their jobs by binding to other proteins, sticking to them, usually temporarily, but in a controllable way. When the protein haemoglobin picks up or releases a molecule of oxygen, it changes shape. A protein is a long chain of amino acids, and it gets its shape by folding up into a compact tangle. The shape of this is principally determined by the sequence of amino acids. And yet, in practice, it's virtually impossible to calculate the shape from the sequence. The same sequence can fold up in a gigantic number of ways, and it is generally thought that the actual shape it chooses is the one with the least energy. Finding this minimal energy shape, among the truly gigantic list of possibilities, is a bit like trying to rearrange some list of thousands of letters of the alphabet in the hope of getting a paragraph from Shakespeare. Running through all the possibilities in turn is totally impractical: the lifetime of the universe is too short."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** And yet, in practice, it's virtually impossible to calculate the shape from the sequence.\n\nThe shape of a protein is important. Many proteins do their jobs by binding to other proteins — sticking to them, usually temporarily, but in a controllable way. When the protein haemoglobin picks up or releases a molecule of oxygen, it changes shape. ( ①) A protein is a long chain of amino acids, and it gets its shape by folding up into a compact tangle. ( ②) The shape of this is principally determined by the sequence of amino acids. ( ③) The same sequence can fold up in a gigantic number of ways, and it is generally thought that the actual shape it chooses is the one with the least energy. ( ④) Finding this minimal energy shape, among the truly gigantic list of possibilities, is a bit like trying to rearrange some list of thousands of letters of the alphabet in the hope of getting a paragraph from Shakespeare. ( ⑤) Running through all the possibilities in turn is totally impractical: the lifetime of the universe is too short.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "How the Protein Gets Its Compact Shape",
+        "Influence of Oxygen Molecules on Proteins",
+        "Discovery of the Century: The Form of the Protein",
+        "Can Amino Acid Sequences Indicate Protein Shape?",
+        "Calculate the Number of Proteins Before It's Too Late!"
+      ],
+      "answer": 4,
+      "id": "2"
+    }
+  ]
+}

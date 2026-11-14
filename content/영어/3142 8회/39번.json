@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 39번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "39번 지문",
+      "text": "According to the Greek philosopher Diogenes, mastery of the self, or \"self-sufficiency,\" leads to both happiness and freedom but requires constant practice and training in the face of adversity. His uncompromising philosophy requires that one should abandon all property, possessions, family ties, and social values in order to minimize the distraction of \"illusory\" emotional and psychological attachments. Furthermore, one must aggressively attack society to help liberate others, and purposefully lay oneself open to ridicule and abuse in order to retain this emotional detachment. Though more radical and uncompromising, Diogenes' philosophy has its counterpart in the teachings of the oriental schools of Buddhism and Taoism. However, critics complain that Diogenes' lifestyle is self-indulgent, relying on the generosity and productivity of others to support his drifting lifestyle. There is a philosophical point here, not just a pragmatic one, concerning the universalizability of ethical rules for life. If everyone were to follow Diogenes' example, society would collapse, making it economically impossible for anyone — including Diogenes — to concentrate on the mastery of the self."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Furthermore, one must aggressively attack society to help liberate others, and purposefully lay oneself open to ridicule and abuse in order to retain this emotional detachment.\n\nAccording to the Greek philosopher Diogenes, mastery of the self, or \"self-sufficiency,\" leads to both happiness and freedom but requires constant practice and training in the face of adversity. ( ①) His uncompromising philosophy requires that one should abandon all property, possessions, family ties, and social values in order to minimize the distraction of \"illusory\" emotional and psychological attachments. ( ②) Though more radical and uncompromising, Diogenes' philosophy has its counterpart in the teachings of the oriental schools of Buddhism and Taoism. ( ③) However, critics complain that Diogenes' lifestyle is self-indulgent, relying on the generosity and productivity of others to support his drifting lifestyle. ( ④) There is a philosophical point here, not just a pragmatic one, concerning the universalizability of ethical rules for life. ( ⑤) If everyone were to follow Diogenes' example, society would collapse, making it economically impossible for anyone — including Diogenes — to concentrate on the mastery of the self.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "How a Radical Philosophy Affects Oriental Religions",
+        "Leaving Society Behind Reduces Social Connections",
+        "The Key to Self-Sufficiency in Diogenes's Philosophy",
+        "Diogenes's Philosophy Brings about Societal Destruction",
+        "Why Everyone Should Embrace Diogenes's Self-Indulgence"
+      ],
+      "answer": 4,
+      "id": "2"
+    }
+  ]
+}

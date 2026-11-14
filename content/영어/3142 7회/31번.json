@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 31번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "Traditional logic and metaphysics are themselves in no better position to understand and solve the riddle of man. Rational, logical and metaphysical thought can comprehend only those objects which have a consistent nature and truth. It is, however, just this homogeneity which we never find in man. The philosopher is not permitted to construct an artificial man; he must describe a real one. All the so-called definitions of man are nothing but airy speculation so long as they are not based upon and confirmed by our experience of man. There is no other way to know man than to understand his life and conduct. But what we find here defies every attempt at inclusion within a single and simple formula. Inconsistency is the very element of human existence. Man has no \"nature\" — no simple or homogeneous being. He is a strange mixture of being and nonbeing. His place is between these two opposite poles."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "But what we find here defies every attempt at inclusion within a single and simple formula. __________ is the very element of human existence.",
+      "choices": [
+        "Unity",
+        "Fragility",
+        "Continuity",
+        "Adaptability",
+        "Inconsistency"
+      ],
+      "answer": 5,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "What Philosophers Seek to Explain Man",
+        "Humans Stand between Life and Conduct",
+        "The Key to Understanding Human Nature",
+        "Inevitable Fate of a Real Man: Consistency",
+        "Making an Artificial Man Through Philosophy"
+      ],
+      "answer": 3,
+      "id": "2"
+    }
+  ]
+}

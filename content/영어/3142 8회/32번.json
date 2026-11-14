@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 32번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "In 2013, Forbes magazine explored exactly how Warren Buffett attempts to avoid succumbing to confirmation bias, which causes people to interpret and recall information in a way that confirms their preexisting beliefs, and what this means to financial investors. It warned: \"For investors, confirmation bias is particularly dangerous. Once an investor starts to like a company, for example, he may dismiss negative information as irrelevant or inaccurate.\" The same can be said for entrepreneurs or any businessperson. Explaining what it labeled the 'Buffett Approach,' Forbes described the 2013 annual general meeting for Berkshire Hathaway, a multinational conglomerate for which Buffett is the chief executive officer. Instead of inviting professional applauders, who would applaud at whatever Buffett said, he invited Doug Kass, a fund manager and constant critic of Buffett and Berkshire Hathaway, as a guest speaker. Forbes described this as \"largely unprecedented\" and applauded Buffett's simple act. Indeed, creating a culture of challenge was one of the suggestions for fighting confirmation bias."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Forbes described this as \"largely unprecedented\" and applauded Buffett's simple act. Indeed, __________ was one of the suggestions for fighting confirmation bias.",
+      "choices": [
+        "creating a culture of challenge",
+        "asking for a detailed refutation",
+        "admitting that you have a problem",
+        "identifying the flaws in the strategy",
+        "criticizing a fellow director's strategy"
+      ],
+      "answer": 1,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Everybody's business is nobody's business.",
+        "A fish always stinks from the head downwards.",
+        "Keep your friends close, but your enemies closer.",
+        "The grass is greener on the other side of the fence.",
+        "Don't count your chickens before they are hatched."
+      ],
+      "answer": 3,
+      "id": "2"
+    }
+  ]
+}

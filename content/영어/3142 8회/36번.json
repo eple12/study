@@ -1,0 +1,37 @@
+{
+  "title": "3142 8회 36번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "Mathematics has been, is, and ever will be a current running almost unseen beneath the surface of our affairs. We should, however, be careful not to get carried away with the flow by attempting to extend its application beyond its remit. There are places where mathematics is completely the wrong tool for the job: activities in which human supervision is unquestionably necessary. Even if some of the most complex mental tasks can be farmed out to an algorithm, matters of the heart can never be broken down into a simple set of rules. No code or equation will ever imitate the true complexities of the human condition. Nevertheless, a little mathematical knowledge in our increasingly quantitative society can help us to harness the power of numbers for ourselves. Simple rules allow us to make the best choices and avoid the worst mistakes. Small alterations in the way we think about our rapidly evolving environments help us to 'keep calm' in the face of rapidly accelerating change, or adapt to our increasingly automated realities."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "Mathematics has been, is, and ever will be a current running almost unseen beneath the surface of our affairs. We should, however, be careful not to get carried away with the flow by attempting to extend its application beyond its remit.",
+      "items": [
+        "There are places where mathematics is completely the wrong tool for the job: activities in which human supervision is unquestionably necessary. Even if some of the most complex mental tasks can be farmed out to an algorithm, matters of the heart can never be broken down into a simple set of rules.",
+        "No code or equation will ever imitate the true complexities of the human condition. Nevertheless, a little mathematical knowledge in our increasingly quantitative society can help us to harness the power of numbers for ourselves.",
+        "Simple rules allow us to make the best choices and avoid the worst mistakes. Small alterations in the way we think about our rapidly evolving environments help us to 'keep calm' in the face of rapidly accelerating change, or adapt to our increasingly automated realities."
+      ],
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "일상생활 속에는 숨겨져 있는 수학적 원리가 많다.",
+        "정보의 수량화는 오히려 합리적인 선택을 방해할 수 있다.",
+        "수학으로 삶의 다양한 문제들을 쉽고 빠르게 해결할 수 있다.",
+        "복잡한 인간의 정신은 알고리즘을 활용한 분석을 필요로 한다.",
+        "수학을 아는 것은 도움이 되지만 모든 문제에 적용할 수는 없다."
+      ],
+      "answer": 5,
+      "id": "2"
+    }
+  ]
+}

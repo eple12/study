@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 34번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "In one study, six-month-olds watched as a \"climber,\" which was nothing more than a disk of wood with large eyes glued onto its circular \"face,\" started at the bottom of a hill and repeatedly tried but failed to make its way to the top. After a while, a \"helper,\" a triangle with similar eyes glued on, would sometimes approach from farther downhill and help the climber with an upward push. On other attempts, a square \"hinderer\" would approach from uphill and shove the circular disk back down. The experimenters wanted to know if the infants, the uninvolved bystanders, would cop an attitude toward the hinderer square. When the experimenters gave the infants a chance to reach out and touch the figures, the infants showed a definite reluctance to reach for the hinderer square, as compared to the helper triangle. Moreover, when the experiment was repeated with either a helper and a neutral bystander block or a hinderer and a neutral block, the infants preferred the friendly triangle to the neutral block, and the neutral block to the nasty square. This study showed that infants as young as 6 months of age evaluate others based on their social behavior toward third parties."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "This study showed that infants as young as 6 months of age __________.",
+      "choices": [
+        "reveal an aversion or attraction to the specific shape",
+        "recognize neutral attitudes impeding the goals of others",
+        "distinguish positive facial expressions from negative ones",
+        "are able to notice others' feeling through their expressions",
+        "evaluate others based on their social behavior toward third parties"
+      ],
+      "answer": 5,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Infants' Acquired Preference for Round Figures",
+        "The Effect of Shapes on Children's Thinking Skills",
+        "Neutrality: Why It Is Difficult for Infants to Understand",
+        "Infants Become Negative When Observing Certain Behaviors",
+        "How a Person Treats Others Affects Attitudes Towards That Person"
+      ],
+      "answer": 5,
+      "id": "2"
+    }
+  ]
+}

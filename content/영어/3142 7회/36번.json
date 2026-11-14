@@ -1,0 +1,37 @@
+{
+  "title": "3142 7회 36번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "Climate change is throwing up some tricky dilemmas for liberal-minded people. The big problem is that climate change is a global problem that individuals don't seem to be able to solve. Economists would say this inability is caused because people act in their own self-interest. Scientists are in no doubt about the vital and urgent need to cut emissions of greenhouse gases, which implies the necessity of institutional law enforcement. Since individuals and a free market have singularly failed, it's very clear that consensus and concerted official action are needed to make any headway. In other words, if we are to avoid potential disaster on a global scale, we have to accept that governments need to take control of measures to limit carbon emissions. And yet, if they are taking such action to control it, then they are, inevitably, restricting someone's freedom to use it. This is why climate control measures are proving so slow to make progress and are so stuck in controversy."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "Climate change is throwing up some tricky dilemmas for liberal-minded people. The big problem is that climate change is a global problem that individuals don't seem to be able to solve.",
+      "items": [
+        "Economists would say this inability is caused because people act in their own self-interest. Scientists are in no doubt about the vital and urgent need to cut emissions of greenhouse gases, which implies the necessity of institutional law enforcement.",
+        "Since individuals and a free market have singularly failed, it's very clear that consensus and concerted official action are needed to make any headway. In other words, if we are to avoid potential disaster on a global scale, we have to accept that governments need to take control of measures to limit carbon emissions.",
+        "And yet, if they are taking such action to control it, then they are, inevitably, restricting someone's freedom to use it. This is why climate control measures are proving so slow to make progress and are so stuck in controversy."
+      ],
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the role of the market in limiting global carbon production",
+        "the success scientists have had at controlling carbon emissions",
+        "why controlling climate change is a challenging issue worldwide",
+        "ways people and the market have negatively impacted the climate",
+        "potential methods of restricting the production of carbon emissions"
+      ],
+      "answer": 3,
+      "id": "2"
+    }
+  ]
+}

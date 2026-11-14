@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 31번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "An American naturalist suggested that the pink color of the flamingo was an adaptation so they would be less visible to predators against the setting sun. But in fact the pink color depends on their diet. If they eat a lot of shrimp they go brighter pink, if they don't eat a shrimp diet they go a paler pink. It would be very hard to argue that the pink color was a Darwinian adaptation to protect against predators rather than a consequence of the diet. That's one of the things that is actually an extremely important issue within biology: what's adaptive, what's not adaptive, what's accidental in some sort of ways. Some scientists would probably answer there has to be an evolutionarily adaptive explanation for it — something arose during evolution for other reasons or by accident and then got converted for current purposes. The point is that we need to be much more receptive to there being multiple explanations of what happens in nature. They cannot simply be reduced to the working out of the imperative of the selfish genes."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "The point is that we need to be much more __________ to there being multiple explanations of what happens in nature.",
+      "choices": [
+        "defiant",
+        "discerning",
+        "authentic",
+        "receptive",
+        "aggressive"
+      ],
+      "answer": 4,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Ways to Tell What Features Are Adaptive",
+        "Why Nature Evolved to Have Selfish Genes",
+        "The High Reliability of Darwinian Adaptation",
+        "Open Your Mind to All Explanations in Nature",
+        "What Decides between Accidental and Adaptive in Nature"
+      ],
+      "answer": 4,
+      "id": "2"
+    }
+  ]
+}

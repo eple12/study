@@ -1,0 +1,27 @@
+{
+  "title": "2026년 10월 30번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "30번 지문",
+      "text": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a smiling expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to ①fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages ②more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to ③believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a ④smiling expression that they were happy to take over your workload. You might not believe that they enjoyed ⑤replacing you while you were gone.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "id": "1"
+    }
+  ]
+}

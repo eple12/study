@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 35번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "35번 지문",
+      "text": "In ancient Egypt a woman enjoyed the same rights as a man. What her rightful entitlement rights depended upon was her social class, not her sex. All property descended in the female line, on the assumption that maternity is a matter of fact; paternity a matter of opinion. When a man married an heiress, he enjoyed her property only so long as she lived, but on her death it passed to her daughter and daughter's husband. A woman was entitled to administer her own property and dispose of it as she wished: She could buy, sell, be executor in wills and witness to legal documents, bring an action at court, and adopt children. In comparison, an ancient Greek woman was supervised by a male guardian, and many Greek women living in Egypt during the Ptolemaic Period, observing Egyptian women acting without a male guardian, were encouraged to do so themselves."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계없는 문장은?",
+      "context": "In ancient Egypt a woman enjoyed the same rights as a man. What her rightful entitlement rights depended upon was her social class, not her sex. ①All property descended in the female line, on the assumption that maternity is a matter of fact; paternity a matter of opinion. ②When a man married an heiress, he enjoyed her property only so long as she lived, but on her death it passed to her daughter and daughter's husband. ③Marriage in ancient Egypt was a totally private affair in which the state took no interest and of which the state kept no record. ④A woman was entitled to administer her own property and dispose of it as she wished: She could buy, sell, be executor in wills and witness to legal documents, bring an action at court, and adopt children. ⑤In comparison, an ancient Greek woman was supervised by a male guardian, and many Greek women living in Egypt during the Ptolemaic Period, observing Egyptian women acting without a male guardian, were encouraged to do so themselves.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "gender discrimination in ancient Egyptian society",
+        "aspects of power obtained by women in ancient Egypt",
+        "roles of women as a property owner in ancient Greece",
+        "beneficial effects of women playing a major role in society",
+        "differences in women's role in ancient and modern society"
+      ],
+      "answer": 2,
+      "id": "2"
+    }
+  ]
+}

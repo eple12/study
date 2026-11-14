@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 34번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "A good way to understand the story invention process is to observe it firsthand. Unfortunately, when people create a new story, we have difficulty knowing exactly how they found the various pieces of the story they are telling. We cannot easily know what has been invented out of thin air and what has been adapted from prior experiences or other stories. We can reasonably assume, however, that true creation can hardly exist with respect to stories. Every story we tell has its basis in something that we have already experienced. Of course, the better we are at telling stories, the better we are at giving them the appearance of being complete fiction. This can mean that even we as tellers see the story as fictional, not realizing the adaptation process that we ourselves have used. Even stories that are pure fantasy are adaptations of more realistic stories where certain constraints of the real world are relaxed."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "We can reasonably assume, however, that true creation can hardly exist with respect to stories. Every story we tell has __________.",
+      "choices": [
+        "a purpose to make people believe what we're saying",
+        "its basis in something that we have already experienced",
+        "a sequence of events that are not difficult for us to follow",
+        "a cluster of other stories, which echo across different contexts",
+        "some fictions that can facilitate listeners' interest and imagination"
+      ],
+      "answer": 2,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Can Science Fiction Become Reality?",
+        "Tips to Refuel Your Writing Inspiration",
+        "How We Tell Apart Fiction from Reality",
+        "Experience: The Roots of Story Invention",
+        "Adaptation: Make True Stories More Realistic"
+      ],
+      "answer": 4,
+      "id": "2"
+    }
+  ]
+}

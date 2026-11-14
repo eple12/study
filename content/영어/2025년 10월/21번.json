@@ -1,0 +1,26 @@
+{
+  "title": "2025년 10월 21번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "21번 지문",
+      "text": "Coat a fresh, wet swab in salt, and gently touch various spots on your tongue, recording where your taste seems strongest. Then, gargle with water to thoroughly clean your tongue, use a swab coated with sugar on the same spots, and record those results. Gargle again, and then swab with lemon juice. After a final gargle, try coffee. Compare your reactions with your friends'. Your taste pattern may reveal more than just taste preferences. Recent studies suggest links between taster status and behavioral disorders. For example, \"non-tasters\" tend to have a higher incidence of alcoholism, perhaps because liquor seems less bitter to them. Conversely, \"super-tasters\" may avoid nutritious but mildly bitter foods such as broccoli, thus depriving themselves of a balanced diet. So, although taste is not nearly as glamorous as vision, hearing, or even touch, it makes sense for you to pay closer attention to it because chemistry, at least in your mouth, could be destiny."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "밑줄 친 \"chemistry, at least in your mouth, could be destiny\"가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "Every part of the tongue can sense all the flavors.",
+        "Intensity of taste could be influenced by your physical condition.",
+        "Nutritional benefits of food may vary depending on personal traits.",
+        "Differences in taste sensitivity can shape individual dietary behavior.",
+        "Early exposure to certain food can determine your lifetime preference."
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

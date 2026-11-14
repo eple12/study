@@ -1,0 +1,27 @@
+{
+  "title": "2026년 10월 38번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "38번 지문",
+      "text": "When we say that water is \"clean,\" we don't just mean that it looks like a glass of water. Water quality is about following a certain set of criteria, or \"benchmarks.\" These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water. These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things. For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. This is why groups set different \"safety limits\" for the water dependent on how it will be utilized."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things.\n\nWhen we say that water is \"clean,\" we don't just mean that it looks like a glass of water. ( ①) Water quality is about following a certain set of criteria, or \"benchmarks.\" ( ②) These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water. ( ③) These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. ( ④) For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. ( ⑤) This is why groups set different \"safety limits\" for the water dependent on how it will be utilized.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

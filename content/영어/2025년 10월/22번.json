@@ -1,0 +1,26 @@
+{
+  "title": "2025년 10월 22번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "22번 지문",
+      "text": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "단순한 호기심도 실험을 할 타당한 이유가 된다.",
+        "입증된 과학적 이론에 근거한 가설 설정이 중요하다.",
+        "명확한 계획이 없는 실험에는 여러 가지 손실이 따른다.",
+        "실험 전에 결과를 예측하는 것은 객관성을 해칠 수 있다.",
+        "과학 실험의 단계가 복잡할수록 결과치가 예측을 벗어난다."
+      ],
+      "answer": 1,
+      "id": "1"
+    }
+  ]
+}

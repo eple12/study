@@ -1,0 +1,27 @@
+{
+  "title": "2025년 10월 40번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Humans, who have long viewed that time is (A), have continuously made modifications, sticking to their belief that their efforts can (B) the gap between man-made time and natural time.",
+      "choices": [
+        "(A) variable / (B) cause",
+        "(A) stable / (B) highlight",
+        "(A) variable / (B) maintain",
+        "(A) stable / (B) eliminate",
+        "(A) relative / (B) narrow"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

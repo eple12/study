@@ -1,0 +1,27 @@
+{
+  "title": "3142 7회 40번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "Apparently, the restricted linguistic environment of one's native language does not inactivate unused perceptual mechanisms completely. Of course, we learn to listen primarily for the acoustic distinctions that correspond to phonemic contrasts in our own language. Given the right task or instructions, however, we can detect unfamiliar acoustic distinctions even though we do not perceive them as marking phonemic contrasts. Furthermore, with enough experience, the perception of non-native distinctions begins to operate at the phonemic level: after considerable experience with spoken English, native speakers of Japanese can distinguish the phonemes /r/ and /l/ categorically and almost as accurately as native English speakers. The fact that perceptual mechanisms available to us as infants can still operate after long disuse causes trouble for hypotheses that early experience with language permanently alters some of the mechanisms of speech perception."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A)와 (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Although lack of (A) to certain phonemes at an early age makes their recognition more difficult later, the ability to learn to identify them (B) with age.",
+      "choices": [
+        "(A) accuracy / (B) lasts",
+        "(A) access / (B) increases",
+        "(A) connection / (B) collapses",
+        "(A) contact / (B) endures",
+        "(A) insight / (B) changes"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

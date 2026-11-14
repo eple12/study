@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 41~42번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "41~42번 지문",
+      "text": "For some people, there's so much sensory cross talk in the brain that using one sense can simultaneously activate another. This is best seen in the phenomenon of synesthesia, a syndrome of overly connected sensory pathways. For example, some people have an auditory-visual connection in which hearing certain pitches causes them to see colors. And those associations are consistent: one color associated with one sound. Others have reported having an olfactory-visual connection in which the scent of fresh lemons makes them picture angular shapes, while the smell of raspberry or vanilla brings to mind rounded shapes. There are many varieties of synesthesia, because there are many combinations of senses, but they all demonstrate the same insight: our sensory pathways are linked. Our sensory systems are designed for survival. Initially processed through parallel pathways, sensory signals are eventually integrated with each other, interpreted, and organized into a conceptual network. Our senses merge to create a singular, streamlined perception of the world. This collaboration doesn't just enhance our conscious experience; it also creates a backup system in case one of our senses fails. When a person goes blind, the other sensory systems kick into gear, attempting to widen the gap in perception. The brain does its utmost to rebuild our picture of the world, even by recreating one sense by combining others."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "We Sense More Than We Can Perceive",
+        "Open Up the Potential of the Five Senses",
+        "Senses: Interconnected to Overcome Barriers",
+        "There Are No Junctions in Sensory Pathways",
+        "Sense of Smell Triggers Emotional Memories"
+      ],
+      "answer": 3,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "밑줄 친 (a)~(e) 중에서 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "For some people, there's so much sensory cross talk in the brain that using one sense can (a) simultaneously activate another. This is best seen in the phenomenon of synesthesia, a syndrome of overly connected sensory pathways. For example, some people have an auditory-visual connection in which hearing certain pitches causes them to see colors. And those associations are (b) consistent: one color associated with one sound. Others have reported having an olfactory-visual connection in which the scent of fresh lemons makes them picture angular shapes, while the smell of raspberry or vanilla brings to mind rounded shapes. There are many varieties of synesthesia, because there are many combinations of senses, but they all demonstrate the same insight: our sensory pathways are linked. Our sensory systems are designed for (c) survival. Initially processed through parallel pathways, sensory signals are eventually integrated with each other, interpreted, and organized into a conceptual network. Our senses merge to create a singular, streamlined perception of the world. This (d) collaboration doesn't just enhance our conscious experience; it also creates a backup system in case one of our senses fails. When a person goes blind, the other sensory systems kick into gear, attempting to (e) widen the gap in perception. The brain does its utmost to rebuild our picture of the world, even by recreating one sense by combining others.",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)",
+        "(e)"
+      ],
+      "answer": 5,
+      "id": "2"
+    }
+  ]
+}

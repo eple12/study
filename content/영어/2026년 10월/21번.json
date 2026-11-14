@@ -1,0 +1,26 @@
+{
+  "title": "2026년 10월 21번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "21번 지문",
+      "text": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future, which by definition is unknowable, and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price, a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "밑줄 친 \"a bird in the hand is worth two in the bush\"가 다음 글에서 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "Lenders and borrowers benefit from each other.",
+        "Spending money now is wiser than keeping it for later.",
+        "The lender decides the interest rate for the borrower.",
+        "Borrowing money involves the risk of damaging one's credit.",
+        "Money you have now is more valuable than the same amount later."
+      ],
+      "answer": 5,
+      "id": "1"
+    }
+  ]
+}

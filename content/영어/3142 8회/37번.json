@@ -1,0 +1,37 @@
+{
+  "title": "3142 8회 37번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "37번 지문",
+      "text": "Bad deflation occurs when spending collapses and companies have to cut their prices to prop up sales, just as hotels cut their rates when tourist traffic dries up. If people expect falling prices, they may delay purchases since their money will buy more later. Employers must lay some workers off to cope with falling prices. Workers initially resist pay cuts, but eventually, fear of unemployment persuades them to accept lower pay. If prices and wages are falling at the same rate, then, is anyone the worse for it? Paychecks have shrunk but because prices have as well, purchasing power remains the same. The problem is that debt is fixed as incomes and prices fall, so the burden of debt rises. Homeowners slash spending to keep up with their mortgage payments. Or worse, the home can't be sold for enough to repay the loan."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "Bad deflation occurs when spending collapses and companies have to cut their prices to prop up sales, just as hotels cut their rates when tourist traffic dries up. If people expect falling prices, they may delay purchases since their money will buy more later.",
+      "items": [
+        "Employers must lay some workers off to cope with falling prices. Workers initially resist pay cuts, but eventually, fear of unemployment persuades them to accept lower pay.",
+        "If prices and wages are falling at the same rate, then, is anyone the worse for it? Paychecks have shrunk but because prices have as well, purchasing power remains the same.",
+        "The problem is that debt is fixed as incomes and prices fall, so the burden of debt rises. Homeowners slash spending to keep up with their mortgage payments. Or worse, the home can't be sold for enough to repay the loan."
+      ],
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Why Deflation Occurs and Price Levels Fluctuate",
+        "Ways to Deal With Household Debt during Deflation",
+        "Deflation vs. Inflation, Which Is Worse to Employers?",
+        "What Consumers' Purchasing Behavior Drives Pricing",
+        "Causes and Effects of a Decrease in General Price Level"
+      ],
+      "answer": 5,
+      "id": "2"
+    }
+  ]
+}

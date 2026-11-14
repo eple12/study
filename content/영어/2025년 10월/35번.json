@@ -1,0 +1,27 @@
+{
+  "title": "2025년 10월 35번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "35번 지문",
+      "text": "Consider units of measure, one kind of descriptive device we are familiar with using in physics. Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless. We conclude from this that physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience. We further conclude that any feature depending on that choice, such as the particular numerical value assigned to the spatial separation between two locations, is not out there in the world apart from a choice of unit. Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another. We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice is scale-dependent."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "Consider units of measure, one kind of descriptive device we are familiar with using in physics. Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless. ①We conclude from this that physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience. ②We further conclude that any feature depending on that choice, such as the particular numerical value assigned to the spatial separation between two locations, is not out there in the world apart from a choice of unit. ③Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another. ④Perception of temperature can vary with humidity and wind, even at the same measured value. ⑤We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice is scale-dependent.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

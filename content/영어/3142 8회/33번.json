@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 33번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "The term 'straw man' refers to a form of informal fallacy used in arguments and debates. A type of rhetorical device, straw man is based on exaggerating some portion of an opponent's stance. The straw man argument is usually more absurd than the actual argument, making it an easier target to attack. For example, maybe you're arguing with a friend about global warming. You think the government should raise fuel efficiency standards to cut down the amount of CO2 we release over the next 20 years. Your friend thinks cars have nothing to do with it, and as you argue, he says something like, \"Our cities are built so that we have to drive cars. Your solution will kill the economy. How would people get to work without cars? It'll never work.\" He's responding to an extreme version of your proposal that's easier to shoot down than your real proposal. He's arguing against the extreme idea that we need to get rid of all cars because it's easier than arguing against the moderate idea that we need to raise fuel efficiency."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "The term 'straw man' refers to a form of informal fallacy used in arguments and debates. A type of rhetorical device, straw man is based on __________.",
+      "choices": [
+        "appealing to authoritative figures in the field",
+        "refuting an opponent's argument with evidence",
+        "exaggerating some portion of an opponent's stance",
+        "attacking the opponent rather than the argument itself",
+        "pointing out illogical aspects of an opponent's argument"
+      ],
+      "answer": 3,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "How to Prevent Exaggeration in Arguments",
+        "Successful Guides to Convincing Opponents",
+        "Be Careful, Your Opponent Is Saying a Fallacy!",
+        "Ways Not to Become the Straw Man in Arguments",
+        "Straw Man Argument: The Best Method in Debates"
+      ],
+      "answer": 3,
+      "id": "2"
+    }
+  ]
+}

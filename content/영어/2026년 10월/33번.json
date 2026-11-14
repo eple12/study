@@ -1,0 +1,27 @@
+{
+  "title": "2026년 10월 33번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Although the extent of change may vary at different stages, every phase of life __________.",
+      "choices": [
+        "is independent of the previous change",
+        "allows room for adaptation and transformation",
+        "leads to less variation in human development",
+        "requires stability for meaningful growth to occur",
+        "has its own limit in adjusting to new experiences"
+      ],
+      "answer": 2,
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 39번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "39번 지문",
+      "text": "Labour migration is an important facet of the development of markets. When countries industrialize, workers move from rural to urban areas, attracted by the higher wages offered by industrial enterprises. A similar phenomenon happens internationally: huge numbers of migrants flowed to the New World during the 19th century and international migration has remained important ever since. As with internal migration, economists stress the role of wage gaps between different countries in generating international migration: migrants flow from low-wage to high-wage countries. Eventually one might see a levelling off, if wages begin to equalize across countries. In practice, what is suggested by simple economic models implies that migration is an intricate phenomenon. All sorts of cultural and social factors are involved, and the issue has become so highly politicized, for both the left and right, that voters will embrace the positions of politicians with whom they are ideologically aligned. Nevertheless, basic knowledge of economics helps to remind us that labour migration is as much a part of the logic of globalization as the expansion of international markets for goods and finance."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** All sorts of cultural and social factors are involved, and the issue has become so highly politicized, for both the left and right, that voters will embrace the positions of politicians with whom they are ideologically aligned.\n\nLabour migration is an important facet of the development of markets. When countries industrialize, workers move from rural to urban areas, attracted by the higher wages offered by industrial enterprises. ( ①) A similar phenomenon happens internationally: huge numbers of migrants flowed to the New World during the 19th century and international migration has remained important ever since. ( ②) As with internal migration, economists stress the role of wage gaps between different countries in generating international migration: migrants flow from low-wage to high-wage countries. ( ③) Eventually one might see a levelling off, if wages begin to equalize across countries. ( ④) In practice, what is suggested by simple economic models implies that migration is an intricate phenomenon. ( ⑤) Nevertheless, basic knowledge of economics helps to remind us that labour migration is as much a part of the logic of globalization as the expansion of international markets for goods and finance.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "major labour market forces that result in globalization",
+        "effective labour migration management in a global context",
+        "the global balance of wages generated from migration abroad",
+        "the economic importance of labour migration on a global scale",
+        "the benefits of immigration overseas in the economy of a country"
+      ],
+      "answer": 4,
+      "id": "2"
+    }
+  ]
+}

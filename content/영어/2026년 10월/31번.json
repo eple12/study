@@ -1,0 +1,27 @@
+{
+  "title": "2026년 10월 31번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "31번 지문",
+      "text": "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since. This need not be a hopeless thought. In one light it is a triumph of engineering. If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't. The automation is precisely what frees the captain to come up on deck for the few problems that actually require him. The default is not a flaw in the human design. It is arguably the central feature, the thing that makes a complex life affordable at all."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "The __________ is precisely what frees the captain to come up on deck for the few problems that actually require him.",
+      "choices": [
+        "reflection",
+        "automation",
+        "prediction",
+        "manipulation",
+        "calculation"
+      ],
+      "answer": 2,
+      "id": "1"
+    }
+  ]
+}

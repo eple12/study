@@ -1,0 +1,27 @@
+{
+  "title": "2025년 10월 34번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "According to this theory, people are more apt to do these kinds of things when __________.",
+      "choices": [
+        "their beliefs begin to conflict with expertise",
+        "they perceive that others share their opinions",
+        "they evolve to become tolerant towards criticism",
+        "they feel only breaking the silence can change the game",
+        "their opposite opinion becomes more and more dominant"
+      ],
+      "answer": 2,
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "2024년 10월 24번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "24번 지문",
+      "text": "Manufacturers masterfully sow seeds of doubt about the adequacy of our current devices. Suddenly, the phone that was your lifeline a year ago is now a museum piece, unable to keep pace with your digital demands. And thus, the itch to upgrade begins, often before there's a genuine need. This cycle isn't just confined to our digital companions. It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge. Every product seems to be on an unstoppable march towards the next version, the next generation that promises to revolutionize your life. What's fascinating, or perhaps disturbing, is the utter efficacy of this cycle in shaping our desires. It's not so much that we want the newest device; we're led to believe we need it. The distinction between want and need blurs, shifting our financial priorities in favor of staying current with trends. For all the logical arguments against this ceaseless upgrading, the temptation remains compelling."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The More One Needs, the More One Wants",
+        "What You Are Using Represents Who You Are",
+        "Dash to the New: Genuine Necessity vs. Steered Desire",
+        "Why It Pays to Know the Way of Upgrading Digital Devices",
+        "Manipulative Techniques Keeping Us Away From Other Brands"
+      ],
+      "answer": 3,
+      "id": "1"
+    }
+  ]
+}

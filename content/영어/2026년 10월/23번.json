@@ -1,0 +1,26 @@
+{
+  "title": "2026년 10월 23번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "23번 지문",
+      "text": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "characteristics of an environment that suits an octopus",
+        "function of the octopus's central brain in controlling its arms",
+        "benefit of an octopus relying more on vision than touch for survival",
+        "reasons for octopuses having more neurons than other marine animals",
+        "mechanism behind an octopus arms' direct interaction with its surroundings"
+      ],
+      "answer": 5,
+      "id": "1"
+    }
+  ]
+}

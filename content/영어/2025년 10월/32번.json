@@ -1,0 +1,27 @@
+{
+  "title": "2025년 10월 32번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, __________.",
+      "choices": [
+        "a whole is as easy to study as its parts",
+        "nobody is an expert in the whole of anything",
+        "a single cell speaks for the entire human body",
+        "modern tools simplify the study of the human body",
+        "researches across subjects have replaced isolated ones"
+      ],
+      "answer": 2,
+      "id": "1"
+    }
+  ]
+}

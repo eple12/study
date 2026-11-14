@@ -1,0 +1,27 @@
+{
+  "title": "2026년 10월 34번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "34번 지문",
+      "text": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to be kept separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Information technology creates new vulnerabilities because __________.",
+      "choices": [
+        "complex issues involving smart systems are oversimplified",
+        "vast amounts of online information destroy social hierarchy",
+        "digitization widens the information gap between institutions",
+        "interconnectedness instantly spreads the impact of small failures",
+        "digital networks fall like dominoes due to increasing computing costs"
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

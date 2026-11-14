@@ -1,0 +1,26 @@
+{
+  "title": "2026년 10월 24번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "24번 지문",
+      "text": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Aristotle's Ethics Trapped in His Time and Class",
+        "Aristotle's Highest Good for the Underprivileged",
+        "Why Philosophers Deserve the Best Things in Life",
+        "Aristotle's Lonely Struggle to Build an Inclusive Society",
+        "Limits of Greek Philosophers: Thoughts Without Actions"
+      ],
+      "answer": 1,
+      "id": "1"
+    }
+  ]
+}

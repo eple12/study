@@ -1,0 +1,24 @@
+{
+  "title": "2026년 10월 37번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "37번 지문",
+      "text": "Reappraisal, changing the way one thinks about emotional situations, might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "Reappraisal, changing the way one thinks about emotional situations, might present a particularly effective avenue to regulating emotions because it transforms emotions at their root.",
+      "items": [
+        "Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships.",
+        "As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude.",
+        "This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience."
+      ],
+      "id": "1"
+    }
+  ]
+}

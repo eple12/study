@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 32번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "32번 지문",
+      "text": "Draw a circle on a piece of paper, but leave a small gap such that the circle is not all the way closed. Now stare at it for a couple minutes and notice what happens. For some people the urge to close it is so strong that they'll eventually pick up the pencil and draw it closed. The same dynamic can be applied to stop procrastination from ruining your life. The trick is simply to start whatever project is in front of you — just start anywhere. Psychologists call this the Zeigarnik effect, named for the Russian psychologist who first documented the finding that when someone is faced with an overwhelming goal and is procrastinating as a result, getting started anywhere will launch motivation to finish what was started. When you start a project — even if you begin with the smallest, simplest part — you begin drawing the circle. Then you'll move on to another part (draw more of the circle), and another (more circle), and so forth. The Zeigarnik effect reveals that incompleteness represents instability to our brain."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Psychologists call this the Zeigarnik effect, named for the Russian psychologist who first documented the finding that when someone is faced with an overwhelming goal and is procrastinating as a result, getting started anywhere will __________.",
+      "choices": [
+        "limit the desire of completing urgent tasks",
+        "generate a new goal that sparks inspiration",
+        "launch motivation to finish what was started",
+        "lead to a heightened sense of procrastination",
+        "intensify the need to start from the beginning"
+      ],
+      "answer": 3,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "separating yourself from a tedious project",
+        "defeating procrastination by beginning a task",
+        "coping with a difficult project by putting it off",
+        "role of procrastination in completing your work",
+        "increasing motivation by choosing the easiest duty"
+      ],
+      "answer": 2,
+      "id": "2"
+    }
+  ]
+}

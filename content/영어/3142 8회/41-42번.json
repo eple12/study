@@ -1,0 +1,40 @@
+{
+  "title": "3142 8회 41~42번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "41~42번 지문",
+      "text": "The reason travels are mentally useful involves a unique characteristic of cognition, in which problems that feel 'close' — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner. As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more limited set of ideas. While this habit can be helpful — it allows us to focus on the facts at hand — it also inhibits our imagination. Consider a field of corn. When you're standing in the middle of a farm, the air smelling faintly of fertilizer and popcorn, your mind is automatically drawn to thoughts related to the primary definition of corn, which is that it's a plant, a cereal, a staple of Midwestern farming. But imagine that same field of corn from a different perspective. Instead of standing on a farm, you're now in a crowded city street dense with taxis and pedestrians. The plant will no longer be just a plant; instead, your vast neural network will pump out all sorts of associations. You'll think about unhealthy corn syrup, obesity, and the Farm Bill: you'll contemplate those corn mazes for kids at state fairs and the deliciousness of succotash made with bacon and beans. The noun is now a vast web of connections. And this is why travel is so open to clarity: When you escape from the place you spend most of your time, the mind is suddenly made aware of all those unusual ideas previously suppressed. You start thinking about obscure possibilities — corn can fuel cars! — that never would have occurred to you if you'd stayed back on the farm. Furthermore, this expansive kind of cognition comes with practical advantages, since you can suddenly draw on a whole new set of possible solutions."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Travel Can Help Squeeze Your Creative Juice",
+        "Why Do We Travel? We're a Migratory Species",
+        "Solo Travel Leads to More Creative Problem Solving",
+        "Travel Changes Your View and Helps You Be Yourself",
+        "Want to Travel? It's About Taking Control of Your Life"
+      ],
+      "answer": 1,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "밑줄 친 (a)~(e) 중에서 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "The reason travels are mentally useful involves a unique characteristic of cognition, in which problems that feel 'close' — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner. As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more (a) limited set of ideas. While this habit can be helpful — it allows us to focus on the facts at hand — it also (b) inhibits our imagination. Consider a field of corn. When you're standing in the middle of a farm, the air smelling faintly of fertilizer and popcorn, your mind is automatically drawn to thoughts related to the primary definition of corn, which is that it's a plant, a cereal, a staple of Midwestern farming. But imagine that same field of corn from a different perspective. Instead of standing on a farm, you're now in a crowded city street dense with taxis and pedestrians. The plant will no longer be just a plant; instead, your vast neural network will pump out all sorts of (c) associations. You'll think about unhealthy corn syrup, obesity, and the Farm Bill: you'll contemplate those corn mazes for kids at state fairs and the deliciousness of succotash made with bacon and beans. The noun is now a vast web of connections. And this is why travel is so open to (d) clarity: When you escape from the place you spend most of your time, the mind is suddenly made aware of all those unusual ideas previously suppressed. You start thinking about obscure possibilities — corn can fuel cars! — that never would have occurred to you if you'd stayed back on the farm. Furthermore, this (e) expansive kind of cognition comes with practical advantages, since you can suddenly draw on a whole new set of possible solutions.",
+      "choices": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)",
+        "(e)"
+      ],
+      "answer": 4,
+      "id": "2"
+    }
+  ]
+}

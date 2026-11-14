@@ -1,0 +1,24 @@
+{
+  "title": "2026년 10월 36번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "36번 지문",
+      "text": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user.",
+      "items": [
+        "We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective?",
+        "An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities.",
+        "This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
+      ],
+      "id": "1"
+    }
+  ]
+}

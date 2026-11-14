@@ -1,0 +1,40 @@
+{
+  "title": "3142 7회 33번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "In the old days, when aircraft routinely fell out of the sky because large and obvious components failed — the fuel pumps gave out or the engines exploded — it felt sensible to cast aside the claims of organized religions in favor of a trust in science. Rather than praying, the urgent task was to study the root causes of malfunctions and root out error through reason. But as aviation has become ever more subject to scrutiny, as every part has been equipped with backup systems, so, too, have the reasons for becoming superstitious paradoxically increased. The sheer remoteness of a catastrophic event occurring invites us to forgo scientific assurances in favor of a more humble stance towards the dangers which our feeble minds struggle to contain. While never going so far as to ignore maintenance schedules, we may nevertheless judge it far from unreasonable to take a few moments before a journey to fall to our knees and pray to the mysterious forces of fate to which all aircraft remain subject and which we might as well call God."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "While never going so far as to ignore maintenance schedules, we may nevertheless __________ to take a few moments before a journey to fall to our knees and pray to the mysterious forces of fate to which all aircraft remain subject and which we might as well call God.",
+      "choices": [
+        "judge it far from unreasonable",
+        "consider it thoroughly unacceptable",
+        "not think it necessary for us believers",
+        "regard it as a result of the forces of fate",
+        "take it from the inevitable power of God"
+      ],
+      "answer": 1,
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "윗글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Failure of Science Leads to Faith",
+        "Is God Really the Existing Mysterious Force?",
+        "Science Is Not Enough to Fully Set Us at Ease",
+        "Scientific Assurance: A Long Distance to Go",
+        "How People Gain Religion After Disaster"
+      ],
+      "answer": 3,
+      "id": "2"
+    }
+  ]
+}

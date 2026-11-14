@@ -1,0 +1,26 @@
+{
+  "title": "2025년 10월 24번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "24번 지문",
+      "text": "Imagine pausing in the middle of a busy day, taking a moment to refresh your mind and recharge your energy. This power of a midday break is often underestimated. When you break away from routine, especially with activities designed to stimulate your brain, you prevent cognitive tiredness and enhance productivity for the rest of the day. Neurobic exercises, simple yet effective, are perfect for such breaks. They target different areas of your brain, keeping it agile and alert. These exercises create a mental oasis that refreshes and prepares you for the afternoon's challenges. This strategic pause is not just a break; it boosts your cognitive capabilities, ensuring your mind remains sharp and focused. Even briefly experimenting with neurobic exercises can work wonders for your cognitive state during lunch. Start with using your non-dominant hand for routine tasks like writing or eating. This simple switch challenges your brain, activating pathways that aren't typically engaged and promoting greater flexibility in thinking."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Your Brain Gets Recharged When Doing Nothing",
+        "Our Illusion in the Effects of Neurobic Exercises",
+        "How Neurobic Exercises Enhance Physical Abilities",
+        "Middle of a Busy Day: The Time When Focus Peaks",
+        "Midday Neurobics: Refresh Your Brain and Stay Sharp"
+      ],
+      "answer": 5,
+      "id": "1"
+    }
+  ]
+}

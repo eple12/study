@@ -1,0 +1,27 @@
+{
+  "title": "2025년 10월 33번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "33번 지문",
+      "text": "Historically, palaces weren't just homes; they were carefully constructed stages designed to impress and intimidate. While stone symbolized permanence and strength, glass offered something equally powerful: visibility. The introduction of large windows in palaces allowed rulers to literally look down upon their subjects, emphasizing their elevated position. Conversely, it also allowed subjects to gaze up at their leaders, creating a sense of awe and distance. Consider the Palace of Versailles: its Hall of Mirrors, lined with reflective surfaces, not only magnified the grandeur of the space but also placed the king at the center of a dazzling display, reinforcing his absolute authority. The use of glass in palaces wasn't merely aesthetic; it was strategic. Open sightlines allowed for better surveillance and control, ensuring the safety and security of the ruling family. Courtiers and visitors were constantly aware of being observed, contributing to an atmosphere of careful obedience and respect. The very architecture dictated social behavior, with glass acting as a silent enforcer of the power dynamic."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "The very architecture dictated social behavior, with glass __________.",
+      "choices": [
+        "acting as a silent enforcer of the power dynamic",
+        "serving as a tool for a king to reflect on himself",
+        "opening the king's eyes to his subjects' hardships",
+        "offering the ruler a window and the ruled a mirror",
+        "representing a bridge between the king and the public"
+      ],
+      "answer": 1,
+      "id": "1"
+    }
+  ]
+}

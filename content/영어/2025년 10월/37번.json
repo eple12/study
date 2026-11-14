@@ -1,0 +1,24 @@
+{
+  "title": "2025년 10월 37번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "37번 지문",
+      "text": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore- and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help.",
+      "items": [
+        "In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view.",
+        "Further distinctions can be made by looking for a tiny hook that joins fore- and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day.",
+        "Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects."
+      ],
+      "id": "1"
+    }
+  ]
+}

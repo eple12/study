@@ -1,0 +1,26 @@
+{
+  "title": "2024년 10월 21번",
+  "subtitle": "고2 전국연합학력평가 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "21번 지문",
+      "text": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "밑줄 친 \"Popping a pill cannot make you a better person\"이 다음 글에서 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "Impulsive deeds rather than habitual actions can damage reputation.",
+        "Insincere goodwill does not impress others regardless of frequency.",
+        "Material rewards can be a shortcut to make someone a good person.",
+        "Good traits come from established behavior, not from a single action.",
+        "Virtue cannot be acquired by habits as someone's character is inborn."
+      ],
+      "answer": 4,
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "3142 8회 40번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "40번 지문",
+      "text": "A few years ago, three Harvard researchers gave dozens of Asian American women at Harvard a difficult math test. But before getting them started, the researchers asked them to fill out a questionnaire about themselves. These Asian American women were members of two in-groups with conflicting norms: they were Asians, a group recognized as being good at math, and they were women, a group recognized as being poor at it. One set of participants received a questionnaire asking about what languages they, their parents, and grandparents spoke and how many generations of their family had lived in America. These questions were designed to trigger the women's connection to Asian Americans. Other subjects answered inquiries about coed dormitory policy, designed to trigger their connection to women. A third group, the control group, was quizzed about their phone and cable TV service. After the test, the researchers found that the women who had been manipulated to think of themselves as Asian Americans had done better on the test than did the control group, who, in turn, had done better than the women reminded of their female in-group."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "According to the experiment, cueing a(n) (A) that is stereotyped actually influenced the (B) of members of the group to follow the stereotype.",
+      "choices": [
+        "(A) community / (B) behavior",
+        "(A) personality / (B) evaluation",
+        "(A) identity / (B) performance",
+        "(A) psychology / (B) preference",
+        "(A) status / (B) self-image"
+      ],
+      "answer": 3,
+      "id": "1"
+    }
+  ]
+}

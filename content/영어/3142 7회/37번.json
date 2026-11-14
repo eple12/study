@@ -1,0 +1,37 @@
+{
+  "title": "3142 7회 37번",
+  "subtitle": "3142 원문 지문 + 변형문제",
+  "passages": [
+    {
+      "id": "p1",
+      "title": "37번 지문",
+      "text": "The flu can kill tens of millions of people, and unrelenting strains of tuberculosis and cholera continue to cause premature death among populations throughout the world. This means humans have little or no immunity to it, and everyone is at risk. In spite of our best efforts to eradicate them, these health problems are a continuing menace to all of us. Just like there are only a few things which do not have both positives and negatives, however, the news isn't all bad. Even though we are bombarded by potentially disease-causing threats, our immune systems are remarkably adept at protecting us. However, this is not always the case. Microorganisms originating in the body live in peaceful coexistence with their human host most of the time. Specifically, for people in good health and whose immune systems are functioning properly, the organisms are usually harmless. But in sick people or people with weakened immune systems, these normally harmless potentially disease-causing organisms can cause serious health problems."
+    }
+  ],
+  "questions": [
+    {
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "given": "The flu can kill tens of millions of people, and unrelenting strains of tuberculosis and cholera continue to cause premature death among populations throughout the world. This means humans have little or no immunity to it, and everyone is at risk.",
+      "items": [
+        "In spite of our best efforts to eradicate them, these health problems are a continuing menace to all of us. Just like there are only a few things which do not have both positives and negatives, however, the news isn't all bad.",
+        "Even though we are bombarded by potentially disease-causing threats, our immune systems are remarkably adept at protecting us. However, this is not always the case. Microorganisms originating in the body live in peaceful coexistence with their human host most of the time.",
+        "Specifically, for people in good health and whose immune systems are functioning properly, the organisms are usually harmless. But in sick people or people with weakened immune systems, these normally harmless potentially disease-causing organisms can cause serious health problems."
+      ],
+      "id": "1"
+    },
+    {
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "symbiotic relationship of many diseases and microorganisms",
+        "advantage of microorganisms in the body in affecting humans",
+        "unremarkable capability of our immune system to face diseases",
+        "ways to remove harmful organisms without weakening ourselves",
+        "role of a healthy immune system in preventing a health problem"
+      ],
+      "answer": 5,
+      "id": "2"
+    }
+  ]
+}
