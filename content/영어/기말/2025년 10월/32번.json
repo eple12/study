@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "32번 지문",
       "text": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially __enhance__ the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, __demands__ such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be __detached__ to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more __intricate__. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be __organized__'. Today, nobody is an expert in the whole of anything."
     }
   ],
   "questions": [
@@ -60,6 +66,19 @@
         "⑤"
       ],
       "answer": 5
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "choices": [
+        "enhance",
+        "demands",
+        "detached",
+        "intricate",
+        "organized"
+      ],
+      "answer": 3
     }
   ]
 }

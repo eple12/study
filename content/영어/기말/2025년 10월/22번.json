@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "22번 지문",
       "text": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try."
     }
   ],
   "questions": [
@@ -57,6 +63,19 @@
         "④"
       ],
       "answer": 4
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Scientific downsides of uncontrolled curiosity",
+        "Predicting outcomes for efficient scientific inquiry",
+        "Hypothesis setting as the core of scientific research",
+        "Science's evolution: From curiosity to systematic methods",
+        "The Driving Force of Scientific Progress: Ignorance and Curiosity"
+      ],
+      "answer": 5
     }
   ]
 }

@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "21번 지문",
       "text": "Coat a fresh, wet swab in salt, and gently touch various spots on your tongue, recording where your taste seems strongest. Then, gargle with water to thoroughly clean your tongue, use a swab coated with sugar on the same spots, and record those results. Gargle again, and then swab with lemon juice. After a final gargle, try coffee. Compare your reactions with your friends'. Your taste pattern may reveal more than just taste preferences. Recent studies suggest links between taster status and behavioral disorders. For example, \"non-tasters\" tend to have a higher incidence of alcoholism, perhaps because liquor seems less bitter to them. Conversely, \"super-tasters\" may avoid nutritious but mildly bitter foods such as broccoli, thus depriving themselves of a balanced diet. So, although taste is not nearly as glamorous as vision, hearing, or even touch, it makes sense for you to pay closer attention to it because chemistry, at least in your mouth, could be destiny."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Coat a fresh, wet swab in salt, and gently touch various spots on your tongue, recording where your taste seems strongest. Then, gargle with water to thoroughly clean your tongue, use a swab coated with sugar on the same spots, and record those results. Gargle again, and then swab with lemon juice. After a final gargle, try coffee. Compare your reactions with your friends'. Your taste pattern may reveal more than just taste preferences. Recent studies suggest links between taster status and behavioral disorders. For example, \"non-tasters\" tend to have a higher incidence of alcoholism, perhaps because liquor seems less bitter to them. Conversely, \"super-tasters\" may avoid nutritious but mildly bitter foods such as broccoli, thus depriving themselves of a balanced diet. So, although taste is not nearly as glamorous as vision, hearing, or even touch, it makes sense for you to pay closer attention to it because chemistry, at least in your mouth, could be destiny."
     }
   ],
   "questions": [
@@ -62,6 +68,19 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "건강을 유지하려면 쓴 음식을 피해야 한다.",
+        "인간의 미각은 다른 감각들보다 덜 중요하다.",
+        "미각의 차이는 주로 문화적 배경 때문에 생긴다.",
+        "미각 실험은 주관적인 인식 때문에 신뢰할 수 없다.",
+        "미각의 민감도는 특정 행동 패턴과 관련이 있을 수 있다."
+      ],
+      "answer": 5
     }
   ]
 }

@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "35번 지문",
       "text": "Consider units of measure, one kind of descriptive device we are familiar with using in physics. Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless. We conclude from this that physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience. We further conclude that any feature depending on that choice, such as the particular numerical value assigned to the spatial separation between two locations, is not out there in the world apart from a choice of unit. Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another. We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice is scale-dependent."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Consider units of measure, one kind of descriptive device we are familiar with using in physics. Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless. We conclude from this (A) [that / what] physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience. We further conclude that any feature depending on that choice, such as the particular numerical value (B) [assigned / assigning] to the spatial separation between two locations, is not out there in the world apart from a choice of unit. Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another. We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice (C) [is / being] scale-dependent."
     }
   ],
   "questions": [
@@ -58,6 +64,19 @@
         "④"
       ],
       "answer": 3
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "(A), (B), (C)의 각 괄호 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "choices": [
+        "that - assigning - is",
+        "what - assigned - being",
+        "that - assigned - being",
+        "what - assigning - is",
+        "that - assigned - is"
+      ],
+      "answer": 5
     }
   ]
 }

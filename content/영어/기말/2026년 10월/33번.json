@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "33번 지문",
       "text": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 3
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective (A) [ lie / lies ] the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights (B) [ that / what ] individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood (C) [ seeing / seen ] as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "choices": [
+        "lies - what - seen",
+        "lies - that - seen",
+        "lie - that - seen",
+        "lies - that - seeing",
+        "lie - what - seeing"
+      ],
+      "answer": 2
     }
   ]
 }

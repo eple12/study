@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "31번 지문",
       "text": "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since. This need not be a hopeless thought. In one light it is a triumph of engineering. If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't. The automation is precisely what frees the captain to come up on deck for the few problems that actually require him. The default is not a flaw in the human design. It is arguably the central feature, the thing that makes a complex life affordable at all."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since. This need not be a hopeless thought. In one light it is a triumph of engineering. If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't. The automation is precisely what frees the captain to come up on deck for the few problems that actually require him. The default is not a flaw in the human design. It is arguably the central feature, the thing that makes a complex life affordable at all."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 4
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour (A) [ packing / packed ] into them runs on settings laid down, most of them, decades earlier and rarely inspected since. This need not be a hopeless thought. In one light it is a triumph of engineering. If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't. The automation is precisely (B) [ what / that ] frees the captain to come up on deck for the few problems that actually require him. The default is not a flaw in the human design. It is arguably the central feature, the thing that (C) [ make / makes ] a complex life affordable at all.",
+      "choices": [
+        "packed - what - make",
+        "packed - that - makes",
+        "packed - what - makes",
+        "packing - what - make",
+        "packing - that - makes"
+      ],
+      "answer": 3
     }
   ]
 }

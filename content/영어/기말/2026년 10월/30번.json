@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "30번 지문",
       "text": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a smiling expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 3
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found (A) [ themselves / them ] in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is (B) [ because of / because ] people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression (C) [ what / that ] they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "choices": [
+        "themselves - because of - that",
+        "themselves - because - that",
+        "them - because - what",
+        "them - because of - that",
+        "themselves - because of - what"
+      ],
+      "answer": 2
     }
   ]
 }

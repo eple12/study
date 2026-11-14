@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "38번 지문",
       "text": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population, such as increasing or decreasing its size, in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population, such as increasing or decreasing its size, in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals."
     }
   ],
   "questions": [
@@ -60,6 +66,19 @@
         "⑤"
       ],
       "answer": 4
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Role of Human Influence in Wildlife Management",
+        "Conservation Strategies: Balancing Wildlife Populations",
+        "Managing Human Impact on Wildlife: A Balanced Approach",
+        "Translocations and Hunting: Key Techniques in Wildlife Management",
+        "Active vs. Inactive Wildlife Management: Approaches to Population and Habitat Control"
+      ],
+      "answer": 5
     }
   ]
 }

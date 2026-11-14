@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "37번 지문",
       "text": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore- and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects."
     }
   ],
   "questions": [
@@ -56,6 +62,19 @@
         "③",
         "④",
         "⑤"
+      ],
+      "answer": 5
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the evolutionary advantages of nocturnal behavior in moths",
+        "scientific methods for accurately classifying moths and butterflies",
+        "why butterflies are more visually appealing than moths to humans",
+        "the importance of protecting insects that are active during both day and night",
+        "common misconceptions about moths and butterflies and ways to distinguish them"
       ],
       "answer": 5
     }

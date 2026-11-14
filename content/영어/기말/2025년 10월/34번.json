@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "34번 지문",
       "text": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions."
     }
   ],
   "questions": [
@@ -58,6 +64,19 @@
         "④"
       ],
       "answer": 2
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Why Minority Perception Results in Silence",
+        "When Social Expression Turns into Public Division",
+        "The Role of Media in Encouraging Political Speech",
+        "Why the Public Opinion No Longer Reflects Reality",
+        "The Hidden Power of Passive Agreement in Society"
+      ],
+      "answer": 1
     }
   ]
 }

@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "38번 지문",
       "text": "When we say that water is \"clean,\" we don't just mean that it looks like a glass of water. Water quality is about following a certain set of criteria, or \"benchmarks.\" These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water. These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things. For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. This is why groups set different \"safety limits\" for the water dependent on how it will be utilized."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "When we say that water is \"clean,\" we don't just mean that it looks like a glass of water. Water quality is about following a certain set of criteria, or \"benchmarks.\" These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water. These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things. For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. This is why groups set different \"safety limits\" for the water dependent on how it will be utilized."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 4
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "When we say that water is \"clean,\" we don't just mean (A) [ that / what ] it looks like a glass of water. Water quality is about following a certain set of criteria, or \"benchmarks.\" These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water. These rules ensure the water is safe for anything we want to do with (B) [ it / them ], whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things. For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. This is why groups set different \"safety limits\" for the water dependent on (C) [ what / how ] it will be utilized.",
+      "choices": [
+        "that - them - how",
+        "what - it - how",
+        "that - it - what",
+        "what - them - what",
+        "that - it - how"
+      ],
+      "answer": 5
     }
   ]
 }

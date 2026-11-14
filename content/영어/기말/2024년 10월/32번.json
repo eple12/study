@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "32번 지문",
       "text": "All translators feel some pressure from the community of readers for whom they are doing their work. And all translators arrive at their interpretations in dialogue with other people. The English poet Alexander Pope had pretty good Greek, but when he set about translating Homer's Iliad in the early 18th century he was not on his own. He had Greek commentaries to refer to, and translations that had already been done in English, Latin, and French, and of course he had dictionaries. Translators always draw on more than one source text. Even when the scene of translation consists of just one person with a pen, paper, and the book that is being translated, or even when it is just one person translating orally for another, that person's linguistic knowledge arises from lots of other texts and other conversations. And then his or her idea of the translation's purpose will be influenced by the expectations of the person or people it is for. In both these senses every translation is a crowd translation."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "All translators feel some pressure from the community of readers for whom they are doing their work. And all translators arrive at their interpretations in dialogue with other people. The English poet Alexander Pope had pretty good Greek, but when he set about translating Homer's Iliad in the early 18th century he was not on his own. He had Greek commentaries to refer to, and translations that had already been done in English, Latin, and French, and of course he had dictionaries. Translators always draw on more than one source text. Even when the scene of translation consists of just one person with a pen, paper, and the book that is being translated, or even when it is just one person translating orally for another, that person's linguistic knowledge arises from lots of other texts and other conversations. And then his or her idea of the translation's purpose will be influenced by the expectations of the person or people it is for. In both these senses every translation is a crowd translation."
     }
   ],
   "questions": [
@@ -61,6 +67,20 @@
         "⑤"
       ],
       "answer": 3
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Evolution of Modern Translators",
+        "The Collaborative Process of Interpretation",
+        "How Translators Avoid Dialogue with Others",
+        "The Pressure Translators Face from Dictionaries",
+        "Translating Without the Need for Community Feedback"
+      ],
+      "answer": 2
     }
   ]
 }

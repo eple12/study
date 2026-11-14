@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "40번 지문",
       "text": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
     }
   ],
   "questions": [
@@ -61,6 +67,19 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Our Fixed Clock vs. Nature's Flexible Time",
+        "Leap Seconds: A Triumph of Modern Science",
+        "The Earth Is Slowing Down: Are We in Danger?",
+        "How to Adapt to an Ever-Changing Environment",
+        "The Unstable Relationship Between Time and Gravity"
+      ],
+      "answer": 1
     }
   ]
 }

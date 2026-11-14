@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "32번 지문",
       "text": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure."
     }
   ],
   "questions": [
@@ -45,6 +51,20 @@
         "③"
       ],
       "answer": 3
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "If we understand mass culture as a weakening factor of the cultural ties (A) [ what / that ] unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, (B) [ which / that ] is harmful. Justice must not be done in the public square, which today (C) [ converting / is converted ] into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.",
+      "choices": [
+        "that - which - is converted",
+        "what - which - is converted",
+        "that - that - is converted",
+        "that - which - converting",
+        "what - that - converting"
+      ],
+      "answer": 1
     }
   ]
 }

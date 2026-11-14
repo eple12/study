@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "21번 지문",
       "text": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person."
     }
   ],
   "questions": [
@@ -65,6 +71,20 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "감사함은 미덕이 아니다.",
+        "한 번의 선물로 관대함을 평가할 수 있다.",
+        "즉각적인 행동 변화는 도덕적 성장을 의미한다.",
+        "도덕적 미덕은 꾸준한 실천과 역사의 산물이다.",
+        "관대함은 일시적인 충동으로 충분히 발현될 수 있다."
+      ],
+      "answer": 4
     }
   ]
 }

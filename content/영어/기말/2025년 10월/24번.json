@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "24번 지문",
       "text": "Imagine pausing in the middle of a busy day, taking a moment to refresh your mind and recharge your energy. This power of a midday break is often underestimated. When you break away from routine, especially with activities designed to stimulate your brain, you prevent cognitive tiredness and enhance productivity for the rest of the day. Neurobic exercises, simple yet effective, are perfect for such breaks. They target different areas of your brain, keeping it agile and alert. These exercises create a mental oasis that refreshes and prepares you for the afternoon's challenges. This strategic pause is not just a break; it boosts your cognitive capabilities, ensuring your mind remains sharp and focused. Even briefly experimenting with neurobic exercises can work wonders for your cognitive state during lunch. Start with using your non-dominant hand for routine tasks like writing or eating. This simple switch challenges your brain, activating pathways that aren't typically engaged and promoting greater flexibility in thinking."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Imagine pausing in the middle of a busy day, taking a moment to refresh your mind and recharge your energy. This power of a midday break is often underestimated. When you break away from routine, especially with activities designed to stimulate your brain, you prevent cognitive tiredness and enhance productivity for the rest of the day. Neurobic exercises, simple yet effective, are perfect for such breaks. They target different areas of your brain, keeping it agile and alert. These exercises create a mental oasis that refreshes and prepares you for the afternoon's challenges. This strategic pause is not just a break; it boosts your cognitive capabilities, ensuring your mind remains sharp and focused. Even briefly experimenting with neurobic exercises can work wonders for your cognitive state during lunch. Start with using your non-dominant hand for routine tasks like writing or eating. This simple switch challenges your brain, activating pathways that aren't typically engaged and promoting greater flexibility in thinking."
     }
   ],
   "questions": [
@@ -60,6 +66,19 @@
         "③",
         "④",
         "⑤"
+      ],
+      "answer": 5
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the role of physical exercise in maintaining brain health",
+        "the benefits of relying on routines to reduce mental fatigue",
+        "the negative effects of skipping lunch on productivity and focus",
+        "the disadvantages of using your non-dominant hand for daily tasks",
+        "the importance of taking strategic breaks that stimulate the brain"
       ],
       "answer": 5
     }

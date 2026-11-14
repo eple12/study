@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "21번 지문",
       "text": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future, which by definition is unknowable, and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price, a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future — which by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush."
     }
   ],
   "questions": [
@@ -59,6 +65,20 @@
         "⑤"
       ],
       "answer": 4
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "To see how borrowing and lending changes a person's worldview, consider (A) [ that / what ] the rate of interest does to people's perception of time. (B) [ Imagine / Imagining ] you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future — (C) [ what / which ] by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.",
+      "choices": [
+        "that - Imagining - which",
+        "that - Imagine - what",
+        "what - Imagine - which",
+        "what - Imagining - what",
+        "what - Imagining - which"
+      ],
+      "answer": 3
     }
   ]
 }

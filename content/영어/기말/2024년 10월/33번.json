@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "33번 지문",
       "text": "Some people argue that there is a single, logically consistent concept known as reading that can be neatly set apart from everything else people do with books. Is reading really that simple? The most productive way to think about reading is as a collection of activities in which many other opinions interact owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait. Consequently, efforts to distinguish reading from nonreading are destined to fail because there is no agreement on what qualifies as reading in the first place. The more one tries to figure out where the border lies between reading and not-reading, the more edge cases will be found to stretch the term's flexible boundaries. Thus, it is worth attempting to collect together these exceptional forms of reading into a single forum, one highlighting the challenges faced by anyone wishing to establish the boundaries where reading begins and ends. The attempt moves toward an understanding of reading as a spectrum that is expansive enough to accommodate the distinct reading activities."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "Some people argue that there is a single, logically consistent concept known as reading that can be neatly set apart from everything else people do with books. Is reading really that simple? The most productive way to think about reading is as a loosely related set of behaviors that belong together owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait. Consequently, efforts to distinguish reading from nonreading are destined to fail because there is no agreement on what qualifies as reading in the first place. The more one tries to figure out where the border lies between reading and not-reading, the more edge cases will be found to stretch the term's flexible boundaries. Thus, it is worth attempting to collect together these exceptional forms of reading into a single forum, one highlighting the challenges faced by anyone wishing to establish the boundaries where reading begins and ends. The attempt moves toward an understanding of reading as a spectrum that is expansive enough to accommodate the distinct reading activities."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 3
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Defining Reading: Establishing a Consistent Concept",
+        "The History and Evolution of Reading in Modern Society",
+        "The Clear Boundaries Between Reading and Non-reading",
+        "Understanding Reading as a Broad Spectrum of Behaviors",
+        "Ludwig Wittgenstein's Theories on Family Resemblance and Language"
+      ],
+      "answer": 4
     }
   ]
 }

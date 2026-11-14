@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "37번 지문",
       "text": "Reappraisal, changing the way one thinks about emotional situations, might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience."
     }
   ],
   "questions": [
@@ -62,6 +68,20 @@
         "⑤"
       ],
       "answer": 5
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to (A) [ regulating / regulate ] emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but (B) [ that / where ] might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When (C) [ repeating / repeated ] over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.",
+      "choices": [
+        "regulating - where - repeated",
+        "regulating - that - repeated",
+        "regulate - that - repeated",
+        "regulating - that - repeat",
+        "regulate - where - repeat"
+      ],
+      "answer": 2
     }
   ]
 }

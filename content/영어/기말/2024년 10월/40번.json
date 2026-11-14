@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "40번 지문",
       "text": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color."
     }
   ],
   "questions": [
@@ -63,6 +69,20 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "various objects associated with a particular color",
+        "the impact of red objects on color matching",
+        "the effect of red objects on object shape and color",
+        "the influence of cognitive associations on color perception",
+        "investigating the complex connection between object shape and color"
+      ],
+      "answer": 4
     }
   ]
 }

@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "35번 지문",
       "text": "Any new resource (e.g., a new airport, a new mall) always opens with people benefiting individually by sharing a common resource (e.g., the city or state budget). Soon, at some point, the amount of traffic grows too large for the \"commons\" to support. Traffic jams, overcrowding, and overuse lessen the benefits of the common resource for everyone, the tragedy of the commons! If the new resource cannot be expanded or provided with additional space, it becomes a problem, and you cannot solve the problem on your own, in isolation from your fellow drivers or walkers or competing users. The total activity on this new resource keeps increasing, and so does individual activity; but if the dynamic of common use and overuse continues too long, both begin to fall after a peak, leading to a crash. What makes the \"tragedy of commons\" tragic is the crash dynamic, the destruction or degeneration of the common resource's ability to regenerate itself."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "Any new resource (e.g., a new airport, a new mall) always opens with people benefiting individually by sharing a common resource (e.g., the city or state budget). Soon, at some point, the amount of traffic grows too large for the \"commons\" to support. Traffic jams, overcrowding, and overuse lessen the benefits of the common resource for everyone, the tragedy of the commons! If the new resource cannot be expanded or provided with additional space, it becomes a problem, and you cannot solve the problem on your own, in isolation from your fellow drivers or walkers or competing users. The total activity on this new resource keeps increasing, and so does individual activity; but if the dynamic of common use and overuse continues too long, both begin to fall after a peak, leading to a crash. What makes the \"tragedy of commons\" fortunate is the crash dynamic, the destruction or degeneration of the common resource's ability to regenerate itself."
     }
   ],
   "questions": [
@@ -58,6 +64,21 @@
         "④"
       ],
       "answer": 2
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Any new resource (e.g., a new airport, a new mall) always opens with people benefiting individually by sharing a common resource (e.g., the city or state budget). Soon, at some point, the amount of traffic grows too large for the \"commons\" to ① support. Traffic jams, overcrowding, and overuse ② lessen the benefits of the common resource for everyone — the tragedy of the commons! If the new resource cannot be expanded or provided with additional space, it becomes a problem, and you cannot solve the problem on your own, in ③ isolation from your fellow drivers or walkers or competing users. The total activity on this new resource keeps increasing, and so does individual activity; but if the dynamic of common use and overuse ④ continues too long, both begin to fall after a peak, leading to a crash. What makes the \"tragedy of commons\" ⑤ fortunate is the crash dynamic — the destruction or degeneration of the common resource's ability to regenerate itself.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

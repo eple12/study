@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "38번 지문",
       "text": "We encounter contrary claims about the relation of literature to action. Theorists have maintained that literature encourages solitary reading and reflection as the way to engage with the world and thus counters the social and political activities that might produce social change. At best it encourages detachment or appreciation of complexity, and at worst passivity and acceptance of what is. Plato banned poets from his ideal republic because they could only do harm, and novels have long been credited with making people dissatisfied with their lives and eager for something new. By promoting identification across divisions of class, gender, and race, books may promote a fellowship that discourages struggle; but they may also produce a keen sense of injustice that makes progressive struggles possible. But on the other hand, literature has historically been seen as dangerous: it promotes the questioning of authority and social arrangements. Historically, works of literature are credited with producing change: Uncle Tom's Cabin, a best-seller in its day, helped create a revulsion against slavery that made possible the American Civil War."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "We encounter contrary claims about the relation of literature to action. Theorists have maintained that literature encourages solitary reading and reflection as the way to engage with the world and thus counters the social and political activities that might produce social change. At best it encourages detachment or appreciation of complexity, and at worst passivity and acceptance of what is. But on the other hand, literature has historically been seen as dangerous: it promotes the questioning of authority and social arrangements. Plato banned poets from his ideal republic because they could only do harm, and novels have long been credited with making people dissatisfied with their lives and eager for something new. By promoting identification across divisions of class, gender, and race, books may promote a fellowship that discourages struggle; but they may also produce a keen sense of injustice that makes progressive struggles possible. Historically, works of literature are credited with producing change: Uncle Tom's Cabin, a best-seller in its day, helped create a revulsion against slavery that made possible the American Civil War."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 5
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the role of literature in social change",
+        "literature as the sole cause of revolutions",
+        "literature as a unifier eliminating struggle",
+        "literature as entertainment without action",
+        "literature as a promoter of contentment with inequality"
+      ],
+      "answer": 1
     }
   ]
 }

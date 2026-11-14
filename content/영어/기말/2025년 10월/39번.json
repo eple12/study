@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "39번 지문",
       "text": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
     }
   ],
   "questions": [
@@ -61,6 +67,19 @@
         "⑤"
       ],
       "answer": 5
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "historical background of the concept of planned obsolescence",
+        "the necessity of regulating companies to prevent excessive waste",
+        "transition from waste-dependent economy to service-based model",
+        "the importance of repair and maintenance in modern industrial society",
+        "consumer inclination toward durable goods instead of cheaper options"
+      ],
+      "answer": 3
     }
   ]
 }

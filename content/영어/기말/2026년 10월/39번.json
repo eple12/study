@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "39번 지문",
       "text": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions."
     }
   ],
   "questions": [
@@ -61,6 +67,20 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives (A) [ which / where ] they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources (B) [ producing / produced ] by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that (C) [ offers / offer ] hints about the enslaved peoples' attitudes and actions.",
+      "choices": [
+        "which - producing - offers",
+        "which - produced - offer",
+        "where - producing - offers",
+        "where - produced - offers",
+        "where - produced - offer"
+      ],
+      "answer": 5
     }
   ]
 }

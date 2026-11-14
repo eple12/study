@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "23번 지문",
       "text": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance."
     }
   ],
   "questions": [
@@ -61,6 +67,20 @@
         "⑤"
       ],
       "answer": 4
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Pleasure is the primary factor in determining our happiness, unrelated to pain.",
+        "Pain is unrelated to our emotional state, and only pleasure improves the quality of life.",
+        "Pleasure and pain cannot coexist because of the opposite sides, so one offsets the other.",
+        "Our bodies try to experience pleasure often to eliminate pain, but this increases pain instead.",
+        "Pleasure and pain are processed in the same area of the brain and depend on each other to maintain balance."
+      ],
+      "answer": 5
     }
   ]
 }

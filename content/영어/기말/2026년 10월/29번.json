@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "29번 지문",
       "text": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of them failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2026년 10월)",
+      "text": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier."
     }
   ],
   "questions": [
@@ -61,6 +67,20 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "You might think of survival as a race (A) [ in which / which ] a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of (B) [ who / whom ] failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. (C) [ It had been / Had it been ] otherwise, the huge recent growth in human population would have occurred much earlier.",
+      "choices": [
+        "in which - whom - Had it been",
+        "which - whom - Had it been",
+        "in which - who - It had been",
+        "in which - whom - It had been",
+        "which - who - Had it been"
+      ],
+      "answer": 1
     }
   ]
 }

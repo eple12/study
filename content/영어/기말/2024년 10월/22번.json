@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "22번 지문",
       "text": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories."
     }
   ],
   "questions": [
@@ -59,6 +65,20 @@
         "⑤"
       ],
       "answer": 3
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Stellar Mass Measurement: How Accurate?",
+        "Center of Gravity: The Key to Cosmic Balance",
+        "How Do We Use Kepler's Laws to Measure Stars?",
+        "Measurement: Deriving Values Through Established Theories",
+        "Scientific Methodology: Hypothesis Formulation and Verification"
+      ],
+      "answer": 4
     }
   ]
 }

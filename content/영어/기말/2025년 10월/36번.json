@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "36번 지문",
       "text": "Even though sea creatures live in it, they still need to take in water for their bodies to function properly. They just need to get rid of any extra salt it might bring with it. Salt absorbs water like a sponge. If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water. Now you have a pile of wet salt. Notice that it has increased in size. The same principle applies to sea creatures. If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater. This can cause them to swell up. On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Even though sea creatures live in it, they still need to take in water for their bodies to function properly. They just need to get rid of any extra salt it might bring with it. Salt absorbs water like a sponge. If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water. Now you have a pile of wet salt. Notice that it has increased in size. The same principle applies to sea creatures. If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater. This can cause them to swell up. On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
     }
   ],
   "questions": [
@@ -60,6 +66,19 @@
         "⑤"
       ],
       "answer": 3
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Dehydration is always harmful to marine life.",
+        "Sea creatures should avoid saltwater to survive.",
+        "Sea animals can drink seawater safely without any effect.",
+        "Salt absorbs water like a sponge in science experiments.",
+        "Salt concentration differences affect the body fluids of sea animals."
+      ],
+      "answer": 5
     }
   ]
 }

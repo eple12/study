@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "30번 지문",
       "text": "Within liberal culture, the value of fair equality of opportunity for individuals outweighs the preservation of the family's integrity. In contrast, for Confucian culture, while seeking fair equality of opportunity for individuals is important, the family assumes a fundamental role in human flourishing, and living within a family institution is considered the essential way of life. Individuals are primarily understood as family members before they are regarded as state citizens. Therefore, for Confucians, the family possesses inherent value that should never be abandoned, even if it results in certain societal inequalities. Some cultures, like the liberal one, may choose to impose increasing restrictions on the role of families and implement more egalitarian government programs for education, healthcare, and other positive rights in society in the pursuit of fair equality of opportunity. On the other hand, other cultures, like the Confucian one, may prefer to primarily assign welfare responsibilities to the family, rejecting inequalities stemming from the existence of the family as long as everyone's basic freedoms and rights are safeguarded in the state."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Within liberal culture, the value of fair equality of opportunity for individuals outweighs the preservation of the family's integrity. In contrast, for Confucian culture, while seeking fair equality of opportunity for individuals is important, the family assumes a fundamental role in human flourishing, and living within a family institution is considered the essential way of life. Individuals are primarily understood as family members before they are regarded as state citizens. Therefore, for Confucians, the family possesses inherent value that should never be abandoned, even if it results in certain societal inequalities. Some cultures, like the liberal one, may choose to impose increasing restrictions on the role of families and implement more egalitarian government programs for education, healthcare, and other positive rights in society in the pursuit of fair equality of opportunity. On the other hand, other cultures, like the Confucian one, may prefer to primarily assign welfare responsibilities to the family, accepting inequalities stemming from the existence of the family as long as everyone's basic freedoms and rights are safeguarded in the state."
     }
   ],
   "questions": [
@@ -58,6 +64,19 @@
         "④"
       ],
       "answer": 3
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the cultural roots of economic inequality",
+        "the political impacts of social welfare systems",
+        "the decline of traditional roles in liberal societies",
+        "the influence of modern education on family traditions",
+        "the conflict between individual equality and family-based values"
+      ],
+      "answer": 5
     }
   ]
 }

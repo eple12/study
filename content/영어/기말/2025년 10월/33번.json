@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "33번 지문",
       "text": "Historically, palaces weren't just homes; they were carefully constructed stages designed to impress and intimidate. While stone symbolized permanence and strength, glass offered something equally powerful: visibility. The introduction of large windows in palaces allowed rulers to literally look down upon their subjects, emphasizing their elevated position. Conversely, it also allowed subjects to gaze up at their leaders, creating a sense of awe and distance. Consider the Palace of Versailles: its Hall of Mirrors, lined with reflective surfaces, not only magnified the grandeur of the space but also placed the king at the center of a dazzling display, reinforcing his absolute authority. The use of glass in palaces wasn't merely aesthetic; it was strategic. Open sightlines allowed for better surveillance and control, ensuring the safety and security of the ruling family. Courtiers and visitors were constantly aware of being observed, contributing to an atmosphere of careful obedience and respect. The very architecture dictated social behavior, with glass acting as a silent enforcer of the power dynamic."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2025년 10월)",
+      "text": "Historically, palaces weren't just homes; they were __carefully constructed__ stages designed to impress and intimidate. While stone symbolized permanence and strength, glass offered something equally powerful: visibility. The introduction of large windows in palaces allowed rulers to literally look down upon their subjects, __emphasizing their elevated position__. Conversely, it also allowed subjects to gaze up at their leaders, creating a sense of awe and distance. __Consider the Palace of Versailles__: its Hall of Mirrors, lined with reflective surfaces, not only magnified the grandeur of the space but also placed the king at the center of a dazzling display, __reinforced his absolute authority__. The use of glass in palaces wasn't merely aesthetic; it was strategic. Open sightlines allowed for better surveillance and control, ensuring the safety and security of the ruling family. Courtiers and visitors were constantly aware of __being observed__, contributing to an atmosphere of careful obedience and respect. The very architecture dictated social behavior, with glass acting as a silent enforcer of the power dynamic."
     }
   ],
   "questions": [
@@ -62,6 +68,19 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "choices": [
+        "carefully constructed",
+        "emphasizing their elevated position",
+        "Consider the Palace of Versailles",
+        "reinforced his absolute authority",
+        "being observed"
+      ],
+      "answer": 4
     }
   ]
 }

@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "24번 지문",
       "text": "Manufacturers masterfully sow seeds of doubt about the adequacy of our current devices. Suddenly, the phone that was your lifeline a year ago is now a museum piece, unable to keep pace with your digital demands. And thus, the itch to upgrade begins, often before there's a genuine need. This cycle isn't just confined to our digital companions. It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge. Every product seems to be on an unstoppable march towards the next version, the next generation that promises to revolutionize your life. What's fascinating, or perhaps disturbing, is the utter efficacy of this cycle in shaping our desires. It's not so much that we want the newest device; we're led to believe we need it. The distinction between want and need blurs, shifting our financial priorities in favor of staying current with trends. For all the logical arguments against this ceaseless upgrading, the temptation remains compelling."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "Manufacturers masterfully sow seeds of doubt about the adequacy of our current devices. Suddenly, the phone that was your lifeline a year ago is now a museum piece, unable to keep pace with your digital demands. And thus, the itch to upgrade begins, often before there's a genuine need. This cycle isn't just confined to our digital companions. It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge. Every product seems to be on an unstoppable march towards the next version, the next generation that promises to revolutionize your life. What's fascinating, or perhaps disturbing, is the utter efficacy of this cycle in shaping our desires. It's not so much that we want the newest device; we're led to believe we need it. The distinction between want and need clears, shifting our financial priorities in favor of staying current with trends. For all the logical arguments against this ceaseless upgrading, the temptation remains compelling."
     }
   ],
   "questions": [
@@ -62,6 +68,21 @@
         "⑤"
       ],
       "answer": 4
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Manufacturers masterfully sow seeds of doubt about the adequacy of our current devices. Suddenly, the phone that was your lifeline a year ago is now a museum piece, ① unable to keep pace with your digital demands. And thus, the itch to upgrade begins, often before there's a genuine need. This cycle isn't just ② confined to our digital companions. It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge. Every product seems to be on an ③ unstoppable march towards the next version, the next generation that promises to revolutionize your life. What's fascinating, or perhaps disturbing, is the ④ utter efficacy of this cycle in shaping our desires. It's not so much that we want the newest device; we're led to believe we need it. The distinction between want and need ⑤ clears, shifting our financial priorities in favor of staying current with trends. For all the logical arguments against this ceaseless upgrading, the temptation remains compelling.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

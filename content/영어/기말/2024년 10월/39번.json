@@ -6,6 +6,12 @@
       "id": "p1",
       "title": "39번 지문",
       "text": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
+    },
+    {
+      "id": "p2",
+      "title": "아잉카 변형문제",
+      "source": "아잉카 변형문제 (2024년 10월)",
+      "text": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
     }
   ],
   "questions": [
@@ -60,6 +66,20 @@
         "⑤"
       ],
       "answer": 2
+    },
+    {
+      "id": "aingka-변형",
+      "type": "choice",
+      "passage": "p2",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the reason for the appearance of social systems",
+        "the moral nature of humans in their primordial state",
+        "the importance of mutual morality in the human society",
+        "the influence of feeling scared of opponents in a tribal society",
+        "the crucial impact of laws regulating people in a civilized world"
+      ],
+      "answer": 1
     }
   ]
 }
