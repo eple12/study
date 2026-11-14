@@ -28,6 +28,8 @@ const I = {
   user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
   copy: '<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/>',
   trash: '<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>',
+  chev: '<path d="M6 9l6 6 6-6"/>',
+  edit: '<path d="M12 20h9M16.5 3.5a2.1 2.1 0 1 1 3 3L7 19l-4 1 1-4Z"/>',
 };
 const icon = n => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
 
@@ -205,15 +207,18 @@ async function home() {
     return (i < 0 ? 99 : i) - (j < 0 ? 99 : j) || a.localeCompare(b, 'ko');
   });
   const off = new Set(store.get('kindsOff', [])); // 꺼 둔 유형
+  const collapsed = new Set(store.get('collapsed', [])); // 접어 둔 묶음
 
   const section = ([g, items], gi) => {
-    const head = !g ? '' : picking && gp[gi].length
+    const closed = g && collapsed.has(g);
+    const headInner = !g ? '' : picking && gp[gi].length
       ? `<button class="gh" data-g="${gi}"><h2>${esc(g)}</h2><span class="chk">${icon('check')}</span></button>`
       : `<h2>${esc(g)}</h2>`;
+    const head = !g ? '' : `<div class="ghead">${headInner}<button class="fold" data-fold="${esc(g)}" aria-label="${closed ? '펼치기' : '접기'}">${icon('chev')}</button></div>`;
     const rows = items.map(s => picking
       ? `<button class="row pk${usable.has(s.path) ? '' : ' dis'}" data-p="${esc(s.path)}"><span class="chk">${icon('check')}</span><span class="bd">${rowBody(s)}</span></button>`
       : row(s)).join('');
-    return `<section class="grp">${head}<div class="list">${rows}</div></section>`;
+    return `<section class="grp${closed ? ' folded' : ''}">${head}<div class="list">${rows}</div></section>`;
   };
 
   app.innerHTML = `<header class="top home"><h1>${esc(TITLE)}</h1>${sync.enabled ? `<button class="ib${sync.state.user ? ' on' : ''}" data-a="acct" aria-label="계정">${icon('user')}</button>` : ''}<a class="ib" href="#/w" aria-label="단어장">${icon('book')}</a>${usable.size ? `<button class="ib${picking ? ' on' : ''}" data-a="pick" aria-label="랜덤 학습">${icon(picking ? 'x' : 'shuffle')}</button>` : ''}</header><main>${
@@ -227,6 +232,15 @@ async function home() {
     picking = !picking;
     home();
   };
+
+  app.querySelector('main').addEventListener('click', e => {
+    const f = e.target.closest('[data-fold]');
+    if (!f) return;
+    const g = f.dataset.fold;
+    if (collapsed.has(g)) collapsed.delete(g); else collapsed.add(g);
+    store.set('collapsed', [...collapsed]);
+    home();
+  });
 
   if (picking) {
     const uns = () => store.get('unsolved', false); // 안 푼 문제만
@@ -296,11 +310,33 @@ function row(s, href = `#/s/${enc(s.path)}`, cls = '') {
 }
 
 /* ── reader ── */
-function passageHTML(p) {
+function passageHTML(p, path) {
   const unit = u => `<span class="u${u.ko ? ' k' : ''}"><span class="en">${md(u.en)}</span>${u.ko ? `<span class="ko">${md(u.ko)}</span>` : ''}</span>`;
+  const note = path ? store.get('n:' + path, {})[p.id] || '' : '';
   return `<article class="psg${p.lines ? ' lines' : ''}" data-pid="${esc(p.id)}">${p.title ? `<h2>${md(p.title)}</h2>` : ''}${
     p.paras.map(par => `<p>${par.map(unit).join(' ')}</p>`).join('')}${
-    p.source ? `<div class="src">${md(p.source)}</div>` : ''}</article>`;
+    p.source ? `<div class="src">${md(p.source)}</div>` : ''}</article>${
+    path ? `<div class="note${note ? '' : ' empty'}" data-pid="${esc(p.id)}"><button class="note-h" data-a="note" aria-label="노트">${icon('edit')}<span>${note ? '노트' : '노트 추가'}</span></button>${
+      note ? `<div class="note-b">${md(note)}</div>` : ''}</div>` : ''}`;
+}
+
+// 본문별 노트: 언제든 추가·수정·삭제. onSaved은 화면을 새로 그려 바뀐 내용을 보여 준다
+function noteEditor(path, pid, onSaved) {
+  const cur = store.get('n:' + path, {})[pid] || '';
+  const o = overlay('', `<div class="frm"><textarea name="note" rows="8" placeholder="자유롭게 메모하세요" spellcheck="false">${esc(cur)}</textarea>
+    <div class="acts">${cur ? `<button class="btn bad" data-a="del" aria-label="삭제">${icon('trash')}</button>` : ''}<button class="btn primary" data-a="ok" aria-label="저장">${icon('check')}</button></div></div>`);
+  o.d.classList.add('over');
+  focus(o.body.querySelector('textarea'));
+  o.d.addEventListener('click', e => {
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a !== 'ok' && a !== 'del') return;
+    const all = store.get('n:' + path, {});
+    const v = a === 'del' ? '' : o.body.querySelector('textarea').value.trim();
+    if (v) all[pid] = v; else delete all[pid];
+    store.set('n:' + path, all);
+    o.close();
+    onSaved?.();
+  });
 }
 
 function reader(set, path) {
@@ -311,9 +347,13 @@ function reader(set, path) {
   let fs = store.get('fs', 18);
 
   tools.innerHTML = `${anyKo ? '<button class="ib txt" data-a="mode"></button>' : ''}<button class="ib txt" data-a="fs">Aa</button>`;
-  main.innerHTML = set.passages.map(passageHTML).join('');
+  main.innerHTML = set.passages.map(p => passageHTML(p, path)).join('');
   main.classList.add('m-' + mode);
   bindWords(main, { set, path });
+  main.addEventListener('click', e => {
+    const b = e.target.closest('[data-a=note]');
+    if (b) noteEditor(path, b.closest('[data-pid]').dataset.pid, () => reader(set, path));
+  });
 
   const apply = () => {
     main.className = `m-${mode}`;
@@ -341,12 +381,14 @@ const sheetMem = new Map(); // 본문 시트를 닫을 때의 스크롤 위치
 function sheet(p, key, ctx) {
   if (!p) return;
   let mode = 'en';
-  const o = overlay(p.hasKo ? `<button class="ib txt" data-a="mode">${MODE_LABEL[mode]}</button>` : '', passageHTML(p), `m-${mode}`, `--fs:${store.get('fs', 18)}px`);
+  const o = overlay(p.hasKo ? `<button class="ib txt" data-a="mode">${MODE_LABEL[mode]}</button>` : '', passageHTML(p, ctx?.path), `m-${mode}`, `--fs:${store.get('fs', 18)}px`);
   bindWords(o.body, ctx);
   o.panel.scrollTop = sheetMem.get(key) ?? 0;
   o.onClose = () => { sheetMem.set(key, o.panel.scrollTop); if (SEL?.root === o.body) clearSel(); };
   o.d.addEventListener('click', e => {
     const b = e.target.closest('[data-a=mode]');
+    const n = e.target.closest('[data-a=note]');
+    if (n && ctx?.path) return noteEditor(ctx.path, p.id, () => { o.close(); sheet(p, key, ctx); });
     if (!b) return;
     mode = next(MODES, mode);
     o.body.className = `pb m-${mode}`;
