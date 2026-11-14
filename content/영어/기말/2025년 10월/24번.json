@@ -21,6 +21,47 @@
       ],
       "answer": 5,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Imagine pausing in the middle of a busy day, taking a moment to refresh your mind and recharge your energy.",
+        "This power of a midday break is often underestimated.",
+        "When you break away from routine, especially with activities designed to stimulate your brain, you prevent cognitive tiredness and enhance productivity for the rest of the day.",
+        "Neurobic exercises, simple yet effective, are perfect for such breaks.",
+        "They target different areas of your brain, keeping it agile and alert.",
+        "These exercises create a mental oasis that refreshes and prepares you for the afternoon's challenges.",
+        "This strategic pause is not just a break; it boosts your cognitive capabilities, ensuring your mind remains sharp and focused.",
+        "Even briefly experimenting with neurobic exercises can work wonders for your cognitive state during lunch.",
+        "Start with using your non-dominant hand for routine tasks like writing or eating.",
+        "This simple switch challenges your brain, activating pathways that aren't typically engaged and promoting greater flexibility in thinking."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Imagine pausing in the middle of a busy day, taking a moment to refresh your mind and recharge your energy.",
+      "items": [
+        "This power of a midday break is often underestimated. When you break away from routine, especially with activities designed to stimulate your brain, you prevent cognitive tiredness and enhance productivity for the rest of the day. Neurobic exercises, simple yet effective, are perfect for such breaks.",
+        "They target different areas of your brain, keeping it agile and alert. These exercises create a mental oasis that refreshes and prepares you for the afternoon's challenges. This strategic pause is not just a break; it boosts your cognitive capabilities, ensuring your mind remains sharp and focused.",
+        "Even briefly experimenting with neurobic exercises can work wonders for your cognitive state during lunch. Start with using your non-dominant hand for routine tasks like writing or eating. This simple switch challenges your brain, activating pathways that aren't typically engaged and promoting greater flexibility in thinking."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Start with using your non-dominant hand for routine tasks like writing or eating.\n\nImagine pausing in the middle of a busy day, taking a moment to refresh your mind and recharge your energy. This power of a midday break is often underestimated. When you break away from routine, especially with activities designed to stimulate your brain, you prevent cognitive tiredness and enhance productivity for the rest of the day. Neurobic exercises, simple yet effective, are perfect for such breaks. ① They target different areas of your brain, keeping it agile and alert. ② These exercises create a mental oasis that refreshes and prepares you for the afternoon's challenges. ③ This strategic pause is not just a break; it boosts your cognitive capabilities, ensuring your mind remains sharp and focused. ④ Even briefly experimenting with neurobic exercises can work wonders for your cognitive state during lunch. ⑤ This simple switch challenges your brain, activating pathways that aren't typically engaged and promoting greater flexibility in thinking.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

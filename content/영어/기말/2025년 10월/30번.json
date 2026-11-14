@@ -22,6 +22,42 @@
       ],
       "answer": 5,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Within liberal culture, the value of fair equality of opportunity for individuals outweighs the preservation of the family's integrity.",
+        "In contrast, for Confucian culture, while seeking fair equality of opportunity for individuals is important, the family assumes a fundamental role in human flourishing, and living within a family institution is considered the essential way of life.",
+        "Individuals are primarily understood as family members before they are regarded as state citizens.",
+        "Therefore, for Confucians, the family possesses inherent value that should never be abandoned, even if it results in certain societal inequalities.",
+        "Some cultures, like the liberal one, may choose to impose increasing restrictions on the role of families and implement more egalitarian government programs for education, healthcare, and other positive rights in society in the pursuit of fair equality of opportunity.",
+        "On the other hand, other cultures, like the Confucian one, may prefer to primarily assign welfare responsibilities to the family, rejecting inequalities stemming from the existence of the family as long as everyone's basic freedoms and rights are safeguarded in the state."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Within liberal culture, the value of fair equality of opportunity for individuals outweighs the preservation of the family's integrity.",
+      "items": [
+        "In contrast, for Confucian culture, while seeking fair equality of opportunity for individuals is important, the family assumes a fundamental role in human flourishing, and living within a family institution is considered the essential way of life. Individuals are primarily understood as family members before they are regarded as state citizens.",
+        "Therefore, for Confucians, the family possesses inherent value that should never be abandoned, even if it results in certain societal inequalities. Some cultures, like the liberal one, may choose to impose increasing restrictions on the role of families and implement more egalitarian government programs for education, healthcare, and other positive rights in society in the pursuit of fair equality of opportunity.",
+        "On the other hand, other cultures, like the Confucian one, may prefer to primarily assign welfare responsibilities to the family, rejecting inequalities stemming from the existence of the family as long as everyone's basic freedoms and rights are safeguarded in the state."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Therefore, for Confucians, the family possesses inherent value that should never be abandoned, even if it results in certain societal inequalities.\n\nWithin liberal culture, the value of fair equality of opportunity for individuals outweighs the preservation of the family's integrity. ① In contrast, for Confucian culture, while seeking fair equality of opportunity for individuals is important, the family assumes a fundamental role in human flourishing, and living within a family institution is considered the essential way of life. ② Individuals are primarily understood as family members before they are regarded as state citizens. ③ Some cultures, like the liberal one, may choose to impose increasing restrictions on the role of families and implement more egalitarian government programs for education, healthcare, and other positive rights in society in the pursuit of fair equality of opportunity. ④ On the other hand, other cultures, like the Confucian one, may prefer to primarily assign welfare responsibilities to the family, rejecting inequalities stemming from the existence of the family as long as everyone's basic freedoms and rights are safeguarded in the state.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3
     }
   ]
 }

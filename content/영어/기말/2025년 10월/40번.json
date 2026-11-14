@@ -22,6 +22,45 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake.",
+        "On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing.",
+        "For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly.",
+        "Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.",
+        "Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation.",
+        "When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge.",
+        "We try to force our fixed, man-made view of time on to nature in the false hope that it will yield.",
+        "It doesn't."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake.",
+      "items": [
+        "On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.",
+        "Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge.",
+        "We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.\n\nViewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. ① For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. ② Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. ③ When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. ④ We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. ⑤ It doesn't.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

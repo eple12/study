@@ -35,6 +35,29 @@
       ],
       "answer": 3,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "In the old days, when aircraft routinely fell out of the sky because large and obvious components failed — the fuel pumps gave out or the engines exploded — it felt sensible to cast aside the claims of organized religions in favor of a trust in science.",
+        "Rather than praying, the urgent task was to study the root causes of malfunctions and root out error through reason.",
+        "But as aviation has become ever more subject to scrutiny, as every part has been equipped with backup systems, so, too, have the reasons for becoming superstitious paradoxically increased.",
+        "The sheer remoteness of a catastrophic event occurring invites us to forgo scientific assurances in favor of a more humble stance towards the dangers which our feeble minds struggle to contain.",
+        "While never going so far as to ignore maintenance schedules, we may nevertheless judge it far from unreasonable to take a few moments before a journey to fall to our knees and pray to the mysterious forces of fate to which all aircraft remain subject and which we might as well call God."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** But as aviation has become ever more subject to scrutiny, as every part has been equipped with backup systems, so, too, have the reasons for becoming superstitious paradoxically increased.\n\nIn the old days, when aircraft routinely fell out of the sky because large and obvious components failed — the fuel pumps gave out or the engines exploded — it felt sensible to cast aside the claims of organized religions in favor of a trust in science. ① Rather than praying, the urgent task was to study the root causes of malfunctions and root out error through reason. ② The sheer remoteness of a catastrophic event occurring invites us to forgo scientific assurances in favor of a more humble stance towards the dangers which our feeble minds struggle to contain. ③ While never going so far as to ignore maintenance schedules, we may nevertheless judge it far from unreasonable to take a few moments before a journey to fall to our knees and pray to the mysterious forces of fate to which all aircraft remain subject and which we might as well call God.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 2
     }
   ]
 }

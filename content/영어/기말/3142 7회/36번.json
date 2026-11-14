@@ -32,6 +32,45 @@
       ],
       "answer": 3,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Climate change is throwing up some tricky dilemmas for liberal-minded people.",
+        "The big problem is that climate change is a global problem that individuals don't seem to be able to solve.",
+        "Economists would say this inability is caused because people act in their own self-interest.",
+        "Scientists are in no doubt about the vital and urgent need to cut emissions of greenhouse gases, which implies the necessity of institutional law enforcement.",
+        "Since individuals and a free market have singularly failed, it's very clear that consensus and concerted official action are needed to make any headway.",
+        "In other words, if we are to avoid potential disaster on a global scale, we have to accept that governments need to take control of measures to limit carbon emissions.",
+        "And yet, if they are taking such action to control it, then they are, inevitably, restricting someone's freedom to use it.",
+        "This is why climate control measures are proving so slow to make progress and are so stuck in controversy."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Climate change is throwing up some tricky dilemmas for liberal-minded people.",
+      "items": [
+        "The big problem is that climate change is a global problem that individuals don't seem to be able to solve. Economists would say this inability is caused because people act in their own self-interest. Scientists are in no doubt about the vital and urgent need to cut emissions of greenhouse gases, which implies the necessity of institutional law enforcement.",
+        "Since individuals and a free market have singularly failed, it's very clear that consensus and concerted official action are needed to make any headway. In other words, if we are to avoid potential disaster on a global scale, we have to accept that governments need to take control of measures to limit carbon emissions.",
+        "And yet, if they are taking such action to control it, then they are, inevitably, restricting someone's freedom to use it. This is why climate control measures are proving so slow to make progress and are so stuck in controversy."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Scientists are in no doubt about the vital and urgent need to cut emissions of greenhouse gases, which implies the necessity of institutional law enforcement.\n\nClimate change is throwing up some tricky dilemmas for liberal-minded people. The big problem is that climate change is a global problem that individuals don't seem to be able to solve. ① Economists would say this inability is caused because people act in their own self-interest. ② Since individuals and a free market have singularly failed, it's very clear that consensus and concerted official action are needed to make any headway. ③ In other words, if we are to avoid potential disaster on a global scale, we have to accept that governments need to take control of measures to limit carbon emissions. ④ And yet, if they are taking such action to control it, then they are, inevitably, restricting someone's freedom to use it. ⑤ This is why climate control measures are proving so slow to make progress and are so stuck in controversy.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

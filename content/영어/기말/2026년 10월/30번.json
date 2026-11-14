@@ -22,6 +22,44 @@
       ],
       "answer": 3,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals.",
+        "The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ).",
+        "Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message.",
+        "This is because people trust nonverbal messages more than verbal ones.",
+        "When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words.",
+        "The same is probably true when you are back at the office after a sickness and your colleague tells you with a smiling expression that they were happy to take over your workload.",
+        "You might not believe that they enjoyed replacing you while you were gone."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals.",
+      "items": [
+        "The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message.",
+        "This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words.",
+        "The same is probably true when you are back at the office after a sickness and your colleague tells you with a smiling expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** This is because people trust nonverbal messages more than verbal ones.\n\nA study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. ① The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). ② Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. ③ When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. ④ The same is probably true when you are back at the office after a sickness and your colleague tells you with a smiling expression that they were happy to take over your workload. ⑤ You might not believe that they enjoyed replacing you while you were gone.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

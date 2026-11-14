@@ -21,6 +21,47 @@
       ],
       "answer": 5,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons.",
+        "What makes this system unusual is where many of those neurons are located.",
+        "More than half are distributed throughout the arms rather than concentrated entirely in the central brain.",
+        "Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally.",
+        "This means that many actions do not require detailed instructions from the brain itself.",
+        "Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly.",
+        "The suckers lining each arm play an important role in this process.",
+        "These structures provide strong grip but also detect chemical signals on surfaces they contact.",
+        "Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch.",
+        "In practical terms, an octopus can effectively taste what it touches."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons.",
+      "items": [
+        "What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally.",
+        "This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process.",
+        "These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The suckers lining each arm play an important role in this process.\n\nResearch on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. ① More than half are distributed throughout the arms rather than concentrated entirely in the central brain. ② Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. ③ This means that many actions do not require detailed instructions from the brain itself. ④ Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. ⑤ These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

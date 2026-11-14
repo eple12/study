@@ -35,6 +35,49 @@
       ],
       "answer": 5,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "For some people, there's so much sensory cross talk in the brain that using one sense can simultaneously activate another.",
+        "This is best seen in the phenomenon of synesthesia, a syndrome of overly connected sensory pathways.",
+        "For example, some people have an auditory-visual connection in which hearing certain pitches causes them to see colors.",
+        "And those associations are consistent: one color associated with one sound.",
+        "Others have reported having an olfactory-visual connection in which the scent of fresh lemons makes them picture angular shapes, while the smell of raspberry or vanilla brings to mind rounded shapes.",
+        "There are many varieties of synesthesia, because there are many combinations of senses, but they all demonstrate the same insight: our sensory pathways are linked.",
+        "Our sensory systems are designed for survival.",
+        "Initially processed through parallel pathways, sensory signals are eventually integrated with each other, interpreted, and organized into a conceptual network.",
+        "Our senses merge to create a singular, streamlined perception of the world.",
+        "This collaboration doesn't just enhance our conscious experience; it also creates a backup system in case one of our senses fails.",
+        "When a person goes blind, the other sensory systems kick into gear, attempting to widen the gap in perception.",
+        "The brain does its utmost to rebuild our picture of the world, even by recreating one sense by combining others."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "For some people, there's so much sensory cross talk in the brain that using one sense can simultaneously activate another.",
+      "items": [
+        "This is best seen in the phenomenon of synesthesia, a syndrome of overly connected sensory pathways. For example, some people have an auditory-visual connection in which hearing certain pitches causes them to see colors. And those associations are consistent: one color associated with one sound. Others have reported having an olfactory-visual connection in which the scent of fresh lemons makes them picture angular shapes, while the smell of raspberry or vanilla brings to mind rounded shapes.",
+        "There are many varieties of synesthesia, because there are many combinations of senses, but they all demonstrate the same insight: our sensory pathways are linked. Our sensory systems are designed for survival. Initially processed through parallel pathways, sensory signals are eventually integrated with each other, interpreted, and organized into a conceptual network. Our senses merge to create a singular, streamlined perception of the world.",
+        "This collaboration doesn't just enhance our conscious experience; it also creates a backup system in case one of our senses fails. When a person goes blind, the other sensory systems kick into gear, attempting to widen the gap in perception. The brain does its utmost to rebuild our picture of the world, even by recreating one sense by combining others."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** And those associations are consistent: one color associated with one sound.\n\nFor some people, there's so much sensory cross talk in the brain that using one sense can simultaneously activate another. This is best seen in the phenomenon of synesthesia, a syndrome of overly connected sensory pathways. ① For example, some people have an auditory-visual connection in which hearing certain pitches causes them to see colors. ② Others have reported having an olfactory-visual connection in which the scent of fresh lemons makes them picture angular shapes, while the smell of raspberry or vanilla brings to mind rounded shapes. ③ There are many varieties of synesthesia, because there are many combinations of senses, but they all demonstrate the same insight: our sensory pathways are linked. ④ Our sensory systems are designed for survival. ⑤ Initially processed through parallel pathways, sensory signals are eventually integrated with each other, interpreted, and organized into a conceptual network. Our senses merge to create a singular, streamlined perception of the world. This collaboration doesn't just enhance our conscious experience; it also creates a backup system in case one of our senses fails. When a person goes blind, the other sensory systems kick into gear, attempting to widen the gap in perception. The brain does its utmost to rebuild our picture of the world, even by recreating one sense by combining others.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

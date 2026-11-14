@@ -35,6 +35,50 @@
       ],
       "answer": 4,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The reason travels are mentally useful involves a unique characteristic of cognition, in which problems that feel 'close' — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner.",
+        "As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more limited set of ideas.",
+        "While this habit can be helpful — it allows us to focus on the facts at hand — it also inhibits our imagination.",
+        "Consider a field of corn.",
+        "When you're standing in the middle of a farm, the air smelling faintly of fertilizer and popcorn, your mind is automatically drawn to thoughts related to the primary definition of corn, which is that it's a plant, a cereal, a staple of Midwestern farming.",
+        "But imagine that same field of corn from a different perspective.",
+        "Instead of standing on a farm, you're now in a crowded city street dense with taxis and pedestrians.",
+        "The plant will no longer be just a plant; instead, your vast neural network will pump out all sorts of associations.",
+        "You'll think about unhealthy corn syrup, obesity, and the Farm Bill: you'll contemplate those corn mazes for kids at state fairs and the deliciousness of succotash made with bacon and beans.",
+        "The noun is now a vast web of connections.",
+        "And this is why travel is so open to clarity: When you escape from the place you spend most of your time, the mind is suddenly made aware of all those unusual ideas previously suppressed.",
+        "You start thinking about obscure possibilities — corn can fuel cars! — that never would have occurred to you if you'd stayed back on the farm.",
+        "Furthermore, this expansive kind of cognition comes with practical advantages, since you can suddenly draw on a whole new set of possible solutions."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The reason travels are mentally useful involves a unique characteristic of cognition, in which problems that feel 'close' — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner.",
+      "items": [
+        "As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more limited set of ideas. While this habit can be helpful — it allows us to focus on the facts at hand — it also inhibits our imagination. Consider a field of corn. When you're standing in the middle of a farm, the air smelling faintly of fertilizer and popcorn, your mind is automatically drawn to thoughts related to the primary definition of corn, which is that it's a plant, a cereal, a staple of Midwestern farming.",
+        "But imagine that same field of corn from a different perspective. Instead of standing on a farm, you're now in a crowded city street dense with taxis and pedestrians. The plant will no longer be just a plant; instead, your vast neural network will pump out all sorts of associations. You'll think about unhealthy corn syrup, obesity, and the Farm Bill: you'll contemplate those corn mazes for kids at state fairs and the deliciousness of succotash made with bacon and beans.",
+        "The noun is now a vast web of connections. And this is why travel is so open to clarity: When you escape from the place you spend most of your time, the mind is suddenly made aware of all those unusual ideas previously suppressed. You start thinking about obscure possibilities — corn can fuel cars! — that never would have occurred to you if you'd stayed back on the farm. Furthermore, this expansive kind of cognition comes with practical advantages, since you can suddenly draw on a whole new set of possible solutions."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** And this is why travel is so open to clarity: When you escape from the place you spend most of your time, the mind is suddenly made aware of all those unusual ideas previously suppressed.\n\nThe reason travels are mentally useful involves a unique characteristic of cognition, in which problems that feel 'close' — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner. As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more limited set of ideas. While this habit can be helpful — it allows us to focus on the facts at hand — it also inhibits our imagination. Consider a field of corn. When you're standing in the middle of a farm, the air smelling faintly of fertilizer and popcorn, your mind is automatically drawn to thoughts related to the primary definition of corn, which is that it's a plant, a cereal, a staple of Midwestern farming. But imagine that same field of corn from a different perspective. Instead of standing on a farm, you're now in a crowded city street dense with taxis and pedestrians. ① The plant will no longer be just a plant; instead, your vast neural network will pump out all sorts of associations. ② You'll think about unhealthy corn syrup, obesity, and the Farm Bill: you'll contemplate those corn mazes for kids at state fairs and the deliciousness of succotash made with bacon and beans. ③ The noun is now a vast web of connections. ④ You start thinking about obscure possibilities — corn can fuel cars! — that never would have occurred to you if you'd stayed back on the farm. ⑤ Furthermore, this expansive kind of cognition comes with practical advantages, since you can suddenly draw on a whole new set of possible solutions.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

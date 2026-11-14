@@ -35,6 +35,46 @@
       ],
       "answer": 2,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Draw a circle on a piece of paper, but leave a small gap such that the circle is not all the way closed.",
+        "Now stare at it for a couple minutes and notice what happens.",
+        "For some people the urge to close it is so strong that they'll eventually pick up the pencil and draw it closed.",
+        "The same dynamic can be applied to stop procrastination from ruining your life.",
+        "The trick is simply to start whatever project is in front of you — just start anywhere.",
+        "Psychologists call this the Zeigarnik effect, named for the Russian psychologist who first documented the finding that when someone is faced with an overwhelming goal and is procrastinating as a result, getting started anywhere will launch motivation to finish what was started.",
+        "When you start a project — even if you begin with the smallest, simplest part — you begin drawing the circle.",
+        "Then you'll move on to another part (draw more of the circle), and another (more circle), and so forth.",
+        "The Zeigarnik effect reveals that incompleteness represents instability to our brain."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Draw a circle on a piece of paper, but leave a small gap such that the circle is not all the way closed.",
+      "items": [
+        "Now stare at it for a couple minutes and notice what happens. For some people the urge to close it is so strong that they'll eventually pick up the pencil and draw it closed. The same dynamic can be applied to stop procrastination from ruining your life.",
+        "The trick is simply to start whatever project is in front of you — just start anywhere. Psychologists call this the Zeigarnik effect, named for the Russian psychologist who first documented the finding that when someone is faced with an overwhelming goal and is procrastinating as a result, getting started anywhere will launch motivation to finish what was started. When you start a project — even if you begin with the smallest, simplest part — you begin drawing the circle.",
+        "Then you'll move on to another part (draw more of the circle), and another (more circle), and so forth. The Zeigarnik effect reveals that incompleteness represents instability to our brain."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The trick is simply to start whatever project is in front of you — just start anywhere.\n\nDraw a circle on a piece of paper, but leave a small gap such that the circle is not all the way closed. Now stare at it for a couple minutes and notice what happens. For some people the urge to close it is so strong that they'll eventually pick up the pencil and draw it closed. ① The same dynamic can be applied to stop procrastination from ruining your life. ② Psychologists call this the Zeigarnik effect, named for the Russian psychologist who first documented the finding that when someone is faced with an overwhelming goal and is procrastinating as a result, getting started anywhere will launch motivation to finish what was started. ③ When you start a project — even if you begin with the smallest, simplest part — you begin drawing the circle. ④ Then you'll move on to another part (draw more of the circle), and another (more circle), and so forth. ⑤ The Zeigarnik effect reveals that incompleteness represents instability to our brain.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

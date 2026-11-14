@@ -35,6 +35,44 @@
       ],
       "answer": 5,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "In one study, six-month-olds watched as a \"climber,\" which was nothing more than a disk of wood with large eyes glued onto its circular \"face,\" started at the bottom of a hill and repeatedly tried but failed to make its way to the top.",
+        "After a while, a \"helper,\" a triangle with similar eyes glued on, would sometimes approach from farther downhill and help the climber with an upward push.",
+        "On other attempts, a square \"hinderer\" would approach from uphill and shove the circular disk back down.",
+        "The experimenters wanted to know if the infants, the uninvolved bystanders, would cop an attitude toward the hinderer square.",
+        "When the experimenters gave the infants a chance to reach out and touch the figures, the infants showed a definite reluctance to reach for the hinderer square, as compared to the helper triangle.",
+        "Moreover, when the experiment was repeated with either a helper and a neutral bystander block or a hinderer and a neutral block, the infants preferred the friendly triangle to the neutral block, and the neutral block to the nasty square.",
+        "This study showed that infants as young as 6 months of age evaluate others based on their social behavior toward third parties."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "In one study, six-month-olds watched as a \"climber,\" which was nothing more than a disk of wood with large eyes glued onto its circular \"face,\" started at the bottom of a hill and repeatedly tried but failed to make its way to the top.",
+      "items": [
+        "After a while, a \"helper,\" a triangle with similar eyes glued on, would sometimes approach from farther downhill and help the climber with an upward push. On other attempts, a square \"hinderer\" would approach from uphill and shove the circular disk back down.",
+        "The experimenters wanted to know if the infants, the uninvolved bystanders, would cop an attitude toward the hinderer square. When the experimenters gave the infants a chance to reach out and touch the figures, the infants showed a definite reluctance to reach for the hinderer square, as compared to the helper triangle.",
+        "Moreover, when the experiment was repeated with either a helper and a neutral bystander block or a hinderer and a neutral block, the infants preferred the friendly triangle to the neutral block, and the neutral block to the nasty square. This study showed that infants as young as 6 months of age evaluate others based on their social behavior toward third parties."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Moreover, when the experiment was repeated with either a helper and a neutral bystander block or a hinderer and a neutral block, the infants preferred the friendly triangle to the neutral block, and the neutral block to the nasty square.\n\nIn one study, six-month-olds watched as a \"climber,\" which was nothing more than a disk of wood with large eyes glued onto its circular \"face,\" started at the bottom of a hill and repeatedly tried but failed to make its way to the top. ① After a while, a \"helper,\" a triangle with similar eyes glued on, would sometimes approach from farther downhill and help the climber with an upward push. ② On other attempts, a square \"hinderer\" would approach from uphill and shove the circular disk back down. ③ The experimenters wanted to know if the infants, the uninvolved bystanders, would cop an attitude toward the hinderer square. ④ When the experimenters gave the infants a chance to reach out and touch the figures, the infants showed a definite reluctance to reach for the hinderer square, as compared to the helper triangle. ⑤ This study showed that infants as young as 6 months of age evaluate others based on their social behavior toward third parties.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

@@ -22,6 +22,45 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "All translators feel some pressure from the community of readers for whom they are doing their work.",
+        "And all translators arrive at their interpretations in dialogue with other people.",
+        "The English poet Alexander Pope had pretty good Greek, but when he set about translating Homer's Iliad in the early 18th century he was not on his own.",
+        "He had Greek commentaries to refer to, and translations that had already been done in English, Latin, and French, and of course he had dictionaries.",
+        "Translators always draw on more than one source text.",
+        "Even when the scene of translation consists of just one person with a pen, paper, and the book that is being translated, or even when it is just one person translating orally for another, that person's linguistic knowledge arises from lots of other texts and other conversations.",
+        "And then his or her idea of the translation's purpose will be influenced by the expectations of the person or people it is for.",
+        "In both these senses every translation is a crowd translation."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "All translators feel some pressure from the community of readers for whom they are doing their work.",
+      "items": [
+        "And all translators arrive at their interpretations in dialogue with other people. The English poet Alexander Pope had pretty good Greek, but when he set about translating Homer's Iliad in the early 18th century he was not on his own. He had Greek commentaries to refer to, and translations that had already been done in English, Latin, and French, and of course he had dictionaries.",
+        "Translators always draw on more than one source text. Even when the scene of translation consists of just one person with a pen, paper, and the book that is being translated, or even when it is just one person translating orally for another, that person's linguistic knowledge arises from lots of other texts and other conversations.",
+        "And then his or her idea of the translation's purpose will be influenced by the expectations of the person or people it is for. In both these senses every translation is a crowd translation."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Translators always draw on more than one source text.\n\nAll translators feel some pressure from the community of readers for whom they are doing their work. And all translators arrive at their interpretations in dialogue with other people. ① The English poet Alexander Pope had pretty good Greek, but when he set about translating Homer's Iliad in the early 18th century he was not on his own. ② He had Greek commentaries to refer to, and translations that had already been done in English, Latin, and French, and of course he had dictionaries. ③ Even when the scene of translation consists of just one person with a pen, paper, and the book that is being translated, or even when it is just one person translating orally for another, that person's linguistic knowledge arises from lots of other texts and other conversations. ④ And then his or her idea of the translation's purpose will be influenced by the expectations of the person or people it is for. ⑤ In both these senses every translation is a crowd translation.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

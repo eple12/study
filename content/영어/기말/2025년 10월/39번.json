@@ -22,6 +22,45 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Waste has historically been seen as a necessary driver of the economy.",
+        "Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product.",
+        "Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained.",
+        "Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials.",
+        "All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement.",
+        "Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service.",
+        "Through this setup, companies simply lease out products that were once sold directly to the customer.",
+        "With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Waste has historically been seen as a necessary driver of the economy.",
+      "items": [
+        "Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials.",
+        "All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service.",
+        "Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Through this setup, companies simply lease out products that were once sold directly to the customer.\n\nWaste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. ① Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. ② Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. ③ All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. ④ Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. ⑤ With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

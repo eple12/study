@@ -22,6 +22,29 @@
       ],
       "answer": 3,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases.",
+        "The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases.",
+        "Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans.",
+        "Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus.",
+        "For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus.\n\nScientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. ① The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. ② Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. ③ For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 3
     }
   ]
 }

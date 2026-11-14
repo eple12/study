@@ -35,6 +35,44 @@
       ],
       "answer": 4,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "According to the Greek philosopher Diogenes, mastery of the self, or \"self-sufficiency,\" leads to both happiness and freedom but requires constant practice and training in the face of adversity.",
+        "His uncompromising philosophy requires that one should abandon all property, possessions, family ties, and social values in order to minimize the distraction of \"illusory\" emotional and psychological attachments.",
+        "Furthermore, one must aggressively attack society to help liberate others, and purposefully lay oneself open to ridicule and abuse in order to retain this emotional detachment.",
+        "Though more radical and uncompromising, Diogenes' philosophy has its counterpart in the teachings of the oriental schools of Buddhism and Taoism.",
+        "However, critics complain that Diogenes' lifestyle is self-indulgent, relying on the generosity and productivity of others to support his drifting lifestyle.",
+        "There is a philosophical point here, not just a pragmatic one, concerning the universalizability of ethical rules for life.",
+        "If everyone were to follow Diogenes' example, society would collapse, making it economically impossible for anyone — including Diogenes — to concentrate on the mastery of the self."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "According to the Greek philosopher Diogenes, mastery of the self, or \"self-sufficiency,\" leads to both happiness and freedom but requires constant practice and training in the face of adversity.",
+      "items": [
+        "His uncompromising philosophy requires that one should abandon all property, possessions, family ties, and social values in order to minimize the distraction of \"illusory\" emotional and psychological attachments. Furthermore, one must aggressively attack society to help liberate others, and purposefully lay oneself open to ridicule and abuse in order to retain this emotional detachment.",
+        "Though more radical and uncompromising, Diogenes' philosophy has its counterpart in the teachings of the oriental schools of Buddhism and Taoism. However, critics complain that Diogenes' lifestyle is self-indulgent, relying on the generosity and productivity of others to support his drifting lifestyle.",
+        "There is a philosophical point here, not just a pragmatic one, concerning the universalizability of ethical rules for life. If everyone were to follow Diogenes' example, society would collapse, making it economically impossible for anyone — including Diogenes — to concentrate on the mastery of the self."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Though more radical and uncompromising, Diogenes' philosophy has its counterpart in the teachings of the oriental schools of Buddhism and Taoism.\n\nAccording to the Greek philosopher Diogenes, mastery of the self, or \"self-sufficiency,\" leads to both happiness and freedom but requires constant practice and training in the face of adversity. ① His uncompromising philosophy requires that one should abandon all property, possessions, family ties, and social values in order to minimize the distraction of \"illusory\" emotional and psychological attachments. ② Furthermore, one must aggressively attack society to help liberate others, and purposefully lay oneself open to ridicule and abuse in order to retain this emotional detachment. ③ However, critics complain that Diogenes' lifestyle is self-indulgent, relying on the generosity and productivity of others to support his drifting lifestyle. ④ There is a philosophical point here, not just a pragmatic one, concerning the universalizability of ethical rules for life. ⑤ If everyone were to follow Diogenes' example, society would collapse, making it economically impossible for anyone — including Diogenes — to concentrate on the mastery of the self.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

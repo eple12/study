@@ -22,6 +22,50 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Near the equator, many species of bird breed all year round.",
+        "But in temperate and polar regions, the breeding seasons of birds are often sharply defined.",
+        "They are triggered mainly by changes in day length.",
+        "If all goes well, the outcome is that birds raise their young when the food supply is at its peak.",
+        "Most birds are not simply reluctant to breed at other times but they are also physically incapable of doing so.",
+        "This is because their reproductive system shrinks, which helps flying birds save weight.",
+        "The main exception to this rule are nomadic desert species.",
+        "These can initiate their breeding cycle within days of rain.",
+        "It's for making the least of the sudden breeding opportunity.",
+        "Also, different species divide the breeding season up in different ways.",
+        "Most seabirds raise a single brood.",
+        "In warm regions, however, songbirds may raise several families in a few months.",
+        "In an exceptionally good year, a pair of House Sparrows, a kind of songbird, can raise successive broods through a marathon reproductive effort."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Near the equator, many species of bird breed all year round.",
+      "items": [
+        "But in temperate and polar regions, the breeding seasons of birds are often sharply defined. They are triggered mainly by changes in day length. If all goes well, the outcome is that birds raise their young when the food supply is at its peak. Most birds are not simply reluctant to breed at other times but they are also physically incapable of doing so.",
+        "This is because their reproductive system shrinks, which helps flying birds save weight. The main exception to this rule are nomadic desert species. These can initiate their breeding cycle within days of rain. It's for making the least of the sudden breeding opportunity.",
+        "Also, different species divide the breeding season up in different ways. Most seabirds raise a single brood. In warm regions, however, songbirds may raise several families in a few months. In an exceptionally good year, a pair of House Sparrows, a kind of songbird, can raise successive broods through a marathon reproductive effort."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** They are triggered mainly by changes in day length.\n\nNear the equator, many species of bird breed all year round. ① But in temperate and polar regions, the breeding seasons of birds are often sharply defined. ② If all goes well, the outcome is that birds raise their young when the food supply is at its peak. ③ Most birds are not simply reluctant to breed at other times but they are also physically incapable of doing so. ④ This is because their reproductive system shrinks, which helps flying birds save weight. ⑤ The main exception to this rule are nomadic desert species. These can initiate their breeding cycle within days of rain. It's for making the least of the sudden breeding opportunity. Also, different species divide the breeding season up in different ways. Most seabirds raise a single brood. In warm regions, however, songbirds may raise several families in a few months. In an exceptionally good year, a pair of House Sparrows, a kind of songbird, can raise successive broods through a marathon reproductive effort.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

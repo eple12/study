@@ -35,6 +35,42 @@
       ],
       "answer": 2,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "In ancient Egypt a woman enjoyed the same rights as a man.",
+        "What her rightful entitlement rights depended upon was her social class, not her sex.",
+        "All property descended in the female line, on the assumption that maternity is a matter of fact; paternity a matter of opinion.",
+        "When a man married an heiress, he enjoyed her property only so long as she lived, but on her death it passed to her daughter and daughter's husband.",
+        "A woman was entitled to administer her own property and dispose of it as she wished: She could buy, sell, be executor in wills and witness to legal documents, bring an action at court, and adopt children.",
+        "In comparison, an ancient Greek woman was supervised by a male guardian, and many Greek women living in Egypt during the Ptolemaic Period, observing Egyptian women acting without a male guardian, were encouraged to do so themselves."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "In ancient Egypt a woman enjoyed the same rights as a man.",
+      "items": [
+        "What her rightful entitlement rights depended upon was her social class, not her sex. All property descended in the female line, on the assumption that maternity is a matter of fact; paternity a matter of opinion.",
+        "When a man married an heiress, he enjoyed her property only so long as she lived, but on her death it passed to her daughter and daughter's husband. A woman was entitled to administer her own property and dispose of it as she wished: She could buy, sell, be executor in wills and witness to legal documents, bring an action at court, and adopt children.",
+        "In comparison, an ancient Greek woman was supervised by a male guardian, and many Greek women living in Egypt during the Ptolemaic Period, observing Egyptian women acting without a male guardian, were encouraged to do so themselves."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** All property descended in the female line, on the assumption that maternity is a matter of fact; paternity a matter of opinion.\n\nIn ancient Egypt a woman enjoyed the same rights as a man. ① What her rightful entitlement rights depended upon was her social class, not her sex. ② When a man married an heiress, he enjoyed her property only so long as she lived, but on her death it passed to her daughter and daughter's husband. ③ A woman was entitled to administer her own property and dispose of it as she wished: She could buy, sell, be executor in wills and witness to legal documents, bring an action at court, and adopt children. ④ In comparison, an ancient Greek woman was supervised by a male guardian, and many Greek women living in Egypt during the Ptolemaic Period, observing Egyptian women acting without a male guardian, were encouraged to do so themselves.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

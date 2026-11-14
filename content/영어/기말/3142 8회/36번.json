@@ -32,6 +32,45 @@
       ],
       "answer": 5,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Mathematics has been, is, and ever will be a current running almost unseen beneath the surface of our affairs.",
+        "We should, however, be careful not to get carried away with the flow by attempting to extend its application beyond its remit.",
+        "There are places where mathematics is completely the wrong tool for the job: activities in which human supervision is unquestionably necessary.",
+        "Even if some of the most complex mental tasks can be farmed out to an algorithm, matters of the heart can never be broken down into a simple set of rules.",
+        "No code or equation will ever imitate the true complexities of the human condition.",
+        "Nevertheless, a little mathematical knowledge in our increasingly quantitative society can help us to harness the power of numbers for ourselves.",
+        "Simple rules allow us to make the best choices and avoid the worst mistakes.",
+        "Small alterations in the way we think about our rapidly evolving environments help us to 'keep calm' in the face of rapidly accelerating change, or adapt to our increasingly automated realities."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Mathematics has been, is, and ever will be a current running almost unseen beneath the surface of our affairs.",
+      "items": [
+        "We should, however, be careful not to get carried away with the flow by attempting to extend its application beyond its remit. There are places where mathematics is completely the wrong tool for the job: activities in which human supervision is unquestionably necessary. Even if some of the most complex mental tasks can be farmed out to an algorithm, matters of the heart can never be broken down into a simple set of rules.",
+        "No code or equation will ever imitate the true complexities of the human condition. Nevertheless, a little mathematical knowledge in our increasingly quantitative society can help us to harness the power of numbers for ourselves.",
+        "Simple rules allow us to make the best choices and avoid the worst mistakes. Small alterations in the way we think about our rapidly evolving environments help us to 'keep calm' in the face of rapidly accelerating change, or adapt to our increasingly automated realities."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Nevertheless, a little mathematical knowledge in our increasingly quantitative society can help us to harness the power of numbers for ourselves.\n\nMathematics has been, is, and ever will be a current running almost unseen beneath the surface of our affairs. We should, however, be careful not to get carried away with the flow by attempting to extend its application beyond its remit. ① There are places where mathematics is completely the wrong tool for the job: activities in which human supervision is unquestionably necessary. ② Even if some of the most complex mental tasks can be farmed out to an algorithm, matters of the heart can never be broken down into a simple set of rules. ③ No code or equation will ever imitate the true complexities of the human condition. ④ Simple rules allow us to make the best choices and avoid the worst mistakes. ⑤ Small alterations in the way we think about our rapidly evolving environments help us to 'keep calm' in the face of rapidly accelerating change, or adapt to our increasingly automated realities.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

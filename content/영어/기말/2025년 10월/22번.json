@@ -21,6 +21,42 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Experiments testify to science's embrace of ignorance.",
+        "Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check.",
+        "The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute.",
+        "For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\"",
+        "Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless.",
+        "You never know until you try."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Experiments testify to science's embrace of ignorance.",
+      "items": [
+        "Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute.",
+        "For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless.",
+        "You never know until you try."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless.\n\nExperiments testify to science's embrace of ignorance. ① Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. ② The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. ③ For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" ④ You never know until you try.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 4
     }
   ]
 }

@@ -35,6 +35,45 @@
       ],
       "answer": 4,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "An American naturalist suggested that the pink color of the flamingo was an adaptation so they would be less visible to predators against the setting sun.",
+        "But in fact the pink color depends on their diet.",
+        "If they eat a lot of shrimp they go brighter pink, if they don't eat a shrimp diet they go a paler pink.",
+        "It would be very hard to argue that the pink color was a Darwinian adaptation to protect against predators rather than a consequence of the diet.",
+        "That's one of the things that is actually an extremely important issue within biology: what's adaptive, what's not adaptive, what's accidental in some sort of ways.",
+        "Some scientists would probably answer there has to be an evolutionarily adaptive explanation for it — something arose during evolution for other reasons or by accident and then got converted for current purposes.",
+        "The point is that we need to be much more receptive to there being multiple explanations of what happens in nature.",
+        "They cannot simply be reduced to the working out of the imperative of the selfish genes."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "An American naturalist suggested that the pink color of the flamingo was an adaptation so they would be less visible to predators against the setting sun.",
+      "items": [
+        "But in fact the pink color depends on their diet. If they eat a lot of shrimp they go brighter pink, if they don't eat a shrimp diet they go a paler pink. It would be very hard to argue that the pink color was a Darwinian adaptation to protect against predators rather than a consequence of the diet.",
+        "That's one of the things that is actually an extremely important issue within biology: what's adaptive, what's not adaptive, what's accidental in some sort of ways. Some scientists would probably answer there has to be an evolutionarily adaptive explanation for it — something arose during evolution for other reasons or by accident and then got converted for current purposes.",
+        "The point is that we need to be much more receptive to there being multiple explanations of what happens in nature. They cannot simply be reduced to the working out of the imperative of the selfish genes."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Some scientists would probably answer there has to be an evolutionarily adaptive explanation for it — something arose during evolution for other reasons or by accident and then got converted for current purposes.\n\nAn American naturalist suggested that the pink color of the flamingo was an adaptation so they would be less visible to predators against the setting sun. But in fact the pink color depends on their diet. ① If they eat a lot of shrimp they go brighter pink, if they don't eat a shrimp diet they go a paler pink. ② It would be very hard to argue that the pink color was a Darwinian adaptation to protect against predators rather than a consequence of the diet. ③ That's one of the things that is actually an extremely important issue within biology: what's adaptive, what's not adaptive, what's accidental in some sort of ways. ④ The point is that we need to be much more receptive to there being multiple explanations of what happens in nature. ⑤ They cannot simply be reduced to the working out of the imperative of the selfish genes.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

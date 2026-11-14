@@ -22,6 +22,29 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions.",
+        "For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life.",
+        "However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful.",
+        "Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks.",
+        "In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks.\n\nIf we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. ① For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. ② However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. ③ In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.",
+      "choices": [
+        "①",
+        "②",
+        "③"
+      ],
+      "answer": 3
     }
   ]
 }

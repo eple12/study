@@ -19,6 +19,45 @@
         "This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
       ],
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user.",
+        "We're much too close to what we build to objectively see it and understand how users will interact with it.",
+        "The best user interfaces are those that have been shaped by observations of real users and their interactions with them.",
+        "So how can designers shape their work to be more effective?",
+        "An incredibly effective way is with usability testing.",
+        "The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities.",
+        "This technique is effective for understanding how well a design will perform once it is in the hands of real users.",
+        "Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user.",
+      "items": [
+        "We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective?",
+        "An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities.",
+        "This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** An incredibly effective way is with usability testing.\n\nA simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. ① The best user interfaces are those that have been shaped by observations of real users and their interactions with them. ② So how can designers shape their work to be more effective? ③ The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities. ④ This technique is effective for understanding how well a design will perform once it is in the hands of real users. ⑤ Designers can use this method to improve their work through subsequent revisions based on the findings from representative users.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

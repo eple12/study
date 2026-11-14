@@ -21,6 +21,45 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Consistent though he may be, some of Aristotle's ideas meet us today as strange.",
+        "He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence.",
+        "Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life.",
+        "Somehow that assertion seems oddly self-serving.",
+        "It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception.",
+        "Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today.",
+        "How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good.",
+        "As a result, for all it does well, it is also deeply flawed."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Consistent though he may be, some of Aristotle's ideas meet us today as strange.",
+      "items": [
+        "He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving.",
+        "It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today.",
+        "How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life.\n\nConsistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. ① Somehow that assertion seems oddly self-serving. ② It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. ③ Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. ④ How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. ⑤ As a result, for all it does well, it is also deeply flawed.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

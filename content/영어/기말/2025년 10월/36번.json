@@ -19,6 +19,47 @@
         "On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
       ],
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Even though sea creatures live in it, they still need to take in water for their bodies to function properly.",
+        "They just need to get rid of any extra salt it might bring with it.",
+        "Salt absorbs water like a sponge.",
+        "If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water.",
+        "Now you have a pile of wet salt.",
+        "Notice that it has increased in size.",
+        "The same principle applies to sea creatures.",
+        "If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater.",
+        "This can cause them to swell up.",
+        "On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Even though sea creatures live in it, they still need to take in water for their bodies to function properly.",
+      "items": [
+        "They just need to get rid of any extra salt it might bring with it. Salt absorbs water like a sponge. If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water.",
+        "Now you have a pile of wet salt. Notice that it has increased in size. The same principle applies to sea creatures.",
+        "If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater. This can cause them to swell up. On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** If you put a tiny mountain of salt on a small plate, then add enough water to the side, making sure an edge touches the salt, the salt will absorb the water.\n\nEven though sea creatures live in it, they still need to take in water for their bodies to function properly. ① They just need to get rid of any extra salt it might bring with it. ② Salt absorbs water like a sponge. ③ Now you have a pile of wet salt. ④ Notice that it has increased in size. ⑤ The same principle applies to sea creatures. If the body fluids in a sea animal are saltier than the seawater it lives in, then the extra salt in the creature's body will absorb seawater. This can cause them to swell up. On the other hand, if the amount of salt in the seawater is higher than the amount of salt in the body fluids of a sea animal, the extra salt in the water will draw fluids out of the creature's body, causing it to dehydrate and shrink.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

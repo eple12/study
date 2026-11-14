@@ -22,6 +22,45 @@
       ],
       "answer": 3,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A few years ago, three Harvard researchers gave dozens of Asian American women at Harvard a difficult math test.",
+        "But before getting them started, the researchers asked them to fill out a questionnaire about themselves.",
+        "These Asian American women were members of two in-groups with conflicting norms: they were Asians, a group recognized as being good at math, and they were women, a group recognized as being poor at it.",
+        "One set of participants received a questionnaire asking about what languages they, their parents, and grandparents spoke and how many generations of their family had lived in America.",
+        "These questions were designed to trigger the women's connection to Asian Americans.",
+        "Other subjects answered inquiries about coed dormitory policy, designed to trigger their connection to women.",
+        "A third group, the control group, was quizzed about their phone and cable TV service.",
+        "After the test, the researchers found that the women who had been manipulated to think of themselves as Asian Americans had done better on the test than did the control group, who, in turn, had done better than the women reminded of their female in-group."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A few years ago, three Harvard researchers gave dozens of Asian American women at Harvard a difficult math test.",
+      "items": [
+        "But before getting them started, the researchers asked them to fill out a questionnaire about themselves. These Asian American women were members of two in-groups with conflicting norms: they were Asians, a group recognized as being good at math, and they were women, a group recognized as being poor at it. One set of participants received a questionnaire asking about what languages they, their parents, and grandparents spoke and how many generations of their family had lived in America.",
+        "These questions were designed to trigger the women's connection to Asian Americans. Other subjects answered inquiries about coed dormitory policy, designed to trigger their connection to women.",
+        "A third group, the control group, was quizzed about their phone and cable TV service. After the test, the researchers found that the women who had been manipulated to think of themselves as Asian Americans had done better on the test than did the control group, who, in turn, had done better than the women reminded of their female in-group."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Other subjects answered inquiries about coed dormitory policy, designed to trigger their connection to women.\n\nA few years ago, three Harvard researchers gave dozens of Asian American women at Harvard a difficult math test. ① But before getting them started, the researchers asked them to fill out a questionnaire about themselves. ② These Asian American women were members of two in-groups with conflicting norms: they were Asians, a group recognized as being good at math, and they were women, a group recognized as being poor at it. ③ One set of participants received a questionnaire asking about what languages they, their parents, and grandparents spoke and how many generations of their family had lived in America. ④ These questions were designed to trigger the women's connection to Asian Americans. ⑤ A third group, the control group, was quizzed about their phone and cable TV service. After the test, the researchers found that the women who had been manipulated to think of themselves as Asian Americans had done better on the test than did the control group, who, in turn, had done better than the women reminded of their female in-group.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

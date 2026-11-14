@@ -22,6 +22,42 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Consider units of measure, one kind of descriptive device we are familiar with using in physics.",
+        "Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless.",
+        "We conclude from this that physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience.",
+        "We further conclude that any feature depending on that choice, such as the particular numerical value assigned to the spatial separation between two locations, is not out there in the world apart from a choice of unit.",
+        "Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another.",
+        "We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice is scale-dependent."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Consider units of measure, one kind of descriptive device we are familiar with using in physics.",
+      "items": [
+        "Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless. We conclude from this that physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience.",
+        "We further conclude that any feature depending on that choice, such as the particular numerical value assigned to the spatial separation between two locations, is not out there in the world apart from a choice of unit. Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another.",
+        "We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice is scale-dependent."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** We further conclude that any feature depending on that choice, such as the particular numerical value assigned to the spatial separation between two locations, is not out there in the world apart from a choice of unit.\n\nConsider units of measure, one kind of descriptive device we are familiar with using in physics. ① Spatial distances can be given in terms of feet or meters or some other unit, and the physics will be the same regardless. ② We conclude from this that physics does not prefer one unit of length over any other, and we may choose any one we like for reasons of convenience. ③ Temperatures can likewise be given in terms of the Fahrenheit or Celsius or Kelvin scale, and nothing in the physics changes when we switch from one scale to another. ④ We conclude that the choice of scale is an arbitrary choice in description, and that any feature that depends on that choice is scale-dependent.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 3
     }
   ]
 }

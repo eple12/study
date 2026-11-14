@@ -35,6 +35,45 @@
       ],
       "answer": 4,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A good way to understand the story invention process is to observe it firsthand.",
+        "Unfortunately, when people create a new story, we have difficulty knowing exactly how they found the various pieces of the story they are telling.",
+        "We cannot easily know what has been invented out of thin air and what has been adapted from prior experiences or other stories.",
+        "We can reasonably assume, however, that true creation can hardly exist with respect to stories.",
+        "Every story we tell has its basis in something that we have already experienced.",
+        "Of course, the better we are at telling stories, the better we are at giving them the appearance of being complete fiction.",
+        "This can mean that even we as tellers see the story as fictional, not realizing the adaptation process that we ourselves have used.",
+        "Even stories that are pure fantasy are adaptations of more realistic stories where certain constraints of the real world are relaxed."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A good way to understand the story invention process is to observe it firsthand.",
+      "items": [
+        "Unfortunately, when people create a new story, we have difficulty knowing exactly how they found the various pieces of the story they are telling. We cannot easily know what has been invented out of thin air and what has been adapted from prior experiences or other stories. We can reasonably assume, however, that true creation can hardly exist with respect to stories.",
+        "Every story we tell has its basis in something that we have already experienced. Of course, the better we are at telling stories, the better we are at giving them the appearance of being complete fiction.",
+        "This can mean that even we as tellers see the story as fictional, not realizing the adaptation process that we ourselves have used. Even stories that are pure fantasy are adaptations of more realistic stories where certain constraints of the real world are relaxed."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** This can mean that even we as tellers see the story as fictional, not realizing the adaptation process that we ourselves have used.\n\nA good way to understand the story invention process is to observe it firsthand. Unfortunately, when people create a new story, we have difficulty knowing exactly how they found the various pieces of the story they are telling. ① We cannot easily know what has been invented out of thin air and what has been adapted from prior experiences or other stories. ② We can reasonably assume, however, that true creation can hardly exist with respect to stories. ③ Every story we tell has its basis in something that we have already experienced. ④ Of course, the better we are at telling stories, the better we are at giving them the appearance of being complete fiction. ⑤ Even stories that are pure fantasy are adaptations of more realistic stories where certain constraints of the real world are relaxed.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

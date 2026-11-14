@@ -22,6 +22,44 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature.",
+        "Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes.",
+        "Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.",
+        "Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\".",
+        "It means when people live without a general power to control them all, they are indeed in a state of war.",
+        "In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\".",
+        "It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature.",
+      "items": [
+        "Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.",
+        "Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war.",
+        "In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.\n\nAccording to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. ① Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. ② Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". ③ It means when people live without a general power to control them all, they are indeed in a state of war. ④ In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". ⑤ It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

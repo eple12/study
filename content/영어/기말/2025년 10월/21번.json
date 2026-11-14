@@ -21,6 +21,47 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Coat a fresh, wet swab in salt, and gently touch various spots on your tongue, recording where your taste seems strongest.",
+        "Then, gargle with water to thoroughly clean your tongue, use a swab coated with sugar on the same spots, and record those results.",
+        "Gargle again, and then swab with lemon juice.",
+        "After a final gargle, try coffee.",
+        "Compare your reactions with your friends'.",
+        "Your taste pattern may reveal more than just taste preferences.",
+        "Recent studies suggest links between taster status and behavioral disorders.",
+        "For example, \"non-tasters\" tend to have a higher incidence of alcoholism, perhaps because liquor seems less bitter to them.",
+        "Conversely, \"super-tasters\" may avoid nutritious but mildly bitter foods such as broccoli, thus depriving themselves of a balanced diet.",
+        "So, although taste is not nearly as glamorous as vision, hearing, or even touch, it makes sense for you to pay closer attention to it because chemistry, at least in your mouth, could be destiny."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Coat a fresh, wet swab in salt, and gently touch various spots on your tongue, recording where your taste seems strongest.",
+      "items": [
+        "Then, gargle with water to thoroughly clean your tongue, use a swab coated with sugar on the same spots, and record those results. Gargle again, and then swab with lemon juice. After a final gargle, try coffee.",
+        "Compare your reactions with your friends'. Your taste pattern may reveal more than just taste preferences. Recent studies suggest links between taster status and behavioral disorders.",
+        "For example, \"non-tasters\" tend to have a higher incidence of alcoholism, perhaps because liquor seems less bitter to them. Conversely, \"super-tasters\" may avoid nutritious but mildly bitter foods such as broccoli, thus depriving themselves of a balanced diet. So, although taste is not nearly as glamorous as vision, hearing, or even touch, it makes sense for you to pay closer attention to it because chemistry, at least in your mouth, could be destiny."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Gargle again, and then swab with lemon juice.\n\nCoat a fresh, wet swab in salt, and gently touch various spots on your tongue, recording where your taste seems strongest. ① Then, gargle with water to thoroughly clean your tongue, use a swab coated with sugar on the same spots, and record those results. ② After a final gargle, try coffee. ③ Compare your reactions with your friends'. ④ Your taste pattern may reveal more than just taste preferences. ⑤ Recent studies suggest links between taster status and behavioral disorders. For example, \"non-tasters\" tend to have a higher incidence of alcoholism, perhaps because liquor seems less bitter to them. Conversely, \"super-tasters\" may avoid nutritious but mildly bitter foods such as broccoli, thus depriving themselves of a balanced diet. So, although taste is not nearly as glamorous as vision, hearing, or even touch, it makes sense for you to pay closer attention to it because chemistry, at least in your mouth, could be destiny.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

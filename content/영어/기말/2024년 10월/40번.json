@@ -22,6 +22,47 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world.",
+        "Delk and Fillenbaum asked participants to match the color of figures with the color of their background.",
+        "Some of the figures depicted objects associated with a particular color.",
+        "These included typically red objects such as an apple, lips, and a symbolic heart.",
+        "Other objects were presented that are not usually associated with red, such as a mushroom or a bell.",
+        "However, all the figures were made out of the same red-orange cardboard.",
+        "Participants then had to match the figure to a background varying from dark to light red.",
+        "They had to make the background color match the color of the figures.",
+        "The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red.",
+        "This implies that the cognitive association of objects to color influences how we perceive that color."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world.",
+      "items": [
+        "Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart.",
+        "Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red.",
+        "They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Some of the figures depicted objects associated with a particular color.\n\nThere is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. ① Delk and Fillenbaum asked participants to match the color of figures with the color of their background. ② These included typically red objects such as an apple, lips, and a symbolic heart. ③ Other objects were presented that are not usually associated with red, such as a mushroom or a bell. ④ However, all the figures were made out of the same red-orange cardboard. ⑤ Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

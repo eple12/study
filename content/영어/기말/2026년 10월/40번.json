@@ -22,6 +22,46 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy.",
+        "One key adaptation is the structure of the dolphin's auditory pathway.",
+        "The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound.",
+        "However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals.",
+        "Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound.",
+        "This specialization allows the dolphin's brain to process echo information in parallel, rather than sequentially.",
+        "Imagine a factory assembly line, where different workers are responsible for different tasks.",
+        "By dividing the work among specialized areas, the brain can process information much faster and more efficiently.",
+        "This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy.",
+      "items": [
+        "One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals.",
+        "Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information in parallel, rather than sequentially. Imagine a factory assembly line, where different workers are responsible for different tasks.",
+        "By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Imagine a factory assembly line, where different workers are responsible for different tasks.\n\nDolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. ① The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. ② However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals. ③ Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. ④ This specialization allows the dolphin's brain to process echo information in parallel, rather than sequentially. ⑤ By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

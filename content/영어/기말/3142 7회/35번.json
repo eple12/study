@@ -35,6 +35,42 @@
       ],
       "answer": 2,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "In a popular sense, \"insect\" usually refers to familiar pests or disease carriers, such as bedbugs, houseflies, clothes moths, Japanese beetles, mosquitoes and fleas, or to conspicuous groups, such as butterflies, moths, and beetles.",
+        "Many insects, however, are beneficial from a human viewpoint; they pollinate plants, produce useful substances, control pest insects, act as scavengers, and serve as food for other animals.",
+        "Furthermore, insects are valuable objects of study in elucidating many aspects of biology and ecology.",
+        "Much of the scientific knowledge of genetics has been gained from fruit fly experiments and of population biology from flour beetle studies.",
+        "Scientists familiar with insects realize the difficulty in attempting to estimate individual numbers of insects beyond areas of a few acres or a few square miles in extent.",
+        "Insects are also used as environmental quality indicators to assess water quality and soil contamination and are the basis of many studies of biodiversity."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "In a popular sense, \"insect\" usually refers to familiar pests or disease carriers, such as bedbugs, houseflies, clothes moths, Japanese beetles, mosquitoes and fleas, or to conspicuous groups, such as butterflies, moths, and beetles.",
+      "items": [
+        "Many insects, however, are beneficial from a human viewpoint; they pollinate plants, produce useful substances, control pest insects, act as scavengers, and serve as food for other animals. Furthermore, insects are valuable objects of study in elucidating many aspects of biology and ecology.",
+        "Much of the scientific knowledge of genetics has been gained from fruit fly experiments and of population biology from flour beetle studies. Scientists familiar with insects realize the difficulty in attempting to estimate individual numbers of insects beyond areas of a few acres or a few square miles in extent.",
+        "Insects are also used as environmental quality indicators to assess water quality and soil contamination and are the basis of many studies of biodiversity."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Furthermore, insects are valuable objects of study in elucidating many aspects of biology and ecology.\n\nIn a popular sense, \"insect\" usually refers to familiar pests or disease carriers, such as bedbugs, houseflies, clothes moths, Japanese beetles, mosquitoes and fleas, or to conspicuous groups, such as butterflies, moths, and beetles. ① Many insects, however, are beneficial from a human viewpoint; they pollinate plants, produce useful substances, control pest insects, act as scavengers, and serve as food for other animals. ② Much of the scientific knowledge of genetics has been gained from fruit fly experiments and of population biology from flour beetle studies. ③ Scientists familiar with insects realize the difficulty in attempting to estimate individual numbers of insects beyond areas of a few acres or a few square miles in extent. ④ Insects are also used as environmental quality indicators to assess water quality and soil contamination and are the basis of many studies of biodiversity.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "answer": 2
     }
   ]
 }

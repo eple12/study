@@ -22,6 +22,45 @@
       ],
       "answer": 5,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "You might think of survival as a race in which a hurdle has to be jumped every year.",
+        "The early hurdles were once very high, and many people fell before clearing the first few.",
+        "Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life.",
+        "From only a very small number of figs will even one of many seeds become a fig tree.",
+        "Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates.",
+        "Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes.",
+        "Things were little better for our hunter-gatherer ancestors, a quarter of them failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century.",
+        "Had it been otherwise, the huge recent growth in human population would have occurred much earlier."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "You might think of survival as a race in which a hurdle has to be jumped every year.",
+      "items": [
+        "The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree.",
+        "Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes.",
+        "Things were little better for our hunter-gatherer ancestors, a quarter of them failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** From only a very small number of figs will even one of many seeds become a fig tree.\n\nYou might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. ① Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. ② Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. ③ Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. ④ Things were little better for our hunter-gatherer ancestors, a quarter of them failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. ⑤ Had it been otherwise, the huge recent growth in human population would have occurred much earlier.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

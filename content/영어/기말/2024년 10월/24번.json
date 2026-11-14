@@ -21,6 +21,47 @@
       ],
       "answer": 3,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Manufacturers masterfully sow seeds of doubt about the adequacy of our current devices.",
+        "Suddenly, the phone that was your lifeline a year ago is now a museum piece, unable to keep pace with your digital demands.",
+        "And thus, the itch to upgrade begins, often before there's a genuine need.",
+        "This cycle isn't just confined to our digital companions.",
+        "It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge.",
+        "Every product seems to be on an unstoppable march towards the next version, the next generation that promises to revolutionize your life.",
+        "What's fascinating, or perhaps disturbing, is the utter efficacy of this cycle in shaping our desires.",
+        "It's not so much that we want the newest device; we're led to believe we need it.",
+        "The distinction between want and need blurs, shifting our financial priorities in favor of staying current with trends.",
+        "For all the logical arguments against this ceaseless upgrading, the temptation remains compelling."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Manufacturers masterfully sow seeds of doubt about the adequacy of our current devices.",
+      "items": [
+        "Suddenly, the phone that was your lifeline a year ago is now a museum piece, unable to keep pace with your digital demands. And thus, the itch to upgrade begins, often before there's a genuine need. This cycle isn't just confined to our digital companions.",
+        "It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge. Every product seems to be on an unstoppable march towards the next version, the next generation that promises to revolutionize your life. What's fascinating, or perhaps disturbing, is the utter efficacy of this cycle in shaping our desires.",
+        "It's not so much that we want the newest device; we're led to believe we need it. The distinction between want and need blurs, shifting our financial priorities in favor of staying current with trends. For all the logical arguments against this ceaseless upgrading, the temptation remains compelling."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** It's not so much that we want the newest device; we're led to believe we need it.\n\nManufacturers masterfully sow seeds of doubt about the adequacy of our current devices. Suddenly, the phone that was your lifeline a year ago is now a museum piece, unable to keep pace with your digital demands. And thus, the itch to upgrade begins, often before there's a genuine need. This cycle isn't just confined to our digital companions. ① It spills over into almost every aspect of consumer electronics, from the self-driving car to the smart fridge. ② Every product seems to be on an unstoppable march towards the next version, the next generation that promises to revolutionize your life. ③ What's fascinating, or perhaps disturbing, is the utter efficacy of this cycle in shaping our desires. ④ The distinction between want and need blurs, shifting our financial priorities in favor of staying current with trends. ⑤ For all the logical arguments against this ceaseless upgrading, the temptation remains compelling.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

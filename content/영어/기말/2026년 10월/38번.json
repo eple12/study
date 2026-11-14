@@ -22,6 +22,44 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "When we say that water is \"clean,\" we don't just mean that it looks like a glass of water.",
+        "Water quality is about following a certain set of criteria, or \"benchmarks.\"",
+        "These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water.",
+        "These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler.",
+        "We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things.",
+        "For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap.",
+        "This is why groups set different \"safety limits\" for the water dependent on how it will be utilized."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "When we say that water is \"clean,\" we don't just mean that it looks like a glass of water.",
+      "items": [
+        "Water quality is about following a certain set of criteria, or \"benchmarks.\" These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water.",
+        "These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things.",
+        "For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. This is why groups set different \"safety limits\" for the water dependent on how it will be utilized."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** We can't utilize the same \"one size fits all\" rule for everyone because we use water for so many diverse things.\n\nWhen we say that water is \"clean,\" we don't just mean that it looks like a glass of water. ① Water quality is about following a certain set of criteria, or \"benchmarks.\" ② These guidelines inform us exactly how much physical, chemical, or biological stuff can be in the water. ③ These rules ensure the water is safe for anything we want to do with it, whether that's drinking it at home, watering crops on a farm, or running it through a huge industrial boiler. ④ For instance, the water that cools down a huge power plant generator doesn't need to be as clean as the water you drink from the kitchen tap. ⑤ This is why groups set different \"safety limits\" for the water dependent on how it will be utilized.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

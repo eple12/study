@@ -35,6 +35,56 @@
       ],
       "answer": 5,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "When your hand is hanging at your side and then you lift it, opposing muscles on your upper arm shorten and lengthen, contract and relax, to bend the elbow.",
+        "Biceps contract, and triceps relax.",
+        "Reversing the motion, when you drop your hand back down, muscles reverse roles.",
+        "Triceps contract, and biceps relax.",
+        "Lift your hand or drop it, and muscle shows what it is: a system of coordination, managed by orchestrated tension.",
+        "As arms and legs rotate around joints, muscles activate and deactivate, contract and relax.",
+        "All physical activity is paradoxical, in this sense: Movement depends on what muscles don't do, as much as it depends on what they do.",
+        "Both are necessary, each in its time, and the same is true of each side of the pairs of concepts shaping how we talk of muscles.",
+        "Start with nature versus nurture: Some people are stronger or more muscular than others; is the difference inborn, or does it depend on what people do?",
+        "To the latter question: What do you do?",
+        "Do you have to lift weights, or is walking enough exercise?",
+        "How should you do the exercise?",
+        "Should you move fast or slowly?",
+        "Lift heavy weights or lighter ones?",
+        "Put like that, basic questions about muscle may sound like they have one right answer.",
+        "Oppositions can polarize.",
+        "But where muscle is concerned, few oppositions are true polarities.",
+        "Look closely, and most prove to be paradoxes.",
+        "Born and made, heavy and light, fast and slow: Those opposites actually exclude each other."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "When your hand is hanging at your side and then you lift it, opposing muscles on your upper arm shorten and lengthen, contract and relax, to bend the elbow.",
+      "items": [
+        "Biceps contract, and triceps relax. Reversing the motion, when you drop your hand back down, muscles reverse roles. Triceps contract, and biceps relax. Lift your hand or drop it, and muscle shows what it is: a system of coordination, managed by orchestrated tension. As arms and legs rotate around joints, muscles activate and deactivate, contract and relax. All physical activity is paradoxical, in this sense: Movement depends on what muscles don't do, as much as it depends on what they do.",
+        "Both are necessary, each in its time, and the same is true of each side of the pairs of concepts shaping how we talk of muscles. Start with nature versus nurture: Some people are stronger or more muscular than others; is the difference inborn, or does it depend on what people do? To the latter question: What do you do? Do you have to lift weights, or is walking enough exercise? How should you do the exercise? Should you move fast or slowly?",
+        "Lift heavy weights or lighter ones? Put like that, basic questions about muscle may sound like they have one right answer. Oppositions can polarize. But where muscle is concerned, few oppositions are true polarities. Look closely, and most prove to be paradoxes. Born and made, heavy and light, fast and slow: Those opposites actually exclude each other."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Look closely, and most prove to be paradoxes.\n\nWhen your hand is hanging at your side and then you lift it, opposing muscles on your upper arm shorten and lengthen, contract and relax, to bend the elbow. Biceps contract, and triceps relax. Reversing the motion, when you drop your hand back down, muscles reverse roles. Triceps contract, and biceps relax. Lift your hand or drop it, and muscle shows what it is: a system of coordination, managed by orchestrated tension. As arms and legs rotate around joints, muscles activate and deactivate, contract and relax. All physical activity is paradoxical, in this sense: Movement depends on what muscles don't do, as much as it depends on what they do. Both are necessary, each in its time, and the same is true of each side of the pairs of concepts shaping how we talk of muscles. Start with nature versus nurture: Some people are stronger or more muscular than others; is the difference inborn, or does it depend on what people do? To the latter question: What do you do? Do you have to lift weights, or is walking enough exercise? How should you do the exercise? Should you move fast or slowly? ① Lift heavy weights or lighter ones? ② Put like that, basic questions about muscle may sound like they have one right answer. ③ Oppositions can polarize. ④ But where muscle is concerned, few oppositions are true polarities. ⑤ Born and made, heavy and light, fast and slow: Those opposites actually exclude each other.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

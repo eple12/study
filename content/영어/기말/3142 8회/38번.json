@@ -35,6 +35,44 @@
       ],
       "answer": 4,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A coral reef is one of the most biologically diverse ecosystems on earth, rivaled only by tropical rain forests.",
+        "The environment of the coral reef is formed over thousands of years by the life cycle of vast numbers of coral animals.",
+        "The main architect of the reef is the stony coral, a relative of the sea anemone that lives in tropical climates and secretes a skeleton of almost pure calcium carbonate.",
+        "Its companion is the green alga, a tiny unicellular plant, which lives within its tissues.",
+        "The organisms coexist in a mutually beneficial relationship, with the algae consuming carbon dioxide given off by the corals and the corals thriving in the abundant oxygen produced photosynthetically by the algae.",
+        "When the coral dies, its skeleton is left, and other organisms grow on top of it.",
+        "Over the years, the sheer mass of coral skeletons, together with those of associated organisms, combine to form the underwater forest that divers find so fascinating."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A coral reef is one of the most biologically diverse ecosystems on earth, rivaled only by tropical rain forests.",
+      "items": [
+        "The environment of the coral reef is formed over thousands of years by the life cycle of vast numbers of coral animals. The main architect of the reef is the stony coral, a relative of the sea anemone that lives in tropical climates and secretes a skeleton of almost pure calcium carbonate.",
+        "Its companion is the green alga, a tiny unicellular plant, which lives within its tissues. The organisms coexist in a mutually beneficial relationship, with the algae consuming carbon dioxide given off by the corals and the corals thriving in the abundant oxygen produced photosynthetically by the algae.",
+        "When the coral dies, its skeleton is left, and other organisms grow on top of it. Over the years, the sheer mass of coral skeletons, together with those of associated organisms, combine to form the underwater forest that divers find so fascinating."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The organisms coexist in a mutually beneficial relationship, with the algae consuming carbon dioxide given off by the corals and the corals thriving in the abundant oxygen produced photosynthetically by the algae.\n\nA coral reef is one of the most biologically diverse ecosystems on earth, rivaled only by tropical rain forests. ① The environment of the coral reef is formed over thousands of years by the life cycle of vast numbers of coral animals. ② The main architect of the reef is the stony coral, a relative of the sea anemone that lives in tropical climates and secretes a skeleton of almost pure calcium carbonate. ③ Its companion is the green alga, a tiny unicellular plant, which lives within its tissues. ④ When the coral dies, its skeleton is left, and other organisms grow on top of it. ⑤ Over the years, the sheer mass of coral skeletons, together with those of associated organisms, combine to form the underwater forest that divers find so fascinating.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

@@ -22,6 +22,44 @@
       ],
       "answer": 2,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others.",
+        "And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary.",
+        "Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell.",
+        "How different types of cell communicate with one another becomes its own specialist topic.",
+        "Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex.",
+        "As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'.",
+        "Today, nobody is an expert in the whole of anything."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others.",
+      "items": [
+        "And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell.",
+        "How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex.",
+        "As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'.\n\nJust as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. ① And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. ② Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. ③ How different types of cell communicate with one another becomes its own specialist topic. ④ Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. ⑤ Today, nobody is an expert in the whole of anything.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

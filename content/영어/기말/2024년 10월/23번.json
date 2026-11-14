@@ -21,6 +21,46 @@
       ],
       "answer": 3,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain.",
+        "Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions.",
+        "Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving.",
+        "Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance.",
+        "If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall.",
+        "We've all heard the expression, \"No pain, no gain.\"",
+        "Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words.",
+        "She says that our attempts to escape being miserable are in fact making us even more miserable.",
+        "This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain.",
+      "items": [
+        "Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance.",
+        "If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words.",
+        "She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words.\n\nBased on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. ① Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. ② If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. ③ We've all heard the expression, \"No pain, no gain.\" ④ She says that our attempts to escape being miserable are in fact making us even more miserable. ⑤ This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

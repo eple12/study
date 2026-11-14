@@ -35,6 +35,48 @@
       ],
       "answer": 3,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Traditional logic and metaphysics are themselves in no better position to understand and solve the riddle of man.",
+        "Rational, logical and metaphysical thought can comprehend only those objects which have a consistent nature and truth.",
+        "It is, however, just this homogeneity which we never find in man.",
+        "The philosopher is not permitted to construct an artificial man; he must describe a real one.",
+        "All the so-called definitions of man are nothing but airy speculation so long as they are not based upon and confirmed by our experience of man.",
+        "There is no other way to know man than to understand his life and conduct.",
+        "But what we find here defies every attempt at inclusion within a single and simple formula.",
+        "Inconsistency is the very element of human existence.",
+        "Man has no \"nature\" — no simple or homogeneous being.",
+        "He is a strange mixture of being and nonbeing.",
+        "His place is between these two opposite poles."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Traditional logic and metaphysics are themselves in no better position to understand and solve the riddle of man.",
+      "items": [
+        "Rational, logical and metaphysical thought can comprehend only those objects which have a consistent nature and truth. It is, however, just this homogeneity which we never find in man. The philosopher is not permitted to construct an artificial man; he must describe a real one. All the so-called definitions of man are nothing but airy speculation so long as they are not based upon and confirmed by our experience of man.",
+        "There is no other way to know man than to understand his life and conduct. But what we find here defies every attempt at inclusion within a single and simple formula. Inconsistency is the very element of human existence.",
+        "Man has no \"nature\" — no simple or homogeneous being. He is a strange mixture of being and nonbeing. His place is between these two opposite poles."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** He is a strange mixture of being and nonbeing.\n\nTraditional logic and metaphysics are themselves in no better position to understand and solve the riddle of man. Rational, logical and metaphysical thought can comprehend only those objects which have a consistent nature and truth. It is, however, just this homogeneity which we never find in man. The philosopher is not permitted to construct an artificial man; he must describe a real one. All the so-called definitions of man are nothing but airy speculation so long as they are not based upon and confirmed by our experience of man. ① There is no other way to know man than to understand his life and conduct. ② But what we find here defies every attempt at inclusion within a single and simple formula. ③ Inconsistency is the very element of human existence. ④ Man has no \"nature\" — no simple or homogeneous being. ⑤ His place is between these two opposite poles.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

@@ -35,6 +35,48 @@
       ],
       "answer": 3,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The term 'straw man' refers to a form of informal fallacy used in arguments and debates.",
+        "A type of rhetorical device, straw man is based on exaggerating some portion of an opponent's stance.",
+        "The straw man argument is usually more absurd than the actual argument, making it an easier target to attack.",
+        "For example, maybe you're arguing with a friend about global warming.",
+        "You think the government should raise fuel efficiency standards to cut down the amount of CO2 we release over the next 20 years.",
+        "Your friend thinks cars have nothing to do with it, and as you argue, he says something like, \"Our cities are built so that we have to drive cars.",
+        "Your solution will kill the economy.",
+        "How would people get to work without cars?",
+        "It'll never work.\"",
+        "He's responding to an extreme version of your proposal that's easier to shoot down than your real proposal.",
+        "He's arguing against the extreme idea that we need to get rid of all cars because it's easier than arguing against the moderate idea that we need to raise fuel efficiency."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The term 'straw man' refers to a form of informal fallacy used in arguments and debates.",
+      "items": [
+        "A type of rhetorical device, straw man is based on exaggerating some portion of an opponent's stance. The straw man argument is usually more absurd than the actual argument, making it an easier target to attack. For example, maybe you're arguing with a friend about global warming. You think the government should raise fuel efficiency standards to cut down the amount of CO2 we release over the next 20 years.",
+        "Your friend thinks cars have nothing to do with it, and as you argue, he says something like, \"Our cities are built so that we have to drive cars. Your solution will kill the economy. How would people get to work without cars?",
+        "It'll never work.\" He's responding to an extreme version of your proposal that's easier to shoot down than your real proposal. He's arguing against the extreme idea that we need to get rid of all cars because it's easier than arguing against the moderate idea that we need to raise fuel efficiency."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The straw man argument is usually more absurd than the actual argument, making it an easier target to attack.\n\nThe term 'straw man' refers to a form of informal fallacy used in arguments and debates. ① A type of rhetorical device, straw man is based on exaggerating some portion of an opponent's stance. ② For example, maybe you're arguing with a friend about global warming. ③ You think the government should raise fuel efficiency standards to cut down the amount of CO2 we release over the next 20 years. ④ Your friend thinks cars have nothing to do with it, and as you argue, he says something like, \"Our cities are built so that we have to drive cars. ⑤ Your solution will kill the economy. How would people get to work without cars? It'll never work.\" He's responding to an extreme version of your proposal that's easier to shoot down than your real proposal. He's arguing against the extreme idea that we need to get rid of all cars because it's easier than arguing against the moderate idea that we need to raise fuel efficiency.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

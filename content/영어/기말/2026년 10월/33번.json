@@ -22,6 +22,44 @@
       ],
       "answer": 2,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages.",
+        "At the core of this perspective lies the concept of plasticity.",
+        "Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes.",
+        "It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives.",
+        "In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline.",
+        "The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan.",
+        "Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages.",
+      "items": [
+        "At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes.",
+        "It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline.",
+        "The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives.\n\nHuman development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. ① At the core of this perspective lies the concept of plasticity. ② Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. ③ In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. ④ The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. ⑤ Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

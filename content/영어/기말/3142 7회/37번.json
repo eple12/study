@@ -32,6 +32,46 @@
       ],
       "answer": 5,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "The flu can kill tens of millions of people, and unrelenting strains of tuberculosis and cholera continue to cause premature death among populations throughout the world.",
+        "This means humans have little or no immunity to it, and everyone is at risk.",
+        "In spite of our best efforts to eradicate them, these health problems are a continuing menace to all of us.",
+        "Just like there are only a few things which do not have both positives and negatives, however, the news isn't all bad.",
+        "Even though we are bombarded by potentially disease-causing threats, our immune systems are remarkably adept at protecting us.",
+        "However, this is not always the case.",
+        "Microorganisms originating in the body live in peaceful coexistence with their human host most of the time.",
+        "Specifically, for people in good health and whose immune systems are functioning properly, the organisms are usually harmless.",
+        "But in sick people or people with weakened immune systems, these normally harmless potentially disease-causing organisms can cause serious health problems."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "The flu can kill tens of millions of people, and unrelenting strains of tuberculosis and cholera continue to cause premature death among populations throughout the world.",
+      "items": [
+        "This means humans have little or no immunity to it, and everyone is at risk. In spite of our best efforts to eradicate them, these health problems are a continuing menace to all of us. Just like there are only a few things which do not have both positives and negatives, however, the news isn't all bad.",
+        "Even though we are bombarded by potentially disease-causing threats, our immune systems are remarkably adept at protecting us. However, this is not always the case. Microorganisms originating in the body live in peaceful coexistence with their human host most of the time.",
+        "Specifically, for people in good health and whose immune systems are functioning properly, the organisms are usually harmless. But in sick people or people with weakened immune systems, these normally harmless potentially disease-causing organisms can cause serious health problems."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Microorganisms originating in the body live in peaceful coexistence with their human host most of the time.\n\nThe flu can kill tens of millions of people, and unrelenting strains of tuberculosis and cholera continue to cause premature death among populations throughout the world. This means humans have little or no immunity to it, and everyone is at risk. ① In spite of our best efforts to eradicate them, these health problems are a continuing menace to all of us. ② Just like there are only a few things which do not have both positives and negatives, however, the news isn't all bad. ③ Even though we are bombarded by potentially disease-causing threats, our immune systems are remarkably adept at protecting us. ④ However, this is not always the case. ⑤ Specifically, for people in good health and whose immune systems are functioning properly, the organisms are usually harmless. But in sick people or people with weakened immune systems, these normally harmless potentially disease-causing organisms can cause serious health problems.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5
     }
   ]
 }

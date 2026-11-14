@@ -22,6 +22,46 @@
       ],
       "answer": 1,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Historically, palaces weren't just homes; they were carefully constructed stages designed to impress and intimidate.",
+        "While stone symbolized permanence and strength, glass offered something equally powerful: visibility.",
+        "The introduction of large windows in palaces allowed rulers to literally look down upon their subjects, emphasizing their elevated position.",
+        "Conversely, it also allowed subjects to gaze up at their leaders, creating a sense of awe and distance.",
+        "Consider the Palace of Versailles: its Hall of Mirrors, lined with reflective surfaces, not only magnified the grandeur of the space but also placed the king at the center of a dazzling display, reinforcing his absolute authority.",
+        "The use of glass in palaces wasn't merely aesthetic; it was strategic.",
+        "Open sightlines allowed for better surveillance and control, ensuring the safety and security of the ruling family.",
+        "Courtiers and visitors were constantly aware of being observed, contributing to an atmosphere of careful obedience and respect.",
+        "The very architecture dictated social behavior, with glass acting as a silent enforcer of the power dynamic."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Historically, palaces weren't just homes; they were carefully constructed stages designed to impress and intimidate.",
+      "items": [
+        "While stone symbolized permanence and strength, glass offered something equally powerful: visibility. The introduction of large windows in palaces allowed rulers to literally look down upon their subjects, emphasizing their elevated position. Conversely, it also allowed subjects to gaze up at their leaders, creating a sense of awe and distance.",
+        "Consider the Palace of Versailles: its Hall of Mirrors, lined with reflective surfaces, not only magnified the grandeur of the space but also placed the king at the center of a dazzling display, reinforcing his absolute authority. The use of glass in palaces wasn't merely aesthetic; it was strategic. Open sightlines allowed for better surveillance and control, ensuring the safety and security of the ruling family.",
+        "Courtiers and visitors were constantly aware of being observed, contributing to an atmosphere of careful obedience and respect. The very architecture dictated social behavior, with glass acting as a silent enforcer of the power dynamic."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The introduction of large windows in palaces allowed rulers to literally look down upon their subjects, emphasizing their elevated position.\n\nHistorically, palaces weren't just homes; they were carefully constructed stages designed to impress and intimidate. ① While stone symbolized permanence and strength, glass offered something equally powerful: visibility. ② Conversely, it also allowed subjects to gaze up at their leaders, creating a sense of awe and distance. ③ Consider the Palace of Versailles: its Hall of Mirrors, lined with reflective surfaces, not only magnified the grandeur of the space but also placed the king at the center of a dazzling display, reinforcing his absolute authority. ④ The use of glass in palaces wasn't merely aesthetic; it was strategic. ⑤ Open sightlines allowed for better surveillance and control, ensuring the safety and security of the ruling family. Courtiers and visitors were constantly aware of being observed, contributing to an atmosphere of careful obedience and respect. The very architecture dictated social behavior, with glass acting as a silent enforcer of the power dynamic.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

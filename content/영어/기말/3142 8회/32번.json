@@ -35,6 +35,45 @@
       ],
       "answer": 3,
       "id": "2"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "In 2013, Forbes magazine explored exactly how Warren Buffett attempts to avoid succumbing to confirmation bias, which causes people to interpret and recall information in a way that confirms their preexisting beliefs, and what this means to financial investors.",
+        "It warned: \"For investors, confirmation bias is particularly dangerous.",
+        "Once an investor starts to like a company, for example, he may dismiss negative information as irrelevant or inaccurate.\"",
+        "The same can be said for entrepreneurs or any businessperson.",
+        "Explaining what it labeled the 'Buffett Approach,' Forbes described the 2013 annual general meeting for Berkshire Hathaway, a multinational conglomerate for which Buffett is the chief executive officer.",
+        "Instead of inviting professional applauders, who would applaud at whatever Buffett said, he invited Doug Kass, a fund manager and constant critic of Buffett and Berkshire Hathaway, as a guest speaker.",
+        "Forbes described this as \"largely unprecedented\" and applauded Buffett's simple act.",
+        "Indeed, creating a culture of challenge was one of the suggestions for fighting confirmation bias."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "In 2013, Forbes magazine explored exactly how Warren Buffett attempts to avoid succumbing to confirmation bias, which causes people to interpret and recall information in a way that confirms their preexisting beliefs, and what this means to financial investors.",
+      "items": [
+        "It warned: \"For investors, confirmation bias is particularly dangerous. Once an investor starts to like a company, for example, he may dismiss negative information as irrelevant or inaccurate.\" The same can be said for entrepreneurs or any businessperson.",
+        "Explaining what it labeled the 'Buffett Approach,' Forbes described the 2013 annual general meeting for Berkshire Hathaway, a multinational conglomerate for which Buffett is the chief executive officer. Instead of inviting professional applauders, who would applaud at whatever Buffett said, he invited Doug Kass, a fund manager and constant critic of Buffett and Berkshire Hathaway, as a guest speaker.",
+        "Forbes described this as \"largely unprecedented\" and applauded Buffett's simple act. Indeed, creating a culture of challenge was one of the suggestions for fighting confirmation bias."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Once an investor starts to like a company, for example, he may dismiss negative information as irrelevant or inaccurate.\"\n\nIn 2013, Forbes magazine explored exactly how Warren Buffett attempts to avoid succumbing to confirmation bias, which causes people to interpret and recall information in a way that confirms their preexisting beliefs, and what this means to financial investors. It warned: \"For investors, confirmation bias is particularly dangerous. ① The same can be said for entrepreneurs or any businessperson. ② Explaining what it labeled the 'Buffett Approach,' Forbes described the 2013 annual general meeting for Berkshire Hathaway, a multinational conglomerate for which Buffett is the chief executive officer. ③ Instead of inviting professional applauders, who would applaud at whatever Buffett said, he invited Doug Kass, a fund manager and constant critic of Buffett and Berkshire Hathaway, as a guest speaker. ④ Forbes described this as \"largely unprecedented\" and applauded Buffett's simple act. ⑤ Indeed, creating a culture of challenge was one of the suggestions for fighting confirmation bias.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1
     }
   ]
 }

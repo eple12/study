@@ -22,6 +22,45 @@
       ],
       "answer": 5,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Like all historians, social historians draw from a variety of primary sources.",
+        "Social history often emphasizes ordinary people rather than elites.",
+        "Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation.",
+        "Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers.",
+        "Because of such biases in the historical record, social historians have to be very creative in their work.",
+        "Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites.",
+        "Yet rather than simply take such sources at face value, they read them \"against the grain\".",
+        "So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Like all historians, social historians draw from a variety of primary sources.",
+      "items": [
+        "Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers.",
+        "Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites.",
+        "Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation.\n\nLike all historians, social historians draw from a variety of primary sources. ① Social history often emphasizes ordinary people rather than elites. ② Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. ③ Because of such biases in the historical record, social historians have to be very creative in their work. ④ Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. ⑤ Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2
     }
   ]
 }

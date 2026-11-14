@@ -22,6 +22,44 @@
       ],
       "answer": 2,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since.",
+        "This need not be a hopeless thought.",
+        "In one light it is a triumph of engineering.",
+        "If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't.",
+        "The automation is precisely what frees the captain to come up on deck for the few problems that actually require him.",
+        "The default is not a flaw in the human design.",
+        "It is arguably the central feature, the thing that makes a complex life affordable at all."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "A person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since.",
+      "items": [
+        "This need not be a hopeless thought. In one light it is a triumph of engineering.",
+        "If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't. The automation is precisely what frees the captain to come up on deck for the few problems that actually require him.",
+        "The default is not a flaw in the human design. It is arguably the central feature, the thing that makes a complex life affordable at all."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The automation is precisely what frees the captain to come up on deck for the few problems that actually require him.\n\nA person who lives eighty years lives some twenty-nine thousand days, and the overwhelming majority of the behaviour packed into them runs on settings laid down, most of them, decades earlier and rarely inspected since. ① This need not be a hopeless thought. ② In one light it is a triumph of engineering. ③ If you had to consciously decide every footstep and every fork-grip and every word, you would never make it out of bed; the deliberate mind is far too slow and too costly to run a whole life in real time, and any creature that tried would be outcompeted by a creature that didn't. ④ The default is not a flaw in the human design. ⑤ It is arguably the central feature, the thing that makes a complex life affordable at all.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }

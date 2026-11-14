@@ -22,6 +22,44 @@
       ],
       "answer": 4,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "Some people argue that there is a single, logically consistent concept known as reading that can be neatly set apart from everything else people do with books.",
+        "Is reading really that simple?",
+        "The most productive way to think about reading is as a collection of activities in which many other opinions interact owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait.",
+        "Consequently, efforts to distinguish reading from nonreading are destined to fail because there is no agreement on what qualifies as reading in the first place.",
+        "The more one tries to figure out where the border lies between reading and not-reading, the more edge cases will be found to stretch the term's flexible boundaries.",
+        "Thus, it is worth attempting to collect together these exceptional forms of reading into a single forum, one highlighting the challenges faced by anyone wishing to establish the boundaries where reading begins and ends.",
+        "The attempt moves toward an understanding of reading as a spectrum that is expansive enough to accommodate the distinct reading activities."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "Some people argue that there is a single, logically consistent concept known as reading that can be neatly set apart from everything else people do with books.",
+      "items": [
+        "Is reading really that simple? The most productive way to think about reading is as a collection of activities in which many other opinions interact owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait.",
+        "Consequently, efforts to distinguish reading from nonreading are destined to fail because there is no agreement on what qualifies as reading in the first place. The more one tries to figure out where the border lies between reading and not-reading, the more edge cases will be found to stretch the term's flexible boundaries.",
+        "Thus, it is worth attempting to collect together these exceptional forms of reading into a single forum, one highlighting the challenges faced by anyone wishing to establish the boundaries where reading begins and ends. The attempt moves toward an understanding of reading as a spectrum that is expansive enough to accommodate the distinct reading activities."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Consequently, efforts to distinguish reading from nonreading are destined to fail because there is no agreement on what qualifies as reading in the first place.\n\nSome people argue that there is a single, logically consistent concept known as reading that can be neatly set apart from everything else people do with books. ① Is reading really that simple? ② The most productive way to think about reading is as a collection of activities in which many other opinions interact owing to family resemblances, as Ludwig Wittgenstein used the phrase, without having in common a single defining trait. ③ The more one tries to figure out where the border lies between reading and not-reading, the more edge cases will be found to stretch the term's flexible boundaries. ④ Thus, it is worth attempting to collect together these exceptional forms of reading into a single forum, one highlighting the challenges faced by anyone wishing to establish the boundaries where reading begins and ends. ⑤ The attempt moves toward an understanding of reading as a spectrum that is expansive enough to accommodate the distinct reading activities.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3
     }
   ]
 }

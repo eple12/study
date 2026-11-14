@@ -21,6 +21,44 @@
       ],
       "answer": 5,
       "id": "1"
+    },
+    {
+      "type": "order",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "items": [
+        "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time.",
+        "Imagine you are lending to somebody at an interest rate of 10 percent per year for five years.",
+        "This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself.",
+        "The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future, which by definition is unknowable, and the longer you will have to wait before spending the money yourself.",
+        "In order to make this worthwhile for the lender, money has to have a price, a cost to the borrower and income to the lender.",
+        "This price factors in the value of time.",
+        "To put it another way, a bird in the hand is worth two in the bush."
+      ]
+    },
+    {
+      "id": "auto-order3",
+      "type": "order",
+      "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
+      "given": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time.",
+      "items": [
+        "Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself.",
+        "The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future, which by definition is unknowable, and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price, a cost to the borrower and income to the lender.",
+        "This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush."
+      ]
+    },
+    {
+      "id": "auto-insert",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** In order to make this worthwhile for the lender, money has to have a price, a cost to the borrower and income to the lender.\n\nTo see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. ① Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. ② This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. ③ The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future, which by definition is unknowable, and the longer you will have to wait before spending the money yourself. ④ This price factors in the value of time. ⑤ To put it another way, a bird in the hand is worth two in the bush.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4
     }
   ]
 }
