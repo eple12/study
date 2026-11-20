@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "37번 지문",
       "text": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes conceals the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes conceals the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies."
     }
   ],
   "questions": [
@@ -28,7 +22,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience.",
         "However, this paradigm sometimes conceals the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence.",
@@ -63,9 +57,8 @@
       "answer": 4
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-17",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 요지로 가장 적절한 것은?",
       "choices": [
         "과학 이론은 실제 데이터를 바탕으로 모든 현실을 설명해야 한다.",
@@ -74,7 +67,59 @@
         "과학적 연구는 실험적 데이터를 기반으로 이루어지며, 창의적 해석은 불필요하다.",
         "과학적 설명은 사실을 나열하는 것이 아니라 관찰된 현상을 의미 있게 구성하는 것이다."
       ],
-      "answer": 5
+      "answer": 5,
+      "view": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes conceals the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies.\n* adhere: 충실하다 ** illuminate: 밝히다 *** chronology: 연대기",
+      "tag": "아잉카 변형 17번"
+    },
+    {
+      "id": "ak24-37",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Necessity of Research Project Design",
+        "The Role of Creativity in Scientific Explanation",
+        "Methods of Data Collection in Scientific Research",
+        "The Difference between Scientific Facts and Theories",
+        "The Importance and Limitations of Experimental Data"
+      ],
+      "answer": 2,
+      "explanation": "② 과학적 설명에서 창의성의 역할\n[해설]\n① 연구 프로젝트 설계의 필요성\n③ 과학 연구의 데이터 수집 방법\n④ 과학적 사실과 이론의 차이\n⑤ 실험 데이터의 중요성과 그 한계",
+      "view": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes conceals the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies.\n* adhere: 충실하다 ** illuminate: 밝히다 *** chronology: 연대기",
+      "tag": "아잉카 변형 37번"
+    },
+    {
+      "id": "ak24-59",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes ＿＿＿＿＿＿＿＿ the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies.\n* adhere: 충실하다 ** illuminate: 밝히다 *** chronology: 연대기",
+      "choices": [
+        "reveals",
+        "clarifies",
+        "conceals",
+        "confirms",
+        "compares"
+      ],
+      "answer": 3,
+      "explanation": "③ 숨기다\n[해설]\n이 글에서 저자는 과학적 설명이 단순히 사실을 전달하는 것이 아니라, 실험 데이터를 기반으로 의미 있는 해석 틀을 구성한다는 점을 강조하고 있다. 하지만, 이러한 과학적 설명 방식이 창의적 요소가 포함되어 있다는 사실을 숨길 수 있다고 경고한다. 이는 과학적 이론이 객관적인 사실만으로 이루어져 있다고 생각하게 만들 수 있지만, 실제로는 이론의 구성과 해석에 창의적인 해석이 개입된다는 것이다. 따라서 'conceals (숨기다)'는 이 문장의 의미와 맥락에 가장 잘 부합한다.\n① 드러내다 ② 명확히 하다 ④ 확증하다 ⑤ 비교하다",
+      "view": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes ＿＿＿＿＿＿＿＿ the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies.\n* adhere: 충실하다 ** illuminate: 밝히다 *** chronology: 연대기",
+      "tag": "아잉카 변형 59번"
+    },
+    {
+      "id": "ak24-79",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Scientific research (A) data with creative theory-building, and (B) this creative aspect can lead to misunderstandings and obscure the limitations of scientific models.",
+      "choices": [
+        "integrates / neglecting",
+        "divides / underestimating",
+        "blends / emphasizing",
+        "disconnects / overlooking",
+        "fragments / noticing"
+      ],
+      "answer": 1,
+      "explanation": "① 과학 연구는 창의적인 이론 구축과 데이터를 (A) 통합하며, 이 창의적인 측면을 (B) 무시하면 오해를 불러일으키고 과학적 모델의 한계를 가릴 수 있다.\n[해설]\n② divides : 나누다 / underestimating : 과소평가하면\n③ blends : 혼합하다 / emphasizing : 강조하면\n④ disconnects : 분리시키다 / overlooking : 간과하면\n⑤ fragments : 분할하다 / noticing : 알아차리면",
+      "view": "Where scientific research is concerned, explanatory tales are expected to adhere closely to experimental data and to illuminate the regular and predictable features of experience. However, this paradigm sometimes conceals the fact that theories are deeply loaded with creative elements that shape the construction of research projects and the interpretations of evidence. Scientific explanations do not just relate a chronology of facts. They construct frameworks for systematically chosen data in order to provide a consistent and meaningful explanation of what is observed. Such constructions lead us to imagine specific kinds of subject matter in particular sorts of relations, and the storylines they inspire will prove more effective for analyzing some features of experience over others. When we neglect the creative contributions of such scientific imagination and treat models and interpretive explanations as straightforward facts — even worse, as facts including all of reality — we can blind ourselves to the limitations of a given model and fail to note its potential for misunderstanding a situation to which it ill applies.\n* adhere: 충실하다 ** illuminate: 밝히다 *** chronology: 연대기",
+      "tag": "아잉카 변형 79번"
     }
   ]
 }

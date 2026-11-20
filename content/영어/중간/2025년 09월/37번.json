@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Once a nail is hammered in, it is friction that holds it in place.",
         "Friction is the force that arises when two surfaces are sliding, or trying to slide, against each other.",

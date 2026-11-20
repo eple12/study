@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The future of work depends on two forces: a harmful substituting force and a helpful complementing one.",
         "Many tales have a hero and a villain fighting each other for dominance, but in our story, technology plays both roles at once, displacing workers while simultaneously raising the demand for their efforts elsewhere in the economy.",

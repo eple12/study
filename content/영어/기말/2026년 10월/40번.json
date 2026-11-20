@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "40번 지문",
       "text": "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information in parallel, rather than sequentially. Imagine a factory assembly line, where different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2026년 10월)",
-      "text": "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information simultaneously, rather than sequentially. Imagine a factory assembly line, where different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment."
     }
   ],
   "questions": [
@@ -31,7 +25,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy.",
         "One key adaptation is the structure of the dolphin's auditory pathway.",
@@ -70,18 +64,74 @@
       "answer": 5
     },
     {
+      "id": "ak26-83",
       "type": "choice",
-      "passage": "p2",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
-      "context": "Dolphins' brains have evolved specialized areas dedicated to echolocation, (A) [ allowing / allowed ] them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to (B) [ processing / process ] different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information simultaneously, rather than sequentially. Imagine a factory assembly line, (C) [ which / where ] different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.",
+      "context": "Dolphins' brains have evolved specialized areas dedicated to echolocation, (A) [ allowing / allowed ] them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with (ㄱ) [ distinct / similar ] areas dedicated to (B) [ processing / process ] different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information (ㄴ) [ successively / simultaneously ], rather than sequentially. Imagine a factory assembly line, (C) [ which / where ] different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing (ㄷ) [ reduces / increases ] the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.\n* echolocation: 반향 정위(초음파를 발사하여 물체의 위치를 알아내는 방법)\n** auditory: 청각의 *** cortex: (대뇌) 피질",
       "choices": [
-        "allowed - process - which",
-        "allowed - processing - which",
-        "allowing - processing - where",
-        "allowing - process - where",
-        "allowed - processing - where"
+        "allowed / process / which",
+        "allowed / processing / which",
+        "allowing / processing / where",
+        "allowing / process / where",
+        "allowed / processing / where"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "(A) 능동 현재분사구문\n- 주절의 주어와 능동의 관계이며, 접속사가 없고 목적어가 있으므로 현재분사가 적절하다.\nDolphins' brains have ~, (and they allow →) allowing them ~\n(B) 전치사 + 동명사\n- 'dedicated to'에서 'to'는 전치사로 목적어로 동명사 또는 명사를 수반한다.\n(C) 관계부사 계속적용법 + 완전한 문장\n- 명사 'a factory assembly line'을 부연 설명하며, 뒤에 완전한 문장이 오므로 관계부사가 적절하다. 관계대명사 'which'는 불완전한 문장을 수반한다.",
+      "view": "Dolphins' brains have evolved specialized areas dedicated to echolocation, (A) [ allowing / allowed ] them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with (ㄱ) [ distinct / similar ] areas dedicated to (B) [ processing / process ] different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information (ㄴ) [ successively / simultaneously ], rather than sequentially. Imagine a factory assembly line, (C) [ which / where ] different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing (ㄷ) [ reduces / increases ] the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.\n* echolocation: 반향 정위(초음파를 발사하여 물체의 위치를 알아내는 방법)\n** auditory: 청각의 *** cortex: (대뇌) 피질",
+      "tag": "아잉카 변형 83번"
+    },
+    {
+      "id": "ak26-84",
+      "type": "choice",
+      "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
+      "context": "Dolphins' brains have evolved specialized areas dedicated to echolocation, (A) [ allowing / allowed ] them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with (ㄱ) [ distinct / similar ] areas dedicated to (B) [ processing / process ] different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information (ㄴ) [ successively / simultaneously ], rather than sequentially. Imagine a factory assembly line, (C) [ which / where ] different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing (ㄷ) [ reduces / increases ] the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.\n* echolocation: 반향 정위(초음파를 발사하여 물체의 위치를 알아내는 방법)\n** auditory: 청각의 *** cortex: (대뇌) 피질",
+      "choices": [
+        "distinct / successively / increases",
+        "distinct / simultaneously / reduces",
+        "similar / simultaneously / reduces",
+        "similar / successively / increases",
+        "distinct / simultaneously / increases"
+      ],
+      "answer": 2,
+      "explanation": "(ㄱ) 돌고래의 청각 피질은 반향 정위 신호의 '서로 다른' 측면들을 처리하는 구역들을 가지고 있다고 했으므로, '개별의'라는 의미의 'distinct'가 적절하다. 'similar'는 '비슷한'이라는 의미이다.\n(ㄴ) 여러 특화된 구역들이 주파수와 소리의 강도를 동시에 처리한다고 했으므로 '동시에'라는 의미의 'simultaneously'가 적절하다. 'successively'는 '순차적인'이라는 의미이다.\n* 원문 변형\nin parallel → simultaneously\n(ㄷ) 병렬 처리는 뇌가 정보를 더 빠르고 효율적으로 처리하게 하므로, 반향 정위와 관련된 인지 부하를 '줄여준다'는 흐름이 자연스럽다. 따라서 'reduces'가 적절하다. 'increases'는 '증가시킨다'라는 의미이다.",
+      "view": "Dolphins' brains have evolved specialized areas dedicated to echolocation, (A) [ allowing / allowed ] them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with (ㄱ) [ distinct / similar ] areas dedicated to (B) [ processing / process ] different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information (ㄴ) [ successively / simultaneously ], rather than sequentially. Imagine a factory assembly line, (C) [ which / where ] different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing (ㄷ) [ reduces / increases ] the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.\n* echolocation: 반향 정위(초음파를 발사하여 물체의 위치를 알아내는 방법)\n** auditory: 청각의 *** cortex: (대뇌) 피질",
+      "tag": "아잉카 변형 84번"
+    },
+    {
+      "id": "ak26-85",
+      "type": "choice",
+      "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
+      "choices": [
+        "Dolphins' brains evolved specific zones for echolocation to handle sound data efficiently.",
+        "The auditory cortex, which receives signals from the ears, is the part of the brain that processes sound.",
+        "The dolphin's auditory cortex processes various aspects of echolocation signals collectively in a single area.",
+        "The brain's method of processing echo information is compared to how different workers handle tasks on an assembly line.",
+        "The parallel processing system in dolphins increases their cognitive burden, slowing their response to environmental changes."
+      ],
+      "answer": [
+        3,
+        5
+      ],
+      "explanation": "이 글은 돌고래 뇌의 특화된 구조가 어떻게 반향 정위 정보를 효율적으로 처리하는지에 관한 내용이다. 돌고래의 청각 피질이 반향 정위 신호의 다양한 측면을 단일 구역에서 집합적으로 처리한다고 서술한 ③번 보기와, 병렬 처리 시스템이 인지 부하를 증가시켜 환경 변화에 대한 반응을 늦춘다고 서술한 ⑤번 보기는 글의 내용과 일치하지 않는다. 본문에서는 개별 구역들이 서로 다른 측면들을 처리하며, 병렬 처리가 인지 부하를 줄이고 '빠르게 반응하게 한다고 언급했다.\n① 돌고래의 뇌는 음향 데이터를 효율적으로 다루기 위해 반향 정위를 위한 특정 구역들을 진화시켰다.\n② 귀로부터 신호를 받는 청각 피질은 소리를 처리하는 뇌의 부분이다.\n③ 돌고래의 청각 피질은 반향 정위 신호의 다양한 측면들을 단일 구역에서 집합적으로 처리한다.\n④ 뇌가 반사파 정보를 처리하는 방식은 여러 다른 노동자들이 조립 라인에서 과업을 처리하는 방식에 비유된다.\n⑤ 돌고래의 병렬 처리 시스템은 그들의 인지적 부담을 증가시켜, 환경 변화에 대한 반응을 늦춘다.",
+      "view": "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information simultaneously, rather than sequentially. Imagine a factory assembly line, where different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.\n* echolocation: 반향 정위(초음파를 발사하여 물체의 위치를 알아내는 방법)\n** auditory: 청각의 *** cortex: (대뇌) 피질",
+      "tag": "아잉카 변형 85번"
+    },
+    {
+      "id": "ak26-86",
+      "type": "choice",
+      "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "The dolphin's brain, through its highly (A) ＿＿＿＿＿＿ auditory cortex, processes echolocation signals in parallel, which (B) ＿＿＿＿＿＿ its cognitive load and enhances its environmental responsiveness.",
+      "choices": [
+        "simplified / lessens",
+        "segmented / magnifies",
+        "simplified / maintains",
+        "segmented / lessens",
+        "conventional / magnifies"
+      ],
+      "answer": 4,
+      "explanation": "돌고래의 뇌는 고도로 (A) 분화된 청각 피질을 통해 반향 정위 신호들을 병렬로 처리하며, 이는 그것의 인지 부하를 (B) 줄여주고 환경 반응성을 향상시킨다.\n이 글은 돌고래의 뇌가 반향 정위를 위해 특화된 개별 구역들을 진화시켰고, 이를 통해 정보를 병렬로 처리하여 인지 부하를 줄인다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'segmented', (B)에는 'lessens'가 들어가는 것이 가장 적절하다.\n① simplified : 단순화된 / lessens : 줄이다\n② segmented : 분화된 / magnifies : 확대하다\n③ simplified : 단순화된 / maintains : 유지하다\n⑤ conventional : 전통적인 / magnifies : 확대하다",
+      "view": "Dolphins' brains have evolved specialized areas dedicated to echolocation, allowing them to process acoustic information more quickly and with less energy. One key adaptation is the structure of the dolphin's auditory pathway. The signals from the ears are rapidly transmitted to the auditory cortex, the brain region responsible for processing sound. However, unlike many other mammals, dolphins have a highly specialized auditory cortex with distinct areas dedicated to processing different aspects of echolocation signals. Some areas may be responsible for analyzing the timing of echoes, while others focus on the frequency content or the intensity of the sound. This specialization allows the dolphin's brain to process echo information simultaneously, rather than sequentially. Imagine a factory assembly line, where different workers are responsible for different tasks. By dividing the work among specialized areas, the brain can process information much faster and more efficiently. This parallel processing reduces the cognitive load associated with echolocation, allowing dolphins to react quickly to changes in their environment.\n* echolocation: 반향 정위(초음파를 발사하여 물체의 위치를 알아내는 방법)\n** auditory: 청각의 *** cortex: (대뇌) 피질",
+      "tag": "아잉카 변형 86번"
     }
   ]
 }

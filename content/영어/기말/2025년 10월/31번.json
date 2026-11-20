@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "31번 지문",
       "text": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "scientific innovation"
       ],
       "answer": 3,
-      "id": "1"
+      "id": "1",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create ＿＿＿＿＿＿＿＿: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state.",
         "This process occurred in all the industrialised countries as a key part of their becoming modern states.",
@@ -66,8 +61,8 @@
       "answer": 4
     },
     {
+      "id": "ak25-11",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 주제로 가장 적절한 것은?",
       "choices": [
         "the historical evolution of statistical methods",
@@ -76,7 +71,123 @@
         "the role of statistics as a tool for state governance",
         "the challenges in collecting accurate official statistics"
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "정답 ④ 국가 통치를 위한 도구로서의 통계의 역할\n[해설]\n① 통계적 방법의 역사적 변천\n② 거시 경제 정책에 미치는 통계의 영향\n③ 양적 데이터의 객관성에 대한 논쟁\n⑤ 정확한 공식 통계를 수집하는 데 있어서의 어려움",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계",
+      "tag": "아잉카 변형 11번"
+    },
+    {
+      "id": "ak25-34",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Rise of Modern Statistics",
+        "Why Statistics Often Mislead Us",
+        "Statistics: A Tool for Social Equality",
+        "Why Are Neutral Figures Important?",
+        "How States Use Statistics to Build Authority"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 국가가 통계를 활용해 권위를 세우는 방식\n[해설]\n① 현대 통계의 번영\n② 왜 통계가 우리를 오해하게 만드는가\n③ 통계: 사회적 평등을 위한 도구\n④ 왜 중립적인 수치가 중요한가?",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계",
+      "tag": "아잉카 변형 34번"
+    },
+    {
+      "id": "ak25-58",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. ① Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". ② Yet this is the case. ③ The accuracy of these statistics heavily relies on the sample size and the methods used for data collection. ④ Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. ⑤ Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 이러한 통계의 정확성은 표본 크기와 데이터 수집에 사용되는 방법에 크게 의존한다.\n[해설] 이 글의 내용은 통계가 단순히 현실을 반영하는 것이 아니라, '국가의 목적에 부합'하고 '국가 권위를 구축'하기 위한 사회적, 정치적 도구로 사용된다는 것이다. 그러나 ③번 문장은 통계의 '정확성'이 표본 크기나 데이터 수집 방법에 달려있다는 내용으로, 통계의 '기술적 측면'을 다루고 있다. 이는 통계의 '사회적, 정치적 역할'이라는 글의 전체 흐름과 무관하다.",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. The accuracy of these statistics heavily relies on the sample size and the methods used for data collection. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계",
+      "tag": "아잉카 변형 58번"
+    },
+    {
+      "id": "ak25-78",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state.\n\n(A) Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n\n(B) Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies.\n\n(C) This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\".\n* aggregation: 집계",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤\n[해설] 주어진 글은 통계가 국가의 필요에 따라 정량적 정보를 수집하게 되었다는 점을 통해 통계의 사회적 역할을 설명한다. 이 내용은\n(C) 단락의 'This process'로 이어지며, 이러한 과정이 근대 국가 형성의 핵심이었음을 밝힌다. '측정 대상이 실재하는가, 아니면 단지 합의된 관습인가'라는 문제의식을 제시하는 내용이 (B) 단락의 'this'로 연결되어, 통계 분류 체계가 국가 목적을 위해 인위적으로 고안된 것임을 구체적으로 설명한다. Porter의 견해를 인용하며 통계가 국가 권위를 강화하는 수단임을 강조하는 (A)로 마무리된다.",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state.\n\n(A) Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n\n(B) Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies.\n\n(C) This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\".\n* aggregation: 집계",
+      "tag": "아잉카 변형 78번"
+    },
+    {
+      "id": "ak25-116",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nsimultaneously / it / difficult / to / think / and / is / the objects / that / really do / exist / that / this / only / being / a convention / is / measured",
+      "context": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"(A) 측정되는 대상들이 실제로 확실히 존재한다는 것과 이것이 단지 하나의 관행이라는 것을 동시에 생각하기는 어렵다\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", (B) 그것을 권위에 대한 신뢰를 구축하기 위해 의도된 '사회적 기술'로 특징지었다.\n* aggregation: 집계",
+      "answer": [
+        "It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention"
+      ],
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"(A) 측정되는 대상들이 실제로 확실히 존재한다는 것과 이것이 단지 하나의 관행이라는 것을 동시에 생각하기는 어렵다\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", (B) 그것을 권위에 대한 신뢰를 구축하기 위해 의도된 '사회적 기술'로 특징지었다.\n* aggregation: 집계",
+      "tag": "아잉카 변형 116번"
+    },
+    {
+      "id": "ak25-117",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<조건>\n- characterise, \"social technology\", intend\n- 분사구문, to 부정사 활용\n- 필요시 어형 변화, 제시어 포함 총 12단어",
+      "context": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"(A) 측정되는 대상들이 실제로 확실히 존재한다는 것과 이것이 단지 하나의 관행이라는 것을 동시에 생각하기는 어렵다\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", (B) 그것을 권위에 대한 신뢰를 구축하기 위해 의도된 '사회적 기술'로 특징지었다.\n* aggregation: 집계",
+      "answer": [
+        "characterising it as a \"social technology\" intended to build trust in authority"
+      ],
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"(A) 측정되는 대상들이 실제로 확실히 존재한다는 것과 이것이 단지 하나의 관행이라는 것을 동시에 생각하기는 어렵다\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", (B) 그것을 권위에 대한 신뢰를 구축하기 위해 의도된 '사회적 기술'로 특징지었다.\n* aggregation: 집계",
+      "tag": "아잉카 변형 117번"
+    },
+    {
+      "id": "ak25-150",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. ⓐ This process occurred in all the industrialised countries as a key part of their become modern states. Desrosières writes: \"ⓑ It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. ⓒ Phenomena such as prices being charged and products being sold to exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"ⓓ Quantification is a way of making decisions without seeming to decide\", ⓔ characterising it as a \"social technology\" intending to build trust in authority.\n* aggregation: 집계",
+      "answer": [
+        "ⓐ This process occurred in all the industrialised countries as a key part of their becoming modern states",
+        "ⓒ Phenomena such as prices being charged and products being sold exist",
+        "ⓔ characterising it as a \"social technology\" intended to build trust in authority"
+      ],
+      "explanation": "정답: ⓐ, ⓒ, ⓔ\nⓐ This process occurred in all the industrialised countries as a key part of their becoming modern states\n- 전치사 + 의미상 주어 + 동명사\n  : of their becoming modern states.\n   전 의주  동명사\nⓒ Phenomena such as prices being charged and products being sold exist\n- 동사 찾기\n  : Phenomena [such as ~ being sold] exist ~\n       S                               V\nⓔ characterising it as a \"social technology\" intended to build trust in authority\n- 수동 과거분사\n: 명사 'social technology'와 수동의 관계이며, 뒤에 목적어가 없으므로 과거분사가 적절하다.",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their become modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold to exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intending to build trust in authority.\n* aggregation: 집계",
+      "tag": "아잉카 변형 150번"
+    },
+    {
+      "id": "ak25-175",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their to become modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and what this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold to exist, but the categories and classification frameworks supported the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterise it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계",
+      "answer": [
+        "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계"
+      ],
+      "explanation": "수정 위치 (5곳): to become → becoming / what → that / to → (삭제) / supported → supporting / characterise → characterising",
+      "view": "Statistics in the twentieth century became the systematic collection of quantitative information needed by the state. This process occurred in all the industrialised countries as a key part of their to become modern states. Desrosières writes: \"It is difficult to think simultaneously that the objects being measured really do exist and what this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold to exist, but the categories and classification frameworks supported the collection, aggregation, and organisation of official statistics are devised to serve the purposes of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state authority: \"Quantification is a way of making decisions without seeming to decide\", characterise it as a \"social technology\" intended to build trust in authority.\n* aggregation: 집계",
+      "tag": "아잉카 변형 175번"
+    },
+    {
+      "id": "ak25-200",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ q, ⓑ s, ⓒ p, ⓓ a, ⓔ t)",
+      "answer": [
+        "ⓐ quantitative",
+        "ⓑ simultaneously",
+        "ⓒ purposes",
+        "ⓓ authority",
+        "ⓔ trust"
+      ],
+      "text": "Statistics in the twentieth century became the systematic collection of ⓐ {{quantitative}} information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think ⓑ {{simultaneously}} that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the ⓒ {{purposes}} of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state ⓓ {{authority}}: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build ⓔ {{trust}} in authority.\n* aggregation: 집계",
+      "view": "Statistics in the twentieth century became the systematic collection of ＿＿＿＿＿＿＿＿ information needed by the state. This process occurred in all the industrialised countries as a key part of their becoming modern states. Desrosières writes: \"It is difficult to think ＿＿＿＿＿＿＿＿ that the objects being measured really do exist and that this is only a convention\". Yet this is the case. Phenomena such as prices being charged and products being sold exist, but the categories and classification frameworks supporting the collection, aggregation, and organisation of official statistics are devised to serve the ＿＿＿＿＿＿＿＿ of the state, for macroeconomic or for social policies. Theodore Porter described the use of statistics to create state ＿＿＿＿＿＿＿＿: \"Quantification is a way of making decisions without seeming to decide\", characterising it as a \"social technology\" intended to build ＿＿＿＿＿＿＿＿ in authority.\n* aggregation: 집계",
+      "tag": "아잉카 변형 200번"
     }
   ]
 }

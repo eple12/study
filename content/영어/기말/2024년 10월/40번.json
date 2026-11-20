@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "40번 지문",
       "text": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color."
     }
   ],
   "questions": [
@@ -31,7 +25,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world.",
         "Delk and Fillenbaum asked participants to match the color of figures with the color of their background.",
@@ -71,9 +65,8 @@
       "answer": 2
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-20",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 주제로 가장 적절한 것은?",
       "choices": [
         "various objects associated with a particular color",
@@ -82,7 +75,61 @@
         "the influence of cognitive associations on color perception",
         "investigating the complex connection between object shape and color"
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "④ 색상 지각에 대한 인지적 연관성의 영향\n[해설]\n① 특정 색상과 연관된 다양한 물체들\n② 빨간색 물체가 색상 매칭에 미치는 영향\n③ 빨간색 물체가 물체의 형태와 색상에 미치는 효과\n⑤ 물체의 형태와 색상 간의 복잡한 연관성 조사",
+      "view": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color.",
+      "tag": "아잉카 변형 20번"
+    },
+    {
+      "id": "ak24-40",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "context": "There is research that supports the idea ① that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects ② are associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background ③ varying from dark to light red. They had to make the background color ④ match the color of the figures. The researchers found that red-associated objects required more red in the background ⑤ to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "explanation": "② are associated → associated\n[해설]\n과거분사\n- 문장 안에 이미 동사(depicted)가 있기 때문에, 'objects'를 수식 해 줄 분사가 필요하다. 또는 'which are associated'도 답이 될 수 있다.",
+      "view": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects are associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences how we perceive that color.",
+      "tag": "아잉카 변형 40번"
+    },
+    {
+      "id": "ak24-62",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences ＿＿＿＿＿＿＿＿.",
+      "choices": [
+        "how we perceive that color",
+        "the matching of color intensity",
+        "how specific colors affect memory",
+        "the perception of object brightness",
+        "the background color selection process"
+      ],
+      "answer": 1,
+      "explanation": "① 우리가 그 색을 어떻게 지각하는가\n[해설]\n물체들의 색상에 대한 지식이 지각적 판단에 영향을 미쳤다는 내용의 글이므로, 우리가 그 색을 어떻게 지각하는가가 적절하다.\n② 색상 강도의 일치\n③ 특정 색상이 기억에 미치는 영향\n④ 물체 밝기의 인식\n⑤ 배경 색상 선택 과정",
+      "view": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red. This implies that the cognitive association of objects to color influences ＿＿＿＿＿＿＿＿.",
+      "tag": "아잉카 변형 62번"
+    },
+    {
+      "id": "ak24-82",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The researchers found that red-associated objects required more red in the background to be judged a match than did the objects that are not associated with the color red.\n\nThere is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. ( ① ) Other objects were presented that are not usually associated with red, such as a mushroom or a bell. ( ② ) However, all the figures were made out of the same red-orange cardboard. ( ③ ) Participants then had to match the figure to a background varying from dark to light red. ( ④ ) They had to make the background color match the color of the figures. ( ⑤ ) This implies that the cognitive association of objects to color influences how we perceive that color.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "⑤\n[해설]\n마지막 문장에서 'This (이것)'는 색과 물체에 대한 우리의 인지적 연관성이 우리가 그 색을 어떻게 지각하는지에 영향을 미친다고 한다. 여기서 '이것'에 해당하는 문장이 실험 결과에 해당하는 주어진 문장이므로 ⑤번이 적절하다.",
+      "view": "There is research that supports the idea that cognitive factors influence the phenomenology of the perceived world. Delk and Fillenbaum asked participants to match the color of figures with the color of their background. Some of the figures depicted objects associated with a particular color. These included typically red objects such as an apple, lips, and a symbolic heart. Other objects were presented that are not usually associated with red, such as a mushroom or a bell. However, all the figures were made out of the same red-orange cardboard. Participants then had to match the figure to a background varying from dark to light red. They had to make the background color match the color of the figures. This implies that the cognitive association of objects to color influences how we perceive that color.",
+      "tag": "아잉카 변형 82번"
     }
   ]
 }

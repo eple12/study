@@ -5,12 +5,6 @@
     {
       "id": "p1",
       "title": "29번 지문",
-      "text": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. For example, mice with cancer show a preference for the place where they have given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
       "text": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine."
     }
   ],
@@ -27,11 +21,12 @@
         "⑤"
       ],
       "answer": 5,
-      "id": "1"
+      "id": "1",
+      "view": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. For example, mice with cancer show a preference for the place where they have given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Conditioned Place Preference is a way of finding out what animals want.",
         "Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens.",
@@ -39,7 +34,7 @@
         "The animal's preference for being in one place or another is measured both before and after its experiences in the two places.",
         "If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it.",
         "Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant.",
-        "For example, mice with cancer show a preference for the place where they have given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference.",
+        "For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference.",
         "This suggests that the mice with cancer wanted the morphine."
       ]
     },
@@ -51,14 +46,14 @@
       "items": [
         "Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places.",
         "If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant.",
-        "For example, mice with cancer show a preference for the place where they have given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine."
+        "For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine."
       ]
     },
     {
       "id": "auto-insert",
       "type": "choice",
       "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
-      "context": "**[주어진 문장]** If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it.\n\nConditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. ① The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. ② The animal's preference for being in one place or another is measured both before and after its experiences in the two places. ③ Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. ④ For example, mice with cancer show a preference for the place where they have given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. ⑤ This suggests that the mice with cancer wanted the morphine.",
+      "context": "**[주어진 문장]** If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it.\n\nConditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. ① The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. ② The animal's preference for being in one place or another is measured both before and after its experiences in the two places. ③ Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. ④ For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. ⑤ This suggests that the mice with cancer wanted the morphine.",
       "choices": [
         "①",
         "②",
@@ -69,9 +64,8 @@
       "answer": 3
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-9",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "Investigating Sound Preferences in Animals",
@@ -80,7 +74,61 @@
         "A Study on the Preference for Similar Circumstances",
         "The Relationship Between Repetitive Time Spending and Place Preference"
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "⑤ 반복적 시간 소비와 장소 선호 간의 관계\n[해설]\n① 동물의 소리 선호도 조사\n② 암에 의해 유발된 쥐의 모르핀 회피\n③ 시끄러운 장소와 맛없는 음식에 대한 혐오\n④ 비슷한 상황에 대한 선호도 연구",
+      "view": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine.\n* saline: 식염수",
+      "tag": "아잉카 변형 9번"
+    },
+    {
+      "id": "ak24-29",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Conditioned Place Preference is a way of finding out what animals ① want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where ② nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to ③ repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus ④ unpleasant. For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer ⑤ denied the morphine.\n* saline: 식염수",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "⑤ denied (거부하다) → wanted (원하다)\n[해설]\n주어진 글은 동물들이 보상의 경험을 가진 장소에서 시간을 보내면 그 장소를 좋아하고, 반복하려고 하지만, 불쾌한 자극을 가진 곳은 피하려고 한다는 내용이다. 이에 암에 걸린 쥐가 모르핀이 들어간 약을 받고 통증이 완화되었다면 그 약을 받은 장소를 더 원할 것이라는 내용이다.",
+      "view": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer denied the morphine.\n* saline: 식염수",
+      "tag": "아잉카 변형 29번"
+    },
+    {
+      "id": "ak24-51",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "According to conditional place preference, which is a way for animals to find out what they want, the (A) they try to spend time, the less (B) they are by the stimuli associated with it.",
+      "choices": [
+        "more / fascinated",
+        "more / offended",
+        "moderate / repulsed",
+        "less / attractive",
+        "less / influenced"
+      ],
+      "answer": 2,
+      "explanation": "② 동물들이 원하는 것을 알아내는 방법인 조건부 장소 선호도에 따르면, 동물들이 시간을 (A) 더 보내려고 하면 할수록, 그것과 관련된 자극을 (B) 불쾌하게 생각하지 않는다는 것을 시사한다.\n[해설]\n① more : 더 / fascinated : 매료된\n③ moderate : 적당한 / repulsed : 혐오감을 느끼는\n④ less : 덜 / attracted : 매료된\n⑤ less : 덜 / influenced : 영향을 받는",
+      "view": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant. For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine.\n* saline: 식염수",
+      "tag": "아잉카 변형 51번"
+    },
+    {
+      "id": "ak24-71",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Conversely, if it now avoids the place the stimulus appeared and starts to prefer the place it did not experience it, then this suggests that it found the stimulus unpleasant.\n\nConditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. ( ① ) The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. ( ② ) The animal's preference for being in one place or another is measured both before and after its experiences in the two places. ( ③ ) If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. ( ④ ) For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. ( ⑤ ) This suggests that the mice with cancer wanted the morphine.\n* saline: 식염수",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "④\n[해설]\n주어진 문장 앞 내용은 동물이 보상을 받은 장소에서는 좋아하는 감정을 가지고 반복하려고 한다는 내용이고, 주어진 문장은 그 반대의 상황을 언급하고 있으므로 ④번의 위치가 적절하다.",
+      "view": "Conditioned Place Preference is a way of finding out what animals want. Researchers train them to associate one place with an experience such as food or a loud noise and another place with something completely different, usually where nothing happens. The two places are made obviously different to make it as easy as possible for the animal to associate each place with what happened to it there. The animal's preference for being in one place or another is measured both before and after its experiences in the two places. If there is a shift in where the animal chooses to spend its time for the reward, this suggests that it liked the experience and is trying to repeat it. For example, mice with cancer show a preference for the place where they have been given morphine, a drug used to relieve pain, rather than where they have received saline whereas healthy mice developed no such preference. This suggests that the mice with cancer wanted the morphine.\n* saline: 식염수",
+      "tag": "아잉카 변형 71번"
     }
   ]
 }

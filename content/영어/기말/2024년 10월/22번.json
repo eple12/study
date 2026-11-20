@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "22번 지문",
       "text": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories."
     }
   ],
   "questions": [
@@ -30,7 +24,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams.",
         "Things get much more complicated if I want to know the mass of a distant star.",
@@ -67,9 +61,8 @@
       "answer": 3
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-5",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "Stellar Mass Measurement: How Accurate?",
@@ -78,7 +71,60 @@
         "Measurement: Deriving Values Through Established Theories",
         "Scientific Methodology: Hypothesis Formulation and Verification"
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "④ 측정: 정립된 이론을 통해 값 도출하기\n[해설]\n① 별의 질량 측정: 얼마나 정확할까?\n② 중력의 중심: 우주 균형의 열쇠\n③ 케플러의 법칙을 어떻게 별을 측정하는 데 사용하는가?\n⑤ 과학적 방법론: 가설 설정과 검증",
+      "view": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories.\n* binary star: 쌍성",
+      "tag": "아잉카 변형 5번"
+    },
+    {
+      "id": "ak24-25",
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "우리가 별의 질량을 측정할 때, 다양한 이론들이 사용된다.",
+        "쌍성의 질량을 측정할 때는 두 별의 질량 중심을 먼저 결정해야 한다.",
+        "공전 주기의 값과 케플러의 제3법칙을 사용하면 별의 질량을 계산할 수 있다.",
+        "별의 질량은 다른 물리량들을 측정한 후 다양한 방정식을 사용해 계산할 수 있다.",
+        "질량 측정은 이미 정립된 여러 이론들을 바탕으로 특정 크기들을 계산하는 것이다."
+      ],
+      "answer": 4,
+      "explanation": "④\n[해설]\n여러 방정식이 아닌, 특정 방정식을 사용해 계산할 수 있다.",
+      "view": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories.\n* binary star: 쌍성",
+      "tag": "아잉카 변형 25번"
+    },
+    {
+      "id": "ak24-47",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Rather than simply (A) independent properties, measurement involves intricate processes using established (B) to determine magnitudes.",
+      "choices": [
+        "controlling / principles",
+        "observing / principles",
+        "observing / values",
+        "determining / values",
+        "determining / population"
+      ],
+      "answer": 2,
+      "explanation": "② 독립적 속성을 단순히 (A) 관찰하는 대신, 측정은 확립된 (B) 이론을 사용하는 복잡한 과정을 통해 크기를 결정한다.\n[해설]\n① controlling : 통제하는 / principles : 원리\n③ observing : 관찰하는 / values : 값\n④ determining : 결정하는 / values : 값\n⑤ determining : 결정하는 / population : 인기",
+      "view": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of a number of accepted theories.\n* binary star: 쌍성",
+      "tag": "아잉카 변형 47번"
+    },
+    {
+      "id": "ak24-67",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of ＿＿＿＿＿＿＿＿.\n* binary star: 쌍성",
+      "choices": [
+        "a number of accepted theories",
+        "various theories under discussion",
+        "the observed brightness of the star",
+        "the exact distance from Earth to the star",
+        "a comparison between different star systems"
+      ],
+      "answer": 1,
+      "explanation": "① 이미 정립된 여러 이론들\n[해설]\n별의 질량을 측정하는 것은 다양한 이론을 포함한다고 대략적으로 말할 수 있다는 내용이다. 따라서, 이미 정립된 여러 이론들을 바탕으로 특정 크기들을 계산하는 것이 자연스럽다.\n② 논의 중인 여러 이론들\n③ 별의 관측된 밝기\n④ 지구에서 별까지의 정확한 거리\n⑤ 서로 다른 항성 시스템 간의 비교",
+      "view": "To determine the mass of my bowling ball, I might put it onto a balance and compare it with a known mass, such as a number of metal cubes each weighing 1, 10, or 100 grams. Things get much more complicated if I want to know the mass of a distant star. How do I measure it? We can roughly say that measuring the mass of a star involves various theories. If we want to measure the mass of a binary star, we first determine a center of mass between the two stars, then their distance from that center which we can then use, together with a value for the period and a certain instance of Kepler's Third Law, to calculate the mass. In other words, in order to \"measure\" the star mass, we measure other quantities and use those values, together with certain equations, to calculate the mass. Measurement is not a simple and unmediated estimation of independently existing properties, but a determination of certain magnitudes before the background of ＿＿＿＿＿＿＿＿.\n* binary star: 쌍성",
+      "tag": "아잉카 변형 67번"
     }
   ]
 }

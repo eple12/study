@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "36번 지문",
       "text": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2026년 10월)",
-      "text": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users."
     }
   ],
   "questions": [
@@ -28,7 +22,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user.",
         "We're much too close to what we build to objectively see it and understand how users will interact with it.",
@@ -66,18 +60,74 @@
       "answer": 3
     },
     {
+      "id": "ak26-67",
       "type": "choice",
-      "passage": "p2",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
-      "context": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact (A) [ what / that ] we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are (B) [ those / that ] that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants (C) [ to engage / engaging ] in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users.",
+      "context": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact (A) [ what / that ] we are not the user. We're much too close to what we build to (ㄱ) [ subjectively / objectively ] see it and understand how users will interact with it. The best user interfaces are (B) [ those / that ] that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to (ㄴ) [ uncover / conceal ] problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants (C) [ to engage / engaging ] in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to (ㄷ) [ impair / improve ] their work through subsequent revisions based on the findings from representative users.",
       "choices": [
-        "that - those - to engage",
-        "what - those - to engage",
-        "that - that - engaging",
-        "that - those - engaging",
-        "what - that - to engage"
+        "that / those / to engage",
+        "what / those / to engage",
+        "that / that / engaging",
+        "that / those / engaging",
+        "what / that / to engage"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "(A) 동격의 접속사 that + 완전한 문장\n- 명사 'The fact'와 동격의 관계이며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.\n(B) 대명사 일치\n- those = user interfaces\n(C) 5형식 ask + O + O.C (to V)\n- 5형식 동사 'ask'는 목적어와 목적격 보어의 관계가 능동일 때 to 부정사를 사용한다.",
+      "view": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact (A) [ what / that ] we are not the user. We're much too close to what we build to (ㄱ) [ subjectively / objectively ] see it and understand how users will interact with it. The best user interfaces are (B) [ those / that ] that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to (ㄴ) [ uncover / conceal ] problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants (C) [ to engage / engaging ] in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to (ㄷ) [ impair / improve ] their work through subsequent revisions based on the findings from representative users.",
+      "tag": "아잉카 변형 67번"
+    },
+    {
+      "id": "ak26-68",
+      "type": "choice",
+      "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
+      "context": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact (A) [ what / that ] we are not the user. We're much too close to what we build to (ㄱ) [ subjectively / objectively ] see it and understand how users will interact with it. The best user interfaces are (B) [ those / that ] that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to (ㄴ) [ uncover / conceal ] problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants (C) [ to engage / engaging ] in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to (ㄷ) [ impair / improve ] their work through subsequent revisions based on the findings from representative users.",
+      "choices": [
+        "objectively / conceal / improve",
+        "subjectively / uncover / impair",
+        "objectively / uncover / impair",
+        "subjectively / conceal / improve",
+        "objectively / uncover / improve"
+      ],
+      "answer": 5,
+      "explanation": "(ㄱ) 디자이너는 자신이 만든 작업물과 지나치게 가까운 관계에 있어 사용자의 관점에서 편견 없이 평가하기 어렵다는 흐름이므로, '객관적으로'라는 의미의 'objectively'가 적절하다. 'subjectively'는 '주관적으로'라는 의미이다.\n(ㄴ) 사용성 테스트는 실제적인 활동을 통해 디자인의 문제점을 찾아내고 개선할 기회를 파악하는 방법임을 보여 주므로, 'uncover'가 적절하다. 'conceal'은 '감추다'라는 의미이다.\n(ㄷ) 대표 사용자들에게서 얻은 결과를 바탕으로 디자인을 수정하여 더욱 효과적인 작업물을 만드는 흐름이므로, '개선하다'라는 의미의 'improve'가 적절하다. 'impair'는 '손상시키다, 저하시키다'라는 의미이다.",
+      "view": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact (A) [ what / that ] we are not the user. We're much too close to what we build to (ㄱ) [ subjectively / objectively ] see it and understand how users will interact with it. The best user interfaces are (B) [ those / that ] that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to (ㄴ) [ uncover / conceal ] problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants (C) [ to engage / engaging ] in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to (ㄷ) [ impair / improve ] their work through subsequent revisions based on the findings from representative users.",
+      "tag": "아잉카 변형 68번"
+    },
+    {
+      "id": "ak26-69",
+      "type": "choice",
+      "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
+      "choices": [
+        "Designers' close involvement limits their impartiality.",
+        "Superior interfaces rely on designers' intuition rather than user observation.",
+        "Usability testing exposes design flaws and reveals what users tend to value and prefer.",
+        "Test participants discuss hypothetical situations instead of completing practical activities.",
+        "Evidence from representative users can guide further revisions that enhance a product's quality."
+      ],
+      "answer": [
+        2,
+        4
+      ],
+      "explanation": "이 글은 디자이너가 자신의 작업물을 객관적으로 평가하기 어려우므로 실제 사용자의 행동을 관찰하고 사용성 테스트에서 얻은 결과를 바탕으로 디자인을 개선해야 한다는 내용이다. 우수한 인터페이스가 사용자 관찰보다 디자이너의 직관에 의존한다고 서술한 ②번 보기와, 테스트 참가자들이 실제적인 활동을 수행하는 대신 가상적인 상황을 토론한다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 디자이너가 작업에 깊이 관여한다는 점은 그들의 객관적인 판단을 제한한다.\n② 우수한 인터페이스는 사용자 관찰보다 디자이너의 직관에 의존한다.\n③ 사용성 테스트는 디자인의 결함을 드러내고 사용자가 무엇을 중요하게 여기며 선호하는지 밝혀 준다.\n④ 테스트 참가자들은 실제적인 활동을 수행하는 대신 가상적인 상황을 토론한다.\n⑤ 대표성을 갖춘 사용자에게서 얻은 근거는 제품의 품질을 높이는 후속 수정을 이끌 수 있다.",
+      "view": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users.",
+      "tag": "아잉카 변형 69번"
+    },
+    {
+      "id": "ak26-70",
+      "type": "choice",
+      "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "To counter the (A) ＿＿＿＿＿＿ arising from their close involvement in a project, designers should base product refinements on (B) ＿＿＿＿＿＿ obtained through usability testing.",
+      "choices": [
+        "subjectivity / consensus",
+        "expertise / intuition",
+        "subjectivity / evidence",
+        "expertise / consensus",
+        "indifference / evidence"
+      ],
+      "answer": 3,
+      "explanation": "프로젝트에 깊이 관여하면서 생기는 (A) 주관성을 줄이기 위해, 디자이너는 사용성 테스트를 통해 얻은 (B) 근거를 바탕으로 제품을 개선해야 한다.\n이 글은 디자이너가 자신의 작업물을 객관적으로 평가하는 데 한계가 있으므로 실제 사용자를 통해 얻은 결과를 활용해야 한다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'subjectivity', (B)에는 'evidence'를 바탕으로 제품을 개선해야 한다는 것이 적절하다.\n① subjectivity : 주관성 / consensus : 합의\n② expertise : 전문성 / intuition : 직관\n④ expertise : 전문성 / consensus : 합의\n⑤ indifference : 무관심 / evidence : 근거",
+      "view": "A simple truth that designers must embrace in order to create more effective products and experiences is the fact that we are not the user. We're much too close to what we build to objectively see it and understand how users will interact with it. The best user interfaces are those that have been shaped by observations of real users and their interactions with them. So how can designers shape their work to be more effective? An incredibly effective way is with usability testing. The goal of this method is to uncover problems in a design, discover existing opportunities, and learn more about the behaviors and preferences of users by asking participants to engage in realistic activities. This technique is effective for understanding how well a design will perform once it is in the hands of real users. Designers can use this method to improve their work through subsequent revisions based on the findings from representative users.",
+      "tag": "아잉카 변형 70번"
     }
   ]
 }

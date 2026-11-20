@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "When we focus on the obvious aspects of media, we miss the changes that accumulate over time but are not apparent day to day.",
         "Most of us notice the obvious aspects of a new medium or technology while missing the more subtle aspects.",

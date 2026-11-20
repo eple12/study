@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "In 2013, Forbes magazine explored exactly how Warren Buffett attempts to avoid succumbing to confirmation bias, which causes people to interpret and recall information in a way that confirms their preexisting beliefs, and what this means to financial investors.",
         "It warned: \"For investors, confirmation bias is particularly dangerous.",

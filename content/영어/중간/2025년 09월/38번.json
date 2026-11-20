@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The traditional bank manager in the 1950s was usually a respected pillar of the community, a cautious, careful sort of person who probably went to bed early and didn't drink too much.",
         "But from the 1970s a new kind of banker appeared ― loud, flashy, and arrogant.",

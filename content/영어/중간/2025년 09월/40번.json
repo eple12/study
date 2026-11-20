@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Mother cats can tell which kittens belong to them ― when litters are mixed up they use their kittens' scent to distinguish them from offspring of other mothers.",
         "Despite this, when faced with a selection of kittens who have wandered from the nest, her own and others that aren't hers, a mother cat doesn't appear to favor her own offspring when retrieving them.",

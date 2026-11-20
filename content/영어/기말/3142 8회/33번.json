@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The term 'straw man' refers to a form of informal fallacy used in arguments and debates.",
         "A type of rhetorical device, straw man is based on exaggerating some portion of an opponent's stance.",

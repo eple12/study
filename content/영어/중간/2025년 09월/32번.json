@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "A great strength of the market mechanism is that there are incentives for individuals to reveal their knowledge through their behavior.",
         "This stands in contrast to many strategic situations ― for example, in political negotiations ― in which it is wise not to let the other side know what one's true preferences or production capacities are.",

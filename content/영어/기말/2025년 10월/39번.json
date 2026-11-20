@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "39번 지문",
       "text": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "⑤"
       ],
       "answer": 4,
-      "id": "1"
+      "id": "1",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Waste has historically been seen as a necessary driver of the economy.",
         "Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product.",
@@ -69,8 +64,8 @@
       "answer": 5
     },
     {
+      "id": "ak25-19",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 주제로 가장 적절한 것은?",
       "choices": [
         "historical background of the concept of planned obsolescence",
@@ -79,7 +74,123 @@
         "the importance of repair and maintenance in modern industrial society",
         "consumer inclination toward durable goods instead of cheaper options"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "정답 ③ 폐기물 의존 경제에서 서비스 기반 모델로의 전환\n[해설]\n① 계획적 노후화 개념의 역사적 배경\n② 과도한 폐기물 방지를 위한 기업 규제의 필요성\n④ 현대 산업 사회에서 수리 및 유지보수의 중요성\n⑤ 저렴한 제품보다 내구성이 뛰어난 제품을 선호하는 소비자들의 성향",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 19번"
+    },
+    {
+      "id": "ak25-42",
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "Wasteful habits are essential for capitalism.",
+        "Repairing goods can reshape business models.",
+        "Companies lose profit by offering repair services.",
+        "Consumers prefer products made of cheap materials.",
+        "The economy depends solely on short-lived products."
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 물건을 수리하는 것은 비즈니스 모델을 바꿀 수 있다.\n[해설]\n① 낭비적인 습관은 자본주의에 필수적이다.\n③ 기업들은 수리 서비스를 제공하면서 이익을 잃는다.\n④ 소비자들은 값싼 재료로 만든 제품을 선호한다.\n⑤ 경제는 수명이 짧은 제품에만 의존한다.",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 42번"
+    },
+    {
+      "id": "ak25-66",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Historically, companies secured high demand by promoting waste; however, a shift toward focusing on the (A) of goods through repair encourages companies to (B) the durability of their products, generating profit through service.",
+      "choices": [
+        "consumption / decrease",
+        "retention / improve",
+        "recycling / ignore",
+        "disposal / maximize",
+        "replacement / maintain"
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 역사적으로, 기업들은 폐기물을 조장함으로써 높은 수요를 확보했다. 하지만 수리를 통해 제품을 (A) 유지하는 데 중점을 두는 방향으로의 전환은 기업들이 자사 제품의 내구성을 (B) 향상시키도록 장려하며, 서비스를 통해 이윤을 창출하게 된다.\n[해설]\n① consumption : 소비 / decrease : 줄이다\n③ recycling : 재활용 / ignore : 무시하다\n④ disposal : 폐기 / maximize : 극대화하다\n⑤ replacement : 교체 / maintain : 유지하다",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 66번"
+    },
+    {
+      "id": "ak25-86",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will ＿＿＿＿＿＿＿＿. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "choices": [
+        "seek longer product guarantees",
+        "ask for improved repair options",
+        "eventually require a replacement",
+        "decide to invest in new materials",
+        "be encouraged to upgrade the design"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 결국 대체품을 필요로 한다.\n[해설] 제품이 낭비되도록 설계된 전략의 결과로 소비자가 결국 대체품을 필요로 하게 된다는 지문의 인과관계를 정확히 반영하므로 ③ 번이 적절하다.\n① 더 긴 제품 보증을 요구한다.\n② 개선된 수리 옵션을 요청한다.\n④ 새로운 자재에 투자하기로 결정한다.\n⑤ 설계 업그레이드를 장려받는다.",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will ＿＿＿＿＿＿＿＿. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 86번"
+    },
+    {
+      "id": "ak25-132",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\neventually / waste / demand / products / sustain\n<조건>\n- 수동태, 접속사 that 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 21단어",
+      "context": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, (A) 만약 여러분이 그 제품을 결국에는 폐기되도록 설계한다면, 여러분은 더 많은 제품에 대한 수요량이 지속될 것을 보장할 수 있다. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand (B) 수리와 재제조를 통해 폐기의 제거를 우선시하는 것이 다른 종류의 수요를 창출한다는 것을 깨닫는 데 실패했다: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "answer": [
+        "if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained"
+      ],
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, (A) 만약 여러분이 그 제품을 결국에는 폐기되도록 설계한다면, 여러분은 더 많은 제품에 대한 수요량이 지속될 것을 보장할 수 있다. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand (B) 수리와 재제조를 통해 폐기의 제거를 우선시하는 것이 다른 종류의 수요를 창출한다는 것을 깨닫는 데 실패했다: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 132번"
+    },
+    {
+      "id": "ak25-133",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\nrealize / prioritize / elimination / remanufacturing / create\n<조건>\n- 동명사 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 19단어",
+      "context": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, (A) 만약 여러분이 그 제품을 결국에는 폐기되도록 설계한다면, 여러분은 더 많은 제품에 대한 수요량이 지속될 것을 보장할 수 있다. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand (B) 수리와 재제조를 통해 폐기의 제거를 우선시하는 것이 다른 종류의 수요를 창출한다는 것을 깨닫는 데 실패했다: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "answer": [
+        "failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand"
+      ],
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, (A) 만약 여러분이 그 제품을 결국에는 폐기되도록 설계한다면, 여러분은 더 많은 제품에 대한 수요량이 지속될 것을 보장할 수 있다. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand (B) 수리와 재제조를 통해 폐기의 제거를 우선시하는 것이 다른 종류의 수요를 창출한다는 것을 깨닫는 데 실패했다: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 133번"
+    },
+    {
+      "id": "ak25-158",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, ⓐ which are directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, ⓑ you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. ⓒ All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. ⓓ Those who supported the idea which waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, ⓔ companies maintain profit by offering maintenance and repair services and encourage to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "answer": [
+        "ⓐ which is directly dependent on the demand for that product",
+        "ⓓ Those who supported the idea that waste is necessary to drive demand",
+        "ⓔ companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products"
+      ],
+      "explanation": "정답: ⓐ, ⓓ, ⓔ\nⓐ which is directly dependent on the demand for that product\n- 주격 관계대명사절 동사의 수일치\n: 선행사 'the amount of a product supplied'에 맞춰 단수 동사가 적절하다.\n   the amount of a product supplied, which is\n                선행사                     V\nⓓ Those who supported the idea that waste is necessary to drive demand\n- 동격의 접속사 that + 완전한 문장\n: 명사 'the idea'와 동격의 관계이며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.\nⓔ companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products\n- 5형식 수동태\n: 5형식 동사 'encourage'는 능동태일 때 목적어와 목적격 보어를 수반한다. 목적어가 없으므로 수동태가 적절하다.\n    encourage + O + O.C (to V) → be encouraged + to V",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which are directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea which waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and encourage to develop long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 158번"
+    },
+    {
+      "id": "ak25-183",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 6개)",
+      "context": "Waste has historically seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, that is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea which waste is necessary to drive demand failing to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged developing long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "answer": [
+        "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand failed to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long-lasting products.\n* planned obsolescence: 계획적 노후화"
+      ],
+      "explanation": "수정 위치 (6곳): (없음) → been / that → which / (없음) → been / which → that / failing → failed / developing → to develop",
+      "view": "Waste has historically seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, that is directly dependent on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have incorporated into product design and use to ensure that waste is inevitable, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have limited access to the product in use and will eventually require a replacement. Those who supported the idea which waste is necessary to drive demand failing to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this transition of ownership, companies maintain profit by offering maintenance and repair services and are encouraged developing long-lasting products.\n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 183번"
+    },
+    {
+      "id": "ak25-208",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ d, ⓑ i, ⓒ l, ⓓ f, ⓔ t)",
+      "answer": [
+        "ⓐ dependent",
+        "ⓑ inevitable",
+        "ⓒ limited",
+        "ⓓ failed",
+        "ⓔ transition"
+      ],
+      "text": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly ⓐ {{dependent}} on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is ⓑ {{inevitable}}, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have ⓒ {{limited}} access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand ⓓ {{failed}} to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this ⓔ {{transition}} of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long- lasting products. \n* planned obsolescence: 계획적 노후화",
+      "view": "Waste has historically been seen as a necessary driver of the economy. Sales are tied to the amount of a product supplied, which is directly ＿＿＿＿＿＿＿＿ on the demand for that product. Therefore, if you design the product to eventually be wasted, you can ensure that the demand for more products will be sustained. Many strategies have been incorporated into product design and use to ensure that waste is ＿＿＿＿＿＿＿＿, such as planned obsolescence, limited access to tools for repairs, and use of cheap materials. All these strategies ensure that the consumer will have ＿＿＿＿＿＿＿＿ access to the product in use and will eventually require a replacement. Those who supported the idea that waste is necessary to drive demand ＿＿＿＿＿＿＿＿ to realize that prioritizing the elimination of waste via repair and remanufacturing creates a different kind of demand: products as a service. Through this setup, companies simply lease out products that were once sold directly to the customer. With this ＿＿＿＿＿＿＿＿ of ownership, companies maintain profit by offering maintenance and repair services and are encouraged to develop long- lasting products. \n* planned obsolescence: 계획적 노후화",
+      "tag": "아잉카 변형 208번"
     }
   ]
 }

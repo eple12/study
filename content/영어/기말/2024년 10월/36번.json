@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "36번 지문",
       "text": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serves as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serve as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process."
     }
   ],
   "questions": [
@@ -28,7 +22,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD.",
         "However, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory.",
@@ -66,11 +60,10 @@
       "answer": 2
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-16",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
-      "context": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand ① associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, ② becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than ③ focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns ④ serve as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks ⑤ to simplify and generalize information to facilitate the cognitive process.",
+      "context": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand ① associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, ② becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than ③ focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns ④ serve as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks ⑤ to simplify and generalize information to facilitate the cognitive process.\n* offset: 상쇄하다 ** retrieve: 상기하다",
       "choices": [
         "①",
         "②",
@@ -78,7 +71,60 @@
         "④",
         "⑤"
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "④ serve → serves\n[해설]\n동사의 태\n- 문장의 주어인 'This ability to match what we see with general visual memory patterns'가 단수이므로 동사도 단수동사인 'serves'가 와야 한다.",
+      "view": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serve as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process.\n* offset: 상쇄하다 ** retrieve: 상기하다",
+      "tag": "아잉카 변형 16번"
+    },
+    {
+      "id": "ak24-36",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Visual Perception and Reality",
+        "How We Recognize Familiar Faces",
+        "DVD-Quality Memories: Fact or Fiction?",
+        "Abstraction and Streamlining: A Key to Brain Efficiency",
+        "Reaching the Quality of a DVD: Theoretical Brain Capacity"
+      ],
+      "answer": 4,
+      "explanation": "④ 추상화와 간소화 : 뇌 효율성의 핵심\n[해설]\n① 시각적 인식과 현실\n② 우리가 친숙한 얼굴을 인식하는 방법\n③ DVD 품질의 기억: 사실인가 허구인가?\n⑤ DVD의 품질에 도달하기: 이론적인 뇌 용량",
+      "view": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serves as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process.\n* offset: 상쇄하다 ** retrieve: 상기하다",
+      "tag": "아잉카 변형 36번"
+    },
+    {
+      "id": "ak24-58",
+      "type": "choice",
+      "prompt": "다음 글의 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. (A), this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. (B), we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serves as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process.\n* offset: 상쇄하다 ** retrieve: 상기하다",
+      "choices": [
+        "As a consequence / Besides",
+        "However / In short",
+        "As a consequence / Therefore",
+        "However / Nevertheless",
+        "In other words / Nevertheless"
+      ],
+      "answer": 4,
+      "explanation": "④ However : 그러나 / Nevertheless : 그럼에도 불구하고\n[해설]\n① As a consequence : 결과적으로 / Besides : 게다가\n② However : 그러나 / In short : 요컨대\n③ As a consequence : 결과적으로 / Therefore : 그러므로\n⑤ In other words : 다시 말해 / Nevertheless : 그럼에도 불구하고",
+      "view": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. ＿＿＿(A)＿＿＿, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. ＿＿＿(B)＿＿＿, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serves as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process.\n* offset: 상쇄하다 ** retrieve: 상기하다",
+      "tag": "아잉카 변형 58번"
+    },
+    {
+      "id": "ak24-78",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "By (A) information, developing shortcuts, and creating recognition patterns, the brain (B) energy use rather than storing detailed memories of all experiences.",
+      "choices": [
+        "simplifying / worsens",
+        "complicating / economizes",
+        "synthesizing / worsens",
+        "complicating / stagnates",
+        "synthesizing / economizes"
+      ],
+      "answer": 5,
+      "explanation": "⑤ 정보를 (A) 종합하고, 지름길을 개발하며, 인식 패턴을 만듦으로써 뇌는 모든 경험의 상세한 기억을 저장하는 대신 에너지 사용을 (B) 절약한다.\n[해설]\n① simplifying : 단순화한 / worsens : 악화시키다\n② complicating : 복잡한 : / economizes : 절약하다\n③ synthesizing : 종합한 / worsens : 악화시키다\n④ complicating : 복잡한 / stagnates : 정체시키다",
+      "view": "Theoretically, our brain would have the capacity to store all experiences throughout life, reaching the quality of a DVD. However, this theoretical capacity is offset by the energy demand associated with the process of storing and retrieving information in memory. As a result, the brain develops efficient strategies, becoming dependent on shortcuts. When we observe a face, the visual image captured by the eyes is highly variable, depending on the point of view, lighting conditions and other contextual factors. Nevertheless, we are able to recognize the face as the same, maintaining the underlying identity. The brain, rather than focusing on the details of visualization, creates and stores general patterns that allow for consistent recognition across diverse circumstances. This ability to match what we see with general visual memory patterns serves as an effective mechanism for optimizing brain performance and saving energy. The brain, being naturally against unnecessary effort, constantly seeks to simplify and generalize information to facilitate the cognitive process.\n* offset: 상쇄하다 ** retrieve: 상기하다",
+      "tag": "아잉카 변형 78번"
     }
   ]
 }

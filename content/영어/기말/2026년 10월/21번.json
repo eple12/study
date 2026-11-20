@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "21번 지문",
       "text": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future, which by definition is unknowable, and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price, a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2026년 10월)",
-      "text": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future — which by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush."
     }
   ],
   "questions": [
@@ -30,7 +24,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time.",
         "Imagine you are lending to somebody at an interest rate of 10 percent per year for five years.",
@@ -67,18 +61,74 @@
       "answer": 4
     },
     {
+      "id": "ak26-13",
       "type": "choice",
-      "passage": "p2",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
-      "context": "To see how borrowing and lending changes a person's worldview, consider (A) [ that / what ] the rate of interest does to people's perception of time. (B) [ Imagine / Imagining ] you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future — (C) [ what / which ] by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.",
+      "context": "To see how borrowing and lending changes a person's worldview, consider (A) [ that / what ] the rate of interest does to people's perception of time. (B) [ Imagine / Imagining ] you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that (ㄱ) [ disregards / reflects ] the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the (ㄴ) [ lower / higher ] the chance you won't be paid back because it is further into the future — (C) [ what / which ] by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this (ㄷ) [ worthwhile / burdensome ] for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.\n* factor in: ~을 감안하다",
       "choices": [
-        "that - Imagining - which",
-        "that - Imagine - what",
-        "what - Imagine - which",
-        "what - Imagining - what",
-        "what - Imagining - which"
+        "that / Imagining / which",
+        "that / Imagine / what",
+        "what / Imagine / which",
+        "what / Imagining / what",
+        "what / Imagining / which"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "(A) 간접의문문 (의문대명사 what + 불완전 문장)\n- 동사 'consider'의 목적어 자리에 명사절로 간접의문문이 필요하며, '의문사 + 주어 + 동사'의 어순이 적절하다. 의문대명사 'what, which, who'는 불완전한 문장을 수반한다.\n(B) 동사 찾기 (명령문)\n- 주절의 동사가 없으므로, 동사원형의 명령문이 적절하다. 수식받는 명사나 일치하는 주어가 없으므로 현재분사의 형태로는 올 수 없다.\n(C) 관계대명사 + 불완전 문장\n- 명사 'future'를 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사 'which'가 적절하다. 선행사를 포함하는 관계대명사 'what'은 올 수 없다.",
+      "view": "To see how borrowing and lending changes a person's worldview, consider (A) [ that / what ] the rate of interest does to people's perception of time. (B) [ Imagine / Imagining ] you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that (ㄱ) [ disregards / reflects ] the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the (ㄴ) [ lower / higher ] the chance you won't be paid back because it is further into the future — (C) [ what / which ] by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this (ㄷ) [ worthwhile / burdensome ] for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.\n* factor in: ~을 감안하다",
+      "tag": "아잉카 변형 13번"
+    },
+    {
+      "id": "ak26-14",
+      "type": "choice",
+      "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
+      "context": "To see how borrowing and lending changes a person's worldview, consider (A) [ that / what ] the rate of interest does to people's perception of time. (B) [ Imagine / Imagining ] you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that (ㄱ) [ disregards / reflects ] the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the (ㄴ) [ lower / higher ] the chance you won't be paid back because it is further into the future — (C) [ what / which ] by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this (ㄷ) [ worthwhile / burdensome ] for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.\n* factor in: ~을 감안하다",
+      "choices": [
+        "disregards / higher / worthwhile",
+        "reflects / lower / worthwhile",
+        "disregards / higher / burdensome",
+        "reflects / higher / burdensome",
+        "reflects / higher / worthwhile"
+      ],
+      "answer": 5,
+      "explanation": "(ㄱ) 빌려준 돈의 비용에는 돈을 돌려받지 못할 위험과 그 돈을 직접 쓰지 못하는 기회비용이 반영된다는 흐름이 되어야 하므로, '반영한다'라는 의미의 'reflects'가 적절하다. 'disregards'는 '무시한다'라는 의미이다.\n(ㄴ) 대출 기간이 길어질수록 예측할 수 없는 먼 미래의 불확실성 때문에 돈을 돌려받지 못할 가능성이 커진다는 흐름이 되어야 하므로, '더 높은'이라는 의미의 'higher'가 적절하다. 'lower'는 '더 낮은'이라는 의미이다.\n(ㄷ) 돈을 빌려주는 사람이 감수하는 위험과 기다림을 보상하여 대출 행위가 그에게 가치 있는 일이 되도록 돈에 가격이 매겨져야 한다는 흐름이 되어야 하므로, '가치 있는'이라는 'worthwhile'이 적절하다. 'burdensome'은 '부담스러운'이라는 의미이다.",
+      "view": "To see how borrowing and lending changes a person's worldview, consider (A) [ that / what ] the rate of interest does to people's perception of time. (B) [ Imagine / Imagining ] you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that (ㄱ) [ disregards / reflects ] the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the (ㄴ) [ lower / higher ] the chance you won't be paid back because it is further into the future — (C) [ what / which ] by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this (ㄷ) [ worthwhile / burdensome ] for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.\n* factor in: ~을 감안하다",
+      "tag": "아잉카 변형 14번"
+    },
+    {
+      "id": "ak26-15",
+      "type": "choice",
+      "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
+      "choices": [
+        "The interest rate serves as compensation for the lender's risks and foregone opportunities.",
+        "As the duration of a loan extends, the probability of the lender not being repaid decreases.",
+        "The concept of interest exists to make lending valuable for the person providing the money.",
+        "The price of money, or interest, is determined without considering the passage of time.",
+        "\"A bird in the hand is worth two in the bush\" favors certain present benefits over uncertain future gains."
+      ],
+      "answer": [
+        2,
+        4
+      ],
+      "explanation": "이 글은 대출 기간이 길어질수록 미상환 위험이 커지며, 이자가 이러한 위험과 기회비용 및 시간의 가치를 반영함을 설명하는 내용이다. 대출 기간이 길어질수록 대여자가 돈을 돌려받지 못할 가능성이 낮아진다고 서술한 ②번 보기와, 돈의 가격이 시간의 흐름을 고려하지 않고 결정된다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 이자율은 대여자가 감수하는 위험과 포기한 기회에 대한 보상 역할을 한다.\n② 대출 기간이 길어질수록 대여자가 돈을 돌려받지 못할 가능성은 낮아진다.\n③ 이자라는 개념은 돈을 제공하는 사람에게 대여 행위가 가치 있는 일이 되도록 하기 위해 존재한다.\n④ 돈의 가격, 즉 이자는 시간의 흐름을 고려하지 않고 결정된다.\n⑤ '손안의 새 한 마리가 덤불 속의 새 두 마리보다 낫다'라는 속담은 불확실한 미래의 이익보다 확실한 현재의 이익을 더 높이 평가한다.",
+      "view": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future — which by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.\n* factor in: ~을 감안하다",
+      "tag": "아잉카 변형 15번"
+    },
+    {
+      "id": "ak26-16",
+      "type": "choice",
+      "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "The existence of an interest rate demonstrates that money has a price, which is designed to (A) ＿＿＿＿＿＿ the lender for risks tied to the future's inherent (B) ＿＿＿＿＿＿.",
+      "choices": [
+        "compensate / uncertainty",
+        "penalize / stability",
+        "reward / predictability",
+        "compensate / predictability",
+        "penalize / uncertainty"
+      ],
+      "answer": 1,
+      "explanation": "이자율의 존재는 돈에 대가가 있다는 것을 보여주며, 그것은 미래의 내재된 (B) 불확실성과 관련된 위험에 대해 대출자에게 (A) 보상하도록 설계되어 있다.\n이 글은 이자율이 대출자가 감수해야 하는 미래의 불확실성에 대한 위험과 기회비용을 반영하는 대가라는 내용이다. 따라서 요약문의 빈칸 (A)에는 'compensate', (B)에는 'uncertainty'가 들어가는 것이 가장 적절하다.\n② penalize : 처벌하다 / stability : 안정성\n③ reward : 보상하다 / predictability : 예측 가능성\n④ compensate : 보상하다 / predictability : 예측 가능성\n⑤ penalize : 처벌하다 / uncertainty : 불확실성",
+      "view": "To see how borrowing and lending changes a person's worldview, consider what the rate of interest does to people's perception of time. Imagine you are lending to somebody at an interest rate of 10 percent per year for five years. This rate tells us that the money lent has a cost that reflects the risk of you not being repaid and the opportunity cost of not spending that money yourself. The longer the term of the loan, the higher the chance you won't be paid back because it is further into the future — which by definition is unknowable — and the longer you will have to wait before spending the money yourself. In order to make this worthwhile for the lender, money has to have a price — a cost to the borrower and income to the lender. This price factors in the value of time. To put it another way, a bird in the hand is worth two in the bush.\n* factor in: ~을 감안하다",
+      "tag": "아잉카 변형 16번"
     }
   ]
 }

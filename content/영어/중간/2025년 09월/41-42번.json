@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Many animals pursue a mixed strategy of accumulating both body fat and food, which leads one to ask, \"What are the relative advantages and disadvantages of these two forms of energy storage?\" Maximum fat deposition increases with body mass whereas maximum food storage is not constrained by body size.",
         "This means that animals, especially small animals, can accumulate much greater energy reserves in the form of stored food than they can in the form of body fat.",

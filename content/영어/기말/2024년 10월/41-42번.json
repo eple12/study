@@ -5,7 +5,7 @@
     {
       "id": "p1",
       "title": "41~42번 지문",
-      "text": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not guarantee the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change."
+      "text": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change."
     }
   ],
   "questions": [
@@ -34,11 +34,12 @@
         "(e)"
       ],
       "answer": 4,
-      "id": "2"
+      "id": "2",
+      "view": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not guarantee the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error.",
         "With each round of genome copying, errors accumulate.",
@@ -47,7 +48,7 @@
         "Similarly, genomes that have undergone more copying processes will have gathered more mistakes.",
         "To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.",
         "Most genome mutations do not have any noticeable effects.",
-        "It is just like changing the i for a y in \"kingdom\" would not guarantee the word's readability.",
+        "It is just like changing the i for a y in \"kingdom\" would not distort the word's readability.",
         "But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors.",
         "Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin.",
         "If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously?",
@@ -62,7 +63,7 @@
       "given": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error.",
       "items": [
         "With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes.",
-        "To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not guarantee the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors.",
+        "To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors.",
         "Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change."
       ]
     },
@@ -70,7 +71,7 @@
       "id": "auto-insert",
       "type": "choice",
       "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
-      "context": "**[주어진 문장]** The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state.\n\nIn each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. ① It is just like changing the i for a y in \"kingdom\" would not guarantee the word's readability. ② But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. ③ Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. ④ If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? ⑤ If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change.",
+      "context": "**[주어진 문장]** The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state.\n\nIn each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations. Most genome mutations do not have any noticeable effects. ① It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. ② But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. ③ Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. ④ If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? ⑤ If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change.",
       "choices": [
         "①",
         "②",
@@ -79,6 +80,73 @@
         "⑤"
       ],
       "answer": 5
+    },
+    {
+      "id": "ak24-41",
+      "type": "choice",
+      "prompt": "윗글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "context": "(A) In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome ① copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original.\n* chromosome: 염색체\n\n(B) Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye ② whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are ③ since mutations that occurred as our body's cells multiplied to form skin.\n* iris: 홍채\n\n(C) Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, ④ further accelerating the introduction of mutations.\n\n(D) If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected ⑤ simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "③ since → due to (because of, owing to등)\n[해설]\n- 전치사 due to + 명사(구) vs 접속사 since + 절 : 뒤에 명사 'mutations'가 오므로 전치사가 적절하다. 뒤에 이어지는 'that절'은 'mutations'를 수식하는 관계사절이다.",
+      "view": "(A) In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original.\n* chromosome: 염색체\n\n(B) Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are since mutations that occurred as our body's cells multiplied to form skin.\n* iris: 홍채\n\n(C) Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.\n\n(D) If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change.",
+      "tag": "아잉카 변형 41번"
+    },
+    {
+      "id": "ak24-42",
+      "type": "choice",
+      "prompt": "주어진 글 (A)에 이어질 내용을 순서에 맞게 배열한 것으로 가장 적절한 것은?",
+      "context": "(A) In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original.\n* chromosome: 염색체\n\n(B) Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are since mutations that occurred as our body's cells multiplied to form skin.\n* iris: 홍채\n\n(C) Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.\n\n(D) If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change.",
+      "choices": [
+        "(B) - (D) - (C)",
+        "(C) - (B) - (D)",
+        "(C) - (D) - (B)",
+        "(D) - (B) - (C)",
+        "(D) - (C) - (B)"
+      ],
+      "answer": 2,
+      "explanation": "②\n[해설]\n(A)에서 복사본에 우연히 일부 변화들이 도입되고, 변화되면서 원본과 불일치하는 비유를 하면서 (C)에서 게놈 역시 그러하다는 점을 보여주므로 연결이 되고, (B)에서 일반적인 뚜렷한 영향은 없지만 변이로 인해 홍채가 다른 유전자 변이가 드러난다고 한다. 마지막으로 (D)에서 이런 이유들은 세포 계보에서 이루어진다고 말하고 있다.",
+      "view": "(A) In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original.\n* chromosome: 염색체\n\n(B) Most genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are since mutations that occurred as our body's cells multiplied to form skin.\n* iris: 홍채\n\n(C) Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.\n\n(D) If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have inherited that change.",
+      "tag": "아잉카 변형 42번"
+    },
+    {
+      "id": "ak24-83",
+      "type": "choice",
+      "prompt": "윗글의 내용과 일치하는 것은?",
+      "choices": [
+        "게놈 복제 과정에서는 매번 염색체 오류가 발생할 확률이 100%에 가깝다.",
+        "중세 필사본에서 일어난 오류들은 원본과 동일한 의미를 보존했다.",
+        "게놈 복제에서 발생하는 돌연변이는 대부분 눈에 띄는 영향을 미친다.",
+        "오류 수정 유전자가 손상되면 돌연변이 발생 속도가 증가할 수 있다.",
+        "홍채 색깔의 차이는 피부 세포의 돌연변이로 인해 발생한다."
+      ],
+      "answer": 4,
+      "explanation": "④\n[해설]\n① 100%가 아니라 약 70%의 확률이다.\n② 원본과 다르게 변형될 수 있다.\n③ 단어에서 철자를 조금 바꾸어도 큰 문제가 생기지 않는다는 비유로 설명하면서 큰 변화를 일으키지 않는다\n⑤ 홍채 색깔의 차이는 눈의 세포에 발생한 돌연변이로 인해 나타난다.",
+      "view": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.\n\nMost genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have ＿＿＿＿＿＿＿＿ that change.\n* chromosome: 염색체 ** iris: 홍채",
+      "tag": "아잉카 변형 83번"
+    },
+    {
+      "id": "ak24-84",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.\n\nMost genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have ＿＿＿＿＿＿＿＿ that change.\n* chromosome: 염색체 ** iris: 홍채",
+      "choices": [
+        "vanished",
+        "eliminated",
+        "repaired",
+        "inherited",
+        "generated"
+      ],
+      "answer": 4,
+      "explanation": "④ 물려받은\n[해설]\n이 글은 돌연변이가 발생한 경우, 그 돌연변이가 특정 세포 계통에 영향을 미치며, 이 돌연변이가 해당 계통의 모든 세포에 유전된다는 설명하고 있다.\n① 사라진 ② 제거된 ③ 수정된 ⑤ 생성된",
+      "view": "In each round of genome copying in our body, there is still about a 70 percent chance that at least one pair of chromosomes will have an error. With each round of genome copying, errors accumulate. This is similar to alterations in medieval books. Each time a copy was made by hand, some changes were introduced accidentally; as changes stacked up, the copies may have acquired meanings at variance with the original. Similarly, genomes that have undergone more copying processes will have gathered more mistakes. To make things worse, mutations may damage genes responsible for error checking and repair of genomes, further accelerating the introduction of mutations.\n\nMost genome mutations do not have any noticeable effects. It is just like changing the i for a y in \"kingdom\" would not distort the word's readability. But sometimes a mutation to a human gene results in, for example, an eye whose iris is of two different colors. Similarly, almost everyone has birthmarks, which are due to mutations that occurred as our body's cells multiplied to form skin. If mutations are changes to the genome of one particular cell, how can a patch of cells in an iris or a whole patch of skin, consisting of many individual cells, be affected simultaneously? The answer lies in the cell lineage, the developmental history of a tissue from particular cells through to their fully differentiated state. If the mutation occurred early on in the lineage of the developing iris, then all cells in that patch have ＿＿＿＿＿＿＿＿ that change.\n* chromosome: 염색체 ** iris: 홍채",
+      "tag": "아잉카 변형 84번"
     }
   ]
 }

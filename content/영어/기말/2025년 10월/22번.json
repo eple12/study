@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "22번 지문",
       "text": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try."
     }
   ],
   "questions": [
@@ -30,7 +24,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Experiments testify to science's embrace of ignorance.",
         "Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check.",
@@ -65,8 +59,8 @@
       "answer": 4
     },
     {
+      "id": "ak25-5",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "Scientific downsides of uncontrolled curiosity",
@@ -75,7 +69,123 @@
         "Science's evolution: From curiosity to systematic methods",
         "The Driving Force of Scientific Progress: Ignorance and Curiosity"
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "정답 ⑤ 과학 발전의 원동력: 무지와 호기심\n[해설]\n① 통제되지 않은 호기심의 과학적 폐해\n② 효율적인 과학 탐구를 위한 결과 예측\n③ 과학 연구의 핵심 요소로서의 가설 설정\n④ 과학의 진화 과정: 호기심에서 체계로",
+      "view": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 5번"
+    },
+    {
+      "id": "ak25-25",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 Experiments testify to science's embrace of ignorance.가 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "Experiments prove that scientists should only test pre-stated hypotheses.",
+        "Experiments show that science values not-knowing and curiosity-driven testing.",
+        "Experiments confirm that outcomes are known in advance if the theory is sound.",
+        "Experiments demonstrate that \"crazy\" trials are unscientific and should be avoided.",
+        "Experiments show that curiosity is risky unless tightly controlled by strict methodology."
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 실험은 과학이 '모름(무지)'과 호기심에 기반한 탐구를 중요하게 여긴다는 것을 보여준다.\n[해설] 실험은 확인도 안 하고 안다는 태도를 금지하고 호기심 자체를 정당한 출발점으로 인정하며 가설 없이도 결과를 모른 채 시도하는 불확실성의 감수를 장려한다는 점에서 과학이 무지를 기꺼이 포용한다는 의미를 가진다.\n[해설]\n① 실험은 과학자가 오직 미리 정한 가설만 검증해야 한다.\n③ 이론이 견고하다면 실험 결과는 사전에 알 수 있음을 실험이 확인해 준다.\n④ 실험은 무모한 시도는 비과학적이며 피해야 한다는 것을 보여준다.\n⑤ 실험은 엄격한 방법론으로 철저히 통제되지 않는 한, 호기심은 위험하다고 보여준다.",
+      "view": "__Experiments testify to science's embrace of ignorance.__ Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 25번"
+    },
+    {
+      "id": "ak25-52",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Experiments testify to science's embrace of ＿＿＿＿＿＿＿＿. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "choices": [
+        "certainty",
+        "knowledge",
+        "ignorance",
+        "prediction",
+        "methodology"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 무지\n[해설] 과학자의 가장 최악의 것은 주어진 시나리오에서 그들이 안다고 가정하는 것이고, 호기심과 완전히 무모한 실험은 모른다(무지하다)는 전제 조건이 붙을 때 가능하므로 무지하다고 인정하고 수용하는 것이 필요하다.\n① 확실성 ② 지식 ④ 예측 ⑤ 방법론",
+      "view": "Experiments testify to science's embrace of ＿＿＿＿＿＿＿＿. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 52번"
+    },
+    {
+      "id": "ak25-72",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Science embraces (A) : experiments — often driven by simple curiosity and even \"crazy\" ideas — matter more than presumptions or rigid method, because you only find out by (B).",
+      "choices": [
+        "ignorance / acknowledging",
+        "methodology / attempting",
+        "skepticism / measuring",
+        "evidence / observing",
+        "not-knowing / endeavoring"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 과학은 (A) '모름'을 포용한다: 실험은 종종 단순한 호기심이나 때로는 '말도 안 되는' 아이디어에서 출발하며, 결과를 안다고 가정하거나 경직된 절차보다 더 중요하다. 왜냐하면 (B) 시도 해보는 것으로만 알 수 있기 때문이다.\n[해설]\n① ignorance : 무지 / acknowledging : 인정하기\n② methodology : 방법론 / attempting : 시도하기\n③ skepticism : 회의주의 / measuring : 측정하기\n④ evidence : 증거 / observing : 관찰하기",
+      "view": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 72번"
+    },
+    {
+      "id": "ak25-98",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nin a given scenario / to check / can do / a scientist / know / without bothering / what / is / will happen / to suppose / the worst thing / they",
+      "context": "Experiments testify to science's embrace of ignorance. Arguably (A) 과학자가 할 수 있는 가장 최악의 것은 그들이 확인하려는 수고를 들이지 않고 주어진 시나리오에서 일어날 일을 그들이 안다고 가정하는 것이다. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"(B) 누군가는 무슨 일이 일어날 것인지를 알아보기 위해 그저 호기심에서 실험을 수행할 수도 있다.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "answer": [
+        "the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check"
+      ],
+      "view": "Experiments testify to science's embrace of ignorance. Arguably (A) 과학자가 할 수 있는 가장 최악의 것은 그들이 확인하려는 수고를 들이지 않고 주어진 시나리오에서 일어날 일을 그들이 안다고 가정하는 것이다. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"(B) 누군가는 무슨 일이 일어날 것인지를 알아보기 위해 그저 호기심에서 실험을 수행할 수도 있다.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 98번"
+    },
+    {
+      "id": "ak25-99",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\ncuriosity / simply / an experiment / can conduct / what / one / to / out of / will happen / see\n<조건>\n- 간접의문문 활용",
+      "context": "Experiments testify to science's embrace of ignorance. Arguably (A) 과학자가 할 수 있는 가장 최악의 것은 그들이 확인하려는 수고를 들이지 않고 주어진 시나리오에서 일어날 일을 그들이 안다고 가정하는 것이다. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"(B) 누군가는 무슨 일이 일어날 것인지를 알아보기 위해 그저 호기심에서 실험을 수행할 수도 있다.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "answer": [
+        "One can conduct an experiment simply out of curiosity to see what will happen."
+      ],
+      "view": "Experiments testify to science's embrace of ignorance. Arguably (A) 과학자가 할 수 있는 가장 최악의 것은 그들이 확인하려는 수고를 들이지 않고 주어진 시나리오에서 일어날 일을 그들이 안다고 가정하는 것이다. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"(B) 누군가는 무슨 일이 일어날 것인지를 알아보기 위해 그저 호기심에서 실험을 수행할 수도 있다.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 99번"
+    },
+    {
+      "id": "ak25-144",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "Experiments testify to science's embrace of ignorance. ⓐ Arguably the worst thing a scientist can do it is to suppose they know what will happen in a given scenario without bothering to check. ⓑ The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. ⓒ For all that experimental science today is often assumed to support by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"ⓓ One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, ⓔ despite it is most likely to prove fruitless. You never know until you try.",
+      "answer": [
+        "ⓐ Arguably the worst thing a scientist can do it is to suppose they know what will happen",
+        "ⓒ For all that experimental science today is often assumed to be supported",
+        "ⓔ even if it is most likely to prove fruitless"
+      ],
+      "explanation": "정답: ⓐ, ⓒ, ⓔ\nⓐ Arguably the worst thing a scientist can do it is to suppose they know what will happen\n- 목적격 관계대명사 + 불완전 문장\n: 선행사 'the worst thing' 뒤에 목적격 관계대명사가 생략된 구조이고, 목적어가 없는 불완전한 문장을 수반하므로 목적어 'it'이 없어야 한다.\n    the worst thing (that) a scientist can do Ø ~\nⓒ For all that experimental science today is often assumed to be supported\n- 5형식 assume + O + O.C (to V)\n: 5형식 동사 'assume'은 목적어와 목적격 보어의 관계가 능동일 때 to 부정사를 사용한다. 목적어와 목적격 보어가 수동의 관계이므로 to 부정사의 수동태가 적절하다.\nⓔ even if it is most likely to prove fruitless\n- 접속사 even if + 절 vs 전치사 despite + 명사(구)\n  : 뒤에 완전한 문장이 오므로 접속사가 적절하다.",
+      "view": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do it is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to support by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, despite it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 144번"
+    },
+    {
+      "id": "ak25-166",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 4개)",
+      "context": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do it is to suppose they know that will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to support by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see that will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "answer": [
+        "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be supported by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try."
+      ],
+      "explanation": "수정 위치 (4곳): it → (삭제) / that → what / support → be supported / that → what",
+      "view": "Experiments testify to science's embrace of ignorance. Arguably the worst thing a scientist can do it is to suppose they know that will happen in a given scenario without bothering to check. The rise of the experimental philosophy coincided with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to support by a philosophical framework and an approved methodology (\"state your hypothesis and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see that will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove fruitless. You never know until you try.",
+      "tag": "아잉카 변형 166번"
+    },
+    {
+      "id": "ak25-191",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ e, ⓑ c, ⓒ s, ⓓ h, ⓔ f)",
+      "answer": [
+        "ⓐ embrace",
+        "ⓑ coincided",
+        "ⓒ supported",
+        "ⓓ hypothesis",
+        "ⓔ fruitless"
+      ],
+      "text": "Experiments testify to science's ⓐ {{embrace}} of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy ⓑ {{coincided}} with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be ⓒ {{supported}} by a philosophical framework and an approved methodology (\"state your ⓓ {{hypothesis}} and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove ⓔ {{fruitless}}. You never know until you try.",
+      "view": "Experiments testify to science's ＿＿＿＿＿＿＿＿ of ignorance. Arguably the worst thing a scientist can do is to suppose they know what will happen in a given scenario without bothering to check. The rise of the experimental philosophy ＿＿＿＿＿＿＿＿ with the liberation of curiosity as a valuable rather than a questionable attribute. For all that experimental science today is often assumed to be ＿＿＿＿＿＿＿＿ by a philosophical framework and an approved methodology (\"state your ＿＿＿＿＿＿＿＿ and then test it\"), the fact is that, as philosopher of science Ian Hacking says, \"One can conduct an experiment simply out of curiosity to see what will happen.\" Indeed, in the view of Charles Darwin's son, the astronomer George Darwin, once in a while one should do a completely crazy experiment, even if it is most likely to prove ＿＿＿＿＿＿＿＿. You never know until you try.",
+      "tag": "아잉카 변형 191번"
     }
   ]
 }

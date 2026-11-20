@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "34번 지문",
       "text": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to be kept separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2026년 10월)",
-      "text": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to be kept separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "digital networks fall like dominoes due to increasing computing costs"
       ],
       "answer": 4,
-      "id": "1"
+      "id": "1",
+      "view": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to be kept separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because ＿＿＿＿＿＿＿＿."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Social media has altered business, politics, and friendships, making going viral a household term.",
         "The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world.",
@@ -70,18 +65,74 @@
       "answer": 5
     },
     {
+      "id": "ak26-59",
       "type": "choice",
-      "passage": "p2",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
-      "context": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, (A) [ made / making ] us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously (B) [ gave / giving ] rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to (C) [ being kept / be kept ] separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.",
+      "context": "Social media has (ㄱ) [ preserved / altered ] business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, (A) [ made / making ] us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were (ㄴ) [ separate / connected ] and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously (B) [ gave / giving ] rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to (C) [ being kept / be kept ] separate bump up against each other, it becomes far more (ㄷ) [ straightforward / difficult ] to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.\n* vulnerable: 취약한 ** buffer: 보호하다",
       "choices": [
-        "made - gave - being kept",
-        "making - giving - be kept",
-        "making - gave - being kept",
-        "making - gave - be kept",
-        "made - giving - be kept"
+        "made / gave / being kept",
+        "making / giving / be kept",
+        "making / gave / being kept",
+        "making / gave / be kept",
+        "made / giving / be kept"
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "(A) 능동 현재분사구문\n- 주어와 능동의 관계이며, 접속사가 없고 목적어가 있으므로 현재분사가 적절하다.\nThe global financial industry ~ country, ( and this makes →)\nmaking us vulnerable to human error ~\n(B) 동사 찾기\n- 현재분사는 동사의 역할을 할 수 없으며, 주어 'The development'의 동사가 필요하므로 'gave'가 적절하다.\n(C) 관용표현\n- used to V : ~ 하곤 했다\nbe used to V : ~ 하는 데 사용되다\nbe used to ~ing : ~ 하는 데 익숙하다",
+      "view": "Social media has (ㄱ) [ preserved / altered ] business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, (A) [ made / making ] us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were (ㄴ) [ separate / connected ] and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously (B) [ gave / giving ] rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to (C) [ being kept / be kept ] separate bump up against each other, it becomes far more (ㄷ) [ straightforward / difficult ] to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.\n* vulnerable: 취약한 ** buffer: 보호하다",
+      "tag": "아잉카 변형 59번"
+    },
+    {
+      "id": "ak26-60",
+      "type": "choice",
+      "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
+      "context": "Social media has (ㄱ) [ preserved / altered ] business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, (A) [ made / making ] us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were (ㄴ) [ separate / connected ] and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously (B) [ gave / giving ] rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to (C) [ being kept / be kept ] separate bump up against each other, it becomes far more (ㄷ) [ straightforward / difficult ] to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.\n* vulnerable: 취약한 ** buffer: 보호하다",
+      "choices": [
+        "altered / separate / difficult",
+        "preserved / separate / difficult",
+        "altered / connected / straightforward",
+        "altered / separate / straightforward",
+        "preserved / connected / difficult"
+      ],
+      "answer": 1,
+      "explanation": "(ㄱ) 소셜 미디어가 기업 활동과 정치, 교우 관계에 변화를 가져오고 온라인에서 급속히 퍼지는 현상을 일상적인 것으로 만들었다는 흐름이므로, '변화시킨'이라는 의미의 'altered'가 적절하다. 'preserved'는 '기존 상태로 보존한'이라는 의미이다.\n(ㄴ) 과거에는 기관들이 외부에서 발생한 오류의 영향으로부터 보호되었으며, 이는 오늘날의 상호 연결된 상황과 대비되는 흐름이므로, '분리된'이라는 의미의 'separate'가 적절하다. 'connected'는 '연결된'이라는 의미이다.\n(ㄷ) 이전에 분리되어 있던 요소들이 서로 얽히면서 복잡한 실패 가능성이 생기고 다음 상황을 예측하기 어려워진다는 흐름이므로, 'difficult'가 적절하다. 'straightforward'는 '수월한, 복잡하지 않은'이라는 의미이다.",
+      "view": "Social media has (ㄱ) [ preserved / altered ] business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, (A) [ made / making ] us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were (ㄴ) [ separate / connected ] and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously (B) [ gave / giving ] rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to (C) [ being kept / be kept ] separate bump up against each other, it becomes far more (ㄷ) [ straightforward / difficult ] to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.\n* vulnerable: 취약한 ** buffer: 보호하다",
+      "tag": "아잉카 변형 60번"
+    },
+    {
+      "id": "ak26-61",
+      "type": "choice",
+      "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
+      "choices": [
+        "Online platforms have made \"going viral\" a familiar expression.",
+        "Institutional independence once offered protection against external mistakes.",
+        "Rising computing costs have slowed the conversion of information into digital form.",
+        "Systems that exchange data on their own have generated numerous opportunities for malfunction.",
+        "Interconnectedness through information technology helps to confine the effects of minor failures."
+      ],
+      "answer": [
+        3,
+        5
+      ],
+      "explanation": "이 글은 기술 발달로 인한 상호 연결성의 증가가 어떻게 작은 실패의 영향을 확산시켜 새로운 취약성을 만들어 내는지를 설명하는 내용이다. 컴퓨팅 능력의 비용이 상승하여 정보의 디지털화가 둔화되었다고 서술한 ③번 보기와, 상호 연결성이 사소한 실패의 영향을 국한시키는 데 도움이 된다고 서술한 ⑤번 보기는 글의 내용과 일치하지 않는다.\n① 온라인 플랫폼은 '온라인에서 급속히 퍼지다'라는 표현을 친숙하게 만들었다.\n② 과거에는 기관들이 서로 독립되어 있어 외부의 오류로부터 보호받았다.\n③ 컴퓨팅 비용의 상승으로 정보를 디지털 형태로 전환하는 속도가 느려졌다.\n④ 스스로 데이터를 교환하는 시스템은 오작동이 발생할 수 있는 수많은 가능성을 만들어 냈다.\n⑤ 정보 기술을 통한 상호 연결성은 사소한 실패의 영향을 국한시키는 데 도움이 된다.",
+      "view": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to be kept separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.\n* vulnerable: 취약한 ** buffer: 보호하다",
+      "tag": "아잉카 변형 61번"
+    },
+    {
+      "id": "ak26-62",
+      "type": "choice",
+      "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "The growth of digital (A) ＿＿＿＿＿＿ has led to a world where even minor errors can have widespread consequences, increasing overall system (B) ＿＿＿＿＿＿.",
+      "choices": [
+        "integration / stability",
+        "integration / fragility",
+        "regulation / stability",
+        "isolation / fragility",
+        "isolation / efficiency"
+      ],
+      "answer": 2,
+      "explanation": "디지털 (A) 통합의 확대는 사소한 오류조차 광범위한 결과를 초래할 수 있는 세상을 만들었으며, 그 결과 시스템 전반의\n(B) 취약성이 커졌다.\n이 글은 디지털 기술로 연결된 시스템에서 작은 오류가 광범위한 영향을 미치고 복잡한 실패를 초래할 수 있으며, 과거에는 분리되어 있던 기관과 시스템이 서로 연결되면서 오류의 영향이 즉각적으로 확산한다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'integration', (B)에는 'fragility'가 들어가는 것이 가장 적절하다.\n① integration : 통합 / stability : 안정성\n③ regulation : 규제 / stability : 안정성\n④ isolation : 고립 / fragility : 취약성\n⑤ isolation : 고립 / efficiency : 효율성",
+      "view": "Social media has altered business, politics, and friendships, making going viral a household term. The global financial industry links every bank and countless households in every country, making us vulnerable to human error taking place on the other side of the world. As Columbia University strategy professor Rita McGrath explains, years ago most of our institutions were separate and thereby buffered from the effects of errors outside their walls. That is no longer the case. The digitization of massive amounts of information has continued to grow enormously as the cost of computing power has decreased. The development of smart systems that communicate autonomously gave rise to an infinite variety of potential breakdowns. This interdependence is a breeding ground for complex failure. As Rita puts it, when \"things that used to be kept separate bump up against each other, it becomes far more difficult to predict what's going to happen next.\" Information technology creates new vulnerabilities because interconnectedness instantly spreads the impact of small failures.\n* vulnerable: 취약한 ** buffer: 보호하다",
+      "tag": "아잉카 변형 62번"
     }
   ]
 }

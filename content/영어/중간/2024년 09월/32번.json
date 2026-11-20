@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The well-known American ethnologist Alfred Louis Kroeber made a rich and in-depth study of women's evening dress in the West, stretching back about three centuries and using reproductions of engravings.",
         "Having adjusted the dimensions of these plates due to their diverse origins, he was able to analyse the constant elements in fashion features and to come up with a study that was neither intuitive nor approximate, but precise, mathematical and statistical.",

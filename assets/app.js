@@ -29,6 +29,7 @@ const I = {
   copy: '<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/>',
   trash: '<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>',
   chev: '<path d="M6 9l6 6 6-6"/>',
+  note: '<path d="M4 4h16v10l-6 6H4z"/><path d="M14 20v-6h6"/>',
   edit: '<path d="M12 20h9M16.5 3.5a2.1 2.1 0 1 1 3 3L7 19l-4 1 1-4Z"/>',
 };
 const icon = n => `<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">${I[n]}</svg>`;
@@ -339,14 +340,24 @@ function noteEditor(path, pid, onSaved) {
   });
 }
 
+// 지문에 번역이 없으면 문장 단위로 온라인 번역을 받아 채운다 (문장 번역은 dict.js가 캐시해 둔다)
+async function fetchKo(p) {
+  if (p.hasKo) return true;
+  const flat = p.paras.flat();
+  const trs = await Promise.all(flat.map(u => translate(u.en).catch(() => '')));
+  flat.forEach((u, i) => { u.ko = trs[i] || u.ko; });
+  p.hasKo = flat.some(u => u.ko);
+  return p.hasKo;
+}
+
 function reader(set, path) {
   const main = shell(set, path, 'r');
   const tools = app.querySelector('.tools');
-  const anyKo = set.passages.some(p => p.hasKo);
-  let mode = anyKo ? store.get('mode', 'en') : 'en';
+  let mode = store.get('mode', 'en');
   let fs = store.get('fs', 18);
+  let busy = false;
 
-  tools.innerHTML = `${anyKo ? '<button class="ib txt" data-a="mode"></button>' : ''}<button class="ib txt" data-a="fs">Aa</button>`;
+  tools.innerHTML = `<button class="ib" data-a="pnall" aria-label="메모 접기·펼치기"${wnote.any(path) ? '' : ' hidden'}>${icon('note')}</button><button class="ib txt" data-a="mode"></button><button class="ib txt" data-a="fs">Aa</button>`;
   main.innerHTML = set.passages.map(p => passageHTML(p, path)).join('');
   main.classList.add('m-' + mode);
   bindWords(main, { set, path });
@@ -358,10 +369,22 @@ function reader(set, path) {
   const apply = () => {
     main.className = `m-${mode}`;
     main.style.setProperty('--fs', fs + 'px');
-    const b = tools.querySelector('[data-a=mode]');
-    if (b) b.textContent = MODE_LABEL[mode];
+    tools.querySelector('[data-a=mode]').textContent = busy ? '···' : MODE_LABEL[mode];
   };
   apply();
+
+  async function ensureKo() {
+    const need = set.passages.filter(p => !p.hasKo);
+    if (!need.length || busy) return;
+    busy = true;
+    apply();
+    const ok = await Promise.all(need.map(fetchKo));
+    busy = false;
+    main.innerHTML = set.passages.map(p => passageHTML(p, path)).join('');
+    bindWords(main, { set, path });
+    apply();
+    if (!ok.some(Boolean)) toast('번역을 가져오지 못했어요');
+  }
 
   tools.onclick = e => {
     const a = e.target.closest('[data-a]')?.dataset.a;
@@ -369,22 +392,49 @@ function reader(set, path) {
       mode = next(MODES, mode);
       store.set('mode', mode);
       main.querySelectorAll('.u.open').forEach(u => u.classList.remove('open'));
+      apply();
+      if (mode !== 'en') ensureKo();
     } else if (a === 'fs') {
       fs = next(SIZES, fs);
       store.set('fs', fs);
+      apply();
+    } else if (a === 'pnall') {
+      const open = toggleAllPn(main);
+      tools.querySelector('[data-a=pnall]').classList.toggle('on', open);
     }
-    apply();
   };
+
+  if (mode !== 'en') ensureKo();
+}
+
+// 문제마다 따로 정해 둔 본문(q.view): 변형 지문의 바뀐 단어, 빈칸 뚫린 곳 등을 그대로 보여 준다
+function viewPassage(q, base) {
+  const paras = q.view.replace(/\r\n?/g, '\n').split(/\n[ \t]*\n/).map(x => x.trim()).filter(Boolean).map(x => [{ en: x, ko: '' }]);
+  return { id: 'v-' + q.id, lines: false, title: q.tag || base?.title || '', source: '', hasKo: false, paras, vocab: base?.vocab || [] };
 }
 
 const sheetMem = new Map(); // 본문 시트를 닫을 때의 스크롤 위치
 function sheet(p, key, ctx) {
   if (!p) return;
-  let mode = 'en';
-  const o = overlay(p.hasKo ? `<button class="ib txt" data-a="mode">${MODE_LABEL[mode]}</button>` : '', passageHTML(p, ctx?.path), `m-${mode}`, `--fs:${store.get('fs', 18)}px`);
+  let mode = 'en', busy = false;
+  const o = overlay('<button class="ib txt" data-a="mode"></button>', passageHTML(p, ctx?.path), `m-${mode}`, `--fs:${store.get('fs', 18)}px`);
   bindWords(o.body, ctx);
   o.panel.scrollTop = sheetMem.get(key) ?? 0;
   o.onClose = () => { sheetMem.set(key, o.panel.scrollTop); if (SEL?.root === o.body) clearSel(); };
+  const paint = () => { o.d.querySelector('[data-a=mode]').textContent = busy ? '···' : MODE_LABEL[mode]; };
+  paint();
+  async function ensureKo() {
+    if (p.hasKo || busy) return;
+    busy = true;
+    paint();
+    const ok = await fetchKo(p);
+    busy = false;
+    o.body.innerHTML = passageHTML(p, ctx?.path);
+    o.body.className = `pb m-${mode}`;
+    bindWords(o.body, ctx);
+    paint();
+    if (!ok) toast('번역을 가져오지 못했어요');
+  }
   o.d.addEventListener('click', e => {
     const b = e.target.closest('[data-a=mode]');
     const n = e.target.closest('[data-a=note]');
@@ -393,7 +443,8 @@ function sheet(p, key, ctx) {
     mode = next(MODES, mode);
     o.body.className = `pb m-${mode}`;
     o.body.querySelectorAll('.u.open').forEach(u => u.classList.remove('open'));
-    b.textContent = MODE_LABEL[mode];
+    paint();
+    if (mode !== 'en') ensureKo();
   });
 }
 
@@ -423,6 +474,21 @@ const wb = {
   },
   has: (bookId, text) => !!wb.find(bookId)?.words.some(x => norm(x.w) === norm(text)),
 };
+
+// 포스트잇 메모: 지문(path) + 본문(pid) 안의 "특정 위치"(문장 번호 u, 글자 위치 a~b)에 붙인다.
+// { [pid]: [{ id, u, a, b, t(선택한 표현), n(메모) }] }
+const wnote = {
+  all: path => { const v = store.get('wn:' + path, {}); return v && typeof v === 'object' && !Array.isArray(v) ? v : {}; },
+  list(path, pid) { const l = wnote.all(path)[pid]; return Array.isArray(l) ? l : []; },
+  put(path, pid, list) {
+    const all = wnote.all(path);
+    if (list.length) all[pid] = list; else delete all[pid];
+    store.set('wn:' + path, all);
+  },
+  any: path => Object.values(wnote.all(path)).some(l => Array.isArray(l) && l.length),
+};
+const PN_OPEN = new Set(); // 펼쳐 둔 포스트잇 id
+const offOf = (en, node) => { const r = document.createRange(); r.setStart(en, 0); r.setEndBefore(node); return r.toString().length; };
 
 // 본문의 영어 단어를 눌러 볼 수 있게 <span class="w">로 감싼다
 function wrapWords(root) {
@@ -456,10 +522,69 @@ function wrapWords(root) {
   }
 }
 
-// 단어장에 저장한 단어는 본문에서 표시해 준다
-function markSaved(root) {
-  const have = new Set(wb.books().flatMap(b => b.words).filter(x => tokens(x.w).length === 1).flatMap(x => [...forms(x.w)]));
-  root.querySelectorAll('.w').forEach(w => w.classList.toggle('has', have.size > 0 && [...forms(w.textContent)].some(f => have.has(f))));
+// 단어장에 저장한 단어·구는 점선 밑줄로, 포스트잇 메모는 노란 표시 + 문장 아래 작은 쪽지로 보여 준다.
+// 둘 다 "내가 저장·메모한 바로 그 지문" 안에서만 표시한다 (같은 단어가 다른 지문에 나와도 표시하지 않음).
+const overlaps = (a, b) => [...a].some(x => b.has(x));
+const phraseForms = text => tokens(text).map(forms);
+
+function markHints(root, ctx) {
+  root.querySelectorAll('.w').forEach(w => { w.classList.remove('has', 'noted', 'on'); delete w.dataset.n; });
+  root.querySelectorAll('.pn').forEach(p => p.remove());
+  const path = ctx?.path;
+  const vocabEntries = wb.books().flatMap(b => b.words).filter(x => !x.path || x.path === path);
+  root.querySelectorAll('.psg[data-pid]').forEach(psg => {
+    const pid = psg.dataset.pid;
+    const vocab = vocabEntries.filter(x => !x.pid || x.pid === pid);
+    const singles = new Set(vocab.filter(x => tokens(x.w).length === 1).flatMap(x => [...forms(x.w)]));
+    const phrases = vocab.filter(x => tokens(x.w).length > 1).map(x => phraseForms(x.w));
+    if (singles.size || phrases.length) {
+      psg.querySelectorAll('.en').forEach(en => {
+        const ws = [...en.querySelectorAll('.w')];
+        if (singles.size) ws.forEach(w => { if (overlaps(forms(w.textContent), singles)) w.classList.add('has'); });
+        for (const ph of phrases) {
+          for (let i = 0; i + ph.length <= ws.length; i++) {
+            if (ph.every((fs, j) => overlaps(fs, forms(ws[i + j].textContent)))) for (let j = 0; j < ph.length; j++) ws[i + j].classList.add('has');
+          }
+        }
+      });
+    }
+    const list = path ? wnote.list(path, pid) : [];
+    if (!list.length) return;
+    const units = [...psg.querySelectorAll('.u')];
+    for (const n of list) {
+      const u = units[n.u], en = u?.querySelector('.en');
+      if (!en) continue;
+      const open = PN_OPEN.has(n.id);
+      const ws = tidy(en.textContent.slice(n.a, n.b)) === n.t
+        ? [...en.querySelectorAll('.w')].filter(w => { const a = offOf(en, w); return a >= n.a && a + w.textContent.length <= n.b; }) : [];
+      ws.forEach(w => { w.classList.add('noted'); if (open) w.classList.add('on'); w.dataset.n = ((w.dataset.n || '') + ' ' + n.id).trim(); });
+      const pn = document.createElement('span');
+      pn.className = 'pn' + (open ? ' open' : '');
+      pn.dataset.nid = n.id;
+      pn.innerHTML = `<button class="pn-h" data-a="pn" aria-label="메모">${icon('note')}<span class="pn-q">${esc(n.t)}</span></button><span class="pn-b"><span class="pn-t">${md(n.n)}</span><button class="pn-e" data-a="pnedit" aria-label="메모 수정">${icon('edit')}</button></span>`;
+      let at = u;
+      while (at.nextElementSibling?.classList.contains('pn')) at = at.nextElementSibling;
+      at.after(pn);
+    }
+  });
+}
+
+// 포스트잇을 펼치거나 접는다 (펼치면 붙어 있는 단어가 진하게 표시됨)
+function togglePn(root, id, force) {
+  const pn = root.querySelector(`.pn[data-nid="${id}"]`);
+  if (!pn) return;
+  const open = force ?? !pn.classList.contains('open');
+  pn.classList.toggle('open', open);
+  open ? PN_OPEN.add(id) : PN_OPEN.delete(id);
+  root.querySelectorAll(`.w[data-n~="${id}"]`).forEach(w => w.classList.toggle('on', open));
+}
+
+// 모든 포스트잇을 한꺼번에 펼치거나 접는다. 펼쳐진 상태가 되면 true
+function toggleAllPn(root) {
+  const all = [...root.querySelectorAll('.pn')];
+  const open = all.some(p => !p.classList.contains('open'));
+  all.forEach(p => togglePn(root, p.dataset.nid, open));
+  return open;
 }
 
 let SEL = null;  // { root, ctx, unit, ws } 지금 선택된 단어들
@@ -478,12 +603,24 @@ const clearSel = () => setSel(null, null, null, []);
 // 탭: 단어 선택 → 다른 단어를 탭하면 그 사이가 구로 선택 → 끝 단어를 탭하면 줄어듦. 마우스는 끌어서도 선택
 function bindWords(root, ctx) {
   wrapWords(root);
-  markSaved(root);
+  markHints(root, ctx);
+  if (root._bound) return; // 번역을 받아 본문을 다시 그린 뒤에도 같은 요소에는 한 번만 연결
+  root._bound = true;
   let lastDrag = 0;
   const wordsOf = (u, s) => [...u.querySelectorAll('.en .w')].filter(x => x.dataset.s === s); // 같은 문장의 단어들
 
   root.addEventListener('click', e => {
     if (Date.now() - lastDrag < 300) return;
+    const pn = e.target.closest('.pn');
+    if (pn) {
+      const a = e.target.closest('[data-a]')?.dataset.a, id = pn.dataset.nid;
+      if (a === 'pn') togglePn(root, id);
+      else if (a === 'pnedit') {
+        const pid = pn.closest('.psg')?.dataset.pid, note = wnote.list(ctx.path, pid).find(n => n.id === id);
+        if (note) postitEditor(ctx, pid, note, null, root);
+      }
+      return;
+    }
     const u = e.target.closest('.u');
     if (!u) { if (SEL) clearSel(); return; }
     const w = e.target.closest('.w');
@@ -567,7 +704,8 @@ function openLookup() {
   if (ws[0] === sFirst && /^[A-Z][a-z'’-]+$/.test(tokens(text)[0] || '')) text = text[0].toLowerCase() + text.slice(1); // 문장 첫 단어의 대문자 보정
   const sen = sentenceAt(unit.querySelector('.en'), ws[0]);
   const koFull = tidy(unit.querySelector('.ko')?.textContent || '');
-  const q = { text, sentence: sen.text, ko: sen.single ? koFull : '', koFull, ctx }; // 해석이 문단 단위면 문장 해석은 온라인으로 받는다
+  const pid = unit.closest('.psg')?.dataset.pid || '';
+  const q = { text, sentence: sen.text, ko: sen.single ? koFull : '', koFull, ctx, pid }; // 해석이 문단 단위면 문장 해석은 온라인으로 받는다
   const lk = ensurePanel();
   lk.q = q;
   lk.picked = new Set();
@@ -578,6 +716,7 @@ function openLookup() {
   el.querySelector('.lk-in').value = '';
   el.querySelector('.lk-b').innerHTML = '<i class="lk-spin"></i>';
   paintBook();
+  paintNote();
   const seq = ++lkSeq;
   clearTimeout(lkTimer);
   lkTimer = setTimeout(() => runLookup(q, seq), 220);
@@ -601,7 +740,7 @@ function ensurePanel() {
   if (LK) return LK;
   const el = document.createElement('div');
   el.className = 'lookup';
-  el.innerHTML = `<div class="lk-h"><b class="lk-t"></b><span class="lk-tag"></span><button class="ib" data-a="lkx" aria-label="닫기">${icon('x')}</button></div>
+  el.innerHTML = `<div class="lk-h"><b class="lk-t"></b><span class="lk-tag"></span><button class="ib lk-note" data-a="lknote" aria-label="메모">${icon('edit')}</button><button class="ib" data-a="lkx" aria-label="닫기">${icon('x')}</button></div>
     <div class="lk-b"></div>
     <div class="lk-f"><input class="lk-in" placeholder="뜻" autocomplete="off" spellcheck="false"><button class="lk-bk" data-a="lkbook" aria-label="단어장 선택"></button><button class="btn primary lk-sv" data-a="lksave" aria-label="저장">${icon('check')}</button></div>`;
   document.body.append(el);
@@ -626,8 +765,64 @@ function ensurePanel() {
     } else if (a === 'lkx') clearSel();
     else if (a === 'lkbook') bookPicker(paintBook);
     else if (a === 'lksave') saveLookup();
+    else if (a === 'lknote') wordNoteEditor();
   });
   return LK;
+}
+
+// 지금 선택한 단어들의 위치 (문장 번호, 글자 위치)
+function anchorOf(sel) {
+  const psg = sel.unit.closest('.psg'), en = sel.unit.querySelector('.en');
+  const a = offOf(en, sel.ws[0]), b = offOf(en, sel.ws.at(-1)) + sel.ws.at(-1).textContent.length;
+  return { pid: psg?.dataset.pid || '', u: [...psg.querySelectorAll('.u')].indexOf(sel.unit), a, b, t: tidy(en.textContent.slice(a, b)) };
+}
+
+// 선택한 위치에 이미 붙은 포스트잇
+function noteAt(sel) {
+  if (!sel?.ctx?.path) return null;
+  const x = anchorOf(sel);
+  return wnote.list(sel.ctx.path, x.pid).find(n => n.u === x.u && n.a === x.a && n.b === x.b) || null;
+}
+
+function paintNote() {
+  LK?.el.querySelector('.lk-note')?.classList.toggle('on', !!noteAt(SEL));
+}
+
+// 선택한 단어·구 위치에 포스트잇 붙이기
+function wordNoteEditor() {
+  if (!SEL?.ctx?.path) return;
+  postitEditor(SEL.ctx, null, noteAt(SEL), anchorOf(SEL), SEL.root);
+}
+
+// 포스트잇 쓰기·고치기·떼기. note가 있으면 수정, 없으면 anchor 위치에 새로 붙인다
+function postitEditor(ctx, pid, note, anchor, root) {
+  const path = ctx.path, id = note?.id, at = anchor || note, pd = pid ?? anchor.pid;
+  const o = overlay('', `<div class="frm"><div class="wn-t">${esc(at.t)}</div><textarea name="note" rows="6" placeholder="메모 (이 위치에 포스트잇으로 붙어요)" spellcheck="false">${esc(note?.n || '')}</textarea>
+    <div class="acts">${note ? `<button class="btn bad" data-a="del" aria-label="떼기">${icon('trash')}</button>` : ''}<button class="btn primary" data-a="ok" aria-label="저장">${icon('check')}</button></div></div>`);
+  o.d.classList.add('over');
+  focus(o.body.querySelector('textarea'));
+  o.d.addEventListener('click', e => {
+    const a = e.target.closest('[data-a]')?.dataset.a;
+    if (a !== 'ok' && a !== 'del') return;
+    const v = a === 'del' ? '' : o.body.querySelector('textarea').value.trim();
+    let list = wnote.list(path, pd);
+    let nid = id;
+    if (!v) list = list.filter(n => n.id !== id);
+    else if (note) list = list.map(n => (n.id === id ? { ...n, n: v } : n));
+    else { nid = uid(); list = [...list, { id: nid, u: at.u, a: at.a, b: at.b, t: at.t, n: v }]; }
+    wnote.put(path, pd, list);
+    if (!v) PN_OPEN.delete(id); else if (!note) PN_OPEN.add(nid);
+    o.close();
+    markHints(root, ctx);
+    paintNote();
+    syncPnTool(path);
+  });
+}
+
+// 헤더의 "메모 접기/펼치기" 버튼은 이 지문에 메모가 있을 때만 보인다
+function syncPnTool(path) {
+  const b = document.querySelector('.tools [data-a=pnall]');
+  if (b) b.hidden = !wnote.any(path);
 }
 
 function closeLookup() {
@@ -666,17 +861,18 @@ function fillLookup(q, st) {
   if (!LK.touched && st.best) { inp.value = st.best; LK.picked = new Set([st.best]); }
   el.querySelectorAll('.mc').forEach(c => c.classList.toggle('on', LK.picked.has(c.dataset.m)));
   paintBook();
+  paintNote();
 }
 
 function saveLookup() {
   const { q } = LK, inp = LK.el.querySelector('.lk-in'), m = inp.value.trim();
   if (!m) { inp.focus(); return; }
   const book = wb.cur();
-  const isNew = wb.save(book.id, { w: q.text, m, ex: q.sentence, src: q.ctx?.set?.title || '', path: q.ctx?.path || '' });
-  const root = SEL?.root;
+  const isNew = wb.save(book.id, { w: q.text, m, ex: q.sentence, src: q.ctx?.set?.title || '', path: q.ctx?.path || '', pid: q.pid || '' });
+  const root = SEL?.root, ctx = q.ctx;
   toast(`${q.text} → ${book.name}${isNew ? '' : ' (수정)'}`);
   clearSel();
-  if (root) markSaved(root);
+  if (root) markHints(root, ctx);
 }
 
 let toastT = 0;
@@ -1149,12 +1345,13 @@ function play(main, S, { exit, finish }) {
     const n = mixed ? mk.n : S.list.length;
     const pos = mixed ? S.i - mk.start : S.i, round = mixed ? S.marks.indexOf(mk) : 0;
     const lastQ = !mixed && S.i === S.list.length - 1;
-    const ps = q.passage ? set.passages.find(p => p.id === q.passage) : null;
+    const base = q.passage ? set.passages.find(p => p.id === q.passage) : null;
+    const ps = q.view ? viewPassage(q, base) : base;
 
     main.innerHTML = `<div class="qtop"><span class="cnt">${pos + 1}<small>/${n}</small></span>${round ? `<span class="round">${icon('retry')}${round + 1}</span>` : ''}<i class="pbar"><b style="width:${(100 * pos) / n}%"></b></i>${
       ps ? `<button class="ib" data-a="psg" aria-label="본문">${icon('book')}</button>` : ''}<button class="ib" data-a="quit" aria-label="그만">${icon('x')}</button></div>${
       mixed ? `<div class="from">${esc(set.title)}</div>` : ''}
-    <div class="qcard">${q.prompt ? `<div class="prompt">${md(q.prompt)}</div>` : ''}${q.context ? `<div class="ctx">${md(q.context)}</div>` : ''}<div class="qb"></div><div class="fb" hidden></div></div>
+    <div class="qcard">${q.tag ? `<div class="qtag">${esc(q.tag)}</div>` : ''}${q.prompt ? `<div class="prompt">${md(q.prompt)}</div>` : ''}${q.context ? `<div class="ctx">${md(q.context)}</div>` : ''}<div class="qb"></div><div class="fb" hidden></div></div>
     <div class="dock"><div class="in"></div></div>`;
 
     const card = main.querySelector('.qcard'), fb = main.querySelector('.fb'), dock = main.querySelector('.dock .in');

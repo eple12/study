@@ -35,7 +35,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The flu can kill tens of millions of people, and unrelenting strains of tuberculosis and cholera continue to cause premature death among populations throughout the world.",
         "This means humans have little or no immunity to it, and everyone is at risk.",

@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "31번 지문",
       "text": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding alternative resources, and other means."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding original resources, and other means."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "preparation"
       ],
       "answer": 5,
-      "id": "1"
+      "id": "1",
+      "view": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means ＿＿＿＿＿＿＿＿ is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding alternative resources, and other means."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning.",
         "Often students are unable to identify the resources they need to perform the task required of them.",
@@ -69,9 +64,8 @@
       "answer": 3
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-11",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
       "context": "One factor that may ① hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be ② compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior ③ investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means preparation is ④ vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding ⑤ original resources, and other means.",
       "choices": [
@@ -81,7 +75,60 @@
         "④",
         "⑤"
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "⑤ original (원래의) → alternative (대체의)\n[해설]\n과제의 요구되는 자원들 중 일부가 이용 가능하지 않을 수도 있음을 식별하는 것이 학생들의 창의성에 도움이 되며 이것이 원래의 자원들이 아닌 대체 자원들을 찾는 것으로 이어지게 된다.",
+      "view": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding original resources, and other means.",
+      "tag": "아잉카 변형 11번"
+    },
+    {
+      "id": "ak24-31",
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the importance of financial support in schools",
+        "the way to identify the most needed resources",
+        "the impact of group work on creative thinking in schools",
+        "the role of resource identification in enhancing student creativity",
+        "the significance of scientific experiments in student projects"
+      ],
+      "answer": 4,
+      "explanation": "④ 학생들의 창의성 향상에 자원 식별이 하는 역할\n[해설]\n① 학교에서 자본지원의 중요성\n② 가장 필요한 자원을 식별하는 방법\n③ 학교에서의 집단 활동이 창의적 사고에 미치는 영향\n⑤ 학생 프로젝트에서 과학 실험의 중요성",
+      "view": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding alternative resources, and other means.",
+      "tag": "아잉카 변형 31번"
+    },
+    {
+      "id": "ak24-53",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment.\n\nOne factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. ( ① ) Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. ( ② ) For example, it may be that students desire to conduct some experiments in their projects. ( ③ ) It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. ( ④ ) Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. ( ⑤ ) It may even lead to changing the topic, finding alternative resources, and other means.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "③\n[해설]\n주어진 문장에서는 학생들의 사전 조사가 필요하다고 이야기 하고, ③번 보기 뒤에서 이 사전 조사에 대한 부연설명으로 사전 조사를 통해 이루어지는 준비로 이야기가 이어지는 것이 적절하므로 ③번의 위치가 적절하다.",
+      "view": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding alternative resources, and other means.",
+      "tag": "아잉카 변형 53번"
+    },
+    {
+      "id": "ak24-73",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "The ability to accurately (A) the necessary resources in the learning process plays a (B) role in fostering creativity and maximizing learning efficiency.",
+      "choices": [
+        "exclude / essential",
+        "replace / essential",
+        "replace / trivial",
+        "discern / trivial",
+        "discern / decisive"
+      ],
+      "answer": 5,
+      "explanation": "⑤ 학습과정에서 필요한 자원을 정확히 (A) 식별할 수 있는 능력은 창의력을 촉진하고 업무효율성을 극대화하는데 (B) 결정적인 역할을 한다.\n[해설]\n① exclude : 배제하다 / essential : 필수적인\n② replace : 대체하다 / essential : 필수적인\n③ replace : 대체하다 / trivial : 사소한\n④ discern : 식별하다 / trivial : 사소한",
+      "view": "One factor that may hinder creativity is unawareness of the resources required in each activity in students' learning. Often students are unable to identify the resources they need to perform the task required of them. Different resources may be compulsory for specific learning tasks, and recognizing them may simplify the activity's performance. For example, it may be that students desire to conduct some experiments in their projects. There must be a prior investigation of whether the students will have access to the laboratory, equipment, and chemicals required for the experiment. It means preparation is vital for the students to succeed, and it may be about human and financial resources such as laboratory technicians, money to purchase chemicals, and equipment for their learning where applicable. Even if some of the resources required for a task may not be available, identifying them in advance may help students' creativity. It may even lead to changing the topic, finding alternative resources, and other means.",
+      "tag": "아잉카 변형 73번"
     }
   ]
 }

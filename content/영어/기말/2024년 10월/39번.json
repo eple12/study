@@ -5,12 +5,6 @@
     {
       "id": "p1",
       "title": "39번 지문",
-      "text": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
       "text": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
     }
   ],
@@ -26,19 +20,20 @@
         "④",
         "⑤"
       ],
-      "answer": 1,
-      "id": "1"
+      "answer": 5,
+      "id": "1",
+      "view": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature.",
-        "Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes.",
         "Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.",
         "Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\".",
         "It means when people live without a general power to control them all, they are indeed in a state of war.",
         "In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\".",
+        "Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes.",
         "It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
       ]
     },
@@ -48,16 +43,16 @@
       "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
       "given": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature.",
       "items": [
-        "Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.",
-        "Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war.",
-        "In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
+        "Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\".",
+        "It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\".",
+        "Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature."
       ]
     },
     {
       "id": "auto-insert",
       "type": "choice",
       "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
-      "context": "**[주어진 문장]** Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.\n\nAccording to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. ① Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. ② Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". ③ It means when people live without a general power to control them all, they are indeed in a state of war. ④ In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". ⑤ It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.",
+      "context": "**[주어진 문장]** Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges.\n\nAccording to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. ① Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". ② It means when people live without a general power to control them all, they are indeed in a state of war. ③ In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". ④ Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. ⑤ It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.",
       "choices": [
         "①",
         "②",
@@ -65,12 +60,11 @@
         "④",
         "⑤"
       ],
-      "answer": 2
+      "answer": 1
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-19",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 주제로 가장 적절한 것은?",
       "choices": [
         "the reason for the appearance of social systems",
@@ -79,7 +73,60 @@
         "the influence of feeling scared of opponents in a tribal society",
         "the crucial impact of laws regulating people in a civilized world"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "① 사회 체계의 출현에 대한 이유\n[해설]\n② 원초적인 상태의 인간들의 도덕적 특성\n③ 인간 사회의 상호간 도덕성의 중요성\n④ 부족 사회에서 적을 두려워하는 것의 중요성\n⑤ 문명화된 세상에서 사람들을 규제하는 법의 중대한 영향력",
+      "view": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.\n* brutish: 잔인한",
+      "tag": "아잉카 변형 19번"
+    },
+    {
+      "id": "ak24-39",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Human Nature and Mutual Respect",
+        "The Essence and Formation of Morality",
+        "Human Relationships in the State of Nature",
+        "The Development of Social Contract Theory",
+        "Human Nature and the Necessity of the State"
+      ],
+      "answer": 5,
+      "explanation": "⑤ 인간 본성과 국가의 필요성\n[해설]\n① 인간 본성과 상호 존중\n② 도덕의 본질과 그 형성\n③ 자연 상태의 인간관계\n④ 사회 계약 이론의 발전",
+      "view": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.\n* brutish: 잔인한",
+      "tag": "아잉카 변형 39번"
+    },
+    {
+      "id": "ak24-61",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual ＿＿＿＿＿＿＿＿ according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.\n* brutish: 잔인한",
+      "choices": [
+        "affliction",
+        "affectation",
+        "adversity",
+        "allocation",
+        "affection"
+      ],
+      "answer": 5,
+      "explanation": "⑤ 애정\n[해설]\n자연 상태에서 인간은 사회적, 정치적인 존재가 아니며 사회가 자연적인 현상도 아니기 때문에 인간을 사회로 모으는 힘은 서로간의 애정이 아니라고 하는 것이 가장 적절하다.\n① 고통 ② 가식 ③ 역경 ④ 할당",
+      "view": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual ＿＿＿＿＿＿＿＿ according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.\n* brutish: 잔인한",
+      "tag": "아잉카 변형 61번"
+    },
+    {
+      "id": "ak24-81",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Hobbes argues that because humans are (A) selfish and antisocial in the state of nature, the (B) of society and morality requires a sovereign power based on mutual fear.",
+      "choices": [
+        "inherently / formation",
+        "organizationally / destruction",
+        "systematically / avoidance",
+        "naturally / celebration",
+        "individually / isolation"
+      ],
+      "answer": 1,
+      "explanation": "① 홉스는 자연 상태에서 인간이 (A) 본질적으로 이기적이고 반사회적이기 때문에, 사회와 도덕성이 (B) 형성되기 위해서는 공동의 두려움을 기반으로 한 주권자가 필요하다고 주장한다.\n[해설]\n② organizationally : 조직적으로 / destruction : 파괴\n③ systematically : 체계적으로 / avoidance : 회피\n④ naturally : 자연적으로 / celebration : 축하\n⑤ individually : 개별적으로 / isolation : 격리",
+      "view": "According to Hobbes, man is not a being who can act morally in spite of his instinct to protect his existence in the state of nature. Hence, the only place where morality and moral liberty will begin to find an application begins in a place where a sovereign power, namely the state, emerges. Hobbes thus describes the state of nature as a circumstance in which man's life is \"solitary, poor, nasty, brutish and short\". It means when people live without a general power to control them all, they are indeed in a state of war. In other words, Hobbes, who accepted that human beings are not social and political beings in the state of nature, believes that without the power human beings in the state of nature are \"antisocial and rational based on their selfishness\". Moreover, since society is not a natural phenomenon and there is no natural force bringing people together, what will bring them together as a society is not mutual affection according to Hobbes. It is, rather, mutual fear of men's present and future that assembles them, since the cause of fear is a common drive among people in the state of nature.\n* brutish: 잔인한",
+      "tag": "아잉카 변형 81번"
     }
   ]
 }

@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "One well-known shift took place when the accepted view ― that the Earth was the center of the universe ― changed to one where we understood that we are only inhabitants on one planet orbiting the Sun.",
         "With each person who grasped the solar system view, it became easier for the next person to do so.",

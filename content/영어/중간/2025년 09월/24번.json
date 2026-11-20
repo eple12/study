@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Everything in the world exists on a continuum, whether in speed, size, or any other possible descriptor you could think of.",
         "Still, we create and mindlessly adopt sharp distinctions, and those distinctions change lives far more dramatically than marginal differences ever do.",

@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "21번 지문",
       "text": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person."
     }
   ],
   "questions": [
@@ -30,7 +24,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster.",
         "How would you feel?",
@@ -73,9 +67,8 @@
       "answer": 2
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-4",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 요지로 가장 적절한 것은?",
       "choices": [
         "감사함은 미덕이 아니다.",
@@ -84,7 +77,59 @@
         "도덕적 미덕은 꾸준한 실천과 역사의 산물이다.",
         "관대함은 일시적인 충동으로 충분히 발현될 수 있다."
       ],
-      "answer": 4
+      "answer": 4,
+      "view": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person.",
+      "tag": "아잉카 변형 4번"
+    },
+    {
+      "id": "ak24-24",
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the importance of gift-giving during Christmas",
+        "the philosophical debate on the nature of virtues",
+        "the role of philosophers in shaping moral identity",
+        "the effects of generosity boosters on human behavior",
+        "the difference between genuine virtue and temporary impulse"
+      ],
+      "answer": 5,
+      "explanation": "⑤ 진정한 미덕과 일시적인 충동의 차이\n[해설]\n① 크리스마스 선물의 중요성\n② 미덕의 본질에 관한 철학적 논쟁\n③ 도덕적 정체성 형성에 있어서 철학자들의 역할\n④ 관대함 촉진제가 인간의 행동에 미치는 영향",
+      "view": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person.",
+      "tag": "아잉카 변형 24번"
+    },
+    {
+      "id": "ak24-46",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Virtue is a stable and (A) part of the moral identity that develops over time, not a momentary (B).",
+      "choices": [
+        "continuous / decision",
+        "changeable / action",
+        "enduring / drive",
+        "variable / thought",
+        "emotional / envy"
+      ],
+      "answer": 3,
+      "explanation": "③ 미덕은 시간이 지남에 따라 발전하는 도덕적 정체성의 안정적이고 (A) 지속적인 부분이지 순간적인 (B) 충동이 아니다.\n[해설]\n① continuous : 지속적인 / decision : 결정\n② changeable : 변하기 쉬운 / action : 행동\n④ variable : 변하기 쉬운 / thought : 생각\n⑤ emotional : 감정적인 / envy : 부러움",
+      "view": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of your personal history. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person.",
+      "tag": "아잉카 변형 46번"
+    },
+    {
+      "id": "ak24-66",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of ＿＿＿＿＿＿＿＿. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person.",
+      "choices": [
+        "genetic traits",
+        "social expectations",
+        "sudden inspiration",
+        "temporary emotions",
+        "your personal history"
+      ],
+      "answer": 5,
+      "explanation": "⑤ 여러분의 개인 역사\n[해설]\n진정학 미덕과 일시적인 충동의 차이를 비교하는 글의 내용이다.\nZagzebski의 말을 인용하여 미덕에 대한 표현 중 하나인 관대함이 우리의 모습 중 일부인 정서적인 습관이라고 표현하였으므로, 미덕이 충동과는 달리 개인 역사의 결과라는 표현이 적절하다.\n① 유전적 특징\n② 사회적 기대\n③ 갑작스런 영감\n④ 일시적인 감정",
+      "view": "Imagine that your usually stingy friend delights in buying you a Christmas present after taking a generosity booster. How would you feel? Undoubtedly, there is something praiseworthy about the action. You'd be pleased to receive the gift. You'd say 'thank you', and mean it. But his change of heart is not entirely satisfying. According to Zagzebski, an American philosopher, he is not really generous. When we praise someone's character, we use words for various virtues: 'generous', 'kind', 'courageous', etc. A person who gives one gift isn't generous. Instead, generosity is a stable part of a person's 'moral identity', an emotional habit that is part of who you are. Thus virtues, as opposed to nontypical impulse, are the result of ＿＿＿＿＿＿＿＿. They are part of who you are, as they are part of how your character was formed. Instant virtue is therefore impossible. Popping a pill cannot make you a better person.",
+      "tag": "아잉카 변형 66번"
     }
   ]
 }

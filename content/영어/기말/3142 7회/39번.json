@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Labour migration is an important facet of the development of markets.",
         "When countries industrialize, workers move from rural to urban areas, attracted by the higher wages offered by industrial enterprises.",

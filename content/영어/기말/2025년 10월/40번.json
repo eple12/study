@@ -5,12 +5,6 @@
     {
       "id": "p1",
       "title": "40번 지문",
-      "text": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
       "text": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
     }
   ],
@@ -31,11 +25,11 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake.",
         "On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing.",
-        "For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly.",
+        "For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly.",
         "Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.",
         "Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation.",
         "When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge.",
@@ -49,7 +43,7 @@
       "prompt": "주어진 글 다음에 이어질 순서로 배열하시오.",
       "given": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake.",
       "items": [
-        "On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.",
+        "On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.",
         "Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge.",
         "We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't."
       ]
@@ -58,7 +52,7 @@
       "id": "auto-insert",
       "type": "choice",
       "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
-      "context": "**[주어진 문장]** Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.\n\nViewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. ① For instance, when El Nino, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. ② Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. ③ When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. ④ We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. ⑤ It doesn't.",
+      "context": "**[주어진 문장]** Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century.\n\nViewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. ① For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. ② Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. ③ When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. ④ We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. ⑤ It doesn't.",
       "choices": [
         "①",
         "②",
@@ -69,8 +63,8 @@
       "answer": 2
     },
     {
+      "id": "ak25-20",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "Our Fixed Clock vs. Nature's Flexible Time",
@@ -79,7 +73,123 @@
         "How to Adapt to an Ever-Changing Environment",
         "The Unstable Relationship Between Time and Gravity"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "정답 ① 우리의 고정된 시계 대 자연의 유연한 시간\n[해설]\n② 윤초: 현대 과학의 승리\n③ 지구는 느려지고 있다: 우리는 위험한가?\n④ 끊임없이 변화하는 환경에 적응하는 법\n⑤ 시간과 중력의 불안정한 관계",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 20번"
+    },
+    {
+      "id": "ak25-43",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 It doesn't가 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "Time does not slow down even when the Earth's spin changes.",
+        "Nature operates independently of our man-made concept of time.",
+        "The Earth's slowing rotation is not a phenomenon we can reverse.",
+        "The decision to add a second to our day lacks universal agreement.",
+        "Humanity cannot predict the occurrence of climatic events accurately."
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 자연은 인간이 만든 시간 개념과 무관하게 작동한다.\n[해설] 밑줄 친 'It doesn't'는 바로 앞 문장의 '자연이 (인간의 고정된 시간관에) 굴복할 것이라는 헛된 희망(in the false hope that it will yield)'을 부인하는 표현이다. 즉, '자연은 굴복하지 않는다'는 의미이다. 이는 글 전체의 주제인 '인간이 만든 인공적인 시간 체계와 달리, 자연은 그 자체의 유동적인 법칙에 따라 움직인다'는 내용을 함축한다. 따라서 '자연은 인간이 만든 시간 개념과 무관하게 작동한다'가 가장 적절하다.\n① 지구의 자전 속도가 변해도 시간은 느려지지 않는다.\n③ 지구의 느려지는 자전은 우리가 되돌릴 수 없는 현상이다.\n④ 하루에 1초를 추가하는 결정은 보편적인 동의를 얻지 못한다.\n⑤ 인류는 기후 현상의 발생을 정확하게 예측할 수 없다.",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. __It doesn't__.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 43번"
+    },
+    {
+      "id": "ak25-67",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation.\n\nViewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. ( ① ) On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. ( ② ) For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. ( ③ ) Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. ( ④ ) When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. ( ⑤ ) We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④\n[해설] 제시된 문장의 'such events'는 앞선 예시들(엘니뇨, 달의 인력)과 같은 구체적인 자연현상들을 가리킨다. 바로 뒤에는 이 문제에 대한 해결책인 시간 추가에 대한 내용이 이어지는 것이 적절하므로 ④번의 위치가 적절하다.",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 67번"
+    },
+    {
+      "id": "ak25-87",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오?",
+      "context": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again ＿＿＿＿＿＿＿＿. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "choices": [
+        "we are forced to acknowledge this mistake",
+        "our daily schedules are disrupted by natural forces",
+        "time becomes a resource to be saved and managed",
+        "the economic value of time is more intensely debated",
+        "technological advancements offer more precise measurements"
+      ],
+      "answer": 1,
+      "explanation": "정답 ① 우리는 이 실수를 인정하도록 강요받는다\n[해설] 빈칸 문장 뒤에는 지구 자전 속도 변화로 인해 초를 더하는 구체적인 사례들이 나온다. 이러한 사례들은 우리가 가진 인공적인 시간 관점이 '실수(mistake)'임을 보여주는 증거들이다. 따라서 빈칸에는 이러한 사례들을 통해 우리가 '이러한 실수를 인정하도록 강요받는다'는 내용이 들어가는 것이 문맥상 가장 자연스럽다.\n② 우리의 일상적인 스케줄은 자연의 힘에 의해 방해받는다\n③ 시간은 절약되고 관리되어야 할 자원이 된다\n④ 시간의 경제적 가치가 더욱 치열하게 논의된다\n⑤ 기술의 발전은 더 정확한 측정을 제공한다",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again ＿＿＿＿＿＿＿＿. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 87번"
+    },
+    {
+      "id": "ak25-134",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nrate / for / has / added / spin / to / everyone's / the / Earth / and / changing / the / to / of / wobbling / day / adjust / its / been / a / second",
+      "context": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, (A) 지구가 흔들리는 것과 그것의 자전 속도가 변하는 것에 맞추기 위해 모든 사람의 하루에 1초가 추가되어 왔다. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. (B) 그러한 사건들은 인간이 만든 시간과 지구의 자연적으로 발생하는 자전에 기반한 더 유연한 시간 사이의 유사성을 깨뜨린다. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "answer": [
+        "a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing"
+      ],
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, (A) 지구가 흔들리는 것과 그것의 자전 속도가 변하는 것에 맞추기 위해 모든 사람의 하루에 1초가 추가되어 왔다. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. (B) 그러한 사건들은 인간이 만든 시간과 지구의 자연적으로 발생하는 자전에 기반한 더 유연한 시간 사이의 유사성을 깨뜨린다. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 134번"
+    },
+    {
+      "id": "ak25-135",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\nbased on / flexible / occur / man-made / the Earth's / disturb / similarity / rotation\n<조건>\n- between A and B 및 현재분사 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 19단어",
+      "context": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, (A) 지구가 흔들리는 것과 그것의 자전 속도가 변하는 것에 맞추기 위해 모든 사람의 하루에 1초가 추가되어 왔다. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. (B) 그러한 사건들은 인간이 만든 시간과 지구의 자연적으로 발생하는 자전에 기반한 더 유연한 시간 사이의 유사성을 깨뜨린다. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "answer": [
+        "Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation."
+      ],
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, (A) 지구가 흔들리는 것과 그것의 자전 속도가 변하는 것에 맞추기 위해 모든 사람의 하루에 1초가 추가되어 왔다. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. (B) 그러한 사건들은 인간이 만든 시간과 지구의 자연적으로 발생하는 자전에 기반한 더 유연한 시간 사이의 유사성을 깨뜨린다. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 135번"
+    },
+    {
+      "id": "ak25-159",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again ⓐ we are forced acknowledging this mistake. On twenty-six occasions in the last fifty years, ⓑ a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, ⓒ causing wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, ⓓ a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. ⓔ We try to force our fixed, man-made view of time on to nature in the false hope which it will yield. It doesn't.\n* wobble: 흔들리다",
+      "answer": [
+        "ⓐ we are forced to acknowledge this mistake",
+        "ⓒ causes wind speed to change dramatically, it can slow the rotation of the Earth slightly",
+        "ⓔ We try to force our fixed, man-made view of time on to nature in the false hope that it will yield"
+      ],
+      "explanation": "정답: ⓐ, ⓒ, ⓔ\nⓐ we are forced to acknowledge this mistake\n- 5형식 수동태\n  : force + O + O.C (to V) → be forced to V\nⓒ causes wind speed to change dramatically, it can slow the rotation of the Earth slightly\n- 동사 찾기\n  : when El Niño, a climatic system in the Pacific, causes ~\n            S                         V\nⓔ We try to force our fixed, man-made view of time on to nature in the false hope that it will yield\n- 동격의 접속사 that + 완전한 문장\n: 명사 'the false hope'과 동격의 관계이며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced acknowledging this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causing wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope which it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 159번"
+    },
+    {
+      "id": "ak25-184",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced acknowledging this mistake. On twenty-six occasions in the last fifty years, a second has added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed changing dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because of the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It isn't.\n* wobble: 흔들리다",
+      "answer": [
+        "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to acknowledge this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to change dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It doesn't.\n* wobble: 흔들리다"
+      ],
+      "explanation": "수정 위치 (5곳): acknowledging → to acknowledge / (없음) → been / changing → to change / of → (삭제) / isn't. → doesn't.",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced acknowledging this mistake. On twenty-six occasions in the last fifty years, a second has added to everyone's day to adjust for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed changing dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because of the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events disturb the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the false hope that it will yield. It isn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 184번"
+    },
+    {
+      "id": "ak25-209",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ a, ⓑ a, ⓒ c, ⓓ d, ⓔ f)",
+      "answer": [
+        "ⓐ acknowledge",
+        "ⓑ adjust",
+        "ⓒ change",
+        "ⓓ disturb",
+        "ⓔ false"
+      ],
+      "text": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to ⓐ {{acknowledge}} this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to ⓑ {{adjust}} for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to ⓒ {{change}} dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events ⓓ {{disturb}} the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the ⓔ {{false}} hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "view": "Viewing time as a purchasable and consistent product cemented artificial views on time into our psyche, but every now and again we are forced to ＿＿＿＿＿＿＿＿ this mistake. On twenty-six occasions in the last fifty years, a second has been added to everyone's day to ＿＿＿＿＿＿＿＿ for the Earth wobbling and the rate of its spin changing. For instance, when El Niño, a climatic system in the Pacific, causes wind speed to ＿＿＿＿＿＿＿＿ dramatically, it can slow the rotation of the Earth slightly. Indeed, the Earth's spin is generally slowing because the moon's gravity is acting as a drag, so days are getting longer by about 1.7 milliseconds per century. Such events ＿＿＿＿＿＿＿＿ the similarity between man-made time and more flexible time based on the Earth's naturally occurring rotation. When events like this happen, a bunch of humans make the decision to add a small slice of time to your day, without your knowledge. We try to force our fixed, man-made view of time on to nature in the ＿＿＿＿＿＿＿＿ hope that it will yield. It doesn't.\n* wobble: 흔들리다",
+      "tag": "아잉카 변형 209번"
     }
   ]
 }

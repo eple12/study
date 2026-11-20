@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "38번 지문",
       "text": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population, such as increasing or decreasing its size, in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population, such as increasing or decreasing its size, in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "⑤"
       ],
       "answer": 5,
-      "id": "1"
+      "id": "1",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population — such as increasing or decreasing its size — in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management.",
         "Active management does something to the population, such as increasing or decreasing its size, in a direct manner through strategies like translocations or hunting, respectively.",
@@ -68,8 +63,8 @@
       "answer": 4
     },
     {
+      "id": "ak25-18",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "The Role of Human Influence in Wildlife Management",
@@ -78,7 +73,124 @@
         "Translocations and Hunting: Key Techniques in Wildlife Management",
         "Active vs. Inactive Wildlife Management: Approaches to Population and Habitat Control"
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "정답 ⑤ 적극적 vs. 소극적 야생동물 관리: 개체군과 서식지 조절방법\n[해설]\n① 야생동물 관리에서 인간의 영향력 역할\n② 보호 전략: 야생동물 개체군 균형 맞추기\n③ 야생동물에 대한 인간의 영향 관리: 균형 잡힌 접근\n④ 이동 및 사냥: 야생동물 관리의 핵심 기법",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 18번"
+    },
+    {
+      "id": "ak25-41",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "There are numerous ways wildlife is managed, but they all imply stewardship and can be ① classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like ② translocations or hunting, respectively. Populations can also be actively managed by ③ altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be ④ incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities ⑤ maximize external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ maximize (최대화하다) → minimize (최소화하다)\n[해설] 국립 공원들의 개체군들처럼 다른 개체군들이 적극적으로 관리되지 않을 수도 있기에 개체군과 서식지에 대한 외부 영향력은 최소화되는 것이 맞다.",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities maximize external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 41번"
+    },
+    {
+      "id": "ak25-65",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities ＿＿＿＿＿＿＿＿ external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "choices": [
+        "alter",
+        "maximize",
+        "eliminate",
+        "minimize",
+        "enhance"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 최소화하다\n[해설] 야생동물 관리의 맥락에서, 국립공원에서의 관리 활동 목표는 (일반적으로 야생동물 개체군에 대한 직접적인 개입이 없는 곳에서) 외부 요인이 개체군과 서식지에 미치는 영향을 줄이거나 제한하는 것이다. 이 경우의 초점은 종에 대한 직접적인 개입보다는 인간의 영향을 통제하는 데 있다. 따라서 인간의 간섭을 줄여 자연적인 과정이 가능한 한 적은 방해로 일어나도록 허용하는 의미에서 최소화하다가 적절하다.\n① 변경하다 ② 극대화하다 ③ 제거하다 ⑤ 향상시키다",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities ＿＿＿＿＿＿＿＿ external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 65번"
+    },
+    {
+      "id": "ak25-85",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. ① Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. ② Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. ③ If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. ④ Environmental education plays a crucial role in fostering public awareness and support for wildlife conservation efforts. ⑤ These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 환경 교육은 야생동물 보전 노력에 대한 대중의 인식과지지를 높이는 데 중요한 역할을 한다.\n[해설] 이 글은 '야생동물 관리'의 두 가지 주요 유형(능동적 관리와 비활동적 관리)을 정의하고, 각 유형이 어떤 구체적인 전략과 방법으로 이루어지는지 설명하고 있다. ④번의 환경 교육이 야생동물 보존 노력에 대한 대중의 인식과 지지에 중요하다는 내용은 이 글과 무관하다.",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. Environmental education plays a crucial role in fostering public awareness and support for wildlife conservation efforts. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 85번"
+    },
+    {
+      "id": "ak25-130",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nhabitat / of / can / actively / benefit / by / population / altering / the / to / also / be / populations / managed / or / disadvantage / a / the",
+      "context": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. (A) 개체군들은 또한 서식지를 개체군에게 유리하거나 불리하게 변경함으로써 적극적으로 관리될 수 있다. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, (B) 관리 활동들은 개체군들과 서식지에 대한 외부 영향력을 최소화하는데, 그것은 대체로 동물들이 아닌 인간들에 대한 관리를 포함한다.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "answer": [
+        "Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population."
+      ],
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. (A) 개체군들은 또한 서식지를 개체군에게 유리하거나 불리하게 변경함으로써 적극적으로 관리될 수 있다. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, (B) 관리 활동들은 개체군들과 서식지에 대한 외부 영향력을 최소화하는데, 그것은 대체로 동물들이 아닌 인간들에 대한 관리를 포함한다.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 130번"
+    },
+    {
+      "id": "ak25-131",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\nmanagement / external / which / often / involve\n<조건>\n- 관계대명사 계속적용법 활용, <보기> 1단어 중복 사용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 18단어",
+      "context": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. (A) 개체군들은 또한 서식지를 개체군에게 유리하거나 불리하게 변경함으로써 적극적으로 관리될 수 있다. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, (B) 관리 활동들은 개체군들과 서식지에 대한 외부 영향력을 최소화하는데, 그것은 대체로 동물들이 아닌 인간들에 대한 관리를 포함한다.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "answer": [
+        "management activities minimize external influences on populations and habitat, which often involves management of humans and not animals"
+      ],
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. (A) 개체군들은 또한 서식지를 개체군에게 유리하거나 불리하게 변경함으로써 적극적으로 관리될 수 있다. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, (B) 관리 활동들은 개체군들과 서식지에 대한 외부 영향력을 최소화하는데, 그것은 대체로 동물들이 아닌 인간들에 대한 관리를 포함한다.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 131번"
+    },
+    {
+      "id": "ak25-157",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "There are numerous ways wildlife is managed, but ⓐ they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. ⓑ Populations can also be active managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, ⓒ such as predator control to minimize neonatal deaths or habitat improvement to provide requiring cover for neonates from predators. These efforts represent active approaches to management. ⓓ Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, ⓔ which often involve management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "answer": [
+        "ⓑ Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population",
+        "ⓒ such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators",
+        "ⓔ which often involves management of humans and not animals"
+      ],
+      "explanation": "정답: ⓑ, ⓒ, ⓔ\nⓑ Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population\n- 부사\n  : 동사 'can be managed'를 수식하는 부사가 적절하다.\nⓒ such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators\n- 수동 과거분사\n  : 명사 'cover'와 수동의 관계이므로, 과거분사가 적절하다.\nⓔ which often involves management of humans and not animals\n- 주어 동사 수일치\n: 관계대명사 'which'는 앞 문장을 부연 설명하며, 주어가 없는 불완전한 문장이므로 관계대명사의 계속적 용법이다. 선행사가 앞 문장일 경우 단수 동사가 적절하다.",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be active managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide requiring cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involve management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 157번"
+    },
+    {
+      "id": "ak25-182",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "There are numerous ways wildlife is managed, but they all imply stewardship and can classify into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing their size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by alteration the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can incorporate, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, where often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "answer": [
+        "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by altering the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be incorporated, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난"
+      ],
+      "explanation": "수정 위치 (5곳): classify → be classified / their → its / alteration → altering / incorporate, → be incorporated, / where → which",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can classify into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing their size ― in a direct manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by alteration the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can incorporate, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts represent active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize external influences on populations and habitat, where often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 182번"
+    },
+    {
+      "id": "ak25-207",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ d, ⓑ a, ⓒ i, ⓓ r, ⓔ e)",
+      "answer": [
+        "ⓐ direct",
+        "ⓑ altering",
+        "ⓒ incorporated",
+        "ⓓ represent",
+        "ⓔ external"
+      ],
+      "text": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a ⓐ {{direct}} manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by ⓑ {{altering}} the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be ⓒ {{incorporated}}, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts ⓓ {{represent}} active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize ⓔ {{external}} influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "view": "There are numerous ways wildlife is managed, but they all imply stewardship and can be classified into two broad categories: active management and inactive management. Active management does something to the population ― such as increasing or decreasing its size ― in a ＿＿＿＿＿＿＿＿ manner through strategies like translocations or hunting, respectively. Populations can also be actively managed by ＿＿＿＿＿＿＿＿ the habitat to the benefit or disadvantage of a population. If population numbers are too low for the goal of management agencies, other active management can be ＿＿＿＿＿＿＿＿, such as predator control to minimize neonatal deaths or habitat improvement to provide required cover for neonates from predators. These efforts ＿＿＿＿＿＿＿＿ active approaches to management. Other populations may not be actively managed, like those in national parks. In such situations, management activities minimize ＿＿＿＿＿＿＿＿ influences on populations and habitat, which often involves management of humans and not animals.\n* stewardship: (재산·조직체 등의) 관리 책임 ** neonatal: 갓 태어난",
+      "tag": "아잉카 변형 207번"
     }
   ]
 }

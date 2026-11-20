@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "All human cultures mark the passing of time by the differences they observe in the world around them.",
         "Our choice of which differences to mark depends firstly on what we can observe and secondly on what is important in our lives.",

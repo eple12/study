@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "According to the Greek philosopher Diogenes, mastery of the self, or \"self-sufficiency,\" leads to both happiness and freedom but requires constant practice and training in the face of adversity.",
         "His uncompromising philosophy requires that one should abandon all property, possessions, family ties, and social values in order to minimize the distraction of \"illusory\" emotional and psychological attachments.",

@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "A coral reef is one of the most biologically diverse ecosystems on earth, rivaled only by tropical rain forests.",
         "The environment of the coral reef is formed over thousands of years by the life cycle of vast numbers of coral animals.",

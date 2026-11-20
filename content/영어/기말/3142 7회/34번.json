@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "A good way to understand the story invention process is to observe it firsthand.",
         "Unfortunately, when people create a new story, we have difficulty knowing exactly how they found the various pieces of the story they are telling.",

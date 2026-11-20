@@ -280,6 +280,24 @@ body.dragging { user-select: none; -webkit-user-select: none; cursor: grabbing; 
 .w { border-radius: 4px; cursor: pointer; transition: background .12s; }
 @media (hover: hover) { .w:hover { background: var(--line); } }
 .w.has { text-decoration: underline dotted var(--acc); text-underline-offset: .2em; text-decoration-thickness: 1.5px; }
+.w.noted { background: color-mix(in srgb, var(--mark) 55%, transparent); border-radius: 3px; }
+.w.noted.on { background: var(--mark); }
+[hidden] { display: none !important; }
+.qtag { margin: -4px 0 8px; font-size: 12px; font-weight: 600; color: var(--mute); }
+
+/* 포스트잇 메모: 접으면 문장 옆의 작은 쪽지, 펼치면 문장 아래에 내용이 보임 */
+.pn { --pit: #ffe58a; --pit-fg: #5b4700; display: inline-block; vertical-align: baseline; margin: 0 .25em; font-size: 13px; line-height: 1.4; word-break: keep-all; }
+@media (prefers-color-scheme: dark) { .pn { --pit: #5b4e14; --pit-fg: #ffe9a0; } }
+.pn-h { display: inline-flex; align-items: center; gap: 3px; max-width: 9.5em; padding: 1px 8px 1px 5px; border-radius: 6px 6px 6px 2px; background: var(--pit); color: var(--pit-fg); font-weight: 650; box-shadow: 0 1px 2px rgba(0, 0, 0, .15); }
+.pn-h .ic { width: 13px; height: 13px; stroke-width: 2.2; }
+.pn-q { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pn-b { display: none; }
+.pn.open { display: block; margin: .35em 0 .7em; font-size: .8em; }
+.pn.open .pn-h { max-width: 100%; border-radius: 6px 6px 0 0; }
+.pn.open .pn-b { display: flex; align-items: flex-start; gap: 6px; padding: 8px 4px 8px 12px; background: var(--pit); color: var(--pit-fg); border-radius: 0 8px 8px 8px; box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
+.pn-t { flex: 1; min-width: 0; line-height: 1.65; }
+.pn-e { flex: none; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; color: var(--pit-fg); opacity: .75; }
+.pn-e .ic { width: 16px; height: 16px; }
 .w.sel { background: var(--acc-bg); color: var(--acc); box-shadow: -2px 0 0 var(--acc-bg), 2px 0 0 var(--acc-bg); }
 body.lk #app { padding-bottom: calc(var(--lk, 0px) + 24px); }
 body.lk .panel { padding-bottom: calc(var(--lk, 0px) + 20px); }
@@ -308,6 +326,8 @@ body.lk .panel { padding-bottom: calc(var(--lk, 0px) + 20px); }
 .lk-bk { flex: none; max-width: 28%; padding: 0 10px; border: 1.5px solid var(--line); border-radius: 12px; font-size: 13px; color: var(--sub); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .btn.lk-sv { flex: none; width: 52px; height: 46px; padding: 0; border-radius: 12px; }
 .lk-sv.done { background: var(--ok); }
+.lk-note .ic { width: 19px; height: 19px; }
+.wn-t { font-weight: 650; font-size: 16px; }
 .toast { position: fixed; left: 50%; bottom: calc(90px + env(safe-area-inset-bottom)); z-index: 70; max-width: 90vw; padding: 10px 16px; border-radius: 99px; background: var(--fg); color: var(--bg); font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; opacity: 0; pointer-events: none; transform: translate(-50%, 10px); transition: opacity .2s, transform .2s; }
 .toast.in { opacity: 1; transform: translate(-50%, 0); }
 .sheet.over { z-index: 60; }

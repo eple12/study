@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "It would seem obvious that the more competent someone is, the more we will like that person.",
         "By \"competence,\" I mean a cluster of qualities: smartness, the ability to get things done, wise decisions, etc.",

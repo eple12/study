@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "34번 지문",
       "text": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "their opposite opinion becomes more and more dominant"
       ],
       "answer": 2,
-      "id": "1"
+      "id": "1",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when ＿＿＿＿＿＿＿＿."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular.",
         "Noelle-Neumann calls this the spiral of silence.",
@@ -66,8 +61,8 @@
       "answer": 2
     },
     {
+      "id": "ak25-14",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "Why Minority Perception Results in Silence",
@@ -76,7 +71,124 @@
         "Why the Public Opinion No Longer Reflects Reality",
         "The Hidden Power of Passive Agreement in Society"
       ],
-      "answer": 1
+      "answer": 1,
+      "explanation": "정답 ① 왜 소수라고 인식하는 것이 침묵을 초래하는가\n[해설]\n② 사회적 표현이 대중적 분열로 변할 때\n③ 정치적 발화를 장려하는 데 있어서 미디어의 역할\n④ 왜 대중 여론이 더 이상 현실을 반영하지 않는가\n⑤ 사회에서의 수동적 동의의 숨겨진 힘",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 14번"
+    },
+    {
+      "id": "ak25-37",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 people are more apt to do these kinds of things가 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "they express their beliefs courageously in spite of knowing their opinions are unpopular",
+        "they restrain themselves from speaking their true beliefs, keeping their opinions private",
+        "they express their fierce loyalty to the candidates or the political party during election campaigns",
+        "they express their opinions publicly, acknowledging that their views are being shared more actively",
+        "they critically accept the popular opinions and modify their own to align with mainstream views"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 그들이 자신들의 견해가 더 활발하게 공유되고 있음을 인식함에 따라, 그들은 자신들의 의견을 공개적으로 표현한다.\n[해설] 주어진 문장의 'these kinds of things'의 지칭 명사가 이전 문장의 사람들이 의견을 나타내는 다양한 방식의 예시이기 때문에 다른 이들 또한 자신들의 의견을 공유한다는 것을 인식했을 때 하는 행동이 그 의견들을 공개적으로 그리고 활발하게 표현한다는 것을 의미한다.\n① 그들은 자신의 의견이 인기가 없다는 것을 알면서도 용기 있게 신념을 표현한다.\n② 그들은 자신의 진정한 믿음을 말하는 것을 자제하고, 의견을 사적으로 유지한다.\n③ 그들은 선거 운동 기간 동안 후보자들이나 정당에 대해 맹렬한 충성심을 표현한다.\n⑤ 그들은 대중적인 의견을 비판적으로 수용하고 주류 견해에 맞추기 위해 자신들의 의견을 수정한다.",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, __people are more apt to do these kinds of things__ when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 37번"
+    },
+    {
+      "id": "ak25-61",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "People (A) their opinions only when they believe they are their view is widely shared, whereas those who see themselves as a minority tend to (B) their views, which gradually diminishes their visibility in public discourse.",
+      "choices": [
+        "expose / strengthen",
+        "voice / suppress",
+        "declare / defy",
+        "restrain / restore",
+        "highlight / expand"
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 사람들은 그들의 견해가 널리 공유된다고 믿을 때에만 그들의 의견을 (A) 소리내며, 반면에 자신들을 소수라고 보는 이들은 그들의 견해를 (B) 억누르려는 경향이 있고, 그 결과는 공적 담론 속에서 그 견해의 가시성이 서서히 줄어드는 것이다.\n[해설]\n① expose : 드러내다 / strengthen : 강화시키다\n③ declare : 선언하다 / defy : 반항하다\n④ restrain : 억누르다 / restore : 회복시키다\n⑤ highlight : 강조하다 / expand : 확장시키다",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 61번"
+    },
+    {
+      "id": "ak25-81",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. ① The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. ② This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. ③ In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. ④ Social media serves as a drive for the widespread transmission of these opinions. ⑤ According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 소셜 미디어는 이러한 의견의 널리 퍼진 전파에 원동력역할을 한다.\n[해설] 이 글은 독일 정치학자 Noelle-Neumann의 침묵의 나선에 대한 설명글로 사람들이 그들의 의견이 인기 있지 않다고 여길 때 그들의 의견에 대해서 이야기하는 것을 삼간다는 내용이다. ④번의소셜 미디어가 의견을 전파하는 원동력이라는 내용은 이 글과 무관하다.",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. Social media serves as a drive for the widespread transmission of these opinions. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 81번"
+    },
+    {
+      "id": "ak25-122",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\nwhereas / when / individuals / popular / those / think / remain / them / quiet / express / perceive\n<조건>\n- 주격관계대명사 who, 접속사 that 활용\n- <보기> 포함 총 23단어",
+      "context": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs (A) 자신들의 의견이 대중적이라고 인식하는 개인들은 그것들을 표현하지만, 자신들의 의견이 대중적이라고 생각하지 않는 개인들은 조용히 있을 때. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "answer": [
+        "when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet"
+      ],
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs (A) 자신들의 의견이 대중적이라고 인식하는 개인들은 그것들을 표현하지만, 자신들의 의견이 대중적이라고 생각하지 않는 개인들은 조용히 있을 때. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 122번"
+    },
+    {
+      "id": "ak25-123",
+      "type": "self",
+      "prompt": "다음과 같이 윗글의 주제문을 작성할 때, 주어진 철자로 시작하는 단어로 빈칸을 채워 전체 문장을 쓰시오.\nPeople r ＿＿＿＿＿＿ quiet when they b ＿＿＿＿＿＿ their unpopular opinions are not s ＿＿＿＿＿＿ by others.",
+      "context": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs (A) 자신들의 의견이 대중적이라고 인식하는 개인들은 그것들을 표현하지만, 자신들의 의견이 대중적이라고 생각하지 않는 개인들은 조용히 있을 때. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "answer": [
+        "People remain quiet when they believe their unpopular opinions are not shared by others."
+      ],
+      "explanation": "사람들은 자신들의 대중적이지 않은 의견이 다른 사람들과 공유되지 않을 때, 조용히 있는다.",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs (A) 자신들의 의견이 대중적이라고 인식하는 개인들은 그것들을 표현하지만, 자신들의 의견이 대중적이라고 생각하지 않는 개인들은 조용히 있을 때. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 123번"
+    },
+    {
+      "id": "ak25-153",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and ⓐ sometimes people muted their opinions rather than talking about it, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. ⓑ The spiral of silence occurs when individuals who perceive that their opinions are popular expressing them, ⓒ whereas those who do not think their opinions are popular remain quietly. ⓓ This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, ⓔ people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "answer": [
+        "ⓐ sometimes people muted their opinions rather than talking about them",
+        "ⓑ The spiral of silence occurs when individuals who perceive that their opinions are popular express them",
+        "ⓒ whereas those who do not think their opinions are popular remain quiet"
+      ],
+      "explanation": "정답: ⓐ, ⓑ, ⓒ\nⓐ sometimes people muted their opinions rather than talking about them\n- 대명사 일치\n  : them = their opinions\nⓑ The spiral of silence occurs when individuals who perceive that their opinions are popular express them\n- 동사 찾기\n: 현재분사는 동사의 역할을 할 수 없으며, 주어와 능동의 관계이고, 동사 'express'의 목적어가 있으므로 능동태가 적절하다.\n    when individuals [who perceive [that their opinions are\n             S              V1              S2       V2\n    popular]] express them\n       C        V     O\nⓒ whereas those who do not think their opinions are popular remain quiet\n- 형용사 보어\n  : 동사 'remain'의 보어 자리로 형용사가 적절하다.",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about it, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular expressing them, whereas those who do not think their opinions are popular remain quietly. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 153번"
+    },
+    {
+      "id": "ak25-178",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about it, especially if those opinions perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular to express them, whereas those who do not think their opinions are popular remaining quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive what others share their opinions.\n* apt: ~하는 경향이 있는",
+      "answer": [
+        "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about them, especially if those opinions were perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others share their opinions.\n* apt: ~하는 경향이 있는"
+      ],
+      "explanation": "수정 위치 (5곳): it, → them, / (없음) → were / to → (삭제) / remaining → remain / what → that",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people muted their opinions rather than talking about it, especially if those opinions perceived to be unpopular. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular to express them, whereas those who do not think their opinions are popular remaining quiet. This process occurs in a spiral, so that one side of an issue ends up with considerable publicity and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive what others share their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 178번"
+    },
+    {
+      "id": "ak25-203",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ m, ⓑ u, ⓒ q, ⓓ p, ⓔ s)",
+      "answer": [
+        "ⓐ muted",
+        "ⓑ unpopular",
+        "ⓒ quiet",
+        "ⓓ publicity",
+        "ⓔ share"
+      ],
+      "text": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people ⓐ {{muted}} their opinions rather than talking about them, especially if those opinions were perceived to be ⓑ {{unpopular}}. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain ⓒ {{quiet}}. This process occurs in a spiral, so that one side of an issue ends up with considerable ⓓ {{publicity}} and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others ⓔ {{share}} their opinions.\n* apt: ~하는 경향이 있는",
+      "view": "As a political researcher in Germany, Noelle-Neumann observed that during election campaigns, certain views seemed to get more play than others, and sometimes people ＿＿＿＿＿＿＿＿ their opinions rather than talking about them, especially if those opinions were perceived to be ＿＿＿＿＿＿＿＿. Noelle-Neumann calls this the spiral of silence. The spiral of silence occurs when individuals who perceive that their opinions are popular express them, whereas those who do not think their opinions are popular remain ＿＿＿＿＿＿＿＿. This process occurs in a spiral, so that one side of an issue ends up with considerable ＿＿＿＿＿＿＿＿ and the other side with very little. In everyday life, people express their opinions in a variety of ways: they talk about them, they wear buttons, they put bumper stickers on their cars, and they post their views on social media. According to this theory, people are more apt to do these kinds of things when they perceive that others ＿＿＿＿＿＿＿＿ their opinions.\n* apt: ~하는 경향이 있는",
+      "tag": "아잉카 변형 203번"
     }
   ]
 }

@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "32번 지문",
       "text": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially __enhance__ the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, __demands__ such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be __detached__ to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more __intricate__. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be __organized__'. Today, nobody is an expert in the whole of anything."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "researches across subjects have replaced isolated ones"
       ],
       "answer": 2,
-      "id": "1"
+      "id": "1",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, ＿＿＿＿＿＿＿＿."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others.",
         "And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary.",
@@ -68,17 +63,135 @@
       "answer": 5
     },
     {
+      "id": "ak25-12",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially ① enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, ② demands such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be ③ detached to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more ④ intricate. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be ⑤ organized'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
       "choices": [
-        "enhance",
-        "demands",
-        "detached",
-        "intricate",
-        "organized"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 3
+      "answer": 3,
+      "explanation": "정답 ③ detached (무심한) → dedicated (전념하는)\n[해설] 앞뒤 문장에서 몸을 개별적으로 나눠서 연구한다는 내용과 하나의 세포가 어떻게 서로 의사소통하는지에 대한 연구를 한다는 내용이 나온다. 따라서 연구자들은 한 종류의 과학적 도구나 몸의 한 가지 구체적인 종류 연구에 '전념'한다는 말이 적절하다.\n* 원문 변형\n원문\n② requires → demands\n④ complex → intricate\n⑤ manageable → organized",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, demands such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be detached to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more intricate. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be organized'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 12번"
+    },
+    {
+      "id": "ak25-35",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "context": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry ① which underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own ② specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another ③ become its own specialist topic. Even simple forms of life on Earth are now rarely ④ studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented ⑤ that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ become → becomes\n[해설] 동사의 수일치\n- 주어가 명사절 'how ~ one another'이므로 단수동사 'becomes'가 적절하다.\n* 원문변형\n원문 ① that → which",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry which underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another become its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 35번"
+    },
+    {
+      "id": "ak25-59",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others.\n\n(A) Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic.\n\n(B) And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary.\n\n(C) Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 2,
+      "explanation": "정답 ②\n[해설] 주어진 글은 신체에 대한 한 관점이 다른 관점을 향상시킬 수 있다고 말한다. 하지만 그렇게 하기에는 너무 많은 전문 지식이 필요하다는 점과 그렇기 때문에 신체를 분리해서 연구한다는 내용의 (B)가 나오고, 연구자들이 한 종류의 과학적 도구에, 또는 세포의 한 종류와 같이 몸의 구체적인 종류에 대해 연구를 한다는 내용의 (A)를 통해 (B)에 대해 추가로 설명한다. 그리고 오늘날에 전체에 대한 전문가가 없다는 (C)의 내용으로 마무리된다.",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others.\n\n(A) Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic.\n\n(B) And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary.\n\n(C) Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 59번"
+    },
+    {
+      "id": "ak25-79",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Although understanding the human body could (A) from integrating different perspectives, increasing specialization has made it (B) for anyone to grasp it as a whole.",
+      "choices": [
+        "suffer / possible",
+        "decline / difficult",
+        "benefit / impossible",
+        "arise / unnecessary",
+        "distract / impossible"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 비록 인체에 대한 이해가 다양한 관점을 통합함으로써\n(A) 이익을 얻을 수 있지만, 점점 심화되는 전문화로 인해 누구도 그것을 전체적으로 파악하기는 (B) 불가능하게 되었다.\n[해설]\n① suffer : 고통받다 / possible : 가능한\n② decline : 감소하다 / difficult : 어려운\n④ arise : 발생하다 / unnecessary : 불필요한\n⑤ distract : 산만하게 하다 / impossible : 불가능한",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 79번"
+    },
+    {
+      "id": "ak25-118",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<조건>\n- section, specialise, community 활용\n- 분사구문을 활용, 제시어 포함 총 11단어\n- 필요시 어형 변화",
+      "context": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, (A) 각각의 공동체가 그것 자신의 전문적인 어휘에 의해 나머지 다른 것들과는 구분된 채. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. (B) Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "answer": [
+        "each community sectioned from the others by its own specialised vocabulary"
+      ],
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, (A) 각각의 공동체가 그것 자신의 전문적인 어휘에 의해 나머지 다른 것들과는 구분된 채. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. (B) Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 118번"
+    },
+    {
+      "id": "ak25-119",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)가 의미하는 것을 우리말로 서술하시오.",
+      "context": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, (A) 각각의 공동체가 그것 자신의 전문적인 어휘에 의해 나머지 다른 것들과는 구분된 채. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. (B) Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "answer": [
+        "지식의 양이 너무 크고 전문적이 되어서, 현대 사회에서 어떤 한 사람이 모든 것을 통합적으로 이해하는 전문가가 될 수 없다."
+      ],
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, (A) 각각의 공동체가 그것 자신의 전문적인 어휘에 의해 나머지 다른 것들과는 구분된 채. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. (B) Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 119번"
+    },
+    {
+      "id": "ak25-151",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "ⓐ Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry what underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, ⓑ requires such depth of expertise where this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. ⓒ Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. ⓓ How different types of cell communicate with one another becoming its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'ⓔ had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "answer": [
+        "ⓐ Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities",
+        "ⓑ requires such depth of expertise that this tends not to happen",
+        "ⓓ How different types of cell communicate with one another becomes its own specialist topic"
+      ],
+      "explanation": "정답: ⓐ, ⓑ, ⓓ\nⓐ Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities\n- 관계대명사 + 불완전 문장\n: 명사 'the chemistry'를 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사가 적절하다.\nⓑ requires such depth of expertise that this tends not to happen\n- such ~ that ~\n  : such + a(an) + 형용사 + 명사 + that ~\nⓓ How different types of cell communicate with one another becomes its own specialist topic\n- 동사 찾기\n  : [How different types ~ with one another] becomes ~\n                      S                        V",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry what underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise where this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becoming its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 151번"
+    },
+    {
+      "id": "ak25-176",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requiring such depth of expertise which this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may dedicate to one type of scientific tool or a specific component of the body, such as one type of cell. What different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth is now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "answer": [
+        "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of expertise that this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서"
+      ],
+      "explanation": "수정 위치 (5곳): requiring → requires / which → that / dedicate → be dedicated / What → How / is → are",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially enhance the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requiring such depth of expertise which this tends not to happen: we tend to study the human body in silos, each community sectioned from the others by its own specialised vocabulary. Research communities may dedicate to one type of scientific tool or a specific component of the body, such as one type of cell. What different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth is now rarely studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too vast to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 176번"
+    },
+    {
+      "id": "ak25-201",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ e, ⓑ e, ⓒ s, ⓓ r, ⓔ v)",
+      "answer": [
+        "ⓐ enhance",
+        "ⓑ expertise",
+        "ⓒ sectioned",
+        "ⓓ rarely",
+        "ⓔ vast"
+      ],
+      "text": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially ⓐ {{enhance}} the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of ⓑ {{expertise}} that this tends not to happen: we tend to study the human body in silos, each community ⓒ {{sectioned}} from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now ⓓ {{rarely}} studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too ⓔ {{vast}} to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "view": "Just as an expert in the taste and colour of wine will gain much by being aware of the chemistry that underlies those qualities, so each perspective on the body can potentially ＿＿＿＿＿＿＿＿ the others. And yet every scientific tool, from microscopes to mathematics, and every aspect of the body, from the brain to the microorganism, requires such depth of ＿＿＿＿＿＿＿＿ that this tends not to happen: we tend to study the human body in silos, each community ＿＿＿＿＿＿＿＿ from the others by its own specialised vocabulary. Research communities may be dedicated to one type of scientific tool or a specific component of the body, such as one type of cell. How different types of cell communicate with one another becomes its own specialist topic. Even simple forms of life on Earth are now ＿＿＿＿＿＿＿＿ studied as a whole, and the human body is evidently much more complex. As long ago as 1890, The Times newspaper commented that knowledge 'had already become too ＿＿＿＿＿＿＿＿ to be manageable'. Today, nobody is an expert in the whole of anything.\n* in silos: 개별적으로 분리해서",
+      "tag": "아잉카 변형 201번"
     }
   ]
 }

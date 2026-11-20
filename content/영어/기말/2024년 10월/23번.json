@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "23번 지문",
       "text": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2024년 10월)",
-      "text": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance."
     }
   ],
   "questions": [
@@ -30,7 +24,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain.",
         "Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions.",
@@ -69,9 +63,8 @@
       "answer": 4
     },
     {
-      "id": "aingka-변형",
+      "id": "ak24-6",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 요지로 가장 적절한 것은?",
       "choices": [
         "Pleasure is the primary factor in determining our happiness, unrelated to pain.",
@@ -80,7 +73,61 @@
         "Our bodies try to experience pleasure often to eliminate pain, but this increases pain instead.",
         "Pleasure and pain are processed in the same area of the brain and depend on each other to maintain balance."
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "⑤ 쾌락과 고통은 같은 뇌 영역에서 처리되며, 균형을 유지하기 위해 서로 의존한다.\n[해설]\n① 쾌락은 고통과는 무관하게 우리의 행복을 결정하는 주요 요소이다.\n② 고통은 우리의 감정 상태와는 무관하며, 쾌락만이 삶의 질을 높인다.\n③ 쾌락과 고통은 서로 상반되는 면 때문에 공존할 수 없어서 하나는 다른 하나를 상쇄시킨다.\n④ 우리의 몸은 고통을 없애기 위해 쾌락을 자주 느끼려 하지만, 이는 오히려 고통을 증가시킨다.",
+      "view": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.",
+      "tag": "아잉카 변형 6번"
+    },
+    {
+      "id": "ak24-26",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "context": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, ① which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of ② surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and ③ keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand ④ that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable ⑤ is in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "⑤ is → are\n[해설]\n동사의 수일치\n- 'that절' 안에서 주어는 'being miserable'이 아닌 'our attempts'이기 때문에 동사의 수를 복수로 맞추어 'are'로 고쳐야 한다.",
+      "view": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable is in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.",
+      "tag": "아잉카 변형 26번"
+    },
+    {
+      "id": "ak24-48",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Pain and pleasure are (A), processed in the same brain area, and maintaining balance requires accepting pain to restore internal (B).",
+      "choices": [
+        "interwoven / happiness",
+        "unrelated / balance",
+        "interconnected / equilibrium",
+        "opposing / stability",
+        "interconnected / disharmony"
+      ],
+      "answer": 3,
+      "explanation": "③ 고통과 쾌락은 (A) 상호 연결된, 동일한 뇌 영역에서 처리되며, 균형을 유지하기 위해 고통을 받아들이는 것이 내적 (B) 균형을 회복하는 데 필요하다.\n[해설]\n① interwoven : 상호 연결된 / happiness : 행복\n② unrelated : 관련 없는 / balance : 균형\n④ opposing : 대립된 / stability : 안정\n⑤ interconnected : 상호 의존적인 / disharmony : 부조화",
+      "view": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain. Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance. If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\" Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.",
+      "tag": "아잉카 변형 48번"
+    },
+    {
+      "id": "ak24-68",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain.\n\n(A) If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\"\n\n(B) Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.\n\n(C) Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance.",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 4,
+      "explanation": "④\n[해설]\n주어진 글에서 언급한 고통과 쾌락이 같은 영역에서 형성되고 균형을 맞추려고 한다는 설명이 이어지는 (C)에서 다시 언급이 되고, 그 이후에 쾌락과 고통을 저울 위의 두 지점에 비유하는 (A)가 이어진다. 마지막으로 정신과 의사가 설명한 내용을 바탕으로 (A)의 \"No pain, no gain.\"을 뒷받침하고 있는 (B)가 이어지게 된다.",
+      "view": "Based on discoveries in neuroscience, pain and pleasure are formed and processed in the same area of the brain.\n\n(A) If you imagine pleasure and pain as the two opposite points on a scale, you can easily understand that as one of the two points rises, the other must correspondingly fall. We've all heard the expression, \"No pain, no gain.\"\n\n(B) Well, according to psychiatrist Dr. Anna Lembke, there may be some truth to these words. She says that our attempts to escape being miserable are in fact making us even more miserable. This is because pain is actually an essential component of our ability to maintain a neutral state, and allowing it will in turn reset our internal scale back to balance.\n\n(C) Our bodies constantly strive for homeostasis, which is defined as the balance of bodily functions. Without the body's effective compensatory mechanisms, which may cushion potential highs and lows, we would not be capable of surviving. Pleasure and pain are like two sides of the same coin; they seem to work together and are heavily reliant on one another and keep balance.",
+      "tag": "아잉카 변형 68번"
     }
   ]
 }

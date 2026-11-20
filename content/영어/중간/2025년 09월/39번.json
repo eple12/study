@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Paper's mechanical properties lend themselves to folding and bending.",
         "The cellulose fibers of which it is made can be partially snapped in the area of maximum bend, allowing a permanent crease to form, while sufficient fibers remain undamaged for the material not to crack and fall apart.",

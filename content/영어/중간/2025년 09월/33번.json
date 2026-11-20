@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Dictionary definitions are constantly revised to keep up with our changing uses and knowledge.",
         "In Roman times, \"addicts\" were people who were unable to pay their debts and gave themselves as slaves to their creditors.",

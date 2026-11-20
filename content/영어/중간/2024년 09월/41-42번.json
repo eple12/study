@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "What makes questioning authority so hard?",
         "The difficulties start in childhood, when parents ― the first and most powerful authority figures ― show children \"the way things are.\" This is a necessary element of learning language and socialization, and certainly most things learned in early childhood are noncontroversial: the English alphabet starts with A and ends with Z, the numbers 1 through 10 come before the numbers 11 through 20, and so on.",

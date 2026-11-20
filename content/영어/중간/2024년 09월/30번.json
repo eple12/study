@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The first human beings probably evolved in tropical regions where survival was possible without clothing.",
         "It is likely that they had very dark skin, because light skin would have given little protection against the burning rays of the sun.",

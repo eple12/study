@@ -38,7 +38,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Traditional logic and metaphysics are themselves in no better position to understand and solve the riddle of man.",
         "Rational, logical and metaphysical thought can comprehend only those objects which have a consistent nature and truth.",

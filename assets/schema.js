@@ -48,7 +48,7 @@ function question(q, e) {
       : /\{\{.+?\}\}/.test(str(q.text)) ? 'blank' : 'short';
   }
   if (!TYPES.includes(type)) return e(`알 수 없는 type "${q.type}"`);
-  const o = { type, prompt: str(q.prompt ?? q.question), context: str(q.context), explanation: str(q.explanation), passage: '', kind: str(q.kind).trim() };
+  const o = { type, prompt: str(q.prompt ?? q.question), context: str(q.context), explanation: str(q.explanation), passage: '', kind: str(q.kind).trim(), view: str(q.view), tag: str(q.tag).trim() };
 
   switch (type) {
     case 'choice': {
@@ -129,7 +129,7 @@ export function normalize(raw, path = '') {
 
   set.vocab = [...set.passages.flatMap(p => p.vocab), ...vocab(raw.vocab, 'vocab', err)];
 
-  const only = set.passages.length === 1 ? set.passages[0].id : '';
+  const dflt = set.passages[0]?.id || ''; // 지정 안 하면 첫 본문으로 (문제풀이 중 "본문 보기" 버튼이 항상 뜨도록)
   const qids = new Set();
   list(raw.questions).forEach((q, i) => {
     const e = m => err(`questions[${i}]: ${m}`);
@@ -141,7 +141,7 @@ export function normalize(raw, path = '') {
     if (q.passage != null) {
       if (ids.has(str(q.passage))) o.passage = str(q.passage);
       else e(`passage "${q.passage}"에 해당하는 본문 없음`);
-    } else o.passage = only;
+    } else o.passage = dflt;
     set.questions.push(o);
   });
 

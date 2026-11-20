@@ -35,7 +35,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Mathematics has been, is, and ever will be a current running almost unseen beneath the surface of our affairs.",
         "We should, however, be careful not to get carried away with the flow by attempting to extend its application beyond its remit.",

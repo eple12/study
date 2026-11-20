@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "37번 지문",
       "text": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore- and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects."
     }
   ],
   "questions": [
@@ -28,7 +22,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help.",
         "In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip.",
@@ -66,8 +60,8 @@
       "answer": 5
     },
     {
+      "id": "ak25-17",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 주제로 가장 적절한 것은?",
       "choices": [
         "the evolutionary advantages of nocturnal behavior in moths",
@@ -76,7 +70,124 @@
         "the importance of protecting insects that are active during both day and night",
         "common misconceptions about moths and butterflies and ways to distinguish them"
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "정답 ⑤ 나방과 나비에 대한 흔한 오해들과 그것들을 구분하는 방법\n[해설]\n① 나방의 야행성 행동이 지닌 진화적인 이점\n② 나방과 나비를 정확하기 분류하기 위한 과학적 방법들\n③ 나비가 나방보다 사람들에게 시각적으로 더 매력적인 이유\n④ 낮과 밤 모두에 활동하는 곤충들을 보호하는 것의 중요성",
+      "view": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 17번"
+    },
+    {
+      "id": "ak25-40",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Distinguishing moths from butterflies on outward appearance is not always ① easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held ② shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further ③ distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply ④ wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more ⑤ ridiculous to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ ridiculous (터무니없는) → sensible (합리적인)\n[해설] 밝은색을 가진 나방, 낮에도 활동하는 나방들이 많이 있고 마찬가지로 야행성 나비들, 갈색과 회색 조를 띠는 나비들도 많이 있기 때문에 나비와 나방을 따로 구분하려 하기보다는 함께 생각하는 것이 더 합리적이다.",
+      "view": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more ridiculous to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 40번"
+    },
+    {
+      "id": "ak25-64",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "While physical features can help (A) moths and butterflies, the traditional contrast between these two insects proves (B).",
+      "choices": [
+        "identify / valid",
+        "confuse / inaccurate",
+        "generalize / precise",
+        "identify / inaccurate",
+        "confuse / valid"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 신체적 특징들이 나방과 나비를 (A) 식별하는 데 도움이될 수 있지만, 이 두 곤충 간의 전통적인 대조는 (B) 부정확한 것으로 드러난다.\n[해설]\n① identify : 식별하다 / valid : 타당한\n② confuse : 혼동하다 / inaccurate : 부정확한\n③ generalize : 일반화하다 / precise : 정확한\n⑤ confuse : 혼동하다 / valid : 타당한",
+      "view": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 64번"
+    },
+    {
+      "id": "ak25-84",
+      "type": "choice",
+      "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to ＿＿＿＿＿＿＿＿; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "choices": [
+        "think of them together",
+        "ignore the color spectrum",
+        "prefer colourful moths more",
+        "understand evolutionary benefits",
+        "maintain the stereotypical differences"
+      ],
+      "answer": 1,
+      "explanation": "정답 ① 그들을 함께 묶어 생각한다\n[해설] 나방들도 밝은색을 가지거나 낮 동안 내내 활동적인 것들이 많이 있고, 나비의 경우에도 야행성인 나비들, 갈색과 회색 조를 띠는 나비들이 많이 있으므로 그들을 함께 묶어 생각하는 것이 더 합리적이라는 내용이 적절하다.\n② 색상의 스펙트럼을 무시한다\n③ 화려한 나방을 더 선호한다\n④ 진화적 이점을 이해한다\n⑤ 정형화된 차이들을 유지한다",
+      "view": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to ＿＿＿＿＿＿＿＿; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 84번"
+    },
+    {
+      "id": "ak25-128",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nmoths / whereas / with / the / of / upper / rest / usually / full / view / wings / more / sides / the / on",
+      "context": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, (A) 반면 나방들은 더 흔히 날개들의 윗면이 완전히 드러나는 상태로 쉰다. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. (B) 밝은색을 가진 나방들이 많고 낮 동안 내내 활동적인 나방들이 많이 있다. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "answer": [
+        "whereas moths more usually rest with the upper sides of the wings on full view"
+      ],
+      "view": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, (A) 반면 나방들은 더 흔히 날개들의 윗면이 완전히 드러나는 상태로 쉰다. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. (B) 밝은색을 가진 나방들이 많고 낮 동안 내내 활동적인 나방들이 많이 있다. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 128번"
+    },
+    {
+      "id": "ak25-129",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\nbright / moth / colour / active / throughout\n<조건>\n- 유도부사 there, 분사, 관계대명사 which 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 14단어",
+      "context": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, (A) 반면 나방들은 더 흔히 날개들의 윗면이 완전히 드러나는 상태로 쉰다. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. (B) 밝은색을 가진 나방들이 많고 낮 동안 내내 활동적인 나방들이 많이 있다. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "answer": [
+        "There are many brightly coloured moths and many which are active throughout the day."
+      ],
+      "view": "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, (A) 반면 나방들은 더 흔히 날개들의 윗면이 완전히 드러나는 상태로 쉰다. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. (B) 밝은색을 가진 나방들이 많고 낮 동안 내내 활동적인 나방들이 많이 있다. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 129번"
+    },
+    {
+      "id": "ak25-156",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "ⓐ Distinguishing moths from butterflies on outward appearance are not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. ⓑ Butterflies tend to rest with their wings holding shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. ⓒ Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. ⓓ There are many brightly coloured moths and many which are active throughout the day. Equally, ⓔ there are a few nocturnal butterflies and plenty what come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "answer": [
+        "ⓐ Distinguishing moths from butterflies on outward appearance is not always easy",
+        "ⓑ Butterflies tend to rest with their wings held shut above their body",
+        "ⓔ there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey"
+      ],
+      "explanation": "정답: ⓐ, ⓑ, ⓔ\nⓐ Distinguishing moths from butterflies on outward appearance is not always easy\n- 주어 동사 수일치\n  : 동명사구 주어에 맞춰 단수 동사가 적절하다\n   [Distinguishing moths ~ appearance] is ~\n          S                            V\nⓑ Butterflies tend to rest with their wings held shut above their body\n- with 분사구문 (with + (대)명사 + 능동: ~ing / 수동: p.p)\n: 부대상황을 나타내는 분사구문으로 'with'뒤의 명사와 분사의 관계가 능동이면 현재분사, 수동이면 과거분사를 사용한다.\n    with their wings held shut  ~\nⓔ there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey\n- 주격 관계대명사 후치 수식 + 불완전 문장\n: 선행사 'plenty'을 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사가 적절하다.",
+      "view": "Distinguishing moths from butterflies on outward appearance are not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings holding shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty what come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 156번"
+    },
+    {
+      "id": "ak25-181",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 4개)",
+      "context": "Distinguish moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings holding shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can make by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths casting as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "answer": [
+        "Distinguishing moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의"
+      ],
+      "explanation": "수정 위치 (4곳): Distinguish → Distinguishing / holding → held / make → be made / casting → cast",
+      "view": "Distinguish moths from butterflies on outward appearance is not always easy, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings holding shut above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can make by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The stereotypical differences, with moths casting as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply wrong. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more sensible to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 181번"
+    },
+    {
+      "id": "ak25-206",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ e, ⓑ s, ⓒ s, ⓓ w, ⓔ s)",
+      "answer": [
+        "ⓐ easy",
+        "ⓑ shut",
+        "ⓒ stereotypical",
+        "ⓓ wrong",
+        "ⓔ sensible"
+      ],
+      "text": "Distinguishing moths from butterflies on outward appearance is not always ⓐ {{easy}}, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held ⓑ {{shut}} above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The ⓒ {{stereotypical}} differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply ⓓ {{wrong}}. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more ⓔ {{sensible}} to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "view": "Distinguishing moths from butterflies on outward appearance is not always ＿＿＿＿＿＿＿＿, but there are a few rules of thumb that can help. In most butterflies the antennae end with a small club-shaped swelling, whereas in moths they are usually feathery or narrow to a fine tip. Butterflies tend to rest with their wings held ＿＿＿＿＿＿＿＿ above their body, whereas moths more usually rest with the upper sides of the wings on full view. Further distinctions can be made by looking for a tiny hook that joins fore and hindwings, a feature only present in moths. The ＿＿＿＿＿＿＿＿ differences, with moths cast as the gloomy, nocturnal cousins of colourful sun-loving butterflies are simply ＿＿＿＿＿＿＿＿. There are many brightly coloured moths and many which are active throughout the day. Equally, there are a few nocturnal butterflies and plenty that come clothed in shades of brown and grey. It's more ＿＿＿＿＿＿＿＿ to think of them together; both butterflies and moths are beautiful and fascinating insects.\n* nocturnal: 야행성의 ** club-shaped: 곤봉 모양의",
+      "tag": "아잉카 변형 206번"
     }
   ]
 }

@@ -37,7 +37,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "The term \"anchoring\" was introduced by Roland Barthes who observed that text is often used next to images (his focus was on photographs) to confine meaning.",
         "Of all possible literal or implied interpretations an image could elicit, text would point the viewer towards a desired, specific direction.",

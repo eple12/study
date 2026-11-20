@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "23번 지문",
       "text": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not."
     }
   ],
   "questions": [
@@ -30,7 +24,7 @@
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it.",
         "The theories of Newton and Einstein offer great examples.",
@@ -68,8 +62,8 @@
       "answer": 2
     },
     {
+      "id": "ak25-6",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "What Makes a Scientific Theory Truly Great?",
@@ -78,7 +72,124 @@
         "On the Shoulders of Giants: How New Theories Are Built",
         "The End of Theory: When Observations Defy Explanation"
       ],
-      "answer": 4
+      "answer": 4,
+      "explanation": "정답 ④ 거인의 어깨 위에: 새로운 이론들이 어떻게 구축되는가\n[해설]\n① 진정으로 위대한 과학 이론을 만드는 것은 무엇인가?\n② 중력: 우주의 풀리지 않는 미스터리\n③ 뉴턴 대 아인슈타인: 궁극의 과학 대결\n⑤ 이론의 종말: 관찰이 설명을 거부할 때",
+      "view": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 6번"
+    },
+    {
+      "id": "ak25-26",
+      "type": "choice",
+      "prompt": "(A), (B), (C)의 각 괄호 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+      "context": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence (A) [what / that] supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not (B) [have gained / have been gained] acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms (C) [which / where] Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "choices": [
+        "what / have gained / which",
+        "that / have gained / where",
+        "what / have been gained / which",
+        "that / have gained / which",
+        "that / have been gained / where"
+      ],
+      "answer": 2,
+      "explanation": "정답 ②\n[해설]\n(A) 형용사절 vs 명사절\n- 선행사 'evidence'를 수식하며, 뒤어 주어가 없는 불완전한 문장이 이어지므로, 주격관계대명사 'that'이 적절하다.\n(B) 능동 vs 수동\n- 뒤에 목적어 'acceptance'가 있으므로 능동태인 'have gained'가 적절하다.\n(C) 관계대명사 vs 관계부사\n- 선행사 'new realms'를 수식하며 뒤에 완전한 문장이 오므로 관계부사가 적절하다.",
+      "view": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence (A) [what / that] supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not (B) [have gained / have been gained] acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms (C) [which / where] Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 26번"
+    },
+    {
+      "id": "ak25-53",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "For a new scientific theory to gain acceptance, it must not only address the (A) of the existing theory but also (B) its established successes.",
+      "choices": [
+        "origins / challenge",
+        "predictions / disregard",
+        "flaws / incorporate",
+        "reputations / question",
+        "flaws / overlook"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 새로운 과학 이론이 수용되기 위해서는, 기존 이론의 (A) 결함을 다룰 뿐만 아니라, 기존 이론의 확립된 성공들을 (B) 통합해야 한다.\n[해설]\n① origins : 기원 / challenge : 도전하다\n② predictions : 예측 / disregard : 무시하다\n④ reputations : 평판 / question : 이의를 제기하다\n⑤ flaws : 결함 / overlook : 간과하다",
+      "view": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 53번"
+    },
+    {
+      "id": "ak25-73",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. ① These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. ② Many scientists at that time also debated how artistic creativity could be connected to scientific imagination. ③ Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. ④ It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. ⑤ Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 당시 많은 과학자들은 예술적 창의성이 과학적 상상력과어떻게 연결될 수 있는지를 두고 논의하기도 했다.\n[해설] 이 글은 과학 이론의 발전과 교체 과정을 설명하고 있다. 예술적 창의성과 과학의 관계는 이론 검증과 수용과 논리적으로 연결되지 않아 흐름을 깨는 문장이므로 이 글과 무관하다.",
+      "view": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Many scientists at that time also debated how artistic creativity could be connected to scientific imagination. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 73번"
+    },
+    {
+      "id": "ak25-100",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<조건>\n- discard, replace, explain, support를 모두 활용할 것\n- 접속사 only if를 사용할 것\n- 관계대명사 that을 포함하여 총 22단어로 작성할 것\n- 필요시 어형 변화 가능",
+      "context": "(A) 단지 우리가 그것을 뒷받침하는 증거를 설명 하는 더 나은 방법이 있을 때에만 우리는 과학 이론을 버리거나 대신할 수 있다. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and (B) 아인슈타인의 이론이 만약 이러한 성과를 똑같이 잘 설명할 수 없었다면 인정을 받지 못했을 것이다. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "answer": [
+        "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it."
+      ],
+      "view": "(A) 단지 우리가 그것을 뒷받침하는 증거를 설명 하는 더 나은 방법이 있을 때에만 우리는 과학 이론을 버리거나 대신할 수 있다. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and (B) 아인슈타인의 이론이 만약 이러한 성과를 똑같이 잘 설명할 수 없었다면 인정을 받지 못했을 것이다. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 100번"
+    },
+    {
+      "id": "ak25-101",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nif / acceptance / not / have / gained / been / equally / explain / well / it / to / had / not / able / these / successes / Einstein's theory / would",
+      "context": "(A) 단지 우리가 그것을 뒷받침하는 증거를 설명 하는 더 나은 방법이 있을 때에만 우리는 과학 이론을 버리거나 대신할 수 있다. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and (B) 아인슈타인의 이론이 만약 이러한 성과를 똑같이 잘 설명할 수 없었다면 인정을 받지 못했을 것이다. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "answer": [
+        "Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well"
+      ],
+      "view": "(A) 단지 우리가 그것을 뒷받침하는 증거를 설명 하는 더 나은 방법이 있을 때에만 우리는 과학 이론을 버리거나 대신할 수 있다. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and (B) 아인슈타인의 이론이 만약 이러한 성과를 똑같이 잘 설명할 수 없었다면 인정을 받지 못했을 것이다. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 101번"
+    },
+    {
+      "id": "ak25-145",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "We can discard or replace a scientific theory ⓐ only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century ⓑ scientists had begun to discover cases which its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, ⓒ which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and ⓓ Einstein's theory would not gain acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as ⓔ work in new realms where Einstein's theory is not.\n* discrepancy: 불일치 ** realm: 영역",
+      "answer": [
+        "ⓑ scientists had begun to discover cases where its predictions did not perfectly match observations",
+        "ⓓ Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well.",
+        "ⓔ work in new realms where Einstein's theory does not"
+      ],
+      "explanation": "정답: ⓑ, ⓓ, ⓔ\nⓑ scientists had begun to discover cases where its predictions did not perfectly match observations\n- 관계부사 + 완전한 문장\n: 명사 'cases'를 수식하며, 뒤에 완전한 문장이 오므로 관계부사가 적절하다.\nⓓ Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well.\n- 가정법 과거완료 if S + had p.p, S + 조동사과거 + have p.p\nEinstein's theory would not have gained acceptance if it had not been able to explain ~\nⓔ work in new realms where Einstein's theory does not\n- 생략\n: 일반동사 'work'의 부정문인 'does not work'에서 'work'가 생략된 구조이다.",
+      "view": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases which its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not gain acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory is not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 145번"
+    },
+    {
+      "id": "ak25-167",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases which its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, it was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not gain acceptance if it had not been able to explain these successes equally well. It did, and that is what we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory is not.\n* discrepancy: 불일치 ** realm: 영역",
+      "answer": [
+        "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes equally well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역"
+      ],
+      "explanation": "수정 위치 (5곳): which → where / it → which / gain → have gained / what → why / is → does",
+      "view": "We can discard or replace a scientific theory only if we have a better way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to discover cases which its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, it was able to match the observations. Still, the many successes of Newton's theory could not be ignored, and Einstein's theory would not gain acceptance if it had not been able to explain these successes equally well. It did, and that is what we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains acceptance, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory is not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 167번"
+    },
+    {
+      "id": "ak25-192",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ b, ⓑ d, ⓒ i, ⓓ e, ⓔ a)",
+      "answer": [
+        "ⓐ better",
+        "ⓑ discover",
+        "ⓒ ignored",
+        "ⓓ equally",
+        "ⓔ acceptance"
+      ],
+      "text": "We can discard or replace a scientific theory only if we have a ⓐ {{better}} way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to ⓑ {{discover}} cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ⓒ {{ignored}}, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes ⓓ {{equally}} well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains ⓔ {{acceptance}}, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "view": "We can discard or replace a scientific theory only if we have a ＿＿＿＿＿＿＿＿ way of explaining the evidence that supports it. The theories of Newton and Einstein offer great examples. A vast body of evidence supports Newton's theory of gravity, but by the late nineteenth century scientists had begun to ＿＿＿＿＿＿＿＿ cases where its predictions did not perfectly match observations. These discrepancies were explained only when Einstein developed his general theory of relativity, which was able to match the observations. Still, the many successes of Newton's theory could not be ＿＿＿＿＿＿＿＿, and Einstein's theory would not have gained acceptance if it had not been able to explain these successes ＿＿＿＿＿＿＿＿ well. It did, and that is why we now view Einstein's theory as a broader theory of gravity than Newton's theory. Some scientists today are seeking a theory of gravity that will go beyond Einstein's. If any new theory ever gains ＿＿＿＿＿＿＿＿, it will have to match all the successes of Einstein's theory as well as work in new realms where Einstein's theory does not.\n* discrepancy: 불일치 ** realm: 영역",
+      "tag": "아잉카 변형 192번"
     }
   ]
 }

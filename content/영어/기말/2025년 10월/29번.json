@@ -6,12 +6,6 @@
       "id": "p1",
       "title": "29번 지문",
       "text": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type, neutral changes, may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully."
-    },
-    {
-      "id": "p2",
-      "title": "아잉카 변형문제",
-      "source": "아잉카 변형문제 (2025년 10월)",
-      "text": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type, neutral changes, may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully."
     }
   ],
   "questions": [
@@ -27,11 +21,12 @@
         "⑤"
       ],
       "answer": 5,
-      "id": "1"
+      "id": "1",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type, neutral changes, may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes give organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully."
     },
     {
       "type": "order",
-      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오. (순서배열·문장삽입 동시 훈련용)",
+      "prompt": "다음 문장들을 논리적 흐름에 맞게 순서대로 배열하시오.",
       "items": [
         "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell.",
         "On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects.",
@@ -68,8 +63,8 @@
       "answer": 4
     },
     {
+      "id": "ak25-9",
       "type": "choice",
-      "passage": "p2",
       "prompt": "다음 글의 제목으로 가장 적절한 것은?",
       "choices": [
         "Mutation: Always for the Better",
@@ -78,7 +73,123 @@
         "Why Does Organisms Prefer Familiar Environment?",
         "How Evolution Works: Relentless Mutation and Natural Selection"
       ],
-      "answer": 5
+      "answer": 5,
+      "explanation": "정답 ⑤ 진화는 어떻게 작용하는가: 끊임없는 돌연변이와 자연 선택\n[해설]\n① 돌연변이: 항상 더 나은 방향으로\n② 연속적인 돌연변이의 대가\n③ 경쟁 우위의 중요성\n④ 왜 생물들은 익숙한 환경을 선호할까?",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 9번"
+    },
+    {
+      "id": "ak25-32",
+      "type": "choice",
+      "prompt": "다음 글의 목적으로 가장 적절한 것은?",
+      "choices": [
+        "to warn about the dangers of genetic mutations in cell division",
+        "to describe the various types of errors that occur during cell reproduction",
+        "to argue that beneficial mutations are the primary driver of species survival",
+        "to demonstrate the superiority of natural selection over other evolutionary theories",
+        "to explain how evolution occurs through genetic mutation and natural selection"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 유전적 돌연변이와 자연 선택을 통해 진화가 어떻게 일어나는지 설명하기 위해\n[해설]\n① 세포 분열에서 유전적 돌연변이의 위험성에 대해 경고하기 위해\n② 세포 번식 중 발생하는 다양한 오류 유형을 묘사하기 위해\n③ 유리한 돌연변이가 종의 생존을 위한 주요 동력임을 주장하기 위해\n④ 자연 선택이 다른 진화 이론들보다 우월함을 입증하기 위해",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 32번"
+    },
+    {
+      "id": "ak25-56",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny.\n\nWhen a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. ( ① ) On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. ( ② ) But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. ( ③ ) Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. ( ④ ) Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. ( ⑤ ) Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤\n[해설] 이 글은 세포가 분열할 때 딸세포들 사이, 혹은 딸세포와 모세포 사이의 유전체가 완전히 일치하지 않을 수 있으며, 이때 발생하는 오류는 드물게 더 나은 변화를 초래하는 경우, 중립적인 영향을 주는 경우, 경우에 따라 심각한 손상을 초래하는 경우라고 설명하고 있다. ③번 문장에 첫 번째 유형인 더 나은 변화를 초래하는 경우, ④번 문장에 두 번째 유형인 중립적인 변화들을 설명하고 있으므로 마지막 사례인 심각한 손상을 초래하는 경우는 ⑤ 번에 위치하는 것이 적절하다.",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 56번"
+    },
+    {
+      "id": "ak25-76",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Organisms evolve as (A) genetic changes are passed on through reproduction, (B) changes are removed by death, and neutral changes survive by chance.",
+      "choices": [
+        "helpful / harmful",
+        "rare / common",
+        "significant / minor",
+        "beneficial / neutral",
+        "gradual / damaging"
+      ],
+      "answer": 1,
+      "explanation": "정답 ① 생물은 (A) 유익한 유전적 변화가 번식을 통해 전달되고,\n(B) 해로운 변화는 죽음으로 제거되며, 중립적 변화는 우연히 살아남으면서 진화한다.\n[해설]\n② rare : 드문 / common : 일반적인\n③ significant : 중요한 / minor : 사소한\n④ beneficial : 유익한 / neutral : 중립적인\n⑤ gradual : 점진적인 / damaging : 해로운",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 76번"
+    },
+    {
+      "id": "ak25-112",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nthe parent cell / quite / the genomes / identical / to / each other / its / that / to / are / not / two / daughters / of / often / or / of",
+      "context": "When a cell divides, (A) 그것의 두 딸세포들의 유전체들은 종종 서로 간에도, 또는 모세포의 그것과도 완전히 일치하지는 않는다. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. (B) 이러한 '돌연변이'와 '자연 선택'의 순환의 끊임없는 반복을 통해 유기체들은 진화한다: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "answer": [
+        "the genomes of its two daughters are often not quite identical to each other or to that of the parent cell"
+      ],
+      "view": "When a cell divides, (A) 그것의 두 딸세포들의 유전체들은 종종 서로 간에도, 또는 모세포의 그것과도 완전히 일치하지는 않는다. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. (B) 이러한 '돌연변이'와 '자연 선택'의 순환의 끊임없는 반복을 통해 유기체들은 진화한다: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 112번"
+    },
+    {
+      "id": "ak25-113",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nrepetition / mutation / of / evolve / through / of / this / natural selection / cycle / organisms / and / endless",
+      "context": "When a cell divides, (A) 그것의 두 딸세포들의 유전체들은 종종 서로 간에도, 또는 모세포의 그것과도 완전히 일치하지는 않는다. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. (B) 이러한 '돌연변이'와 '자연 선택'의 순환의 끊임없는 반복을 통해 유기체들은 진화한다: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "answer": [
+        "Through endless repetition of this cycle of mutation and natural selection organisms evolve"
+      ],
+      "view": "When a cell divides, (A) 그것의 두 딸세포들의 유전체들은 종종 서로 간에도, 또는 모세포의 그것과도 완전히 일치하지는 않는다. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. (B) 이러한 '돌연변이'와 '자연 선택'의 순환의 끊임없는 반복을 통해 유기체들은 진화한다: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 113번"
+    },
+    {
+      "id": "ak25-148",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 문장을 찾아 올바른 문장으로 고쳐 쓰시오. (틀린 문장 3개: 번호와 수정안)",
+      "context": "When a cell divides, ⓐ the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because ⓑ the altered cell has an increased likelihood of reproducing it. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: ⓒ it is a matter of chance whether the altered cell or its cousins will succeed. But ⓓ changes that cause serious damage leads nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes ⓔ giving organisms new ways to exploit the environment more effective, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "answer": [
+        "ⓑ the altered cell has an increased likelihood of reproducing itself",
+        "ⓓ changes that cause serious damage lead nowhere",
+        "ⓔ giving organisms new ways to exploit the environment more effectively"
+      ],
+      "explanation": "정답: ⓑ, ⓓ, ⓔ\nⓑ the altered cell has an increased likelihood of reproducing itself\n- 재귀대명사 (재귀 용법)\n: 목적어 자리에 명사 또는 대명사가 필요하며, 주어와 목적어가 동일하므로 재귀대명사가 적절하다.\nⓓ changes that cause serious damage lead nowhere\n- 주어 동사 수일치\n  : 주어 'changes'에 맞춰 복수 동사가 적절하다.\n   changes [that cause serious damage] lead nowhere\n      S                                 V\nⓔ giving organisms new ways to exploit the environment more effectively\n- 부사\n  : to 부정사 'to exploit'를 수식하는 부사가 적절하다.",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing it. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage leads nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effective, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 148번"
+    },
+    {
+      "id": "ak25-173",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "When a cell divides, the genomes of its two daughters are often not quite identically to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, due to the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance what the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, left no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes given organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "answer": [
+        "When a cell divides, the genomes of its two daughters are often not quite identical to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손"
+      ],
+      "explanation": "수정 위치 (5곳): identically → identical / due to → because / what → whether / left → leaving / given → giving",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite identically to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, due to the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of chance what the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, left no progeny. Through endless repetition of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes given organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 173번"
+    },
+    {
+      "id": "ak25-198",
+      "type": "blank",
+      "prompt": "다음 글의 빈칸에 들어갈 알맞은 단어를 쓰시오. (첫 글자 힌트: ⓐ i, ⓑ d, ⓒ l, ⓓ c, ⓔ r)",
+      "answer": [
+        "ⓐ identical",
+        "ⓑ difference",
+        "ⓒ likelihood",
+        "ⓓ chance",
+        "ⓔ repetition"
+      ],
+      "text": "When a cell divides, the genomes of its two daughters are often not quite ⓐ {{identical}} to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant ⓑ {{difference}} in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased ⓒ {{likelihood}} of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of ⓓ {{chance}} whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless ⓔ {{repetition}} of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "view": "When a cell divides, the genomes of its two daughters are often not quite ＿＿＿＿＿＿＿＿ to each other or to that of the parent cell. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant ＿＿＿＿＿＿＿＿ in the cell's prospects. But in some cases, the error will cause serious damage; for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased ＿＿＿＿＿＿＿＿ of reproducing itself. Changes due to mistakes of the second type ― neutral changes ― may be perpetuated or not: it is a matter of ＿＿＿＿＿＿＿＿ whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless ＿＿＿＿＿＿＿＿ of this cycle of mutation and natural selection organisms evolve: their genetic specifications change, sometimes giving organisms new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully.\n* perpetuate: 영속시키다 ** progeny: 자손",
+      "tag": "아잉카 변형 198번"
     }
   ]
 }
