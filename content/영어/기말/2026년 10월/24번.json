@@ -62,7 +62,7 @@
       "answer": 1
     },
     {
-      "id": "ak26-25",
+      "id": "ak26-s01-25",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "(A) [ Consistently / Consistent ] though he may be, some of Aristotle's ideas meet us today as (ㄱ) [ familiar / strange ]. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers (B) [ considered / were considered ] worthy to have all the best things in life. Somehow that assertion seems oddly (ㄴ) [ self-serving / altruistic ]. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as (ㄷ) [ inclusive / exclusive ] as we would want it to be today. (C) [ How / What ] he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
@@ -76,10 +76,10 @@
       "answer": 2,
       "explanation": "(A) 보어의 도치\n- 양보를 나타내는 'though'절에서 be의 주격 보어가 문두로 이동하면 도치가 일어난다.\n(B) 수동태\n- 주어 'philosophers'와 수동의 관계이고, 동사 'considered'의 목적어가 없으므로 수동태가 적절하다.\n(C) 간접의문문 (의문부사 + 완전한 문장)\n- 의문부사 'how, when, why, where'은 완전한 문장을 수반하고, 의문대명사 'what, which, who'는 그 자체로 명사의 역할을 하므로 불완전한 문장을 수반한다. 완전한 문장이 오므로 'how'가 적절하다.",
       "view": "(A) [ Consistently / Consistent ] though he may be, some of Aristotle's ideas meet us today as (ㄱ) [ familiar / strange ]. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers (B) [ considered / were considered ] worthy to have all the best things in life. Somehow that assertion seems oddly (ㄴ) [ self-serving / altruistic ]. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as (ㄷ) [ inclusive / exclusive ] as we would want it to be today. (C) [ How / What ] he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
-      "tag": "아잉카 변형 25번"
+      "tag": "아잉카 변형 Step01 25번"
     },
     {
-      "id": "ak26-26",
+      "id": "ak26-s01-26",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "(A) [ Consistently / Consistent ] though he may be, some of Aristotle's ideas meet us today as (ㄱ) [ familiar / strange ]. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers (B) [ considered / were considered ] worthy to have all the best things in life. Somehow that assertion seems oddly (ㄴ) [ self-serving / altruistic ]. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as (ㄷ) [ inclusive / exclusive ] as we would want it to be today. (C) [ How / What ] he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
@@ -93,10 +93,10 @@
       "answer": 1,
       "explanation": "(ㄱ) 아리스토텔레스의 생각 중 일부는 오늘날의 관점에서 보면 낯설어 보이며 그 예로 노예 제도 정당화를 보여주고 있으므로, 'strange'가 적절하다. 'familiar'는 '익숙한'이라는 의미이다.\n(ㄴ) 철학자들이 삶의 모든 좋은 것을 누릴 자격이 있다는 주장은 자신들의 이익만을 챙기는 것처럼 보인다는 것을 의미하므로, '자기 잇속만 차리는'이라는 의미의 'self-serving'이 적절하다. 'altruistic'은 '이타적인'이라는 의미이다.\n(ㄷ) 그의 인간 번영에 대한 이해는 특권 엘리트 계층에 국한되었을 것이므로, 오늘날 우리가 원하는 만큼 '포용적이지' 않았을 것이라는 내용이므로 'inclusive'가 적절하다. 'exclusive'는 '배타적인'이라는 의미이다.",
       "view": "(A) [ Consistently / Consistent ] though he may be, some of Aristotle's ideas meet us today as (ㄱ) [ familiar / strange ]. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers (B) [ considered / were considered ] worthy to have all the best things in life. Somehow that assertion seems oddly (ㄴ) [ self-serving / altruistic ]. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as (ㄷ) [ inclusive / exclusive ] as we would want it to be today. (C) [ How / What ] he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
-      "tag": "아잉카 변형 26번"
+      "tag": "아잉카 변형 Step01 26번"
     },
     {
-      "id": "ak26-27",
+      "id": "ak26-s01-27",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -112,10 +112,10 @@
       ],
       "explanation": "이 글은 아리스토텔레스의 사상이 그 시대의 특권 엘리트의 관점을 반영하여 현대적 기준에서 한계를 지닌다는 내용으로, 그의 인간 번영 개념이 현대적 포용성의 기대를 충족한다고 서술한 ④번 보기와, 옳음과 선에 대한 그의 견해가 고대 그리스 사회 전체의 관점을 반영한다고 서술한 ⑤번 보기는 글의 내용과 일치하지 않는다.\n① 아리스토텔레스는 노예 제도를 옹호하는 데 거의 어려움을 겪지 않았다.\n② 그의 시대에 철학자들은 상당한 명망과 영향력을 지닌 지위를 차지했다.\n③ 아리스토텔레스의 사상은 그가 살았던 시대의 역사적 상황에 의해 형성되었다.\n④ 아리스토텔레스의 인간 번영에 관한 설명은 포용성에 대한 현대적 기대를 충족한다.\n⑤ 옳음과 선에 대한 그의 이해는 고대 그리스 사회 전체의 관점을 반영했다.",
       "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
-      "tag": "아잉카 변형 27번"
+      "tag": "아잉카 변형 Step01 27번"
     },
     {
-      "id": "ak26-28",
+      "id": "ak26-s01-28",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "Although Aristotle's thought has its merits, it was deeply (A) ＿＿＿＿＿＿ by its historical context, making some of his views ethically (B) ＿＿＿＿＿＿ by modern standards.",
@@ -129,7 +129,175 @@
       "answer": 3,
       "explanation": "아리스토텔레스의 사상에는 장점이 있지만, 그것은 역사적 맥락에 의해 깊이 (A) 형성되었으며, 이 때문에 그의 견해 중 일부는 현대적 기준에서 윤리적으로 (B) 의문스러운 것이 된다.\n이 글은 아리스토텔레스의 사상이 장점에도 불구하고 시대적·계층적 한계를 지니며, 그의 도덕관이 역사적 맥락에 의해 형성되었고, 일부 견해는 현대적 기준에서 윤리적으로 의문스럽다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'shaped'가, (B)에는 'questionable'이 들어가는 것이 가장 적절하다.\n① shaped : 형성된 / universal : 보편적인\n② challenged : 도전받은 / perfect : 완벽한\n④ challenged : 도전받은 / questionable : 의심스러운\n⑤ influenced : 영향받은 / universal : 보편적인",
       "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
-      "tag": "아잉카 변형 28번"
+      "tag": "아잉카 변형 Step01 28번"
+    },
+    {
+      "id": "ak26-s2-7",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 every great thinker is of her own time and speaks to a particular audience 가 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "a thinker's outlook is shaped by their era and audience",
+        "the ideas of great thinkers possess timeless and universal truth",
+        "a thinker's popularity is determined by their communication skills",
+        "modern audiences cannot truly understand the works of past philosophers",
+        "a thinker communicates with a specific group of people during their lifetime"
+      ],
+      "answer": 1,
+      "explanation": "사상가의 관점은 그가 속한 시대와 청중의 영향을 받아 형\n성된다\n밑줄 친 '모든 위대한 사상가는 그들 자신만의 시대에 속해 있고 특정한 청중들에게 말한다'는 사상가의 관점이 그가 살아간 시대의 사회적 가치와 그가 대상으로 삼은 청중의 영향을 받아 형성된다는 것을 의미한다. Aristotle의 사상이 당시 특권층의 시각을 반영한다는 설명은 이러한 시대적·사회적 한계를 보여준다. 따라서 밑줄 친 부분이 의미하는 바로 가장 적절한 것은 '사상가의 관점은 그가 속한 시대와 청중의 영향을 받아 형성된다'이다.\n② 위대한 사상가들의 사상은 시대를 초월한 보편적 진리를 지닌다\n③ 사상가의 인기는 그의 의사소통 능력에 의해 결정된다\n④ 현대의 청중은 과거 철학자들의 저작을 제대로 이해할 수 없다\n⑤ 사상가는 살아 있는 동안 특정 집단의 사람들과 의사소통한다",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step02 7번"
+    },
+    {
+      "id": "ak26-s2-27",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "① Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered ② worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a ③ universal audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as ④ inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply ⑤ flawed.\n* contemplation: 사유",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "universal (보편적인) → particular (특정한)\n이 글은 Aristotle의 사상이 당시의 사회적 가치와 특권층의 관점을 반영하여 한계를 지닌다는 점을 설명하고 있다. 그의 도덕관이 고대 그리스 특권층의 시각을 드러낸다고 했으므로, 사상가가 특정한 청중을 대상으로 말한다고 하는 것이 문맥상 자연스럽다. 따라서 '보편적인, 모든 사람을 아우르는'이라는 의미의 'universal'은 '특정한'이라는 의미의 'particular'로 바뀌어야 한다.",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a universal audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step02 27번"
+    },
+    {
+      "id": "ak26-s2-49",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** Somehow that assertion seems oddly self-serving.\n\nConsistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. ( ① ) Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. ( ② ) It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. ( ③ ) Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. ( ④ ) How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. ( ⑤ ) As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "explanation": "주어진 문장의 '그 주장(that assertion)'은 철학자들이 최고의 인간적 선을 위해 사유하므로 삶의 가장 좋은 것들을 모두 누릴 자격이 있다는 앞 문장의 주장을 가리킨다. 주어진 문장은 이를 철학자 자신에게 유리한 주장이라고 평가하고, 뒤 문장은 사상가가 자신의 시대와 특정 청중의 영향을 받는다는 점을 기억하여 이러한 주장을 시대적 맥락에서 이해하도록 한다. 따라서 철학자들이 삶의 가장 좋은 것들을 누릴 자격이 있다는 주장이 제시된 직후인 ②번의 위치에 들어가는 것이 가장 적절하다.",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step02 49번"
+    },
+    {
+      "id": "ak26-s2-69",
+      "type": "choice",
+      "prompt": "다음 글을 읽고 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of ＿＿＿＿＿＿＿＿. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "choices": [
+        "how universal ethical truths transcended social distinctions",
+        "how slavery undermined the privileged status of philosophers",
+        "how later generations corrected defects in ancient moral doctrines",
+        "how socially advantaged groups in his culture conceptualized morality",
+        "how Greek philosophers defended equal rights regardless of social rank"
+      ],
+      "answer": 4,
+      "explanation": "그가 속한 문화의 특권층이 도덕을 이해하던 방식\n이 글은 Aristotle의 사상이 그가 속한 시대와 특정 청중의 영향을 받으며, 당시 특권층의 관점을 반영하여 한계를 지닌다는 점을 설명하고 있다. 노예제의 정당화와 철학자들의 특권을 사례로 제시하고 그의 긍정적인 미래에 대한 상상이 오늘날의 기준보다 포용적이지 못하다고 평가하고 있으므로, 빈칸에는 그의 도덕관이 당시 특권층의 도덕적 이해를 드러낸다는 의미가 들어가야 한다. 따라서 '그가 속한 문화의 특권층이 도덕을 이해하던 방식'이 가장 적절하다.\n① 보편적인 윤리적 진리가 사회적 차이를 초월하던 방식\n② 노예제가 철학자들의 특권적 지위를 약화시키던 방식\n③ 후대 사람들이 고대 도덕 사상의 결함을 바로잡던 방식\n⑤ 그리스 철학자들이 사회적 지위와 관계없이 평등한 권리를 옹호하던 방식\n* 원문 변형\n④ how the privileged elite of ancient Greek society tended to understand right and good → how socially advantaged groups in his culture conceptualized morality",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of ＿＿＿＿＿＿＿＿. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step02 69번"
+    },
+    {
+      "id": "ak26-s2-109",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nworthy / in life / all / have / best / philosophers / things / consider / the / to\n<조건>\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 12단어",
+      "context": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, (A) 철학자들은 삶에서 모든 최고의 것들을 가질 만하다고 여겨졌다. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. (B) 그가 이해했던 대로의 인간 번영은 아마도 결코 오늘날 우리가 그것이 그러하기를 원하는 만큼 포용적이지는 않을 것이다. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "answer": [
+        "philosophers were considered worthy to have all the best things in life"
+      ],
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, (A) 철학자들은 삶에서 모든 최고의 것들을 가질 만하다고 여겨졌다. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. (B) 그가 이해했던 대로의 인간 번영은 아마도 결코 오늘날 우리가 그것이 그러하기를 원하는 만큼 포용적이지는 않을 것이다. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step03 25번"
+    },
+    {
+      "id": "ak26-s2-110",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\ninclusive / flourishing / he / human / nearly / today / not / understood / we / want / it / probably / as / would / be / it / as / as / be / would / to\n<조건>\n- as 형용사 as 구문 활용, 단어 추가 없음",
+      "context": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, (A) 철학자들은 삶에서 모든 최고의 것들을 가질 만하다고 여겨졌다. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. (B) 그가 이해했던 대로의 인간 번영은 아마도 결코 오늘날 우리가 그것이 그러하기를 원하는 만큼 포용적이지는 않을 것이다. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "answer": [
+        "Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today."
+      ],
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, (A) 철학자들은 삶에서 모든 최고의 것들을 가질 만하다고 여겨졌다. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. (B) 그가 이해했던 대로의 인간 번영은 아마도 결코 오늘날 우리가 그것이 그러하기를 원하는 만큼 포용적이지는 않을 것이다. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step03 26번"
+    },
+    {
+      "id": "ak26-s2-111",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nideas / worldview / in / the / limitations / reflecting / moral / his time / elite / of /Aristotle's / privileged",
+      "answer": [
+        "limitations in Aristotle's moral ideas reflecting the privileged elite worldview of his time"
+      ],
+      "explanation": "당대 특권 엘리트의 세계관을 반영하는 Aristotle 도덕 사상의 한계",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, (A) 철학자들은 삶에서 모든 최고의 것들을 가질 만하다고 여겨졌다. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. (B) 그가 이해했던 대로의 인간 번영은 아마도 결코 오늘날 우리가 그것이 그러하기를 원하는 만큼 포용적이지는 않을 것이다. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step03 27번"
+    },
+    {
+      "id": "ak26-s2-112",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓓ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 'reflect' 및 본문의 단어를 활용할 것\n- ⓐ~ⓓ 각 한 단어",
+      "text": "Aristotle's ⓐ {{flawed}} moral ideas ⓑ {{reflect}} the limited, ⓒ {{self-serving}} perspective of his ⓓ {{privileged}} ancient Greek elite society.",
+      "explanation": "Aristotle의 ⓐ 결함 있는 도덕적 사상은 그가 속했던 고대 그리스 ⓓ 특권 엘리트 사회의 한계 있고 ⓒ 이기적인 관점을 ⓓ 반영한다.",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, (A) 철학자들은 삶에서 모든 최고의 것들을 가질 만하다고 여겨졌다. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. (B) 그가 이해했던 대로의 인간 번영은 아마도 결코 오늘날 우리가 그것이 그러하기를 원하는 만큼 포용적이지는 않을 것이다. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step03 28번"
+    },
+    {
+      "id": "ak26-s2-185",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "ⓐ Consistently though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. ⓑ Because their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. ⓒ It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. ⓓ Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. ⓔ What he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "answer": [
+        "ⓐ: Consistently though he may be → Consistent though he may be",
+        "ⓑ: Because their practice of contemplation → Because of their practice of contemplation",
+        "ⓔ: What he understood right and good → How he understood right and good"
+      ],
+      "explanation": "ⓐ Consistent though he may be, some of Aristotle's ideas meet us today as strange.\n- as/though 양보절 도치\n: 접속사 'as/though'가 양보의 용례로 쓰였을 때, 의미를 강조하고자 '형용사/부사/분사' 등이 문두로 이동한다. 뒤에 동사 'be'가 있으므로 보어 역할을 하는 형용사가 적절하다.   though he may be consistent\n→ Consistent though he may be\nⓑ Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life.\n- 전치사 because of + 명사(구) vs 접속사 because + 절\n: 뒤에 명사구가 오므로 전치사가 적절하다.\nⓔ How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good.\n- 간접의문문 (의문부사 + 완전한 문장)\n: 주어 자리에 명사절로 간접의문문이 필요하며, '의문사 + 주어 + 동사'의 어순이 적절하다. 의문부사 'how, when, why, where'은 완전한 문장을 수반하고, 의문대명사 'what, which, who'는 불완전한 문장을 수반한다. 완전한 문장이므로 'how'가 적절하다.",
+      "view": "Consistently though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. What he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step03 101번"
+    },
+    {
+      "id": "ak26-s2-207",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 6개)",
+      "context": "Consistently though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty to justify slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember what every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusively as we would want it to be today. How he understood right and good is best taken to be an indicator of what the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "answer": [
+        "Consistently though → Consistent though",
+        "no difficulty to justify slavery, → no difficulty justifying slavery,",
+        "influence. Because their → influence. Because of their",
+        "to remember what every → to remember that every",
+        "nearly as inclusively as → nearly as inclusive as",
+        "indicator of what the → indicator of how the"
+      ],
+      "explanation": "[교정된 글] Consistent though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.",
+      "view": "Consistently though he may be, some of Aristotle's ideas meet us today as strange. He had no difficulty to justify slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember what every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusively as we would want it to be today. How he understood right and good is best taken to be an indicator of what the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step03 123번"
+    },
+    {
+      "id": "ak26-s2-225",
+      "type": "self",
+      "prompt": "[주관식 1] 다음 글의 밑줄 친 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nsome / strange / he / though / us / consistent / of / be, / today / ideas / may / meet / as / Aristotle's\n<조건>\n- 형용사 + 접속사 도치 구문 활용, 단어 추가 없음",
+      "context": "비록 Aristotle가 일관적일지라도, 그의 생각들 중 일부는 오늘날 우리에게 낯설게 다가온다. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "answer": [
+        "Consistent though he may be, some of Aristotle's ideas meet us today as strange."
+      ],
+      "view": "비록 Aristotle가 일관적일지라도, 그의 생각들 중 일부는 오늘날 우리에게 낯설게 다가온다. He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life. Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception. Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step04실전1회 3번"
+    },
+    {
+      "id": "ak26-s2-248",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Consistent though he may be, some of Aristotle's ideas meet us today as strange.\n\n(A) Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception.\n\n(B) He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life.\n\n(C) Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 2,
+      "explanation": "주어진 문장은 Aristotle의 일부 사상이 오늘날 낯설게 느껴진다고 제시한다. (B)는 이에 대한 구체적인 예시로 노예제 정당화와 철학자의 특권에 대해 설명하며 이어진다. (A)의 'that assertion (그 주장)'은 (B)의 마지막 부분의 '철학자들이 삶의 모든 좋은 것을 누릴 가치가 있다'는 주장을 가리키고, 모든 사상가는 시대의 산물이라는 일반화로 이어진다. 마지막으로 (C)는 이러한 시대적 한계로 인해 그가 이해한 인간 번영이 포용적이지 못하고 그의 사상이 결함을 갖게 되었다는 결론으로 글을 마무리한다. 따라서 가장 적절한 순서는 (B)-(A)-(C)이다.",
+      "view": "Consistent though he may be, some of Aristotle's ideas meet us today as strange.\n\n(A) Somehow that assertion seems oddly self-serving. It serves us to remember that every great thinker is of her own time and speaks to a particular audience, and certainly Aristotle is no exception.\n\n(B) He had no difficulty justifying slavery, for example, and in his era, philosophers enjoyed positions of high privilege and influence. Because of their practice of contemplation for the highest human good, philosophers were considered worthy to have all the best things in life.\n\n(C) Human flourishing as he understood it probably would not be nearly as inclusive as we would want it to be today. How he understood right and good is best taken to be an indicator of how the privileged elite of ancient Greek society tended to understand right and good. As a result, for all it does well, it is also deeply flawed.\n* contemplation: 사유",
+      "tag": "아잉카 변형 Step04실전2회 6번"
     }
   ]
 }

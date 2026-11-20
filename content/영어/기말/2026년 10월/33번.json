@@ -63,7 +63,7 @@
       "answer": 3
     },
     {
-      "id": "ak26-55",
+      "id": "ak26-s01-55",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "Human development is now increasingly understood as an ongoing, (ㄱ) [ rigid / flexible ], and evolving process rather than a fixed sequence of stages. At the core of this perspective (A) [ lie / lies ] the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights (B) [ that / what ] individuals are not merely passive recipients of development but active agents (ㄴ) [ capable / incapable ] of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood (C) [ seeing / seen ] as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for (ㄷ) [ stagnation / adaptation ] and transformation.",
@@ -77,10 +77,10 @@
       "answer": 2,
       "explanation": "(A) 부사구 도치\n- 문장의 동사가 1, 2형식 자동사일 경우 '장소, 방향, 범주의 부사구'가 문두로 이동하면 의문문의 형태로 도치가 일어난다. 단, 주어가 대명사일 경우 도치가 일어나지 않는다.\n[At the core of ~] lies the concept ~\n부사구 V S\n(B) 명사절 접속사 that + 완전한 문장\n- 동사 'highlights'의 목적어 자리로 명사절이 필요하며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.\n(C) with 분사구문 (with + (대)명사 + 능동: ~ing / 수동: p.p)\n- 부대상황을 나타내는 분사구문으로 'with'뒤의 명사와 분사의 관계가 능동이면 현재분사, 수동이면 과거분사를 사용한다.\nwith adulthood seen as a period of stability ~",
       "view": "Human development is now increasingly understood as an ongoing, (ㄱ) [ rigid / flexible ], and evolving process rather than a fixed sequence of stages. At the core of this perspective (A) [ lie / lies ] the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights (B) [ that / what ] individuals are not merely passive recipients of development but active agents (ㄴ) [ capable / incapable ] of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood (C) [ seeing / seen ] as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for (ㄷ) [ stagnation / adaptation ] and transformation.",
-      "tag": "아잉카 변형 55번"
+      "tag": "아잉카 변형 Step01 55번"
     },
     {
-      "id": "ak26-56",
+      "id": "ak26-s01-56",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "Human development is now increasingly understood as an ongoing, (ㄱ) [ rigid / flexible ], and evolving process rather than a fixed sequence of stages. At the core of this perspective (A) [ lie / lies ] the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights (B) [ that / what ] individuals are not merely passive recipients of development but active agents (ㄴ) [ capable / incapable ] of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood (C) [ seeing / seen ] as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for (ㄷ) [ stagnation / adaptation ] and transformation.",
@@ -94,10 +94,10 @@
       "answer": 5,
       "explanation": "(ㄱ) 인간 발달을 고정된 단계의 연속보다 경험과 환경에 따라 변화할 수 있는 과정으로 이해하는 흐름이므로, '유연한'이라는 의미의 'flexible'이 적절하다. 'rigid'는 '경직된'이라는 의미이다.\n(ㄴ) 개인은 발달을 수동적으로 받아들이기만 하는 존재가 아니라 평생 성장할 수 있는 능동적 주체라는 흐름이므로, '할 수 있는'이라는 의미의 'capable'이 적절하다. 'incapable'은 '할 수 없는'이라는 의미이다.\n(ㄷ) 변화의 정도는 시기에 따라 다르더라도 모든 삶의 단계에서 새로운 조건에 맞추어 변화할 여지가 있다는 것이므로, '적응'이라는 의미의 'adaptation'이 적절하다. 'stagnation'은 '정체'라는 의미이다.",
       "view": "Human development is now increasingly understood as an ongoing, (ㄱ) [ rigid / flexible ], and evolving process rather than a fixed sequence of stages. At the core of this perspective (A) [ lie / lies ] the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights (B) [ that / what ] individuals are not merely passive recipients of development but active agents (ㄴ) [ capable / incapable ] of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood (C) [ seeing / seen ] as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for (ㄷ) [ stagnation / adaptation ] and transformation.",
-      "tag": "아잉카 변형 56번"
+      "tag": "아잉카 변형 Step01 56번"
     },
     {
-      "id": "ak26-57",
+      "id": "ak26-s01-57",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -113,10 +113,10 @@
       ],
       "explanation": "이 글은 과거의 아동기 중심 발달관과 달리 가소성을 통해 전 생애에 걸친 성장과 변화의 가능성을 설명하는 내용이다. 과거 이론들이 성인기를 개인의 성장이 가장 활발한 시기로 보았다고 서술한 ③번 보기와, 가소성이 아동기 이후에는 개인의 성장 가능성이 사라진다는 것을 시사한다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 현대적 관점은 인간 발달을 유연하게 변화하는 과정으로 본다.\n② 가소성은 사고, 감정, 행동이 새로운 조건에 맞추어 조정될 수 있게 한다.\n③ 과거 이론들은 성인기를 개인의 성장이 가장 활발한 시기로 보았다.\n④ 가소성은 아동기가 끝나면 개인의 성장 가능성이 사라진다는 것을 시사한다.\n⑤ 개인의 변화 정도는 연령에 따라 다를 수 있지만, 모든 단계에서 적응은 가능하다.",
       "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
-      "tag": "아잉카 변형 57번"
+      "tag": "아잉카 변형 Step01 57번"
     },
     {
-      "id": "ak26-58",
+      "id": "ak26-s01-58",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "Plasticity challenges an age-restricted model of development by emphasizing the (A) ＿＿＿＿＿＿ of mental and behavioural patterns and the (B) ＿＿＿＿＿＿ of further growth at every age.",
@@ -130,7 +130,187 @@
       "answer": 1,
       "explanation": "가소성은 정신적·행동적 양식의 (A) 가변성과 모든 연령에서 추가적인 성장이 이루어질 (B) 가능성을 강조함으로써, 발달을 특정 연령에 한정하는 모형에 이의를 제기한다.\n이 글은 인간 발달이 특정 시기에 국한되지 않고 전 생애에 걸쳐 이루어질 수 있으며, 경험과 환경에 따라 사고·감정·행동 양식을 재구성할 수 있고 모든 삶의 단계에 적응과 변화의 여지가 있다고 설명하는 내용이다. 따라서 요약문의 빈칸 (A)에는 'malleability', 빈칸 (B)에는 'possibility'이 들어가는 것이 가장 적절하다.\n② malleability : 가변성 / inevitability : 필연성\n③ permanence : 영속성 / possibility : 가능성\n④ permanence : 영속성 / impossibility : 불가능성\n⑤ unpredictability : 예측 불가능성 / impossibility : 불가능성",
       "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
-      "tag": "아잉카 변형 58번"
+      "tag": "아잉카 변형 Step01 58번"
+    },
+    {
+      "id": "ak26-s2-13",
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "limitations of human adaptability to environmental changes",
+        "the critical importance of early childhood in human development",
+        "a historical overview of traditional perspectives on developmental stages",
+        "various factors contributing to cognitive and emotional decline in old age",
+        "the pivotal role of plasticity in redefining human development as a lifelong process"
+      ],
+      "answer": 5,
+      "explanation": "인간 발달을 평생의 과정으로 재정의하는 데 있어 가소성\n의 중추적인 역할\n이 글은 인간 발달이 고정된 단계가 아니라 가소성이라는 개념을 통해 평생에 걸쳐 유연하게 지속되는 과정임을 설명하고 있다. 과거의 경직된 관점과 달리, 가소성은 개인이 능동적으로 평생 성장할 수 있음을 강조한다고 말한다. 따라서 이 글의 주제로 가장 적절한 것은 '인간 발달을 평생의 과정으로 재정의하는 데 있어 가소성의 중추적인 역할'이다.\n① 환경 변화에 대한 인간 적응성의 한계\n② 인간 발달에 있어 유아기 초기 교육의 결정적 중요성\n③ 발달 단계에 대한 전통적 관점의 역사적 개요\n④ 노년기 인지 및 정서 쇠퇴에 기여하는 다양한 요인들",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step02 13번"
+    },
+    {
+      "id": "ak26-s2-33",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Unchanging Blueprint of Human Growth",
+        "Overcoming the Inevitable Decline of Old Age",
+        "Why Is Early Childhood the Most Critical Period?",
+        "Plasticity: The Key to Lifelong Human Development",
+        "How the Environment Shapes Our Behavioral Patterns"
+      ],
+      "answer": 4,
+      "explanation": "가소성: 평생에 걸친 인간 발달의 열쇠\n이 글은 인간 발달이 고정된 것이 아니라 '가소성' 덕분에 평생에 걸쳐 계속되는 유연한 과정이라고 설명한다. 가소성이 기존의 경직된 발달 관점에 이의를 제기하는 핵심 개념임을 강조하고 있다. 따라서 이 글의 제목으로 가장 적절한 것은 '가소성: 평생에 걸친 인간 발달의 열쇠'이다.\n① 인간 성장의 불변하는 청사진\n② 노년의 필연적인 쇠퇴 극복하기\n③ 왜 유아기 초기가 가장 결정적인 시기인가?\n⑤ 환경은 어떻게 우리의 행동 패턴을 형성하는가",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step02 33번"
+    },
+    {
+      "id": "ak26-s2-55",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. ① Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. ② It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. ③ This is because the fundamental genetic blueprint of a person dictates their developmental trajectory more than any environmental factor. ④ In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. ⑤ The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "이것은 한 사람의 근본적인 유전적 청사진이 어떤 환경적\n요인보다 그들의 발달 경로를 더 많이 좌우하기 때문이다.\n이 글은 가소성을 바탕으로 인간이 전 생애에 걸쳐 능동적으로 성장하고 적응할 수 있다는 내용이다. 이러한 성장의 이유로 유전이 환경보다 발달을 더 크게 좌우한다는 설명을 제시하는 ③번 문장은 글의 흐름에 어울리지 않는다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. This is because the fundamental genetic blueprint of a person dictates their developmental trajectory more than any environmental factor. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step02 55번"
+    },
+    {
+      "id": "ak26-s2-75",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages.\n\n(A) The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.\n\n(B) At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes.\n\n(C) It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline.",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 3,
+      "explanation": "주어진 글은 인간 발달이 지속적이고 유연하게 변화하는 과정이라는 관점을 제시한다. (B)의 'this perspective'는 이러한 관점을 가리키며, 그 핵심 개념인 가소성을 소개하고 정의한다. (C)의 'It' 은 (B)의 가소성을 받아 개인이 평생 능동적으로 성장할 수 있음을 설명한 뒤, 유년기 중심의 기존 발달관을 제시한다. (A)의 'this rigid outlook'이 (C)의 기존 발달관을 받아, 가소성이 이를 반박한다는 점과 전 생애에 걸친 변화와 적응의 가능성을 강조하며 글을 마무리한다. 따라서 가장 적절한 순서는 (B)-(C)-(A)이다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages.\n\n(A) The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.\n\n(B) At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes.\n\n(C) It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline.",
+      "tag": "아잉카 변형 Step02 75번"
+    },
+    {
+      "id": "ak26-s2-139",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 배열하시오.\n<보기>\nof / at / the core / of / lie / the concept / this / plasticity / perspective\n<조건>\n- 부사구 도치 구문 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 11단어",
+      "context": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. (A) 이러한 관점의 핵심에는 가소성의 개념이 있다. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for __________ and transformation.",
+      "answer": [
+        "At the core of this perspective lies the concept of plasticity."
+      ],
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. (A) 이러한 관점의 핵심에는 가소성의 개념이 있다. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for ＿＿＿＿＿＿＿＿ and transformation.",
+      "tag": "아잉카 변형 Step03 55번"
+    },
+    {
+      "id": "ak26-s2-140",
+      "type": "blank",
+      "prompt": "윗글의 빈칸 (B)에 들어갈 단어를 아래 <보기>의 영영풀이를 참고하여 알맞게 쓰시오.\n<보기>\n[NOUN] the process of changing to fit some purpose or situation",
+      "text": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. (A) 이러한 관점의 핵심에는 가소성의 개념이 있다. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for (a…) {{adaptation}} and transformation.",
+      "explanation": "어떤 목적이나 상황에 맞게 변화하는 과정",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. (A) 이러한 관점의 핵심에는 가소성의 개념이 있다. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for ＿＿＿＿＿＿＿＿ and transformation.",
+      "tag": "아잉카 변형 Step03 56번"
+    },
+    {
+      "id": "ak26-s2-141",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nlifelong / capacity / human / development / adapt / of / plasticity / the / through\n<조건>\n- <보기> 중 한 단어 어형 변화",
+      "answer": [
+        "the lifelong adaptive capacity of human development through plasticity"
+      ],
+      "explanation": "가소성을 통한 인간 발달의 평생에 걸친 적응적 능력",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. (A) 이러한 관점의 핵심에는 가소성의 개념이 있다. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for ＿＿＿＿＿＿＿＿ and transformation.",
+      "tag": "아잉카 변형 Step03 57번"
+    },
+    {
+      "id": "ak26-s2-142",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓒ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 본문의 단어를 활용할 것, 필요시 어형 변화\n- ⓐ~ⓒ 각 한 단어",
+      "text": "Plasticity ⓐ {{highlights}} that human development remains an ⓑ {{active}} , lifelong process of ⓒ {{adaptation}} across every stage.",
+      "explanation": "가소성은 인간의 발달이 모든 단계를 통틀어 ⓑ 능동적이고 평생에 걸친 ⓒ 적응의 과정으로 남아있음을 ⓐ 강조한다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. (A) 이러한 관점의 핵심에는 가소성의 개념이 있다. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for ＿＿＿＿＿＿＿＿ and transformation.",
+      "tag": "아잉카 변형 Step03 58번"
+    },
+    {
+      "id": "ak26-s2-191",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "ⓐ Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. ⓑ It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, ⓒ development was believed to occur mainly during childhood, with adulthood seeing as a period of stability and old age as a phase of decline. ⓓ The concept of plasticity challenges this rigid outlook by emphasizing what development continues across the entire lifespan. ⓔ Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "answer": [
+        "ⓒ: adulthood seeing as a period → adulthood seen as a period",
+        "ⓓ: emphasizing what development continues → emphasizing that development continues"
+      ],
+      "explanation": "ⓒ development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline.\n- with 분사구문 (with + (대)명사 + 능동: ~ing / 수동: p.p)\n: 부대상황을 나타내는 분사구문으로 'with'뒤의 명사와 분사의 관계가 능동이면 현재분사, 수동이면 과거분사를 사용한다. 'adulthood'가 여겨지는 것이므로 수동의 의미이며, 분사 뒤 목적어가 없으므로 과거분사가 적절하다.\nⓓ The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan.\n- 명사절 접속사 that + 완전한 문장\n: 'emphasizing'의 목적어 자리로 명사절이 필요하며, 동사 'continues'는 자동사의 용례로 뒤에 완전한 문장이 오므로 'that'이 적절하다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seeing as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing what development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step03 107번"
+    },
+    {
+      "id": "ak26-s2-213",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganizing cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed occurring mainly during childhood, with adulthood seeing as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing what development continues across the entire lifespan. Despite the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "answer": [
+        "adapt, and reorganizing cognitive, → adapt, and reorganize cognitive,",
+        "was believed occurring mainly → was believed to occur mainly",
+        "with adulthood seeing as → with adulthood seen as",
+        "by emphasizing what development → by emphasizing that development",
+        "entire lifespan. Despite the → entire lifespan. Although the"
+      ],
+      "explanation": "[교정된 글] Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganizing cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed occurring mainly during childhood, with adulthood seeing as a period of stability and old age as a phase of decline. The concept of plasticity challenges this rigid outlook by emphasizing what development continues across the entire lifespan. Despite the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step03 129번"
+    },
+    {
+      "id": "ak26-s2-231",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Human development is now increasingly understood as an ① ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It ② highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur ③ mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity ④ supports this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life ⑤ allows room for adaptation and transformation.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ supports (지지하다) → challenges (이의를 제기하다)\n이 글의 내용은 인간 발달이 고정된 단계가 아니라 평생에 걸쳐 지속되는 유연한 과정이며, 이러한 관점의 핵심이 '가소성'이라는 개념이라는 것이다. 가소성의 개념은 발달이 아동기에 국한된다는 기존의 경직된 관점과 대립한다. 따라서 '지지한다'라는 의미의 'supports'는 '이의를 제기한다'라는 의미의 'challenges'로 바뀌어야 한다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. The concept of plasticity supports this rigid outlook by emphasizing that development continues across the entire lifespan. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step04실전1회 9번"
+    },
+    {
+      "id": "ak26-s2-254",
+      "type": "choice",
+      "prompt": "글의 흐름으로 보아, 주어진 문장이 들어가기에 가장 적절한 곳을 고르시오.",
+      "context": "**[주어진 문장]** The concept of plasticity challenges this rigid outlook by emphasizing that development continues across the entire lifespan.\n\nHuman development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. ( ① ) At the core of this perspective lies the concept of plasticity. ( ② ) Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. ( ③ ) It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. ( ④ ) In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. ( ⑤ ) Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "explanation": "주어진 문장의 '이러한 경직된 관점(this rigid outlook)'은 발달이 주로 유년기에 이루어지고 성인기는 안정기, 노년기는 쇠퇴기라고 보는 기존 발달관을 가리킨다. 이 관점을 가소성으로 반박하며 전 생애의 발달을 강조한 뒤, 변화의 정도는 달라도 모든 시기에 적응과 변화가 가능하다는 마지막 문장으로 이어져야 한다. 따라서 기존 발달관을 설명한 문장 직후인 ⑤번의 위치에 들어가는 것이 가장 적절하다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step04실전2회 12번"
+    },
+    {
+      "id": "ak26-s2-255",
+      "type": "self",
+      "prompt": "[주관식 3] 윗글의 요지를 아래 <보기>의 단어를 활용하여 알맞게 완성하시오.\n<보기>\ndevelopmental / lifelong / human / plasticity / of / the / implies / and / adaptation / changes / continuation",
+      "answer": [
+        "Plasticity implies the lifelong continuation of human adaptation and developmental changes."
+      ],
+      "explanation": "가소성은 인간의 적응과 발달적 변화가 평생 동안 지속됨을 의미한다.",
+      "view": "Human development is now increasingly understood as an ongoing, flexible, and evolving process rather than a fixed sequence of stages. At the core of this perspective lies the concept of plasticity. Plasticity refers to the human capacity to change, adapt, and reorganize cognitive, emotional, and behavioural patterns in response to life experiences, environmental demands, and biological changes. It highlights that individuals are not merely passive recipients of development but active agents capable of growth throughout their lives. In earlier views, development was believed to occur mainly during childhood, with adulthood seen as a period of stability and old age as a phase of decline. Although the extent of change may vary at different stages, every phase of life allows room for adaptation and transformation.",
+      "tag": "아잉카 변형 Step04실전2회 13번"
     }
   ]
 }

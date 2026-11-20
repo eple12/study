@@ -48,7 +48,7 @@
       "answer": 3
     },
     {
-      "id": "ak26-51",
+      "id": "ak26-s01-51",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "If we understand mass culture as a weakening factor of the cultural ties (A) [ what / that ] unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), (ㄱ) [ strengthening / diminishing ] their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and (ㄴ) [ harmonious / chaotic ] functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, (B) [ which / that ] is harmful. Justice must not be done in the public square, which today (C) [ converting / is converted ] into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is (ㄷ) [ susceptible / immune ] to popular pressure.\n* intermediary: 매개하는",
@@ -62,10 +62,10 @@
       "answer": 1,
       "explanation": "(A) 관계대명사 + 불완전 문장\n- 명사 'the cultural ties'를 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사가 'that'이 적절하다. 'what'은 선행사를 포함하는 관계대명사이므로 이 자리에 사용할 수 없다.\n(B) 관계대명사 계속적 용법\n- 관계대명사 'that'은 계속적 용법으로 사용할 수 없다.\n(C) 정동사 + 수동태\n- 현재분사는 동사의 역할을 할 수 없으며, 'which'가 주어 역할을 하는 관계절의 동사가 필요하므로 'is converted'가 적절하다.",
       "view": "If we understand mass culture as a weakening factor of the cultural ties (A) [ what / that ] unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), (ㄱ) [ strengthening / diminishing ] their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and (ㄴ) [ harmonious / chaotic ] functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, (B) [ which / that ] is harmful. Justice must not be done in the public square, which today (C) [ converting / is converted ] into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is (ㄷ) [ susceptible / immune ] to popular pressure.\n* intermediary: 매개하는",
-      "tag": "아잉카 변형 51번"
+      "tag": "아잉카 변형 Step01 51번"
     },
     {
-      "id": "ak26-52",
+      "id": "ak26-s01-52",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "If we understand mass culture as a weakening factor of the cultural ties (A) [ what / that ] unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), (ㄱ) [ strengthening / diminishing ] their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and (ㄴ) [ harmonious / chaotic ] functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, (B) [ which / that ] is harmful. Justice must not be done in the public square, which today (C) [ converting / is converted ] into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is (ㄷ) [ susceptible / immune ] to popular pressure.\n* intermediary: 매개하는",
@@ -79,10 +79,10 @@
       "answer": 3,
       "explanation": "(ㄱ) 대중문화가 사람들과 전통을 연결하는 문화적 유대를 약화하고 가족이나 학교 같은 매개 제도의 역할을 줄인다는 흐름이므로, '축소시키는'이라는 의미의 'diminishing'이 적절하다. 'strengthening'은 '강화하는'이라는 의미이다.\n(ㄴ) 법원을 공동체의 정상적인 운영에 기여하는 중요한 제도로 설명하며 그 긍정적인 기능을 강조하므로, '조화로운'이라는 의미의 'harmonious'가 적절하다. 'chaotic'은 '혼란스러운'이라는 의미이다.\n(ㄷ) 재판이 소셜 네트워크를 통한 대중의 압력에 좌우되지 않고 법정에서 독립적으로 이루어져야 한다는 것이므로, '영향을 받지 않는'이라는 의미의 'immune'이 적절하다. 'susceptible'은 '영향을 받기 쉬운'이라는 의미이다.",
       "view": "If we understand mass culture as a weakening factor of the cultural ties (A) [ what / that ] unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), (ㄱ) [ strengthening / diminishing ] their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and (ㄴ) [ harmonious / chaotic ] functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, (B) [ which / that ] is harmful. Justice must not be done in the public square, which today (C) [ converting / is converted ] into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is (ㄷ) [ susceptible / immune ] to popular pressure.\n* intermediary: 매개하는",
-      "tag": "아잉카 변형 52번"
+      "tag": "아잉카 변형 Step01 52번"
     },
     {
-      "id": "ak26-53",
+      "id": "ak26-s01-53",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -98,10 +98,10 @@
       ],
       "explanation": "이 글은 대중문화가 전통적 제도를 약화시키는 문제를 지적하며 법원의 긍정적인 사회적 역할과 대중의 압력으로부터 독립된 사법 판단의 필요성을 강조하는 내용이다. 사법 기관이 사회의 질서 있는 운영을 방해한다고 서술한 ②번 보기와, 소셜 네트워크가 사법적 판단을 내리는 정당한 장소라고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 대중문화는 가족과 학교의 사회적 역할을 약화시킬 수 있다.\n② 사법 기관은 사회의 질서 있는 운영을 방해한다.\n③ 디지털 플랫폼을 이용해 법원의 판결에 영향을 미치려는 행위는 뿌리 깊게 자리 잡은 해로운 관행이 될 수 있다.\n④ 소셜 네트워크는 사법적 판단을 내리는 정당한 장소에 해당한다.\n⑤ 민주적인 법체계에서 사법적 판단은 대중의 압력에 영향을 받지 않아야 한다.",
       "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
-      "tag": "아잉카 변형 53번"
+      "tag": "아잉카 변형 Step01 53번"
     },
     {
-      "id": "ak26-54",
+      "id": "ak26-s01-54",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "The rise of mass culture, especially the use of social networks to (A) ＿＿＿＿＿＿ judicial decisions, (B) ＿＿＿＿＿＿ the authority of traditional legal institutions like courts.",
@@ -115,7 +115,177 @@
       "answer": 5,
       "explanation": "대중문화의 부상, 특히 사법적 결정에 (A) 영향을 미치기 위한 소셜 네트워크의 사용은 법정과 같은 전통적인 법률 기관의 권위를 (B) 약화시킨다.\n이 글은 대중문화의 한 형태인 소셜 네트워크를 통해 사람들이 사법적 결정에 압력을 가하는 현상이 법정과 같은 전통적 사회 제도의 역할을 약화시킨다고 비판하는 내용이다. 따라서 요약문의 빈칸 (A)에는 'influence'가, (B)에는 'erodes'가 들어가는 것이 가장 적절하다.\n① uphold : 지지하다 / reinforces : 강화하다\n② disregard : 무시하다 / erodes : 약화시키다\n③ influence : 영향을 미치다 / reinforces : 강화하다\n④ uphold : 지지하다 / validates : 입증하다",
       "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
-      "tag": "아잉카 변형 54번"
+      "tag": "아잉카 변형 Step01 54번"
+    },
+    {
+      "id": "ak26-s2-12",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "context": "If we understand mass culture as a weakening factor of the cultural ties that ① unites people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and ② harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, ③ which is harmful. Justice must not be done in the public square, which today is ④ converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is ⑤ immune to popular pressure.\n* intermediary: 매개하는",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1,
+      "explanation": "unites → unite\n주격 관계대명사절 동사 수일치\n- 선행사가 'ties' 복수이므로 'unite'가 적절하다.",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unites people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step02 12번"
+    },
+    {
+      "id": "ak26-s2-32",
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "the role of social networks in promoting legal justice",
+        "the evolution of traditional institutions in the digital age",
+        "the threat of mass culture to the independence of the judiciary",
+        "the conflict between traditional values and modern legal systems",
+        "the importance of public participation in judicial decision-making"
+      ],
+      "answer": 3,
+      "explanation": "대중문화가 사법부의 독립에 미치는 위협\n이 글은 대중문화, 특히 소셜 네트워크를 통한 대중의 압력이 법원과 같은 전통적인 사회 제도의 역할을 약화시키고 사법적 결정의 독립성을 해칠 수 있다는 점을 지적하고 있다. 따라서 이 글의 주제로 가장 적절한 것은 '대중문화가 사법부의 독립에 미치는 위협'이다.\n① 법적 정의를 증진시키는 데 있어 소셜 네트워크의 역할\n② 디지털 시대 전통적 제도의 진화\n④ 전통적 가치와 현대 법 체계 사이의 갈등\n⑤ 사법적 의사 결정에 있어 대중 참여의 중요성",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step02 32번"
+    },
+    {
+      "id": "ak26-s2-54",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions.\n\n(A) For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life.\n\n(B) Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n\n(C) However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful.\n* intermediary: 매개하는",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 1,
+      "explanation": "주어진 글은 대중문화가 전통적 사회 제도의 역할을 약화시킨다는 내용을 제시한다. (A)는 'For example'을 통해 이러한 제도의 구체적인 사례로 법원을 제시하며, 공동체 운영에서 법원이 지닌 중요성을 설명한다. (C)는 'However'를 통해 법원의 중요한 역할과 대비되는 현실, 즉 SNS를 통해 사법 판단에 압력을 가하는 행위의 문제를 지적한다. (B)는 이러한 문제를 받아 사법 판단이 대중의 압력으로부터 자유롭게 법원에서 이루어져야 한다는 원칙으로 글을 마무리한다. 따라서 가장 적절한 순서는 (A)-(C)-(B)이다.",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions.\n\n(A) For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life.\n\n(B) Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n\n(C) However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step02 54번"
+    },
+    {
+      "id": "ak26-s2-74",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. ① For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. ② Social networks also provide a valuable platform for legal experts to share knowledge and discuss complex cases, enhancing their professional development. ③ However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. ④ Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. ⑤ In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "explanation": "소셜 네트워크는 또한 법률 전문가들이 지식을 공유하고\n복잡한 사건을 논의하여 전문성 개발을 향상시키는 귀중한 플랫폼을 제공한다.\n이 글은 대중문화, 특히 소셜 네트워크가 사법적 결정에 대중의 압력을 가함으로써 전통적인 사회 기관인 법정의 역할을 약화시킨다는 내용이다. 법률 전문가들의 전문성 개발을 위한 소셜 네트워크의 긍정적 기능을 언급하는 ②번 문장은 글의 흐름에 어울리지 않는다.",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. Social networks also provide a valuable platform for legal experts to share knowledge and discuss complex cases, enhancing their professional development. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step02 74번"
+    },
+    {
+      "id": "ak26-s2-135",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nwe / weakening / their traditions / that / culture / as / people / if / mass / of / to / understand / factor / a / unite / the cultural ties",
+      "context": "(A) 만약 우리가 대중문화를 자신들의 전통들에 사람들을 결속시키는 문화적 유대감을 약화시키는 요인으로 이해한다면, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. (B) 재판은 대중 광장에서 집행되어서는 안 되며, 그것은 오늘날 가상의 차원, 즉 소셜 네트워크로 전환된다. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "answer": [
+        "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions"
+      ],
+      "view": "(A) 만약 우리가 대중문화를 자신들의 전통들에 사람들을 결속시키는 문화적 유대감을 약화시키는 요인으로 이해한다면, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. (B) 재판은 대중 광장에서 집행되어서는 안 되며, 그것은 오늘날 가상의 차원, 즉 소셜 네트워크로 전환된다. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step03 51번"
+    },
+    {
+      "id": "ak26-s2-136",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\ndo / the / not / the social networks / justice / today / convert / in / which / must / square, / is / a / public / into / dimension, / virtual / be\n<조건>\n- 수동태 및 관계대명사 계속적 용법, 동격 활용\n- 필요시 어형 변화,",
+      "context": "(A) 만약 우리가 대중문화를 자신들의 전통들에 사람들을 결속시키는 문화적 유대감을 약화시키는 요인으로 이해한다면, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. (B) 재판은 대중 광장에서 집행되어서는 안 되며, 그것은 오늘날 가상의 차원, 즉 소셜 네트워크로 전환된다. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "answer": [
+        "Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks."
+      ],
+      "view": "(A) 만약 우리가 대중문화를 자신들의 전통들에 사람들을 결속시키는 문화적 유대감을 약화시키는 요인으로 이해한다면, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. (B) 재판은 대중 광장에서 집행되어서는 안 되며, 그것은 오늘날 가상의 차원, 즉 소셜 네트워크로 전환된다. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step03 52번"
+    },
+    {
+      "id": "ak26-s2-137",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\njudicial / way / the / social / network / pressure / traditional / weakens / institutions",
+      "answer": [
+        "the way social network pressure weakens traditional judicial institutions"
+      ],
+      "explanation": "소셜 네트워크의 압력이 전통적인 사법 기관을 약화시키는 방식",
+      "view": "(A) 만약 우리가 대중문화를 자신들의 전통들에 사람들을 결속시키는 문화적 유대감을 약화시키는 요인으로 이해한다면, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. (B) 재판은 대중 광장에서 집행되어서는 안 되며, 그것은 오늘날 가상의 차원, 즉 소셜 네트워크로 전환된다. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step03 53번"
+    },
+    {
+      "id": "ak26-s2-138",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓓ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- subjective, independent, legal, emotional, overlook, determine, biased, isolate, interdependent, connect\n- 제시어 활용 ⓐ~ⓓ 각 한 단어, 필요시 어형 변화",
+      "text": "ⓐ {{Legal}} outcomes should be ⓑ {{determined|determine}} by ⓒ {{independent}} authorities, completely ⓓ {{isolated}} from widespread crowd influence.",
+      "explanation": "ⓐ 법적 결과는 광범위한 군중의 영향력으로부터 완전히 ⓓ 격리된 ⓒ 독립적인 당국에 의해 ⓑ 결정되어야 한다.",
+      "view": "(A) 만약 우리가 대중문화를 자신들의 전통들에 사람들을 결속시키는 문화적 유대감을 약화시키는 요인으로 이해한다면, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. (B) 재판은 대중 광장에서 집행되어서는 안 되며, 그것은 오늘날 가상의 차원, 즉 소셜 네트워크로 전환된다. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step03 54번"
+    },
+    {
+      "id": "ak26-s2-190",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓓ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, ⓐ mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, ⓑ this practice is popularized and becomes a habitual form of culture, which is harmful. ⓒ Justice must not be done in the public square, where today is converted into a virtual dimension, the social networks. In a democratic state of law, ⓓ the appropriate place to judge and make justice is the court and in a way in which is immune to popular pressure.\n* intermediary: 매개하는",
+      "answer": [
+        "ⓒ: the public square, where today is converted → the public square, which today is converted",
+        "ⓓ: in a way in which is immune → in a way that is immune"
+      ],
+      "explanation": "ⓒ Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks.\n- 관계대명사 계속적용법 + 불완전 문장\n: 명사 'the public square'를 부연 설명하며, 주어가 없는 불완전한 문장이 오므로 관계대명사 'which'가 적절하다. 'today'는 부사로 주어가 아님에 주의해야 한다.\nⓓ the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n- 관계대명사 + 불완전 문장\n: 명사 'a way'를 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사가 적절하다. '전치사+관계대명사'는 완전한 문장을 수반하므로 올 수 없다.",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, where today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way in which is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step03 106번"
+    },
+    {
+      "id": "ak26-s2-212",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 4개)",
+      "context": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminished their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, that is harmful. Justice must not be done in the public square, where today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and making justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "answer": [
+        "the school), diminished their → the school), diminishing their",
+        "of culture, that is → of culture, which is",
+        "public square, where today → public square, which today",
+        "judge and making justice → judge and make justice"
+      ],
+      "explanation": "[교정된 글] If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminished their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, that is harmful. Justice must not be done in the public square, where today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and making justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step03 128번"
+    },
+    {
+      "id": "ak26-s2-230",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "How Social Media Democratizes the Legal System",
+        "The Courtroom vs. The Public: A Necessary Dialogue",
+        "When Public Opinion Takes the Bench: Justice at Risk",
+        "Social Networks: A New Platform for Upholding Justice",
+        "Traditional Institutions: How They Shape Modern Digital Culture"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 여론이 판사석에 앉을 때: 위기에 처한 정의\n이 글은 대중문화가 전통적 사회 제도의 역할을 약화시킬 수 있음을 설명하면서, 소셜 네트워크를 통해 사법 판단에 압력을 가하는 행위의 위험성을 지적한다. 법원은 공동체의 정상적인 운영에 중요한 제도이므로, 사법 판단은 대중의 압력으로부터 독립적으로 이루어져야 함을 설명한다. 따라서 이 글의 제목으로 가장 적절한 것은 '여론이 판사석에 앉을 때: 위기에 처한 정의'이다.\n① SNS는 어떻게 법체계를 민주화하는가\n② 법정 대 대중: 필수적인 대화\n④ 소셜 네트워크: 정의 수호를 위한 새로운 플랫폼\n⑤ 전통적 제도: 현대 디지털 문화를 형성하는 방식",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step04실전1회 8번"
+    },
+    {
+      "id": "ak26-s2-253",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Mass culture, particularly through social networks, can (A) the integrity of traditional institutions like the justice system by allowing public sentiment to (B) judicial processes.",
+      "choices": [
+        "reinforce / support",
+        "evaluate / legitimize",
+        "compromise / legitimize",
+        "reinforce / interfere with",
+        "compromise / interfere with"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 대중문화, 특히 소셜 네트워크는 대중의 정서가 사법 과정에 (B) 개입하도록 허용함으로써 사법 제도와 같은 전통 기관의 온전함을 (A) 훼손할 수 있다.\n이 글은 대중문화가 전통적 사회 제도의 역할을 약화시킬 수 있으며, SNS를 통해 사법 판단에 압력을 가하는 행위가 해롭다는 내용이다. 또한, 사법 판단은 대중의 압력으로부터 자유롭게 법원에서 이루어져야 하며, 여론의 개입이 제도의 건전성을 훼손한다고 설명한다. 따라서 요약문의 빈칸 (A)에는 'compromise'가, (B)에는 'interfere with'가 들어가는 것이 가장 적절하다.\n① reinforce : 강화하다 / support : 뒷받침하다\n② evaluate : 평가하다 / legitimize : 정당화하다\n③ compromise : 훼손하다 / legitimize : 정당화하다\n④ reinforce : 강화하다 / interfere with : 간섭하다",
+      "view": "If we understand mass culture as a weakening factor of the cultural ties that unite people to their traditions, mass culture weakens the intermediary institutions in society (e.g. the family or the school), diminishing their role and overlapping these institutions. For example, courts are traditional social institutions and important for the normal and harmonious functioning of collective life. However, when people turn to social networks to put pressure on judicial decisions in certain mediated and politicized processes, this practice is popularized and becomes a habitual form of culture, which is harmful. Justice must not be done in the public square, which today is converted into a virtual dimension, the social networks. In a democratic state of law, the appropriate place to judge and make justice is the court and in a way that is immune to popular pressure.\n* intermediary: 매개하는",
+      "tag": "아잉카 변형 Step04실전2회 11번"
     }
   ]
 }

@@ -63,7 +63,7 @@
       "answer": 3
     },
     {
-      "id": "ak26-43",
+      "id": "ak26-s01-43",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially (ㄱ) [ pronounced / subtle ] when adults found (A) [ themselves / them ] in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to (ㄴ) [ succeed / fail ] if the accompanying nonverbal communication does not match the spoken message. This is (B) [ because of / because ] people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably (ㄷ) [ more / less ] inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression (C) [ what / that ] they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
@@ -77,10 +77,10 @@
       "answer": 2,
       "explanation": "(A) 재귀대명사 (재귀 용법)\n- 목적어 자리에 명사 또는 대명사가 필요하며, 주어와 목적어가 동일하므로 재귀대명사가 적절하다.\n(B) 접속사 because + 절 vs 전치사 because of + 명사(구)\n- 뒤에 완전한 문장이 오므로 접속사가 적절하다.\n(C) 명사절 접속사 that + 완전한 문장\n- 동사 'tells'의 직접 목적어 자리로 명사절이 필요하며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.\ntells you [with a grumpy expression] [that they were ~]\nV I.O D.O",
       "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially (ㄱ) [ pronounced / subtle ] when adults found (A) [ themselves / them ] in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to (ㄴ) [ succeed / fail ] if the accompanying nonverbal communication does not match the spoken message. This is (B) [ because of / because ] people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably (ㄷ) [ more / less ] inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression (C) [ what / that ] they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
-      "tag": "아잉카 변형 43번"
+      "tag": "아잉카 변형 Step01 43번"
     },
     {
-      "id": "ak26-44",
+      "id": "ak26-s01-44",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially (ㄱ) [ pronounced / subtle ] when adults found (A) [ themselves / them ] in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to (ㄴ) [ succeed / fail ] if the accompanying nonverbal communication does not match the spoken message. This is (B) [ because of / because ] people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably (ㄷ) [ more / less ] inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression (C) [ what / that ] they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
@@ -94,10 +94,10 @@
       "answer": 1,
       "explanation": "(ㄱ) 언어적 메시지와 비언어적 메시지가 서로 충돌할 때 사람들이 비언어적 신호를 더 신뢰하는 현상이 특히 뚜렷하게 나타나는 흐름이므로, '두드러진'이라는 의미의 'pronounced'가 적절하다. 'subtle'은 '미묘한, 잘 드러나지 않는'이라는 의미이다.\n(ㄴ) 사람들이 말보다 비언어적 신호를 더 신뢰하므로, 표정이나 행동이 말의 내용과 일치하지 않으면 말로 상대를 조종하려는 시도가 성공하기 어렵다는 흐름이므로, 'fail'이 적절하다. 'succeed'는 '성공하다'라는 의미이다.\n(ㄷ) 함께 시간을 보내는 것이 즐겁다는 말과 달리 시선을 피하고 억지로 웃는 모습을 보면 그 말을 믿으려는 경향이 낮아지는 것이므로, 'less'가 적절하다. 'more'는 '더'라는 의미이다.",
       "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially (ㄱ) [ pronounced / subtle ] when adults found (A) [ themselves / them ] in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to (ㄴ) [ succeed / fail ] if the accompanying nonverbal communication does not match the spoken message. This is (B) [ because of / because ] people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably (ㄷ) [ more / less ] inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression (C) [ what / that ] they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
-      "tag": "아잉카 변형 44번"
+      "tag": "아잉카 변형 Step01 44번"
     },
     {
-      "id": "ak26-45",
+      "id": "ak26-s01-45",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -113,10 +113,10 @@
       ],
       "explanation": "이 글은 언어적 메시지와 비언어적 메시지가 충돌할 때, 사람들은 비언어적 신호를 더 신뢰하며 그것이 더 우위에 있다는 내용이다. 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않으면 언어적 조종이 효과적일 것이라고 서술한 ③번 보기와, 동료의 언짢은 표정이 업무를 대신 맡는 일을 진심으로 즐겼음을 확인해 준다고 서술한 ⑤번 보기는 글의 내용과 일치하지 않는다.\n① 한 연구는 비언어적 신호가 발화된 단어보다 더 강력하다는 것을 확인했다.\n② 비언어적 신호의 영향은 모순적인 상황에서 특히 두드러진다.\n③ 비언어적 신호가 다른 메시지를 보낼 때조차도 언어적 조종은 효과적일 가능성이 높다.\n④ 사람들은 일반적으로 언어적 표현보다 비언어적 의사소통을 더 신뢰한다.\n⑤ 동료의 언짢은 표정은 그 동료가 당신의 업무를 대신 맡는 일을 진심으로 즐겼다는 점을 확인해 줄 것이다.",
       "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
-      "tag": "아잉카 변형 45번"
+      "tag": "아잉카 변형 Step01 45번"
     },
     {
-      "id": "ak26-46",
+      "id": "ak26-s01-46",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "Verbal claims tend to become less convincing when they are (A) ＿＿＿＿＿＿ by nonverbal signals, which people regard as more (B) ＿＿＿＿＿＿ indicators of genuine feelings.",
@@ -130,7 +130,178 @@
       "answer": 4,
       "explanation": "언어적 주장은 비언어적 신호에 의해 (A) 반박될 때 설득력이 낮아지는 경향이 있으며, 사람들은 이러한 신호를 진짜 감정을 나타내는 더 (B) 신뢰할 수 있는 지표로 여긴다.\n이 글은 언어적 메시지와 비언어적 메시지가 일치하지 않을 때, 사람들은 비언어적 신호를 더 신뢰한다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'contradicted'가, (B)에는 'reliable'이 들어가는 것이 가장 적절하다.\n① supported : 지지되는 / misleading : 오해의 소지가 있는\n② simplified : 단순화된 / ambiguous : 모호한\n③ supported : 지지되는 / reliable : 신뢰할 수 있는\n⑤ contradicted : 모순되는 / ambiguous : 모호한",
       "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
-      "tag": "아잉카 변형 46번"
+      "tag": "아잉카 변형 Step01 46번"
+    },
+    {
+      "id": "ak26-s2-10",
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "비언어적 신호는 언어적 메시지의 의미를 왜곡하는 경우가 많다.",
+        "성공적인 의사소통은 다양한 언어적, 비언어적 요소에 의해 결정된다.",
+        "억지웃음과 같은 모순된 비언어적 신호는 대인 관계에 부정적 영향을 미친다.",
+        "사람을 언어적으로 조종하려는 시도는 비언어적 신호 때문에 실패하기 쉽다.",
+        "사람들은 언어적 메시지와 비언어적 신호가 상충할 때 비언어적 신호를 더 신뢰한다."
+      ],
+      "answer": 5,
+      "explanation": "이 글은 Eva McMahan의 연구를 인용하여 비언어적 신호의 우위를 설명하고 있다. 특히 언어적 메시지와 비언어적 신호의 내용이 다를 때, 사람들은 말보다는 표정이나 시선 처리와 같은 비언어적 신호를 더 신뢰하는 경향이 있음을 구체적인 사례를 들어 보여주고 있다. 따라서 이 글의 요지로 가장 적절한 것은 '사람들은 언어적 메시지와 비언어적 신호가 상충할 때 비언어적 신호를 더 신뢰한다.'이다.",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step02 10번"
+    },
+    {
+      "id": "ak26-s2-30",
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "ways to improve nonverbal communication skills",
+        "cultural differences in interpreting nonverbal signals",
+        "the greater credibility of nonverbal over verbal cues",
+        "the necessity of consistency in delivering a message",
+        "key factors for building trust in interpersonal relationships"
+      ],
+      "answer": 3,
+      "explanation": "언어적 신호보다 더 큰 비언어적 신뢰성\n이 글은 언어적 메시지와 비언어적 신호가 상충할 때 사람들이 비언어적 신호를 더 신뢰한다는 내용이다. 긍정적인 말을 하면서 시선을 피하거나 언짢은 표정을 보이는 사례를 통해, 발화된 내용보다 비언어적 표현이 상대방의 말을 믿는 판단에 더 크게 작용함을 보여준다. 따라서 이 글의 주제로 가장 적절한 것은 '언어적 신호보다 더 큰 비언어적 신뢰성'이다.\n① 비언어적 의사소통 기술을 향상시키는 방법들\n② 비언어적 신호를 해석하는 데 있어서의 문화적 차이\n④ 메시지를 전달할 때 일관성의 필요성\n⑤ 대인 관계에서 신뢰를 구축하기 위한 핵심 요소들",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step02 30번"
+    },
+    {
+      "id": "ak26-s2-52",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). ① Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. ② This is because people trust nonverbal messages more than verbal ones. ③ Moreover the interpretation of these nonverbal signals can differ greatly from one culture to another, leading to potential misunderstandings in international communication. ④ When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. ⑤ The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "게다가, 이러한 비언어적 신호들의 해석은 문화마다 크게\n다를 수 있어서, 국제적인 의사소통에서 잠재적인 오해를 야기할 수 있다.\n이 글은 언어적 메시지와 비언어적 메시지가 상충할 때 사람들이 비언어적 신호를 더 신뢰한다는 내용이다. 따라서 비언어적 신호의 문화적 차이와 그로 인한 오해 소지를 언급하는 ③번 문장은 글의 흐름에 어울리지 않는다.",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. Moreover the interpretation of these nonverbal signals can differ greatly from one culture to another, leading to potential misunderstandings in international communication. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step02 52번"
+    },
+    {
+      "id": "ak26-s2-72",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ).\n\n(A) The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.\n\n(B) This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words.\n\n(C) Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message.",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 5,
+      "explanation": "주어진 글은 비언어적 신호의 우위를 소개하며, 언어적 메시지와 비언어적 메시지가 충돌할 때 이 현상이 특히 두드러진다고 설명한다. (C)는 'therefore'를 통해 비언어적 신호가 말과 일치하지 않으면 언어적으로 상대를 조종하려는 시도가 실패하기 쉽다고 설명한다. (B)의 이러한 실패 가능성을 받아 사람들이 비언어적 메시지를 더 신뢰하기 때문이라고 이유를 밝히고, 시선을 피하며 억지웃음을 짓는 사례를 제시한다. (A)는 (B)의 사례를 받아 말과 표정이 불일치하는 동료의 사례를 추가하며 같은 원칙을 뒷받침한다. 따라서 가장 적절한 순서는 (C)-(B)-(A)이다.",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ).\n\n(A) The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.\n\n(B) This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words.\n\n(C) Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message.",
+      "tag": "아잉카 변형 Step02 72번"
+    },
+    {
+      "id": "ak26-s2-127",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nlikely / does / if / are / spoken / accompanying / not / another person / therefore / attempts / fail / match / the / manipulate / verbally / message / the / to / communication / nonverbal / to",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). (A) 그러므로 만약 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않는다면 다른 사람을 언어적으로 조종하려는 시도는 실패할 가능성이 있다. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, (B) [ their / inclined / you / believe / words / to / probably / little / are ]. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "answer": [
+        "Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message."
+      ],
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). (A) 그러므로 만약 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않는다면 다른 사람을 언어적으로 조종하려는 시도는 실패할 가능성이 있다. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, (B) [ their / inclined / you / believe / words / to / probably / little / are ]. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step03 43번"
+    },
+    {
+      "id": "ak26-s2-128",
+      "type": "self",
+      "prompt": "윗글의 괄호 (B)에 주어진 단어를 문맥에 맞게 아래 <조건>을 참고하여 배열하시오.\n<조건>\n- 한 단어 어형 변화",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). (A) 그러므로 만약 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않는다면 다른 사람을 언어적으로 조종하려는 시도는 실패할 가능성이 있다. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, (B) [ their / inclined / you / believe / words / to / probably / little / are ]. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "answer": [
+        "you are probably less inclined to believe their words"
+      ],
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). (A) 그러므로 만약 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않는다면 다른 사람을 언어적으로 조종하려는 시도는 실패할 가능성이 있다. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, (B) [ their / inclined / you / believe / words / to / probably / little / are ]. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step03 44번"
+    },
+    {
+      "id": "ak26-s2-129",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nverbal / cues / mismatch / trust / in / superior / communication / over / nonverbal\n<조건>\n- <보기> 중 한 단어 어형 변화",
+      "answer": [
+        "superior trust in nonverbal cues over mismatched verbal communication"
+      ],
+      "explanation": "불일치하는 언어적 대화보다 비언어적 신호에 보내는 더 높은 신뢰",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). (A) 그러므로 만약 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않는다면 다른 사람을 언어적으로 조종하려는 시도는 실패할 가능성이 있다. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, (B) [ their / inclined / you / believe / words / to / probably / little / are ]. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step03 45번"
+    },
+    {
+      "id": "ak26-s2-130",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓒ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 본문의 단어를 활용할 것, 필요시 어형 변화\n- ⓐ~ⓒ 각 한 단어",
+      "text": "When spoken statements ⓐ {{conflict}} with physical expressions, people naturally trust ⓑ {{accompanying}} nonverbal signals over verbal ⓒ {{manipulation}} attempts.",
+      "explanation": "음성 메시지가 신체적 표현과 ⓐ 충돌할 때, 사람들은 언어적 ⓒ 조작 시도보다 ⓑ 수반되는 비언어적 신호를 자연스럽게 더 신뢰한다.",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). (A) 그러므로 만약 동반되는 비언어적 의사소통이 발화된 메시지와 일치하지 않는다면 다른 사람을 언어적으로 조종하려는 시도는 실패할 가능성이 있다. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, (B) [ their / inclined / you / believe / words / to / probably / little / are ]. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step03 46번"
+    },
+    {
+      "id": "ak26-s2-188",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "ⓐ A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced ⓑ when adults found themselves in situations with conflicting messages (i.e., situations which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, ⓒ but you notice what they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and ⓓ your colleague tells you with a grumpy expression which they were happy to take over your workload. ⓔ You might not believe that they enjoyed replacing you while you were gone.",
+      "answer": [
+        "ⓑ: situations which the contents → situations in which the contents",
+        "ⓒ: notice what they are looking away → notice how they are looking away",
+        "ⓓ: expression which they were happy → expression that they were happy"
+      ],
+      "explanation": "ⓑ when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ).\n- 전치사 + 관계대명사 + 완전한 문장\n: 선행사와 동일한 명사가 전치사 뒤에 있을 때, '전치사 + 관계대명사' 구조를 사용하며 뒤에 완전한 문장이 온다.   situations + the contents of the verbal and nonverbal messages differ in situations\n→ situations in which the contents of the verbal and nonverbal messages differ\nⓒ but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words.\n- 간접의문문 (의문부사 + 완전한 문장)\n: 동사 'notice'의 목적어 자리에 명사절로 간접의문문이 필요하며, '의문사 + 주어 + 동사'의 어순이 적절하다. 의문부사 'how, when, why, where'은 완전한 문장을 수반하고, 의문대명사 'what, which, who'는 불완전한 문장을 수반한다. 완전한 문장이므로 'how'가 적절하다.\nⓓ your colleague tells you with a grumpy expression that they were happy to take over your workload.\n- 명사절 접속사 that + 완전한 문장\n: 동사 'tells'의 직접목적어 자리로 명사절이 필요하며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice what they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression which they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step03 104번"
+    },
+    {
+      "id": "ak26-s2-210",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "A study by Eva McMahan, professor of speech communication, confirming the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you what they enjoy spending time with you, but you notice what they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression which they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "answer": [
+        "speech communication, confirming the → speech communication, confirmed the",
+        "(i.e., situations which → (i.e., situations in which",
+        "tells you what they → tells you that they",
+        "you notice what they → you notice how they",
+        "grumpy expression which they → grumpy expression that they"
+      ],
+      "explanation": "[교정된 글] A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "view": "A study by Eva McMahan, professor of speech communication, confirming the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you what they enjoy spending time with you, but you notice what they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression which they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step03 126번"
+    },
+    {
+      "id": "ak26-s2-227",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Actions Speak Louder: The Superiority of Nonverbal Cues",
+        "How to Read Minds: A Guide to Understanding Others",
+        "The Art of Persuasion: Align Your Words and Actions",
+        "More Than Words: The Impact of Tone in Verbal Communication",
+        "Communication Breakdown: Why Everyday Messages Are So Easily Misinterpreted"
+      ],
+      "answer": 1,
+      "explanation": "정답 ① 행동이 말보다 더 설득력이 있다: 비언어적 신호의 우월성\n이 글은 언어적 메시지와 비언어적 메시지가 상충할 때, 사람들은 말보다는 표정이나 몸짓과 같은 비언어적 신호를 더 신뢰한다는 내용이다. 따라서 글의 제목으로 '행동이 말보다 더 설득력이 있다: 비언어적 신호의 우월성'이 가장 적절하다.\n② 마음을 읽는 법: 타인을 이해하기 위한 안내서\n③ 설득의 기술: 당신의 말과 행동을 일치시켜라\n④ 말 그 이상: 언어적 의사소통에서 어조의 영향\n⑤ 의사소통의 붕괴: 일상의 메시지는 왜 그토록 쉽게 오해받는가?",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people trust nonverbal messages more than verbal ones. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step04실전1회 5번"
+    },
+    {
+      "id": "ak26-s2-251",
+      "type": "choice",
+      "prompt": "다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people __________. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "choices": [
+        "are easily deceived by contradictory signals",
+        "value spoken messages over accompanying gestures",
+        "seek verbal confirmation when nonverbal cues are ambiguous",
+        "tend to analyze verbal content for its logical consistency",
+        "perceive unspoken signals as more credible than verbal statements"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 말로 표현되지 않은 신호를 언어적 진술보다 더 신뢰할 수 있다고 인식한다\n이 글은 언어적 메시지와 비언어적 신호가 상충할 때 사람들이 비언어적 신호를 더 신뢰한다는 내용이다. 빈칸 앞에서는 말과 비언어적 신호가 일치하지 않으면 언어적으로 상대를 조종하려는 시도가 실패할 가능성이 높다고 설명한다. 빈칸은 그 이유를 밝히는 부분이므로, 발화된 내용보다 표정이나 시선과 같은 비언어적 단서를 더 믿는다는 의미의 표현이 들어가야 한다. 따라서 '말로 표현되지 않은 신호를 언어적 진술보다 더 신뢰할 수 있다고 인식한다'가 가장 적절하다.\n① 모순적인 신호에 쉽게 속는다\n② 수반되는 몸짓보다 말로 전달된 메시지를 더 가치 있게 여긴다\n③ 비언어적 단서가 모호할 때 언어적 확인을 구한다\n④ 논리적 일관성을 확인하기 위해 언어적 내용을 분석하는 경향이 있다* 원문 변형\n⑤ trust nonverbal messages more than verbal ones\n→ perceive unspoken signals as more credible than verbal statements",
+      "view": "A study by Eva McMahan, professor of speech communication, confirmed the dominance of nonverbal signals. The phenomenon, however, was especially pronounced when adults found themselves in situations with conflicting messages (i.e., situations in which the contents of the verbal and nonverbal messages differ). Attempts to manipulate another person verbally are therefore likely to fail if the accompanying nonverbal communication does not match the spoken message. This is because people ＿＿＿＿＿＿＿＿. When somebody tells you that they enjoy spending time with you, but you notice how they are looking away and are forcing a smile, you are probably less inclined to believe their words. The same is probably true when you are back at the office after a sickness and your colleague tells you with a grumpy expression that they were happy to take over your workload. You might not believe that they enjoyed replacing you while you were gone.",
+      "tag": "아잉카 변형 Step04실전2회 9번"
     }
   ]
 }

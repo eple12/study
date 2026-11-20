@@ -64,7 +64,7 @@
       "answer": 2
     },
     {
-      "id": "ak26-39",
+      "id": "ak26-s01-39",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "You might think of survival as a race (A) [ in which / which ] a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely (ㄱ) [ protective / wasteful ] of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were (ㄴ) [ similar / dissimilar ] to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of (B) [ who / whom ] failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. (C) [ It had been / Had it been ] otherwise, the huge recent growth in human population would have occurred much (ㄷ) [ later / earlier ].\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
@@ -78,10 +78,10 @@
       "answer": 1,
       "explanation": "(A) 전치사 + 관계대명사 + 완전한 문장\n- 선행사와 동일한 명사가 전치사 뒤에 있을 때, '전치사 + 관계대명사' 구조를 사용하며 뒤에 완전한 문장이 온다.\na race + a hurdle has to be jumped in a race ~\n→ a race in which a hurdle has to be jumped ~\n(B) 명사 of 관계대명사 + 불완전 문장\n- 접속사가 없으므로 '접속사 + 대명사 역할'을 하는 관계대명사가 필요하며, 전치사 'of'의 목적어 역할을 해야 하므로 목적격 관계대명사 'whom'이 적절하다.\n(C) 가정법 도치\n- 가정법에서 'if'가 생략되면 의문문의 형태로 도치가 일어난다.",
       "view": "You might think of survival as a race (A) [ in which / which ] a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely (ㄱ) [ protective / wasteful ] of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were (ㄴ) [ similar / dissimilar ] to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of (B) [ who / whom ] failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. (C) [ It had been / Had it been ] otherwise, the huge recent growth in human population would have occurred much (ㄷ) [ later / earlier ].\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
-      "tag": "아잉카 변형 39번"
+      "tag": "아잉카 변형 Step01 39번"
     },
     {
-      "id": "ak26-40",
+      "id": "ak26-s01-40",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "You might think of survival as a race (A) [ in which / which ] a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely (ㄱ) [ protective / wasteful ] of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were (ㄴ) [ similar / dissimilar ] to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of (B) [ who / whom ] failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. (C) [ It had been / Had it been ] otherwise, the huge recent growth in human population would have occurred much (ㄷ) [ later / earlier ].\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
@@ -95,10 +95,10 @@
       "answer": 3,
       "explanation": "(ㄱ) 수많은 씨앗 중 극히 일부만 나무로 자라고, 야생 영장류도 생애 초기에 많이 죽는다는 사례를 통해 자연에서 많은 생명이 살아남지 못한다는 흐름이 이어지므로, '낭비하는'이라는 의미의 'wasteful'이 적절하다. 'protective'는 '보호하는'이라는 의미이다.\n(ㄴ) 전근대 농업 사회의 인간 역시 다른 영장류처럼 높은 영아 사망률을 보였으며, 그 수준이 비슷하거나 때로는 더 높았으므로, '유사한'이라는 의미의 'similar'가 적절하다. 'dissimilar'는 '상이한, 서로 다른'이라는 의미이다.\n(ㄷ) 과거의 높은 사망률이 인구 증가를 억제했으므로, 당시의 생존 상황이 달랐다면 최근의 인구 급증이 더 일찍 나타났을 것이라는 흐름이므로, 'earlier'가 적절하다. 'later'는 '더 늦은 시기에'라는 의미이다.",
       "view": "You might think of survival as a race (A) [ in which / which ] a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely (ㄱ) [ protective / wasteful ] of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were (ㄴ) [ similar / dissimilar ] to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of (B) [ who / whom ] failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. (C) [ It had been / Had it been ] otherwise, the huge recent growth in human population would have occurred much (ㄷ) [ later / earlier ].\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
-      "tag": "아잉카 변형 40번"
+      "tag": "아잉카 변형 Step01 40번"
     },
     {
-      "id": "ak26-41",
+      "id": "ak26-s01-41",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -114,10 +114,10 @@
       ],
       "explanation": "이 글은 전근대 사회의 높은 사망률 때문에 인구 증가가 억제되었다는 내용이다. 자연이 생명을 효율적으로 보존한다고 서술한 ②번 보기와, 수렵 채집 조상들의 사망률이 농업 사회보다 상당히 더 낮았다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 과거의 생존은 많은 사람이 넘지 못한 높은 장애물들이 있는 경주와 비슷했다.\n② 인구 통계학적으로, 자연은 대부분의 생명체의 생명을 보존하는 효율성을 특징으로 한다.\n③ 전근대 인간 사회의 영아 사망률은 적어도 사망률에 견줄 만한 수준이었다.\n④ 수렵·채집 조상들의 사망률은 농업 사회 사람들의 사망률보다 상당히 낮았다.\n⑤ 과거 사회의 생존율이 더 높았다면 최근의 인구 급증은 훨씬 더 일찍 시작되었을 것이다.",
       "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
-      "tag": "아잉카 변형 41번"
+      "tag": "아잉카 변형 Step01 41번"
     },
     {
-      "id": "ak26-42",
+      "id": "ak26-s01-42",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "In pre-modern times, the growth of the human population was significantly (A) ＿＿＿＿＿＿, reflecting the (B) ＿＿＿＿＿＿ of life in nature, as evidenced by high mortality rates.",
@@ -131,7 +131,187 @@
       "answer": 5,
       "explanation": "전근대에는 인구 증가가 상당히 (A) 억제되었으며, 이는 높은 사망률에서 드러나는 자연 상태의 생명의 (B) 취약성을 반영한다.\n이 글은 많은 사람이 첫돌이나 번식할 나이에 이르기 전에 사망했으며, 이러한 높은 사망률로 인해 전근대의 인구 증가가 제한되었다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'suppressed',\n(B)에는 'fragility'가 들어가는 것이 적절하다.\n① accelerated : 가속화된 / stability : 안정성\n② maintained : 유지된 / fragility : 취약성\n③ suppressed : 억제된 / stability : 안정성\n④ accelerated : 가속화된 / diversity : 다양성",
       "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
-      "tag": "아잉카 변형 42번"
+      "tag": "아잉카 변형 Step01 42번"
+    },
+    {
+      "id": "ak26-s2-9",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "Baboons and Humans: Do They Share the Same Fate?",
+        "Agriculture: The Key to Greater Prosperity for Early Humans",
+        "Hunter-Gatherers vs. Farmers: Who Had a Higher Survival Rate?",
+        "The Great Filter: Why Survival Was So Tough for Our Ancestors",
+        "A Brief History of Population Growth from Ancient to Modern Times"
+      ],
+      "answer": 4,
+      "explanation": "거대한 여과기: 우리 조상들에게 생존이 왜 그토록 힘들었\n는가\n이 글은 전근대 사회의 인류가 자연의 가혹한 환경 속에서 매우 높은 사망률을 보이며 생존하기 어려웠다는 사실을 다양한 예시를 통해 설명하고 있다. 따라서 이 글의 제목으로 가장 적절한 것은 '거대한 여과기: 우리 조상들에게 생존이 왜 그토록 힘들었는가'이다.\n① 개코원숭이와 인간: 그들은 같은 운명을 맞는가?\n② 농업: 초기 인류의 더 큰 번영을 위한 열쇠\n③ 수렵 채집인 대 농부: 누가 더 높은 생존율을 보였는가?\n⑤ 고대에서 현대에 이르는 인구 증가의 간략한 역사",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step02 9번"
+    },
+    {
+      "id": "ak26-s2-29",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 a race in which a hurdle has to be jumped every year가 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "a life-long struggle against constant threats to stay alive",
+        "the effort to develop agriculture in pre-modern societies",
+        "the process of human population growing at a rapid pace",
+        "an annual athletic competition involving jumping over barriers",
+        "the competition between humans and apes for limited resources"
+      ],
+      "answer": 1,
+      "explanation": "평생 살아남기 위해 끊임없는 위협에 맞서 싸우는 것\n밑줄 친 '매년 허들을 넘어야 하는 경주'는 살아가는 동안 계속해서 죽음의 위협과 생존의 어려움을 극복해야 한다는 의미이다. 따라서 밑줄 친 부분이 의미하는 바로 가장 적절한 것은 '평생 살아남기 위해 끊임없는 위협에 맞서 싸우는 것'이다.\n② 전근대 사회에서 농업을 발전시키려는 노력\n③ 인구가 빠른 속도로 증가하는 과정\n④ 매년 장애물을 뛰어넘는 육상 경기\n⑤ 제한된 자원을 둘러싼 인간과 유인원의 경쟁",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step02 29번"
+    },
+    {
+      "id": "ak26-s2-51",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "You might think of survival as a race in which a hurdle has to be jumped every year.\n\n(A) Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n\n(B) The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree.\n\n(C) Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 3,
+      "explanation": "주어진 글은 생존을 해마다 허들을 넘어야 하는 경주에 비유한다. (B)는 이 비유를 받아 과거의 높은 조기 사망 위험을 설명하고, 자연의 가혹함을 무화과의 사례로 뒷받침한다. (C)는 개코원숭이의 사망률을 추가 사례로 제시한 뒤, 전근대 농업 사회 인간의 유아 사망률도 유인원과 비슷하거나 더 높았다고 설명한다. (A)의 이러한 상황을 수렵 채집 조상들에게 연결하며, 사망률이 그렇게 높지 않았다면 급격한 인구 증가가 더 일찍 발생했을 것이라는 결론으로 마무리한다. 따라서 가장 적절한 순서는 (B)-(C)-(A)이다.",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year.\n\n(A) Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n\n(B) The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree.\n\n(C) Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step02 51번"
+    },
+    {
+      "id": "ak26-s2-71",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "The extremely (A) survival rates for early humans, which were typical in nature, (B) the massive population growth until modern times.",
+      "choices": [
+        "high / prevented",
+        "low / prevented",
+        "high / encouraged",
+        "steady / encouraged",
+        "low / predicted"
+      ],
+      "answer": 2,
+      "explanation": "초기 인류의 극도로 (A) 낮은 생존율은 자연에서 일반적\n인 것이었는데, 이는 현대에 이르기까지 대규모의 인구 증가를 (B) 막았다.\n이 글은 과거 인류가 높은 사망률로 인해 생존에 큰 어려움을 겪었다는 내용이다. 이러한 높은 사망률은 낮은 생존율을 뜻하며, 급격한 인구 증가를 오랫동안 억제한 요인으로 제시된다. 따라서 요약문의 빈칸 (A)에는 'low'가, (B)에는 'prevented'가 들어가는 것이 가장 적절하다.\n① high : 높은 / prevented : 막았다\n③ high : 높은 / encouraged : 장려했다\n④ steady : 꾸준한 / encouraged : 장려했다\n⑤ low : 낮은 / predicted : 예측했다",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step02 71번"
+    },
+    {
+      "id": "ak26-s2-123",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nnumber / will / one / a fig tree / figs / even / seeds / of / small / a / of / become / many / from / only / very\n<조건>\n- 전치사 + only 도치 구문 활용, 단어 추가 없음",
+      "context": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. (A) 극소수의 무화과로부터 나오는 많은 씨앗들 중 단 하나만이 무화과 나무가 될 것이다. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, (B) [ failed / a / whom / reach / first / of / quarter / to / their / birthday ], while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "answer": [
+        "From only a very small number of figs will even one of many seeds become a fig tree."
+      ],
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. (A) 극소수의 무화과로부터 나오는 많은 씨앗들 중 단 하나만이 무화과 나무가 될 것이다. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, (B) [ failed / a / whom / reach / first / of / quarter / to / their / birthday ], while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step03 39번"
+    },
+    {
+      "id": "ak26-s2-124",
+      "type": "self",
+      "prompt": "윗글의 괄호 (B)에 주어진 단어를 문맥에 맞게 배열하시오.",
+      "context": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. (A) 극소수의 무화과로부터 나오는 많은 씨앗들 중 단 하나만이 무화과 나무가 될 것이다. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, (B) [ failed / a / whom / reach / first / of / quarter / to / their / birthday ], while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "answer": [
+        "a quarter of whom failed to reach their first birthday"
+      ],
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. (A) 극소수의 무화과로부터 나오는 많은 씨앗들 중 단 하나만이 무화과 나무가 될 것이다. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, (B) [ failed / a / whom / reach / first / of / quarter / to / their / birthday ], while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step03 40번"
+    },
+    {
+      "id": "ak26-s2-125",
+      "type": "blank",
+      "prompt": "아래 <조건>을 참고하여 윗글의 제목을 알맞게 완성하시오.\n<조건>\n- 본문의 단어를 활용할 것, 필요시 어형 변화\n- 빈칸 당 각 한 단어",
+      "text": "High {{Mortality}} as a Major {{Survival}} Hurdle in Pre-Nineteenth-Century Human History",
+      "explanation": "19세기 이전 인류 역사에서 주요한 생존 장애물이었던 높은 사망률",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. (A) 극소수의 무화과로부터 나오는 많은 씨앗들 중 단 하나만이 무화과 나무가 될 것이다. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, (B) [ failed / a / whom / reach / first / of / quarter / to / their / birthday ], while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step03 41번"
+    },
+    {
+      "id": "ak26-s2-126",
+      "type": "blank",
+      "prompt": "윗글의 내용을 아래와 같이 요약할 때, 빈칸에 들어갈 적절한 단어를 아래 <보기>의 영영풀이를 참고하여 알맞게 쓰시오.\n<보기>\n[NOUN] something that makes it difficult to do something\n→ o",
+      "text": "Widespread infant mortality among pre-nineteenth-century ancestors presented a severe {{obstacle}} to early human population growth.",
+      "explanation": "19세기 이전 조상들 사이의 광범위한 영아 사망률은 초기 인구 성장에 심각한 장애물이 되었다.\n[영영 풀이] 어떤 일을 하기 어렵게 만드는 것",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. (A) 극소수의 무화과로부터 나오는 많은 씨앗들 중 단 하나만이 무화과 나무가 될 것이다. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, (B) [ failed / a / whom / reach / first / of / quarter / to / their / birthday ], while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이 *** primate: 영장류",
+      "tag": "아잉카 변형 Step03 42번"
+    },
+    {
+      "id": "ak26-s2-187",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "ⓐ You might think of survival as a race which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. ⓑ From only a very small number of figs even one of many seeds will become a fig tree. ⓒ Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. ⓓ Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. ⓔ Had it been otherwise, the huge recent growth in human population would occur much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "answer": [
+        "ⓐ: a race which a hurdle → a race in which a hurdle",
+        "ⓑ: figs even one of many seeds will become → figs will even one of many seeds become",
+        "ⓔ: would occur much earlier → would have occurred much earlier"
+      ],
+      "explanation": "ⓐ You might think of survival as a race in which a hurdle has to be jumped every year.\n- 전치사 + 관계대명사 + 완전한 문장\n: 선행사와 동일한 명사가 전치사 뒤에 있을 때, '전치사 + 관계대명사' 구조를 사용하며 뒤에 완전한 문장이 온다.   a race + a hurdle has to be jumped in a race every year.\n→ a race in which a hurdle has to be jumped every year.\nⓑ From only a very small number of figs will even one of many seeds become a fig tree.\n- only 부사구 도치\n: 'only 부사구'가 문두로 이동하면 의문문의 형태로 도치가 일어난다.\n[From only ~ figs] will even one of many seeds become ~   조   S   V\nⓔ Had it been otherwise, the huge recent growth in human population would have occurred much earlier.\n- 가정법 과거완료 (if 생략) if S + had p.p, S + 조동사과거 + have p.p\n= had + S + p.p, S + 조동사과거 + have p.p\n: 과거 사실의 반대를 표현하며, 접속사 'if'가 생략되면 'had'가 주어 앞으로 도치된다.   Had it been otherwise, the huge recent growth in human population would have occurred much earlier.",
+      "view": "You might think of survival as a race which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs even one of many seeds will become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would occur much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "tag": "아잉카 변형 Step03 103번"
+    },
+    {
+      "id": "ak26-s2-209",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "You might think of survival as a race which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, that is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than that of apes. Things were little better for our hunter-gatherer ancestors, a quarter of them failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. It had been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "answer": [
+        "a race which → a race in which",
+        "year old, that is → year old, which is",
+        "higher, than that of → higher, than those of",
+        "quarter of them failed → quarter of whom failed",
+        "nineteenth century. It had been → nineteenth century. Had it been"
+      ],
+      "explanation": "[교정된 글] You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population would have occurred much earlier.",
+      "view": "You might think of survival as a race which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, that is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than that of apes. Things were little better for our hunter-gatherer ancestors, a quarter of them failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. It had been otherwise, the huge recent growth in human population would have occurred much earlier.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "tag": "아잉카 변형 Step03 125번"
+    },
+    {
+      "id": "ak26-s2-226",
+      "type": "choice",
+      "prompt": "다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population __________.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "choices": [
+        "would have been further delayed",
+        "might have led to resource depletion",
+        "could have been prevented by nature",
+        "would have followed a much slower trajectory",
+        "would have emerged long before it actually did"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 실제로 나타난 시점보다 훨씬 일찍 나타났을 것이다\n이 글은 과거 인류가 높은 사망률로 인해 생존에 큰 어려움을 겪었고, 이로 인해 급격한 인구 증가가 억제되었다는 내용이다. 빈칸이 있는 마지막 문장의 'Had it been otherwise'는 과거의 사망률이 그렇게 높지 않았을 경우를 가정하므로, 빈칸에는 급격한 인구 증가가 실제보다 훨씬 이른 시점에 일어났을 것이라는 의미의 표현이 들어가야 한다. 따라서 '실제로 나타난 시점보다 훨씬 일찍 나타났을 것이다'가 가장 적절하다.\n① 더욱 지연되었을 것이다\n② 자원 고갈로 이어졌을지도 모른다\n③ 자연에 의해 저지될 수 있었을 것이다\n④ 훨씬 더 느린 추세로 진행되었을 것이다* 원문 변형\n⑤ would have occurred much earlier\n→ would have emerged long before it actually did",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. Had it been otherwise, the huge recent growth in human population ＿＿＿＿＿＿＿＿.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "tag": "아잉카 변형 Step04실전1회 4번"
+    },
+    {
+      "id": "ak26-s2-249",
+      "type": "choice",
+      "prompt": "윗글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "demographic shifts resulting from the development of agriculture",
+        "a comparative analysis of survival strategies across different species",
+        "the primary factors behind the recent explosion in human population",
+        "the severe survival pressures faced by humans in pre-modern societies",
+        "the historical evolution of human life expectancy since the 19th century"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 전근대 사회에서 인간이 겪었던 극심한 생존의 어려움\n이 글은 전근대 인류가 자연 상태에 가깝게 살면서 높은 사망률로 인해 생존에 큰 어려움을 겪었다는 내용이다. 자연의 낮은 생존율을 무화과와 개코원숭이의 사례로 보여주고, 농업 사회와 수렵 채집 사회의 높은 유아 사망률을 통해 인간의 생존도 어려웠음을 설명한다. 따라서 이 글의 주제로 가장 적절한 것은 '전근대 사회에서 인간이 겪었던 극심한 생존의 어려움'이다.\n① 농업 발달로 인한 인구 통계학적 변화\n② 다른 종들 간의 생존 전략 비교 분석\n③ 최근 인구 폭발의 주된 요인\n⑤ 19세기 이후 인류 기대 수명의 역사적 진화",
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. 만약 그렇지 않았더라면, 최근의 엄청난 인구 증가는 훨씬 더 일찍 일어났었을 것이다.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "tag": "아잉카 변형 Step04실전2회 7번"
+    },
+    {
+      "id": "ak26-s2-250",
+      "type": "self",
+      "prompt": "[주관식 2] 윗글의 밑줄 친 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\ngrowth / in / human / otherwise, / recent / have / population / huge / it / had / occurred / much / earlier / been / the / would\n<조건>\n- If 가정법 생략 도치 구문 및 종속절 + 주절 활용\n- <보기> 어형 변화 없음, 단어 추가 없음",
+      "context": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. 만약 그렇지 않았더라면, 최근의 엄청난 인구 증가는 훨씬 더 일찍 일어났었을 것이다.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "answer": [
+        "Had it been otherwise, the huge recent growth in human population would have occurred much earlier."
+      ],
+      "view": "You might think of survival as a race in which a hurdle has to be jumped every year. The early hurdles were once very high, and many people fell before clearing the first few. Demographically, humankind was living close to a state of nature, and nature is extremely wasteful of life. From only a very small number of figs will even one of many seeds become a fig tree. Almost a quarter of baboons born in the wild die before they are a year old, which is fairly typical for primates. Infant mortality rates for humans in pre-modern agricultural societies were similar to, and sometimes higher, than those of apes. Things were little better for our hunter-gatherer ancestors, a quarter of whom failed to reach their first birthday, while another quarter didn't live long enough to reproduce just about everywhere until the nineteenth century. 만약 그렇지 않았더라면, 최근의 엄청난 인구 증가는 훨씬 더 일찍 일어났었을 것이다.\n* demographically: 인구 통계학적으로 ** baboon: 개코원숭이\n*** primate: 영장류",
+      "tag": "아잉카 변형 Step04실전2회 8번"
     }
   ]
 }

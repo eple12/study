@@ -64,7 +64,7 @@
       "answer": 5
     },
     {
-      "id": "ak26-71",
+      "id": "ak26-s01-71",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly (ㄱ) [ effective / ineffective ] avenue to (A) [ regulating / regulate ] emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but (B) [ that / where ] might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at (ㄴ) [ lower / higher ] levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When (C) [ repeating / repeated ] over time, these short-term emotional consequences of reappraisal might (ㄷ) [ accumulate / disperse ] to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
@@ -78,10 +78,10 @@
       "answer": 2,
       "explanation": "(A) 전치사 + 동명사\n- 'avenue to'에서 'to'는 전치사이므로 동명사가 적절하다.\n(B) 관계대명사 병렬구조\n- as something that is painful but that might lead to ~\n(C) 접속사 + 수동 과거분사구문\n- 주어와 수동의 관계이며, 뒤에 목적어가 없으므로 과거분사가 적절하다. 의미를 명확히 하고자 접속사를 남겨둔 구조이다.\nWhen (they are) repeated over time, these short-term emotional consequences of ~",
       "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly (ㄱ) [ effective / ineffective ] avenue to (A) [ regulating / regulate ] emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but (B) [ that / where ] might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at (ㄴ) [ lower / higher ] levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When (C) [ repeating / repeated ] over time, these short-term emotional consequences of reappraisal might (ㄷ) [ accumulate / disperse ] to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
-      "tag": "아잉카 변형 71번"
+      "tag": "아잉카 변형 Step01 71번"
     },
     {
-      "id": "ak26-72",
+      "id": "ak26-s01-72",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly (ㄱ) [ effective / ineffective ] avenue to (A) [ regulating / regulate ] emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but (B) [ that / where ] might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at (ㄴ) [ lower / higher ] levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When (C) [ repeating / repeated ] over time, these short-term emotional consequences of reappraisal might (ㄷ) [ accumulate / disperse ] to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
@@ -95,10 +95,10 @@
       "answer": 5,
       "explanation": "(ㄱ) 재평가는 감정을 본질적으로 변화시켜 감정을 조절하는 방법을 제공한다고 했으므로, '효과적인'이라는 의미의 'effective'가 적절하다. 'ineffective'는 '비효과적인'이라는 의미이다.\n(ㄴ) 이혼을 긍정적인 결과로 이어질 수 있는 일로 보는 두 번째 해석은, 첫 번째 해석보다 슬픔과 분노의 강도가 더 낮을 것이라고 추론할 수 있으므로 '더 낮은'이라는 의미의 'lower'가 적절하다. 'higher'는 '더 높은'이라는 의미이다.\n(ㄷ) 재평가의 단기적인 감정적 결과들이 시간이 지나면서 사람들의 심리적 건강을 형성한다고 했으므로, 이러한 결과들이 '축적되어' 영향을 미친다는 의미의 'accumulate'가 적절하다. 'disperse'는 '흩어지다'라는 의미이다.",
       "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly (ㄱ) [ effective / ineffective ] avenue to (A) [ regulating / regulate ] emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but (B) [ that / where ] might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at (ㄴ) [ lower / higher ] levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When (C) [ repeating / repeated ] over time, these short-term emotional consequences of reappraisal might (ㄷ) [ accumulate / disperse ] to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
-      "tag": "아잉카 변형 72번"
+      "tag": "아잉카 변형 Step01 72번"
     },
     {
-      "id": "ak26-73",
+      "id": "ak26-s01-73",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -114,10 +114,10 @@
       ],
       "explanation": "이 글은 감정적 상황에 관한 생각을 바꾸는 '재평가'가 어떻게 감정을 조절하고 심리적 건강과 회복 탄력성에 기여하는지를 설명하는 내용이다. 이혼을 상실로 보는 첫 번째 해석이 주로 희망과 같은 긍정적 감정을 불러온다고 서술한 ③번 보기와, 재평가가 단기적인 정서 반응에 큰 영향을 미치지 않는다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 재평가는 상황에 관한 생각을 바꾸는 감정 조절 방법이다.\n② 부정적인 사건은 다양한 방식으로 이해될 수 있으며, 이는 서로 다른 감정적 경험으로 이어진다.\n③ 이혼을 상실로 보는 첫 번째 해석은 주로 희망과 같은 긍정적 감정을 불러일으킨다.\n④ 재평가는 사람들의 단기적인 정서 반응에 큰 영향을 미치지 않는 것으로 묘사된다.\n⑤ 시간이 지나면서 누적되는 재평가의 효과는 회복 탄력성을 기르는 핵심적인 요인이 될 수 있는 것으로 제시된다.",
       "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
-      "tag": "아잉카 변형 73번"
+      "tag": "아잉카 변형 Step01 73번"
     },
     {
-      "id": "ak26-74",
+      "id": "ak26-s01-74",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "Reappraisal, which involves (A) ＿＿＿＿＿＿ one's understanding of an emotional event, can produce more (B) ＿＿＿＿＿＿ emotional responses and ultimately contribute to psychological resilience.",
@@ -131,7 +131,158 @@
       "answer": 1,
       "explanation": "감정적 사건에 대한 이해를 (A) 재구성하는 것을 포함하는 재평가는 더 (B) 건설적인 감정적 반응을 만들어 낼 수 있고, 궁극적으로 심리적 회복 탄력성에 기여할 수 있다.\n이 글은 감정적인 상황에 대해 생각하는 방식을 바꾸는 '재평가'가 감정을 조절하는 효과적인 방법이라고 설명한다. 부정적인 사건을 다르게 해석함으로써(재구성함으로써) 더 긍정적이고 건설적인 감정적 결과를 이끌어내고, 이것이 반복되면 회복 탄력성으로 이어진다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'reframing',\n(B)에는 'constructive'가 들어가는 것이 가장 적절하다.\n② reinforcing : 강화하는 것 / destructive : 파괴적인\n③ reframing : 재구성하는 것 / destructive : 파괴적인\n④ ignoring : 무시하는 것 / constructive : 건설적인\n⑤ reinforcing : 강화하는 것 / unpredictable : 예측 불가능한",
       "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
-      "tag": "아잉카 변형 74번"
+      "tag": "아잉카 변형 Step01 74번"
+    },
+    {
+      "id": "ak26-s2-17",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to ① regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an ② overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but ③ what might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates ④ how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate ⑤ to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "explanation": "what → that\n관계대명사 + 불완전 문장\n- 부정대명사 'something'을 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사 'that'이 적절하다. something that is painful but that might lead to ~ 선행사 V1 V2",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but what might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step02 17번"
+    },
+    {
+      "id": "ak26-s2-37",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Dangers of Hiding Your True Emotional State",
+        "Divorce: An Unavoidable Crisis in Modern Families",
+        "Short-Term Relief vs. Long-Term Psychological Health",
+        "Why Positive Thinking Doesn't Always Lead to Success",
+        "Reframe Your Mind: The Path to Emotional Resilience"
+      ],
+      "answer": 5,
+      "explanation": "생각의 틀을 바꾸어라: 정서적 회복탄력성으로 가는 길\n이 글은 같은 상황도 어떻게 해석하느냐에 따라 감정 반응이 달라지며, 재평가가 부정적 감정의 강도를 낮추고 긍정적 감정을 불러올 수 있음을 설명한다. 이러한 단기적 변화가 반복되어 누적되면 장기적인 심리적 건강과 회복탄력성에 도움이 될 수 있다는 것이다. 따라서 이 글의 제목으로 가장 적절한 것은 '생각의 틀을 바꾸어라: 정서적 회복탄력성으로 가는 길'이다.\n① 당신의 진정한 감정 상태를 숨기는 것의 위험성\n② 이혼: 현대 가족의 피할 수 없는 위기\n③ 단기적 안도감 대 장기적 심리 건강\n④ 긍정적 사고가 항상 성공으로 이어지지는 않는 이유",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step02 37번"
+    },
+    {
+      "id": "ak26-s2-59",
+      "type": "choice",
+      "prompt": "다음 글을 읽고 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to ＿＿＿＿＿＿＿＿.\n* construe: 해석하다",
+      "choices": [
+        "justifying one's initial emotional reactions",
+        "a process of ignoring the long-term consequences",
+        "the capacity to adapt well in the face of adversity",
+        "a method for completely avoiding negative feelings",
+        "a tendency to focus only on the positive aspects of life"
+      ],
+      "answer": 3,
+      "explanation": "역경에 직면하여 잘 적응하는 능력\n이 글은 감정적 상황에 관한 생각을 바꾸는 '재평가'가 감정을 조절하고 심리적 건강을 형성하는 효과적인 방법임을 설명한다. 빈칸이 있는 마지막 문장은 재평가의 궁극적인 역할을 요약하는 부분이다. 재평가를 통해 부정적인 사건을 긍정적인 관점으로 재해석하고 감정적 반응을 변화시키는 과정이 반복되면, 역경으로부터 회복하는 힘, 즉 회복 탄력성을 기를 수 있다는 의미의 표현이 들어가야 한다. 따라서 빈칸에는 '역경에 직면하여 잘 적응하는 능력'이 가장 적절하다.\n① 자신의 초기 감정적 반응을 정당화하는 것\n② 장기적인 결과를 무시하는 과정\n④ 부정적인 감정을 완전히 피하는 방법\n⑤ 삶의 긍정적인 측면에만 집중하는 경향\n* 원문 변형\n③ resilience → the capacity to adapt well in the face of adversity",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to ＿＿＿＿＿＿＿＿.\n* construe: 해석하다",
+      "tag": "아잉카 변형 Step02 59번"
+    },
+    {
+      "id": "ak26-s2-79",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Reappraisal involves (A) an adverse event and can increase (B) over emotional responses, potentially improving psychological well-being over time.",
+      "choices": [
+        "avoiding / control",
+        "avoiding / uncertainty",
+        "repeating / confusion",
+        "reinterpreting / control",
+        "reinterpreting / confusion"
+      ],
+      "answer": 4,
+      "explanation": "재평가는 부정적인 사건을 (A) 재해석하는 것을 포함하며,\n감정 반응에 대한 (B) 통제력을 높이고 장기적으로 심리적 건강을 향상시키는 데 도움이 될 수 있다.\n이 글은 사건의 해석에 따라 감정 반응이 달라지고, 재평가의 효과가 누적되면 심리적 건강과 회복탄력성에 도움이 될 수 있다는 내용이다. 또한, 부정적 사건을 다르게 해석하면 슬픔과 분노의 강도를 낮추고 희망 같은 감정을 불러올 수 있으므로, 사건의 재해석을 통해 감정 반응을 조절한다. 따라서 요약문의 빈칸 (A)에는 'reinterpreting'이, (B)에는 'control'이 들어가는 것이 적절하다.\n① avoiding : 피하는 것 / control : 통제력\n② avoiding : 피하는 것 / uncertainty : 불확실성\n③ repeating : 반복하는 것 / confusion : 혼란\n⑤ reinterpreting : 재해석하는 것 / confusion : 혼란",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step02 79번"
+    },
+    {
+      "id": "ak26-s2-155",
+      "type": "blank",
+      "prompt": "윗글의 빈칸 (A)에 들어갈 단어를 아래 <보기>의 영영풀이를 참고하여 알맞게 쓰시오.\n<보기>\n[NOUN] a way of achieving something or of reaching a goal",
+      "text": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective (a…) {{avenue}} to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, (B) 누군가는 그것을 고통스럽기는 하지만 장기적으로는 긍정적인 결과로 이어질 수 있는 일로 여길지도 모른다, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "explanation": "무언가를 이루거나 목표에 도달하는 방법",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective ＿＿＿＿＿＿＿＿ to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, (B) 누군가는 그것을 고통스럽기는 하지만 장기적으로는 긍정적인 결과로 이어질 수 있는 일로 여길지도 모른다, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step03 71번"
+    },
+    {
+      "id": "ak26-s2-156",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\nmight / as / outcomes / that / is / see / in the long run, / one / might / painful / but / that / lead / to / it / positive / something\n<조건>\n- 관계대명사 및 병렬구조 활용",
+      "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective __________ to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, (B) 누군가는 그것을 고통스럽기는 하지만 장기적으로는 긍정적인 결과로 이어질 수 있는 일로 여길지도 모른다, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "answer": [
+        "one might see it as something that is painful but that might lead to positive outcomes in the long run"
+      ],
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective ＿＿＿＿＿＿＿＿ to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, (B) 누군가는 그것을 고통스럽기는 하지만 장기적으로는 긍정적인 결과로 이어질 수 있는 일로 여길지도 모른다, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step03 72번"
+    },
+    {
+      "id": "ak26-s2-157",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nof / promote / the / reappraisal / resilience / role / cognitive / in / transform / psychological\n<조건>\n- <보기> 중 두 단어 어형 변화",
+      "answer": [
+        "the transformative role of cognitive reappraisal in promoting psychological resilience"
+      ],
+      "explanation": "심리적 회복탄력성 증진에 있어서 인지적 재평가의 변혁적 역할",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective ＿＿＿＿＿＿＿＿ to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, (B) 누군가는 그것을 고통스럽기는 하지만 장기적으로는 긍정적인 결과로 이어질 수 있는 일로 여길지도 모른다, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step03 73번"
+    },
+    {
+      "id": "ak26-s2-158",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓓ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 본문의 단어를 활용할 것, 필요시 어형 변화\n- ⓐ~ⓓ 각 한 단어",
+      "text": "Reappraisal ⓐ {{transforms}} emotional responses at their root by ⓑ {{changing}} how people ⓒ {{construe}} adverse situations, ultimately ⓓ {{shaping}} long-term psychological resilience.",
+      "explanation": "재평가는 사람들이 불리한 상황을 ⓒ 해석하는 방식을 ⓑ 바꿈으로써 정서적 반응을 근본적으로 ⓐ 변화시키며, 궁극적으로 장기적인 심리적 회복탄력성을 ⓓ 형성한다.",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective ＿＿＿＿＿＿＿＿ to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, (B) 누군가는 그것을 고통스럽기는 하지만 장기적으로는 긍정적인 결과로 이어질 수 있는 일로 여길지도 모른다, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step03 74번"
+    },
+    {
+      "id": "ak26-s2-195",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓓ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "ⓐ Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, ⓑ one might see it as something that is painful but what might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. ⓒ This example illustrates how reappraisal might powerfully transform short-term emotional responses. ⓓ When repeating over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "answer": [
+        "ⓑ: but what might lead → but that might lead",
+        "ⓓ: When repeating over time → When repeated over time"
+      ],
+      "explanation": "ⓑ one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships.\n- 관계대명사 + 불완전 문장\n: 'something'을 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사가 적절하다. 접속사 'but'을 기준으로 병렬구조를 이루고 있으며, 'what'은 명사절의 역할을 하므로 올 수 없다.\nⓓ When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health.\n- 접속사 + 수동 과거분사구문\n: 주절의 주어와 수동의 관계이며, 뒤에 목적어가 없으므로 과거분사가 적절하다. 의미를 명확히 하고자 접속사를 남겨둔 구조이다.   When (they are) repeated over time, these short-term emotional consequences of reappraisal might ~",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but what might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeating over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step03 111번"
+    },
+    {
+      "id": "ak26-s2-217",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 4개)",
+      "context": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulate emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but what might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates what reappraisal might powerfully transform short-term emotional responses. When repeating over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "answer": [
+        "avenue to regulate emotions → avenue to regulating emotions",
+        "painful but what might → painful but that might",
+        "example illustrates what reappraisal → example illustrates how reappraisal",
+        "responses. When repeating over → responses. When repeated over"
+      ],
+      "explanation": "[교정된 글] Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulate emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but what might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates what reappraisal might powerfully transform short-term emotional responses. When repeating over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step03 133번"
+    },
+    {
+      "id": "ak26-s2-236",
+      "type": "choice",
+      "prompt": "다음 글의 주제로 가장 적절한 것은?",
+      "choices": [
+        "common misconceptions about emotional regulation",
+        "the long-term negative effects of suppressing emotions",
+        "the role of cognitive reappraisal in fostering emotional resilience",
+        "key differences between short-term and long-term emotional responses",
+        "the importance of social support in overcoming traumatic life events"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 정서적 회복탄력성을 키우는 데 있어 인지적 재평가가 하는 역할\n이 글은 감정적 상황에 대한 생각을 바꾸는 '재평가'가 감정을 근본적으로 변화시켜 감정 조절에 효과적이라고 설명한다. 이혼이라는 부정적 사건을 예로 들어, 이를 어떻게 해석하느냐에 따라 감정적 반응이 달라지며, 긍정적 재평가를 통해 희망과 같은 긍정적 감정을 느끼고 장기적으로 심리적 건강과 회복 탄력성을 기를 수 있다는 내용이다. 따라서 이 글의 주제로 가장 적절한 것은 '정서적 회복탄력성을 키우는 데 있어 인지적 재평가가 하는 역할'이다.\n① 감정 조절에 대한 흔한 오해들\n② 감정을 억누르는 것의 장기적인 부정적 효과\n④ 단기적 감정 반응과 장기적 감정 반응의 주요 차이점\n⑤ 충격적인 삶의 사건을 극복하는 데 있어 사회적 지지의 중요성",
+      "view": "Reappraisal — changing the way one thinks about emotional situations — might present a particularly effective avenue to regulating emotions because it transforms emotions at their root. Take, for example, someone who is going through a divorce. This is often an adverse event, and yet, it can be construed in different ways. One might view it as an overpowering loss that will mark one's family for life. Alternatively, one might see it as something that is painful but that might lead to positive outcomes in the long run, such as improved relationships. As a result of these different construals, one might feel different emotions. The first construal may bring intense sadness and anger. The second construal might also bring sadness and anger but perhaps at lower levels. Crucially, it might also bring some positive emotions, such as hope, strength, or gratitude. This example illustrates how reappraisal might powerfully transform short-term emotional responses. When repeated over time, these short-term emotional consequences of reappraisal might accumulate to shape people's psychological health. Thereby, reappraisal might be a key to resilience.\n* resilience: 회복 탄력성 ** construe: 해석하다",
+      "tag": "아잉카 변형 Step04실전1회 14번"
     }
   ]
 }

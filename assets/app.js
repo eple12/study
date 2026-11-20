@@ -48,11 +48,13 @@ const focus = el => { if (FINE && el) el.focus({ preventScroll: true }); };
 // **굵게** __밑줄__ ==형광펜== *기울임*
 function md(s) {
   return esc(s)
+    .replace(/(^|\s)(\*{1,3})(?=\s)/g, (_, a, b) => a + ''.repeat(b.length)) // 각주 기호 "* 단어:" 는 글자 스타일이 아님
     .replace(/\*\*(?=\S)(.+?)(?<=\S)\*\*/g, '<b>$1</b>')
     .replace(/(?<![_\w])__(?=[^_\s])(.+?)(?<=[^_\s])__(?![_\w])/g, '<u>$1</u>')
     .replace(/==(?=\S)(.+?)(?<=\S)==/g, '<mark>$1</mark>')
     .replace(/(?<![*\w])\*(?=\S)(.+?)(?<=\S)\*(?![*\w])/g, '<i>$1</i>')
-    .replace(/\n/g, '<br>');
+    .replace(/\n/g, '<br>')
+    .replace(//g, '*');
 }
 
 const norm = s => String(s).normalize('NFC').toLowerCase()
@@ -343,6 +345,8 @@ function noteEditor(path, pid, onSaved) {
 // 지문에 번역이 없으면 문장 단위로 온라인 번역을 받아 채운다 (문장 번역은 dict.js가 캐시해 둔다)
 async function fetchKo(p) {
   if (p.hasKo) return true;
+  // 문장 단위로 나눠야 EN·KO 에서 "영어 문장, 한글, 다음 영어 문장…" 순서로 보인다
+  p.paras = p.paras.map(par => par.flatMap(u => sentenceSpans(u.en).map(([a, b]) => ({ en: u.en.slice(a, b).trim(), ko: '' })).filter(x => x.en)));
   const flat = p.paras.flat();
   const trs = await Promise.all(flat.map(u => translate(u.en).catch(() => '')));
   flat.forEach((u, i) => { u.ko = trs[i] || u.ko; });
@@ -370,6 +374,7 @@ function reader(set, path) {
     main.className = `m-${mode}`;
     main.style.setProperty('--fs', fs + 'px');
     tools.querySelector('[data-a=mode]').textContent = busy ? '···' : MODE_LABEL[mode];
+    placeCards(main);
   };
   apply();
 
@@ -522,14 +527,45 @@ function wrapWords(root) {
   }
 }
 
-// 단어장에 저장한 단어·구는 점선 밑줄로, 포스트잇 메모는 노란 표시 + 문장 아래 작은 쪽지로 보여 준다.
+// 단어장에 저장한 단어·구는 점선 밑줄로, 포스트잇 메모는 노란 표시 + 붙인 자리의 쪽지(핀)로 보여 준다.
 // 둘 다 "내가 저장·메모한 바로 그 지문" 안에서만 표시한다 (같은 단어가 다른 지문에 나와도 표시하지 않음).
 const overlaps = (a, b) => [...a].some(x => b.has(x));
 const phraseForms = text => tokens(text).map(forms);
 
+// 문단(<p>) 안의 모든 영어 단어와 그 글자 위치. 문장 나눔(EN-KO)이 바뀌어도 위치가 변하지 않는다
+const pWords = p => {
+  let base = 0;
+  const out = [];
+  for (const en of p.querySelectorAll('.en')) {
+    for (const w of en.querySelectorAll('.w')) out.push({ w, a: base + offOf(en, w) });
+    base += en.textContent.length + 1;
+  }
+  return out;
+};
+const pText = p => [...p.querySelectorAll('.en')].map(e => e.textContent).join(' ');
+
+// 이웃한 두 단어가 같은 표시(밑줄·하이라이트)를 가지면 그 사이 띄어쓰기도 같은 표시로 이어 준다
+function bridge(root, cls = ['has', 'noted', 'on', 'sel']) {
+  for (const en of root.querySelectorAll('.en')) {
+    const ws = en.querySelectorAll('.w');
+    for (let i = 0; i + 1 < ws.length; i++) {
+      const a = ws[i], b = ws[i + 1];
+      let g = a.nextSibling;
+      if (g && g.nodeType === 3 && /^\s+$/.test(g.nodeValue) && g.nextSibling === b) {
+        const s = document.createElement('span');
+        s.className = 'g';
+        g.replaceWith(s);
+        s.append(g);
+        g = s;
+      } else if (!(g && g.nodeType === 1 && g.classList.contains('g') && g.nextSibling === b)) continue;
+      for (const c of cls) g.classList.toggle(c, a.classList.contains(c) && b.classList.contains(c));
+    }
+  }
+}
+
 function markHints(root, ctx) {
   root.querySelectorAll('.w').forEach(w => { w.classList.remove('has', 'noted', 'on'); delete w.dataset.n; });
-  root.querySelectorAll('.pn').forEach(p => p.remove());
+  root.querySelectorAll('.pin, .pncard').forEach(p => p.remove());
   const path = ctx?.path;
   const vocabEntries = wb.books().flatMap(b => b.words).filter(x => !x.path || x.path === path);
   root.querySelectorAll('.psg[data-pid]').forEach(psg => {
@@ -549,39 +585,61 @@ function markHints(root, ctx) {
       });
     }
     const list = path ? wnote.list(path, pid) : [];
-    if (!list.length) return;
-    const units = [...psg.querySelectorAll('.u')];
+    const paras = [...psg.querySelectorAll('p')];
     for (const n of list) {
-      const u = units[n.u], en = u?.querySelector('.en');
-      if (!en) continue;
+      const p = paras[n.p];
+      if (!p) continue;
       const open = PN_OPEN.has(n.id);
-      const ws = tidy(en.textContent.slice(n.a, n.b)) === n.t
-        ? [...en.querySelectorAll('.w')].filter(w => { const a = offOf(en, w); return a >= n.a && a + w.textContent.length <= n.b; }) : [];
+      const all = pWords(p);
+      const ws = tidy(pText(p).slice(n.a, n.b)) === n.t ? all.filter(x => x.a >= n.a && x.a + x.w.textContent.length <= n.b).map(x => x.w) : [];
+      const last = ws.at(-1) || all.filter(x => x.a < n.b).at(-1)?.w;
+      if (!last) continue;
       ws.forEach(w => { w.classList.add('noted'); if (open) w.classList.add('on'); w.dataset.n = ((w.dataset.n || '') + ' ' + n.id).trim(); });
-      const pn = document.createElement('span');
-      pn.className = 'pn' + (open ? ' open' : '');
-      pn.dataset.nid = n.id;
-      pn.innerHTML = `<button class="pn-h" data-a="pn" aria-label="메모">${icon('note')}<span class="pn-q">${esc(n.t)}</span></button><span class="pn-b"><span class="pn-t">${md(n.n)}</span><button class="pn-e" data-a="pnedit" aria-label="메모 수정">${icon('edit')}</button></span>`;
-      let at = u;
-      while (at.nextElementSibling?.classList.contains('pn')) at = at.nextElementSibling;
-      at.after(pn);
+      const pin = document.createElement('span');
+      pin.className = 'pin' + (open ? ' open' : '');
+      pin.dataset.nid = n.id;
+      pin.innerHTML = icon('note');
+      last.after(pin);
+      const card = document.createElement('div');
+      card.className = 'pncard' + (open ? ' open' : '');
+      card.dataset.nid = n.id;
+      card.innerHTML = `<div class="pn-q">${esc(n.t)}</div><div class="pn-b"><span class="pn-t">${md(n.n)}</span><button class="pn-e" data-a="pnedit" aria-label="메모 수정">${icon('edit')}</button></div>`;
+      psg.append(card);
     }
   });
+  bridge(root);
+  placeCards(root);
 }
+
+// 펼친 쪽지는 핀 바로 아래에 띄운다
+function placeCards(root) {
+  for (const card of root.querySelectorAll('.pncard.open')) {
+    const pin = root.querySelector(`.pin[data-nid="${card.dataset.nid}"]`), psg = card.closest('.psg');
+    if (!pin || !psg) continue;
+    const pr = psg.getBoundingClientRect(), r = pin.getBoundingClientRect(), w = Math.min(300, pr.width - 16);
+    card.style.width = w + 'px';
+    card.style.top = r.bottom - pr.top + 6 + 'px';
+    card.style.left = Math.max(8, Math.min(r.left - pr.left - 14, pr.width - w - 8)) + 'px';
+  }
+}
+addEventListener('resize', () => placeCards(document));
 
 // 포스트잇을 펼치거나 접는다 (펼치면 붙어 있는 단어가 진하게 표시됨)
 function togglePn(root, id, force) {
-  const pn = root.querySelector(`.pn[data-nid="${id}"]`);
-  if (!pn) return;
-  const open = force ?? !pn.classList.contains('open');
-  pn.classList.toggle('open', open);
+  const pin = root.querySelector(`.pin[data-nid="${id}"]`), card = root.querySelector(`.pncard[data-nid="${id}"]`);
+  if (!pin || !card) return;
+  const open = force ?? !card.classList.contains('open');
+  card.classList.toggle('open', open);
+  pin.classList.toggle('open', open);
   open ? PN_OPEN.add(id) : PN_OPEN.delete(id);
   root.querySelectorAll(`.w[data-n~="${id}"]`).forEach(w => w.classList.toggle('on', open));
+  bridge(root, ['on']);
+  placeCards(root);
 }
 
 // 모든 포스트잇을 한꺼번에 펼치거나 접는다. 펼쳐진 상태가 되면 true
 function toggleAllPn(root) {
-  const all = [...root.querySelectorAll('.pn')];
+  const all = [...root.querySelectorAll('.pncard')];
   const open = all.some(p => !p.classList.contains('open'));
   all.forEach(p => togglePn(root, p.dataset.nid, open));
   return open;
@@ -594,6 +652,7 @@ let lkSeq = 0, lkTimer = 0;
 function setSel(root, ctx, unit, ws) {
   document.querySelectorAll('.w.sel').forEach(w => w.classList.remove('sel'));
   ws.forEach(w => w.classList.add('sel'));
+  bridge(document, ['sel']);
   if (!ws.length) { SEL = null; closeLookup(); return; }
   SEL = { root, ctx, unit, ws };
   openLookup();
@@ -611,12 +670,11 @@ function bindWords(root, ctx) {
 
   root.addEventListener('click', e => {
     if (Date.now() - lastDrag < 300) return;
-    const pn = e.target.closest('.pn');
-    if (pn) {
-      const a = e.target.closest('[data-a]')?.dataset.a, id = pn.dataset.nid;
-      if (a === 'pn') togglePn(root, id);
-      else if (a === 'pnedit') {
-        const pid = pn.closest('.psg')?.dataset.pid, note = wnote.list(ctx.path, pid).find(n => n.id === id);
+    const pin = e.target.closest('.pin'), card = e.target.closest('.pncard');
+    if (pin) { togglePn(root, pin.dataset.nid); return; }
+    if (card) {
+      if (e.target.closest('[data-a=pnedit]')) {
+        const pid = card.closest('.psg')?.dataset.pid, note = wnote.list(ctx.path, pid).find(n => n.id === card.dataset.nid);
         if (note) postitEditor(ctx, pid, note, null, root);
       }
       return;
@@ -772,16 +830,17 @@ function ensurePanel() {
 
 // 지금 선택한 단어들의 위치 (문장 번호, 글자 위치)
 function anchorOf(sel) {
-  const psg = sel.unit.closest('.psg'), en = sel.unit.querySelector('.en');
-  const a = offOf(en, sel.ws[0]), b = offOf(en, sel.ws.at(-1)) + sel.ws.at(-1).textContent.length;
-  return { pid: psg?.dataset.pid || '', u: [...psg.querySelectorAll('.u')].indexOf(sel.unit), a, b, t: tidy(en.textContent.slice(a, b)) };
+  const psg = sel.unit.closest('.psg'), p = sel.unit.closest('p');
+  const all = pWords(p), first = all.find(x => x.w === sel.ws[0]), last = all.find(x => x.w === sel.ws.at(-1));
+  const a = first.a, b = last.a + last.w.textContent.length;
+  return { pid: psg?.dataset.pid || '', p: [...psg.querySelectorAll('p')].indexOf(p), a, b, t: tidy(pText(p).slice(a, b)) };
 }
 
 // 선택한 위치에 이미 붙은 포스트잇
 function noteAt(sel) {
   if (!sel?.ctx?.path) return null;
   const x = anchorOf(sel);
-  return wnote.list(sel.ctx.path, x.pid).find(n => n.u === x.u && n.a === x.a && n.b === x.b) || null;
+  return wnote.list(sel.ctx.path, x.pid).find(n => n.p === x.p && n.a === x.a && n.b === x.b) || null;
 }
 
 function paintNote() {
@@ -809,7 +868,7 @@ function postitEditor(ctx, pid, note, anchor, root) {
     let nid = id;
     if (!v) list = list.filter(n => n.id !== id);
     else if (note) list = list.map(n => (n.id === id ? { ...n, n: v } : n));
-    else { nid = uid(); list = [...list, { id: nid, u: at.u, a: at.a, b: at.b, t: at.t, n: v }]; }
+    else { nid = uid(); list = [...list, { id: nid, p: at.p, a: at.a, b: at.b, t: at.t, n: v }]; }
     wnote.put(path, pd, list);
     if (!v) PN_OPEN.delete(id); else if (!note) PN_OPEN.add(nid);
     o.close();
@@ -1214,6 +1273,7 @@ const KIND = {
         el.querySelectorAll('.slots .it').forEach((b, j) => b.classList.add(items[+b.dataset.k] === items[j] ? 'ok' : 'bad'));
         el.querySelector('.otool')?.remove();
         el.querySelector('.pool')?.remove();
+        if (!ok && !chips) drawFix(el.querySelector('.slots'), picked);
         const show = chips ? md(items.join(' ')) : `<ol class="sol">${items.map(s => `<li>${md(s)}</li>`).join('')}</ol>`;
         return { ok, show: ok ? '' : show };
       },
@@ -1491,6 +1551,48 @@ function flash(main, set, path) {
     else if (e.key === 'ArrowRight') mark(true);
     else if (e.key === 'ArrowLeft') mark(false);
   };
+}
+
+// 순서배열 오답: 제자리가 아닌 블록이 어디로 가야 하는지 왼쪽에 화살표로 그린다.
+// 가장 긴 올바른 순서(LIS)에 속하지 않는 블록만 "옮겨야 할 블록"으로 보고, 블록마다 색과 세로줄(레인)을 따로 줘서 겹치지 않게 한다.
+const FIX_COLORS = ['#e8590c', '#7048e8', '#0b7285', '#c2255c', '#2b8a3e', '#1971c2', '#a61e4d', '#5f3dc4'];
+function drawFix(slots, cur) {
+  const rows = [...slots.children];
+  const n = cur.length;
+  if (rows.length !== n) return;
+  const len = Array(n).fill(1), prev = Array(n).fill(-1);
+  for (let i = 0; i < n; i++) for (let j = 0; j < i; j++) if (cur[j] < cur[i] && len[j] + 1 > len[i]) { len[i] = len[j] + 1; prev[i] = j; }
+  let end = len.indexOf(Math.max(...len));
+  const stay = new Set();
+  for (; end >= 0; end = prev[end]) stay.add(end);
+  const moves = [];
+  for (let i = 0; i < n; i++) if (!stay.has(i)) moves.push(i);
+  if (!moves.length) return;
+
+  const lane = 13, L = moves.length * lane + 12;
+  slots.classList.add('fix');
+  slots.style.setProperty('--L', L + 'px');
+  const sr = slots.getBoundingClientRect();
+  const top = i => rows[i].getBoundingClientRect().top - sr.top, bot = i => rows[i].getBoundingClientRect().bottom - sr.top;
+
+  const arrows = moves.map(i => {
+    const k = cur[i];
+    let t = -1;
+    for (let j = 0; j < n; j++) if (stay.has(j) && cur[j] > k && (t < 0 || cur[j] < cur[t])) t = j;
+    const yg = t < 0 ? bot(n - 1) + 3 : top(t) - 3;
+    const yc = (top(i) + bot(i)) / 2;
+    return { i, yc, yg, span: Math.abs(yg - yc) };
+  }).sort((a, b) => b.span - a.span); // 긴 화살표가 바깥쪽 줄
+
+  let svg = '', marks = '';
+  arrows.forEach((a, idx) => {
+    const c = FIX_COLORS[idx % FIX_COLORS.length], x = 8 + idx * lane;
+    svg += `<path d="M${L - 2} ${a.yc} H${x} V${a.yg} H${L - 8}" fill="none" stroke="${c}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><polygon points="${L} ${a.yg} ${L - 8} ${a.yg - 4.5} ${L - 8} ${a.yg + 4.5}" fill="${c}"/><circle cx="${L - 2}" cy="${a.yc}" r="3" fill="${c}"/>`;
+    marks += `<i class="gap" style="top:${a.yg - 1}px;left:${L}px;background:${c}"></i>`;
+    rows[a.i].classList.add('mv');
+    rows[a.i].style.setProperty('--fx', c);
+  });
+  slots.insertAdjacentHTML('afterbegin', `<svg class="fixsvg" width="${L + 2}" height="${slots.scrollHeight}" aria-hidden="true">${svg}</svg>${marks}`);
 }
 
 // 배열 문제: 끌어서 순서 바꾸기. 목록형은 왼쪽 손잡이, 칩형(flow)은 칩 자체를 잡는다.

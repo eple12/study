@@ -64,7 +64,7 @@
       "answer": 2
     },
     {
-      "id": "ak26-79",
+      "id": "ak26-s01-79",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "Like all historians, social historians draw from a variety of primary sources. Social history often (ㄱ) [ neglects / emphasizes ] ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives (A) [ which / where ] they could be preserved and made (ㄴ) [ available / inaccessible ] to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources (B) [ producing / produced ] by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also (ㄷ) [ examine / ignore ] the silences, interruptions, rumors, and other details that (C) [ offers / offer ] hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
@@ -78,10 +78,10 @@
       "answer": 5,
       "explanation": "(A) 관계부사 + 완전한 문장\n- 명사 'archives'를 수식하며, 뒤에 완전한 문장이 오므로 관계부사가 적절하다.\n(B) 수동 과거분사\n- 명사 'textual sources'와 수동의 관계이며, 뒤에 목적어가 없으므로 과거분사가 적절하다.\n(C) 주격 관계대명사절 동사 수일치\n- 선행사가 'details'에 맞춰 복수 동사가 적절하다.",
       "view": "Like all historians, social historians draw from a variety of primary sources. Social history often (ㄱ) [ neglects / emphasizes ] ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives (A) [ which / where ] they could be preserved and made (ㄴ) [ available / inaccessible ] to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources (B) [ producing / produced ] by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also (ㄷ) [ examine / ignore ] the silences, interruptions, rumors, and other details that (C) [ offers / offer ] hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
-      "tag": "아잉카 변형 79번"
+      "tag": "아잉카 변형 Step01 79번"
     },
     {
-      "id": "ak26-80",
+      "id": "ak26-s01-80",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "Like all historians, social historians draw from a variety of primary sources. Social history often (ㄱ) [ neglects / emphasizes ] ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives (A) [ which / where ] they could be preserved and made (ㄴ) [ available / inaccessible ] to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources (B) [ producing / produced ] by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also (ㄷ) [ examine / ignore ] the silences, interruptions, rumors, and other details that (C) [ offers / offer ] hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
@@ -95,10 +95,10 @@
       "answer": 4,
       "explanation": "(ㄱ) 사회사는 엘리트보다 평범한 사람들을 다루는 것을 중요하게 여긴다는 흐름이므로, '강조한다'라는 의미의 'emphasizes'가 적절하다. 'neglects'는 '무시한다'라는 의미이다.\n(ㄴ) 기록 보관소는 자료를 보존하고 연구자들이 이용할 수 있게 하는 곳이지만, 비엘리트의 자료는 그러한 곳에 들어가는 일이 드물었다는 흐름이므로, '이용할 수 있는'이라는 의미의 'available'이 적절하다. 'inaccessible'은 '접근할 수 없는'이라는 의미이다.\n(ㄷ) 엘리트가 남긴 문서를 액면 그대로 받아들이지 않고, 침묵이나 소문 같은 세부 사항에서 노예화된 사람들의 태도와 행동에 관한 단서를 찾는 것이므로, '검토하다'라는 의미의 'examine'이 적절하다. 'ignore'는 '무시하다'라는 의미이다.",
       "view": "Like all historians, social historians draw from a variety of primary sources. Social history often (ㄱ) [ neglects / emphasizes ] ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives (A) [ which / where ] they could be preserved and made (ㄴ) [ available / inaccessible ] to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources (B) [ producing / produced ] by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also (ㄷ) [ examine / ignore ] the silences, interruptions, rumors, and other details that (C) [ offers / offer ] hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
-      "tag": "아잉카 변형 80번"
+      "tag": "아잉카 변형 Step01 80번"
     },
     {
-      "id": "ak26-81",
+      "id": "ak26-s01-81",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -114,10 +114,10 @@
       ],
       "explanation": "이 글은 역사 기록의 편향성 때문에 사회사학자들이 평범한 사람들의 역사를 연구하기 위해 창의적인 방법을 사용해야 한다는 내용이다. 과거의 비엘리트 계층은 풍부한 문서를 생산하여 기록 보관소에 보관했다고 서술한 ②번 보기와, 사회사학자들이 엘리트가 남긴 문서를 비판적 검토 없이 액면 그대로 받아들인다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 사회사는 지배 계층보다 평범한 사람들의 삶에 초점을 맞추는 경향이 있다.\n② 과거의 비엘리트 계층은 기록 보관소에 신중하게 보관된 풍부한 문서를 생산했다.\n③ 역사가들이 이용할 수 있는 역사적 기록은 종종 엘리트의 관점을 선호하며 편향되어 있다.\n④ 사회사학자들은 엘리트가 남긴 문서를 비판적 검토 없이 액면 그대로 받아들인다.\n⑤ 법적 문서의 미묘한 세부 사항을 분석함으로써, 사회사학자들은 노예가 된 사람들의 태도를 추론할 수 있다.",
       "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
-      "tag": "아잉카 변형 81번"
+      "tag": "아잉카 변형 Step01 81번"
     },
     {
-      "id": "ak26-82",
+      "id": "ak26-s01-82",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "Because historical records are often (A) ＿＿＿＿＿＿, largely reflecting elite perspectives, social historians must use (B) ＿＿＿＿＿＿ approaches to reconstruct the experiences of common people.",
@@ -131,7 +131,185 @@
       "answer": 3,
       "explanation": "역사적 기록은 주로 엘리트의 삶을 기록하기 때문에 종종\n(A) 불균형적이어서, 사회사학자들은 평범한 사람들의 경험을 재구성하기 위해 (B) 창의적인 접근법을 사용해야 한다.\n이 글은 역사적 기록이 엘리트 중심으로 편향되어 있어, 사회사학자들이 평범한 사람들의 역사를 연구하기 위해 창의적이고 새로운 방법을 사용해야 한다는 내용이다. 따라서 요약문의 빈칸\n(A)에는 'unbalanced', (B)에는 'inventive'가 들어가는 것이 가장 적절하다.\n① unbalanced : 불균형적인 / conventional : 전통적인\n② abundant : 풍부한 / inventive : 창의적인\n④ objective : 객관적인 / conventional : 전통적인\n⑤ abundant : 풍부한 / quantitative : 양적인",
       "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
-      "tag": "아잉카 변형 82번"
+      "tag": "아잉카 변형 Step01 82번"
+    },
+    {
+      "id": "ak26-s2-19",
+      "type": "choice",
+      "prompt": "다음 글에서 필자가 주장하는 바로 가장 적절한 것은?",
+      "choices": [
+        "역사 연구의 객관성을 위해 엘리트가 남긴 기록에만 의존해야 한다.",
+        "정부는 엘리트가 아닌 사람들의 역사적 기록물 보존에 더 힘써야 한다.",
+        "사회사학자는 법적 문서의 사실 관계를 파악하는 데 연구를 집중해야 한다.",
+        "미래 세대를 위해 모든 사람에게 동등한 교육 기회를 제공할 필요가 있다.",
+        "사회사학자는 기록의 편향성을 인지하고 창의적으로 자료를 해석해야 한다."
+      ],
+      "answer": 5,
+      "explanation": "이 글은 사회사가 평범한 사람들을 다루지만, 그들에 대한 기록은 부족하고 편향되어 있다는 문제를 제기한다. 이에 대한 해결책으로 사회사학자들이 엘리트가 남긴 기록을 액면 그대로 받아들이지 않고, '일반적인 방식과 다르게(against the grain)' 해석하는 창의적인 방법을 사용해야 한다고 주장한다. 따라서 필자의 주장으로 가장 적절한 것은 '사회사학자는 기록의 편향성을 인지하고 창의적으로 자료를 해석해야 한다.'이다.",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step02 19번"
+    },
+    {
+      "id": "ak26-s2-39",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Bias Inherent in All Primary Sources",
+        "Why Non-Elites Failed to Record Their History",
+        "Archives: A Rich Source of Knowledge about the Past",
+        "Between the Lines: Recovering the Voices History Left Behind",
+        "The Declining Influence of Elites in Modern Historiography"
+      ],
+      "answer": 4,
+      "explanation": "행간 읽기: 역사에서 소외된 목소리 되찾기\n이 글은 평범한 사람들이 직접 남긴 기록이 부족한 상황에서 사회사학자들이 엘리트의 기록을 창의적으로 분석하는 방법을 설명한다. 기록을 액면 그대로 받아들이지 않고, 그 속의 침묵과 소문 등에서 소외된 사람들의 태도와 행동에 관한 단서를 찾는다는 내용이다. 따라서 이 글의 제목으로 가장 적절한 것은 '행간 읽기: 역사에서 소외된 목소리 되찾기'이다.\n① 모든 원자료에 내재된 편향\n② 왜 비(非)엘리트들은 자신들의 역사를 기록하지 못했는가\n③ 기록 보관소: 과거에 관한 풍부한 지식의 원천\n⑤ 현대 역사 서술에서 엘리트의 영향력 감소",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step02 39번"
+    },
+    {
+      "id": "ak26-s2-61",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites.\n\n(A) Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n\n(B) Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers.\n\n(C) Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites.\n* against the grain: 일반적인 방식과 다르게",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 3,
+      "explanation": "주어진 글은 사회사학자들이 다양한 원자료를 활용하며, 엘리트보다 평범한 사람들을 중심으로 연구한다고 제시한다. (B)는 'Yet' 으로 대조를 이루며, 비(非)엘리트층이 남긴 기록이 적고 그 자료가 기록 보관소에 보존되는 경우도 드물었다는 문제점을 설명한다. (C)는 'such biases'로 이러한 기록의 편향성을 받아 창의적인 접근이 필요함을 설명하고, 엘리트가 생산한 자료를 분석한다고 언급한다. (A)의 'such sources'가 이 자료들을 가리키며, 이를 액면 그대로 받아들이지 않고 이면의 단서를 찾아 읽는 방법과 구체적인 사례를 제시한다. 따라서 가장 적절한 순서는 (B)-(C)-(A) 이다.",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites.\n\n(A) Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n\n(B) Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers.\n\n(C) Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step02 61번"
+    },
+    {
+      "id": "ak26-s2-81",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Due to the (A) nature of historical records, which predominantly feature elite perspectives, social historians must (B) these sources critically to reveal the experiences of ordinary people.",
+      "choices": [
+        "skewed / disregard",
+        "balanced / imitate",
+        "balanced / scrutinize",
+        "objective / disregard",
+        "skewed / scrutinize"
+      ],
+      "answer": 5,
+      "explanation": "역사 기록은 주로 엘리트의 관점을 담아 (A) 편향된 성격\n을 띠므로, 사회사학자들은 평범한 사람들의 경험을 드러내기 위해 이러한 자료를 비판적으로 (B) 면밀히 조사해야 한다.\n이 글은 기록이 부족한 평범한 사람들의 역사를 연구하기 위해 사회사학자들이 엘리트의 자료를 창의적으로 분석한다는 내용이다. 비엘리트층의 기록이 충분히 생산·보존되지 않아 남아 있는 자료가 엘리트의 관점에 편중되어 있으므로, 사회사학자들은 자료를 액면 그대로 받아들이지 않고 침묵과 소문 등의 단서를 비판적으로 살펴야 한다. 따라서 요약문의 빈칸 (A)에는 'skewed'가, (B)에는 'scrutinize'가 들어가는 것이 적절하다.\n① skewed : 편향된 / disregard : 무시하다\n② balanced : 균형 잡힌 / imitate : 모방하다\n③ balanced : 균형 잡힌 / scrutinize : 면밀히 조사하다\n④ objective : 객관적인 / disregard : 무시하다",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step02 81번"
+    },
+    {
+      "id": "ak26-s2-163",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<보기>\nup / these / preserve / in archives / rarely / could / and / researchers / available / make / materials / they / ended / to\n<조건>\n- 관계부사 where 및 병렬구조 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 17단어",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, (A) 이러한 자료들은 그것들이 보존될 수 있고 연구자들에게 이용 가능해질 수 있는 기록 보관소들에 거의 다다르지 못했다. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than (B) simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "answer": [
+        "these materials rarely ended up in archives where they could be preserved and made available to researchers"
+      ],
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, (A) 이러한 자료들은 그것들이 보존될 수 있고 연구자들에게 이용 가능해질 수 있는 기록 보관소들에 거의 다다르지 못했다. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than (B) simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step03 79번"
+    },
+    {
+      "id": "ak26-s2-164",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B) simply take such sources at face value에 해당하는 것을 바로 뒤 예시 문장에서 찾아 쓰시오.",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, (A) 이러한 자료들은 그것들이 보존될 수 있고 연구자들에게 이용 가능해질 수 있는 기록 보관소들에 거의 다다르지 못했다. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than (B) simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "answer": [
+        "read legal documents for the \"facts\" provided by slaveowners"
+      ],
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, (A) 이러한 자료들은 그것들이 보존될 수 있고 연구자들에게 이용 가능해질 수 있는 기록 보관소들에 거의 다다르지 못했다. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than (B) simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step03 80번"
+    },
+    {
+      "id": "ak26-s2-165",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nhistories / against the grain / of / elite / creative / ordinary / to / examine / the / analysis / records",
+      "answer": [
+        "the creative analysis of elite records against the grain to examine ordinary histories"
+      ],
+      "explanation": "평범한 사람들의 역사를 조사하기 위해 지배층 기록을 결에 반하여 창의적으로 분석하기",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, (A) 이러한 자료들은 그것들이 보존될 수 있고 연구자들에게 이용 가능해질 수 있는 기록 보관소들에 거의 다다르지 못했다. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than (B) simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step03 81번"
+    },
+    {
+      "id": "ak26-s2-166",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓓ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 'uncover' 및 본문의 단어를 활용, 필요시 어형 변화\n- ⓐ~ⓓ 각 한 단어",
+      "text": "Because historical records ⓐ {{lack}} documentation from ⓑ {{ordinary}} people, social historians ⓒ {{analyze}} elite sources against the grain to ⓓ {{uncover}} marginalized perspectives",
+      "explanation": "역사적 기록에 ⓑ 평범한 사람들에 대한 문서 자료가 ⓐ 부족하기 때문에, 사회사학자들은 소외된 관점을 ⓓ 밝혀내기 위해 엘리트 출처를 '결에 반하여' ⓒ 분석한다.",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, (A) 이러한 자료들은 그것들이 보존될 수 있고 연구자들에게 이용 가능해질 수 있는 기록 보관소들에 거의 다다르지 못했다. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than (B) simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step03 82번"
+    },
+    {
+      "id": "ak26-s2-197",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓓ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. ⓐ Even when they did produce documentation, these materials rarely ended up in archives which they could be preserved and made available to researchers. ⓑ Because such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. ⓒ Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; ⓓ she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "answer": [
+        "ⓐ: archives which they could be preserved → archives where they could be preserved",
+        "ⓑ: Because such biases → Because of such biases"
+      ],
+      "explanation": "ⓐ Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers.\n- 관계부사 + 완전한 문장\n: 명사 'archives'를 수식하며, 뒤에 완전한 문장이 오므로 관계부사가 적절하다.\nⓑ Because of such biases in the historical record, social historians have to be very creative in their work.\n- 전치사 because of + 명사(구) vs 접속사 because + 절\n: 뒤에 명사구가 오므로 전치사가 적절하다.",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives which they could be preserved and made available to researchers. Because such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step03 113번"
+    },
+    {
+      "id": "ak26-s2-219",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 4개)",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives which they could be preserved and made available to researchers. Because such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read it \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details in which offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "answer": [
+        "in archives which they → in archives where they",
+        "researchers. Because such → researchers. Because of such",
+        "they read it \"against → they read them \"against",
+        "other details in which offer → other details that offer"
+      ],
+      "explanation": "[교정된 글] Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives which they could be preserved and made available to researchers. Because such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read it \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details in which offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step03 135번"
+    },
+    {
+      "id": "ak26-s2-239",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 read them \"against the grain\"이 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "focus only on the factual errors made by government officials",
+        "read documents in the opposite direction of the wood pattern",
+        "accept the records of elites as completely objective and factual",
+        "analyze records to find the hidden perspectives of the powerless",
+        "compare the sources with more reliable and official historical data"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ 기록을 분석하여 힘없는 사람들의 숨겨진 관점을 찾는 것\n밑줄 친 '그 자료들을 일반적인 방식과 다르게 읽는다'는 엘리트의 기록을 액면 그대로 받아들이지 않고, 그 안에서 평범한 사람들의 관점에 관한 단서를 찾는다는 의미이다. 따라서 밑줄 친 부분이 의미하는 바로 가장 적절한 것은 '기록을 분석하여 힘없는 사람들의 숨겨진 관점을 찾는 것'이다.\n① 정부 관료들이 저지른 사실관계의 오류에만 집중하는 것\n② 나무결의 반대 방향으로 문서를 읽는 것\n③ 엘리트의 기록을 완전히 객관적이고 사실적인 것으로 받아들이는 것\n⑤ 그 자료들을 더 신뢰할 수 있고 공식적인 역사 자료와 비교하는 것",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to be very creative in their work. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step04실전1회 17번"
+    },
+    {
+      "id": "ak26-s2-260",
+      "type": "choice",
+      "prompt": "윗글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to __________. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "choices": [
+        "rely solely on official government archives",
+        "accept the historical record as it is presented",
+        "focus exclusively on the documents produced by elites",
+        "prioritize the preservation of non-elite historical materials",
+        "adopt inventive approaches to recover overlooked perspectives"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 간과된 관점을 되살리기 위해 창의적인 접근법을 취하다\n이 글은 평범한 사람들이 남긴 기록이 부족한 상황에서 사회사학자들이 엘리트의 자료를 창의적으로 분석하는 방법을 설명하고 있다. 빈칸 앞에서는 비엘리트층의 기록이 충분히 생산·보존되지 않았다는 문제를 제시하고, 뒤에서는 엘리트의 기록을 액면 그대로 받아들이지 않고 침묵과 소문 등의 단서에서 노예들의 태도와 행동을 파악하는 방법을 소개한다. 그러므로 빈칸에는 기록의 편향성을 극복하고 소외된 사람들의 관점을 찾아내기 위한 창의적인 접근이 필요하다는 표현이 들어가야 한다. 따라서 '간과된 관점을 되살리기 위해 창의적인 접근법을 취하다'가 가장 적절하다.\n① 공식적인 정부 기록 보관소에만 의존하다\n② 제시된 그대로의 역사 기록을 받아들이다\n③ 엘리트가 생산한 문서에만 집중하다\n④ 비엘리트층의 역사 자료 보존을 우선시하다* 원문 변형\n⑤ be very creative in their work\n→ adopt inventive approaches to recover overlooked perspectives",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to ＿＿＿＿＿＿＿＿. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step04실전2회 18번"
+    },
+    {
+      "id": "ak26-s2-261",
+      "type": "blank",
+      "prompt": "[주관식 5] 윗글의 제목을 아래 <조건>을 참고하여 알맞게 완성하시오.\n<조건>\n- 본문 단어 활용, 주어진 철자로 시작\n- 빈칸 당 각 1단어, 어형 변화 주의",
+      "text": "ⓐ (E…) {{Examining}} Legal Documents ⓑ (C…) {{Creatively}} for ⓒ (H…) {{Historical}} Details",
+      "explanation": "ⓒ 역사적 세부사항을 위해 법적 문서를 ⓑ 창의적으로 ⓐ 검토하기",
+      "view": "Like all historians, social historians draw from a variety of primary sources. Social history often emphasizes ordinary people rather than elites. Yet, in most places and times, non-elites lacked access to education and, thus, did not produce substantial amounts of documentation. Even when they did produce documentation, these materials rarely ended up in archives where they could be preserved and made available to researchers. Because of such biases in the historical record, social historians have to ＿＿＿＿＿＿＿＿. Like other historians, social historians analyze textual sources produced by government officials, employers, and other elites. Yet rather than simply take such sources at face value, they read them \"against the grain\". So, for example, a social historian will read legal documents not only for the \"facts\" provided by slaveowners; she will also examine the silences, interruptions, rumors, and other details that offer hints about the enslaved peoples' attitudes and actions.\n* against the grain: 일반적인 방식과 다르게",
+      "tag": "아잉카 변형 Step04실전2회 19번"
     }
   ]
 }

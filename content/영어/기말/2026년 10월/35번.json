@@ -48,7 +48,7 @@
       "answer": 3
     },
     {
-      "id": "ak26-63",
+      "id": "ak26-s01-63",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "Scientific developments and technologies in medical practice have brought us enormous (ㄱ) [ regression / progress ] in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, (A) [ for which / which ] he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans (B) [ were protected / protected ] against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines (C) [ developing / developed ] in laboratories have contributed (ㄴ) [ marginally / enormously ] to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic (ㄷ) [ manageable / uncontrollable ] diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
@@ -62,10 +62,10 @@
       "answer": 3,
       "explanation": "(A) 전치사 + 관계대명사 + 완전한 문장\n- 선행사와 동일한 명사가 전치사 뒤에 있을 때, '전치사 + 관계대명사' 구조를 사용하며 뒤에 완전한 문장이 온다.\nThe discovery of penicillin ~ + he later received the Nobel Prize for the discovery of penicillin ~\n→ The discovery of penicillin for which he later received ~\n(B) 수동태\n- 주어 'humans'와 수동의 관계이고, 동사 'protected'의 목적어가 없으므로 수동태가 적절하다.\n(C) 수동 과거분사\n- 명사 'Vaccines'와 수동의 관계이며, 뒤에 목적어가 없으므로 과거분사가 적절하다.",
       "view": "Scientific developments and technologies in medical practice have brought us enormous (ㄱ) [ regression / progress ] in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, (A) [ for which / which ] he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans (B) [ were protected / protected ] against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines (C) [ developing / developed ] in laboratories have contributed (ㄴ) [ marginally / enormously ] to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic (ㄷ) [ manageable / uncontrollable ] diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
-      "tag": "아잉카 변형 63번"
+      "tag": "아잉카 변형 Step01 63번"
     },
     {
-      "id": "ak26-64",
+      "id": "ak26-s01-64",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "Scientific developments and technologies in medical practice have brought us enormous (ㄱ) [ regression / progress ] in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, (A) [ for which / which ] he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans (B) [ were protected / protected ] against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines (C) [ developing / developed ] in laboratories have contributed (ㄴ) [ marginally / enormously ] to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic (ㄷ) [ manageable / uncontrollable ] diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
@@ -79,10 +79,10 @@
       "answer": 5,
       "explanation": "(ㄱ) 페니실린의 발견, 백신 개발, 위생 관리와 치료법의 발전으로 감염병에 더욱 효과적으로 대응하게 되었다는 흐름이므로, '진전'이라는 의미의 'progress'가 적절하다. 'regression'은 '후퇴'라는 의미이다.\n(ㄴ) 백신이 질병의 부담을 줄이고 질병의 제거에까지 기여했다고 설명하며 그 효과를 강조하므로, '대단히, 크게'라는의미의 'enormously'가 적절하다. 'marginally'는 '미미하게, 아주 조금'이라는 의미이다.\n(ㄷ) 치료법이 과거에는 치명적이었던 일부 바이러스성 질환을 만성적이지만 관리할 수 있는 질환으로 바꾸었다는 흐름이므로, 'manageable'이 적절하다. 'uncontrollable'은 '통제할 수 없는'이라는 의미이다.",
       "view": "Scientific developments and technologies in medical practice have brought us enormous (ㄱ) [ regression / progress ] in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, (A) [ for which / which ] he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans (B) [ were protected / protected ] against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines (C) [ developing / developed ] in laboratories have contributed (ㄴ) [ marginally / enormously ] to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic (ㄷ) [ manageable / uncontrollable ] diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
-      "tag": "아잉카 변형 64번"
+      "tag": "아잉카 변형 Step01 64번"
     },
     {
-      "id": "ak26-65",
+      "id": "ak26-s01-65",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -98,10 +98,10 @@
       ],
       "explanation": "이 글은 과학적 발견과 백신, 위생 관리, 치료법의 발전이 감염병의 예방과 치료에 기여하고 질병의 부담을 줄였다는 내용이다. Fleming이 페니실린을 발견하기 전에 노벨상을 받았다고 서술한 ②번 보기와, 백신이 수두 바이러스를 퇴치했다고 언급한 본문과 달리 어떤 바이러스성 질병도 근절하지 못했다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 의학의 발전은 감염병에 대한 통제를 개선했다.\n② Fleming은 페니실린을 발견하기 전에 노벨상을 받았다.\n③ Jenner는 우두에 노출되는 것이 이후 천연두로부터 보호받는 것과 관련 있음을 밝혔다.\n④ 백신은 일부 질병의 부담을 줄이는 데 도움이 되었지만, 아직 어떤 질병도 근절하지는 못했다.\n⑤ 위생 관리는 콜레라와 같은 질병의 영향을 줄인 조치 중 하나이다.",
       "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
-      "tag": "아잉카 변형 65번"
+      "tag": "아잉카 변형 Step01 65번"
     },
     {
-      "id": "ak26-66",
+      "id": "ak26-s01-66",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "Through various medical (A) ＿＿＿＿＿＿, such as the discovery of penicillin and the development of vaccines, the threat of many infectious diseases has been significantly (B) ＿＿＿＿＿＿, turning some from fatal to manageable conditions.",
@@ -115,7 +115,170 @@
       "answer": 2,
       "explanation": "페니실린의 발견과 백신의 개발과 같은 다양한 의학적\n(A) 개입을 통해, 많은 전염병의 위협이 상당히 (B) 완화되었으며, 일부는 치명적인 상태에서 관리 가능한 상태로 바뀌었다.\n이 글은 페니실린 발견, 백신 개발, 위생 관리 조치 등 다양한 의학적 발전과 조치를 통해 전염병의 위협을 줄이고 관리 가능하게 만들었다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'interventions',\n(B)에는 'mitigated'가 들어가는 것이 가장 적절하다.\n① interventions : 개입 / intensified : 강화된\n③ complications : 합병증 / mitigated : 완화된\n④ complications : 합병증 / disregarded : 무시된\n⑤ speculations : 추측 / intensified : 강화된",
       "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
-      "tag": "아잉카 변형 66번"
+      "tag": "아잉카 변형 Step01 66번"
+    },
+    {
+      "id": "ak26-s2-15",
+      "type": "choice",
+      "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+      "choices": [
+        "Alexander Fleming은 페니실린을 발견한 공로로 노벨상을 받았다.",
+        "Edward Jenner는 우두 바이러스 노출이 천연두 예방에 효과가 있음을 알아냈다.",
+        "실험실에서 개발된 백신은 우두 바이러스의 완전한 퇴치에 기여했다.",
+        "콜레라와 말라리아는 통제 및 위생 관리 조치를 통해 그 부담이 감소했다.",
+        "인간에게 치명적인 우두 바이러스는 천연두 바이러스에 대한 보호 효과를 제공했다."
+      ],
+      "answer": 5,
+      "explanation": "이 글은 의료 분야의 과학 기술 발전은 감염병의 예방과 치료에 크게 기여했다는 내용으로, 우두 바이러스에 노출되면 치명적인 천연두 바이러스에 대한 보호 효과를 얻을 수 있으며, 우두 바이러스 자체는 인간에게 무해하다고 설명한다. 따라서 우두 바이러스를 '인간에게 치명적'이라고 서술한 ⑤번 보기는 글의 내용과 일치하지 않는다.",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step02 15번"
+    },
+    {
+      "id": "ak26-s2-35",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Endless War Against New Viruses",
+        "Are We Prepared for the Next Global Pandemic?",
+        "Alexander Fleming: A Pioneer of Modern Medicine",
+        "The Importance of Hygiene in Preventing Disease Spread",
+        "Taming Invisible Threats: How Innovation Safeguards Our Health"
+      ],
+      "answer": 5,
+      "explanation": "보이지 않는 위협 다스리기: 혁신은 어떻게 우리의 건강\n을 지키는가\n이 글은 과학기술의 발전이 감염병의 치료와 예방에 큰 진보를 가져왔음을 설명한다. 페니실린의 발견과 백신의 개발, 위생 관리 및 치료법의 발전을 통해 질병 부담을 줄이고 일부 치명적인 질병을 관리할 수 있게 되었다는 것이다. 따라서 이 글의 제목으로 가장 적절한 것은 '보이지 않는 위협 다스리기: 혁신은 어떻게 우리의 건강을 지키는가'이다.\n① 새로운 바이러스와의 끝없는 전쟁\n② 우리는 다음 세계적 대유행에 대비되어 있는가?\n③ Alexander Fleming: 현대 의학의 선구자\n④ 질병 확산 예방에 있어 위생의 중요성",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step02 35번"
+    },
+    {
+      "id": "ak26-s2-57",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "Scientific and medical (A) have helped (B) the threat of infectious diseases.",
+      "choices": [
+        "setbacks / assess",
+        "regulations / curb",
+        "innovations / curb",
+        "innovations / assess",
+        "regulations / intensify"
+      ],
+      "answer": 3,
+      "explanation": "과학·의학 분야의 (A) 혁신은 감염병의 위협을 (B) 억제하\n는 데 기여했다.\n이 글은 페니실린의 발견과 백신의 개발, 위생 관리 및 치료법의 발전이 감염병 예방과 치료에 큰 성과를 가져왔으며, 이러한 발전은 질병의 부담을 줄이고 일부 치명적인 질병을 관리 가능하게 했으므로, 과학·의학의 혁신이 감염병의 위협을 억제했다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'innovations'가, (B)에는 'curb'가 들어가는 것이 적절하다.\n① setbacks : 차질 / assess : 평가하다\n② regulations : 규제 / curb : 억제하다\n④ innovations : 혁신 / assess : 평가하다\n⑤ regulations : 규제 / intensify : 심화시키다",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step02 57번"
+    },
+    {
+      "id": "ak26-s2-77",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases.\n\n(A) Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans.\n\n(B) For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n\n(C) Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 1,
+      "explanation": "주어진 글은 의료 분야의 과학 기술 발전이 감염병의 치료와 예방에 큰 진전을 가져왔음을 설명하며 페니실린 발견을 사례로 제시한다. (A)는 또 다른 사례로 우두 바이러스 노출이 천연두 예방에 효과가 있다는 제너의 발견을 소개한다. (C)는 이러한 예방 원리와 연결되는 백신의 효과를 설명하며, 질병 부담 감소와 퇴치에 기여한 점을 제시한다. (B)는 'For other infectious diseases'로 앞서 다룬 질병에서 다른 감염병으로 범위를 넓혀 위생 관리와 치료법의 성과를 설명한다. 따라서 가장 적절한 순서는 (A)-(C)-(B)이다.",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases.\n\n(A) Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans.\n\n(B) For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n\n(C) Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step02 77번"
+    },
+    {
+      "id": "ak26-s2-147",
+      "type": "blank",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말을 아래와 같이 옮길 때 빈칸(ㄱ), (ㄴ), (ㄷ)에 들어갈 어구를 아래 <조건>을 참고하여 알맞게 영작하시오.\n<조건>\n- (ㄱ) : protect 활용, (ㄴ) : expose 활용 (ㄷ) : harm 활용\n- 전치사 사용, 제시어 어형 변화 주의, 각각 2단어",
+      "context": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that (A) 인간들에게 무해한 우두 바이러스에 인간들이 노출된 후 치명적인 천연두 바이러스로부터 보호된다. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others (B) 치료법이 치명적인 바이러스성 질병을 만성적인 관리 가능한 질병으로 바꾸었다.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "text": "humans were (ㄱ) {{protected against}} the deadly smallpox virus after (ㄴ) {{exposure to}} the cowpox virus, which is (ㄷ) {{harmless to}} humans",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that (A) 인간들에게 무해한 우두 바이러스에 인간들이 노출된 후 치명적인 천연두 바이러스로부터 보호된다. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others (B) 치료법이 치명적인 바이러스성 질병을 만성적인 관리 가능한 질병으로 바꾸었다.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step03 63번"
+    },
+    {
+      "id": "ak26-s2-148",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\ndiseases / turned / manageable / into / were / viral / therapies / deadly / diseases / treatment / that / chronic\n<조건>\n- 관계대명사 활용",
+      "context": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that (A) 인간들에게 무해한 우두 바이러스에 인간들이 노출된 후 치명적인 천연두 바이러스로부터 보호된다. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others (B) 치료법이 치명적인 바이러스성 질병을 만성적인 관리 가능한 질병으로 바꾸었다.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "answer": [
+        "treatment therapies turned viral diseases that were deadly into chronic manageable diseases"
+      ],
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that (A) 인간들에게 무해한 우두 바이러스에 인간들이 노출된 후 치명적인 천연두 바이러스로부터 보호된다. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others (B) 치료법이 치명적인 바이러스성 질병을 만성적인 관리 가능한 질병으로 바꾸었다.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step03 64번"
+    },
+    {
+      "id": "ak26-s2-149",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 요지를 완성하시오.\n<보기>\nscientific / successfully / global / advancements / infectious / threat / measures / preventive / the / diseases / and / reduced / of",
+      "answer": [
+        "scientific advancements and preventive measures successfully reduced the global threat of infectious diseases."
+      ],
+      "explanation": "과학적 발전과 예방적 조치들은 감염병의 전 세계적 위협을 성공적으로 줄였다.",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that (A) 인간들에게 무해한 우두 바이러스에 인간들이 노출된 후 치명적인 천연두 바이러스로부터 보호된다. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others (B) 치료법이 치명적인 바이러스성 질병을 만성적인 관리 가능한 질병으로 바꾸었다.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step03 65번"
+    },
+    {
+      "id": "ak26-s2-150",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓒ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 'fatal' 및 본문의 단어를 활용할 것\n- ⓐ~ⓒ 각 한 단어, 필요시 어형 변화",
+      "text": "ⓐ {{Technological}} breakthroughs in laboratory therapies turned ⓑ {{fatal}} bacterial and viral infections into ⓒ {{manageable}} conditions.",
+      "explanation": "실험실 치료법의 ⓐ 기술적 비약은 ⓑ 치명적인 세균 및 바이러스 감염을 ⓒ 관리 가능한 상태로 전환시켰다.",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that (A) 인간들에게 무해한 우두 바이러스에 인간들이 노출된 후 치명적인 천연두 바이러스로부터 보호된다. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others (B) 치료법이 치명적인 바이러스성 질병을 만성적인 관리 가능한 질병으로 바꾸었다.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step03 66번"
+    },
+    {
+      "id": "ak26-s2-193",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓓ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. ⓐ The discovery of penicillin in 1928 by Alexander Fleming, which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. ⓑ Edward Jenner discovered around 1796 when humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. ⓒ Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, ⓓ while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "answer": [
+        "ⓐ: Alexander Fleming, which he later received → Alexander Fleming, for which he later received",
+        "ⓑ: around 1796 when humans were protected → around 1796 that humans were protected"
+      ],
+      "explanation": "ⓐ The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases.\n- 전치사 + 관계대명사 + 완전한 문장\n: 선행사와 동일한 명사가 전치사 뒤에 있을 때, '전치사 + 관계대명사' 구조를 사용하며 뒤에 완전한 문장이 온다.   The discovery of penicillin ~ + he later received the Nobel Prize for the discovery of penicillin,\n→ The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize,\nⓑ Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans.\n- 명사절 접속사 that + 완전한 문장\n: 동사 'discovered'의 목적어 자리로 명사절이 필요하며, 뒤에 완전한 문장이 오므로 'that'이 적절하다.",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 when humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step03 109번"
+    },
+    {
+      "id": "ak26-s2-215",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 5개)",
+      "context": "Scientific developments and technologies in medical practice has brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 when humans were protected against the deadly smallpox virus after exposure to the cowpox virus, that is harmless to humans. Vaccines developing in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "answer": [
+        "medical practice has brought → medical practice have brought",
+        "Alexander Fleming, which → Alexander Fleming, for which",
+        "around 1796 when humans → around 1796 that humans",
+        "cowpox virus, that is → cowpox virus, which is",
+        "humans. Vaccines developing in → humans. Vaccines developed in"
+      ],
+      "explanation": "[교정된 글] Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.",
+      "view": "Scientific developments and technologies in medical practice has brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 when humans were protected against the deadly smallpox virus after exposure to the cowpox virus, that is harmless to humans. Vaccines developing in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step03 131번"
+    },
+    {
+      "id": "ak26-s2-233",
+      "type": "choice",
+      "prompt": "다음 글의 빈칸에 들어갈 말로 가장 적절한 것은?",
+      "context": "Scientific developments and technologies in medical practice have brought us __________ in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "choices": [
+        "unexpected challenges",
+        "a decline in public trust",
+        "a remarkable leap forward",
+        "ethical dilemmas in research",
+        "a greater reliance on traditional medicine"
+      ],
+      "answer": 3,
+      "explanation": "정답 ③ 괄목할 만한 도약\n이 글은 페니실린 발견, 백신 개발, 위생 관리 조치, 치료법 개발 등을 통해 전염병의 치료와 예방이 크게 발전했다는 내용이다. 빈칸이 있는 첫 문장은 글 전체의 주제문으로, 이러한 과학 기술 발전이 가져온 긍정적 결과를 요약하는 표현이 들어가야 한다. 따라서 '괄목할 만한 도약'이 가장 적절하다.\n① 예상치 못한 난관들\n② 대중의 신뢰 하락\n④ 연구에서의 윤리적 딜레마\n⑤ 전통 의학에 대한 더 큰 의존* 원문 변형\n③ enormous progress → a remarkable leap forward",
+      "view": "Scientific developments and technologies in medical practice have brought us ＿＿＿＿＿＿＿＿ in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step04실전1회 11번"
+    },
+    {
+      "id": "ak26-s2-257",
+      "type": "self",
+      "prompt": "[주관식 4] 다음 글의 주제를 아래 <보기>를 참고하여 알맞게 완성하시오.\n<보기>\ninfectious / medical / diseases / significant / advance / overcome / in\n<조건>\n- <보기> 중 2단어 어형 변화, 단어 추가 없음",
+      "answer": [
+        "significant medical advancements in overcoming infectious diseases"
+      ],
+      "explanation": "전염병 극복에 있어 중요한 의학적 발전",
+      "view": "Scientific developments and technologies in medical practice have brought us enormous progress in the treatment and prevention of infectious diseases. The discovery of penicillin in 1928 by Alexander Fleming, for which he later received the Nobel Prize, was one of the biggest breakthroughs in the battle against infectious diseases. Edward Jenner discovered around 1796 that humans were protected against the deadly smallpox virus after exposure to the cowpox virus, which is harmless to humans. Vaccines developed in laboratories have contributed enormously to the reduction of the burden of bacterial and viral diseases and have even led to the elimination of poxvirus. For other infectious diseases (for example cholera and malaria), control and hygiene management measures have reduced their burden, while for others treatment therapies turned viral diseases that were deadly into chronic manageable diseases.\n* smallpox: 천연두 ** cowpox: 우두 *** hygiene: 위생",
+      "tag": "아잉카 변형 Step04실전2회 15번"
     }
   ]
 }

@@ -59,7 +59,7 @@
       "answer": 3
     },
     {
-      "id": "ak26-17",
+      "id": "ak26-s01-17",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues (ㄱ) [ grows / declines ], many content creators are being called upon to consider the broader impact of their work. This includes (A) [ addressing / to address ] topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform (B) [ that / what ] can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help (ㄴ) [ lower / raise ] awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also (ㄷ) [ consider / disregard ] the values and causes they support, (C) [ ensure / ensuring ] that their content aligns with their social and environmental principles.",
@@ -73,10 +73,10 @@
       "answer": 2,
       "explanation": "(A) 동명사 목적어\n- 동사 'include'는 동명사를 목적어로 가져온다.\n(B) 관계대명사 + 불완전 문장\n- 선행사 'a platform'을 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사 'that'이 적절하다. 'what'은 선행사를 포함하므로 이 자리에 사용할 수 없다.\n(C) 능동 현재분사구문\n- 주어와 능동의 관계이며, 접속사가 없고 목적어가 있으므로 현재분사 'ensuring'이 적절하다.",
       "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues (ㄱ) [ grows / declines ], many content creators are being called upon to consider the broader impact of their work. This includes (A) [ addressing / to address ] topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform (B) [ that / what ] can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help (ㄴ) [ lower / raise ] awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also (ㄷ) [ consider / disregard ] the values and causes they support, (C) [ ensure / ensuring ] that their content aligns with their social and environmental principles.",
-      "tag": "아잉카 변형 17번"
+      "tag": "아잉카 변형 Step01 17번"
     },
     {
-      "id": "ak26-18",
+      "id": "ak26-s01-18",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues (ㄱ) [ grows / declines ], many content creators are being called upon to consider the broader impact of their work. This includes (A) [ addressing / to address ] topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform (B) [ that / what ] can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help (ㄴ) [ lower / raise ] awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also (ㄷ) [ consider / disregard ] the values and causes they support, (C) [ ensure / ensuring ] that their content aligns with their social and environmental principles.",
@@ -90,10 +90,10 @@
       "answer": 4,
       "explanation": "(ㄱ) 사회·환경·지속 가능성 문제에 대한 전 세계적인 인식이 높아지면서 콘텐츠 창작자에게 자신의 작업이 미치는 폭넓은 영향을 고려하라는 요구가 커진다는 흐름이므로, '높아진다'라는 의미의 'grows'가 적절하다. 'declines'는 '낮아진다'라는 의미이다.\n(ㄴ) 환경적으로 지속 가능한 제품을 홍보하거나 평등과 정의에 관련된 활동을 지지하는 것이 사람들의 인식을 높이고 의미 있는 사회적 영향을 만들어 낸다는 흐름이므로, '높이다'라는 의미의 'raise'가 적절하다. 'lower'는 '낮추다'라는 의미이다.\n(ㄷ) 윤리적인 창작자는 제품이나 서비스의 홍보뿐만 아니라 자신이 지지하는 가치와 대의도 고려하여 콘텐츠가 사회·환경적 원칙에 부합하도록 해야 하므로, '고려하다'라는 의미의 'consider'가 적절하다. 'disregard'는 '무시하다'라는 의미이다.",
       "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues (ㄱ) [ grows / declines ], many content creators are being called upon to consider the broader impact of their work. This includes (A) [ addressing / to address ] topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform (B) [ that / what ] can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help (ㄴ) [ lower / raise ] awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also (ㄷ) [ consider / disregard ] the values and causes they support, (C) [ ensure / ensuring ] that their content aligns with their social and environmental principles.",
-      "tag": "아잉카 변형 18번"
+      "tag": "아잉카 변형 Step01 18번"
     },
     {
-      "id": "ak26-19",
+      "id": "ak26-s01-19",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -109,10 +109,10 @@
       ],
       "explanation": "이 글은 콘텐츠 창작자가 자신의 영향력을 활용해 사회·환경적 책임을 실천하고 콘텐츠를 윤리적 원칙에 맞추어야 함을 설명하는 내용이다. 창작자의 플랫폼이 수용자의 관점이나 행동에 영향을 줄 수 없다고 서술한 ③번 보기와, 윤리적 창작자에게 상업적 홍보가 사회적 대의보다 항상 우선되어야 한다고 서술한 ⑤번 보기는 글의 내용과 일치하지 않는다.\n① 콘텐츠 창작자는 자신의 작업이 지닌 윤리적 측면을 성찰하도록 점점 더 요구받고 있다.\n② 기후 변화와 같은 세계적 쟁점을 다루는 것은 창작자의 확대된 책임에 포함된다.\n③ 콘텐츠 창작자의 플랫폼은 수용자의 관점이나 행동에 영향을 미칠 수 없다.\n④ 환경친화적인 상품을 추천하는 것은 상당한 사회적 발전에 기여할 수 있다.\n⑤ 윤리적 창작자에게 상업적 홍보는 사회적 대의보다 항상 우선되어야 한다.",
       "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
-      "tag": "아잉카 변형 19번"
+      "tag": "아잉카 변형 Step01 19번"
     },
     {
-      "id": "ak26-20",
+      "id": "ak26-s01-20",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "As the ethical duties of content creators (A) ＿＿＿＿＿＿, they are encouraged to use their platforms to advocate for social and environmental principles, thereby making a (B) ＿＿＿＿＿＿ contribution to society.",
@@ -126,7 +126,161 @@
       "answer": 1,
       "explanation": "콘텐츠 제작자들의 윤리적 의무가 (A) 확장됨에 따라, 그들은 사회적 그리고 환경적 원칙을 옹호하기 위해 자신의 플랫폼을 사용하도록 권장되며, 이를 통해 사회에 (B) 건설적인 기여를 한다.\n이 글은 콘텐츠 제작자들의 사회적, 환경적 책임이 점점 더 중요해지고 있으며, 그들이 자신의 플랫폼을 사용하여 긍정적이고 의미 있는 사회적 영향을 만들어야 한다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'expand'가, (B)에는 'constructive'가 들어가는 것이 가장 적절하다.\n② expand : 확장하다 / commercial : 상업적인\n③ diminish : 줄어들다 / constructive : 건설적인\n④ stabilize : 안정되다 / commercial : 상업적인\n⑤ diminish : 줄어들다 / negligible : 무시할 만한",
       "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
-      "tag": "아잉카 변형 20번"
+      "tag": "아잉카 변형 Step01 20번"
+    },
+    {
+      "id": "ak26-s2-5",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "How Can Content Creators Maximize Their Financial Profits?",
+        "The Most Popular Topics for Today's Online Content Creators",
+        "Ethical Consumerism: A New Trend for the Younger Generation",
+        "Beyond Views: The Call for Socially Responsible Content Creation",
+        "The History of Environmental Activism and Its Impact on Media"
+      ],
+      "answer": 4,
+      "explanation": "조회수를 넘어서: 사회적으로 책임감 있는 콘텐츠 제작에\n대한 요구\n이 글은 콘텐츠 제작자들이 단순히 제품이나 서비스를 홍보하는 것을 넘어, 기후 변화, 사회 정의와 같은 사회적, 환경적 문제에 대해 책임감을 갖고 긍정적인 영향을 미쳐야 한다는 점을 강조하고 있다. 따라서 이 글의 제목으로 가장 적절한 것은 '조회수를 넘어서: 사회적으로 책임감 있는 콘텐츠 제작에 대한 요구'이다.\n① 콘텐츠 제작자들은 어떻게 자신들의 재정적 이익을 극대화할 수 있는가?\n② 오늘날 온라인 콘텐츠 제작자들을 위한 가장 인기 있는 주제들\n③ 윤리적 소비주의: 젊은 세대를 위한 새로운 경향\n⑤ 환경 운동의 역사와 그것이 미디어에 미친 영향",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "tag": "아잉카 변형 Step02 5번"
+    },
+    {
+      "id": "ak26-s2-25",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Social and environmental responsibility has become an increasingly ① important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the ② broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for ③ positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help ④ lower awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content ⑤ aligns with their social and environmental principles.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "lower (낮추다) → raise (높이다)\n이 글은 콘텐츠 제작자가 자신의 영향력을 사회·환경적 책임에 맞게 활용하여 긍정적인 변화를 이끌어야 한다는 내용이다. 지속가능한 제품을 홍보하거나 평등과 정의 관련 대의를 지지하는 것은 해당 문제에 대한 인식을 높여 긍정적인 영향을 이끌어내는 활동이다. 따라서 '낮추다'라는 의미의 'lower'는 '높이다'라는 의미의 'raise'로 바뀌어야 한다.",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help lower awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "tag": "아잉카 변형 Step02 25번"
+    },
+    {
+      "id": "ak26-s2-47",
+      "type": "choice",
+      "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+      "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. ① This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. ② Covering a wide range of topics can help content creators generate revenue. ③ Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. ④ For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. ⑤ Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "explanation": "폭넓은 주제를 다루는 것은 콘텐츠 제작자의 수익 창출에\n도움이 될 수 있다.\n이 글은 콘텐츠 제작자가 사회·환경적 책임을 고려하고 자신의 영향력을 긍정적인 변화에 활용해야 한다는 내용이다. 윤리적 책임에서 수익 창출이라는 경제적 효과를 서술한 ②번 문장은 글의 흐름에 어울리지 않는다.",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Covering a wide range of topics can help content creators generate revenue. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "tag": "아잉카 변형 Step02 47번"
+    },
+    {
+      "id": "ak26-s2-67",
+      "type": "choice",
+      "prompt": "다음 글의 내용을 한 문장으로 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "context": "issues becomes (A), content creators are increasingly expected to (B) their influence to promote positive change.",
+      "choices": [
+        "reduced / restrict",
+        "reduced / disregard",
+        "restricted / utilize",
+        "heightened / disregard",
+        "heightened / utilize"
+      ],
+      "answer": 5,
+      "explanation": "사회·환경적 문제에 대한 대중의 인식이 (A) 고조됨에 따\n라, 콘텐츠 제작자들이 긍정적인 변화를 촉진하기 위해 자신의 영향력을 (B) 활용해야 한다는 기대가 점점 커지고 있다.\n이 글은 사회적, 환경적 문제에 대한 전 세계적인 인식이 커지면서 콘텐츠 제작자들이 자신의 영향력을 긍정적인 변화를 위해 사용해야 할 책임이 있다는 내용이다. 따라서 요약문에서 (A)에는 'heightened'가 적절하며, (B)에는 'utilize'가 들어가는 것이 자연스럽다.\n① reduced : 낮아진 / restrict : 제한하다\n② reduced : 낮아진 / disregard : 무시하다\n③ restricted : 제한된 / utilize : 활용하다\n④ heightened : 고조된 / disregard : 무시하다",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles. As public awareness of social and environmental",
+      "tag": "아잉카 변형 Step02 67번"
+    },
+    {
+      "id": "ak26-s2-101",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 영작하시오.\n<조건>\n- call upon, consider, broad, impact 활용\n- 진행형 수동태 및 to 부정사 활용\n- 필요시 어형 변화, 제시어 포함 총 15단어",
+      "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, (A) 많은 콘텐츠 제작자들은 자신의 작업의 더 폭넓은 영향력을 고려하도록 요구받고 있다. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, (B) 자신의 콘텐츠가 자신의 사회적 그리고 환경적 원칙과 반드시 일치하게 한다.",
+      "answer": [
+        "many content creators are being called upon to consider the broader impact of their work"
+      ],
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, (A) 많은 콘텐츠 제작자들은 자신의 작업의 더 폭넓은 영향력을 고려하도록 요구받고 있다. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, (B) 자신의 콘텐츠가 자신의 사회적 그리고 환경적 원칙과 반드시 일치하게 한다.",
+      "tag": "아잉카 변형 Step03 17번"
+    },
+    {
+      "id": "ak26-s2-102",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 배열하시오.\n<보기>\ntheir / align / with / principles / environmental / social / their content / that / ensure / and\n<조건>\n- 분사구문 활용, <보기> 단어 어형 변화 주의",
+      "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, (A) 많은 콘텐츠 제작자들은 자신의 작업의 더 폭넓은 영향력을 고려하도록 요구받고 있다. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, (B) 자신의 콘텐츠가 자신의 사회적 그리고 환경적 원칙과 반드시 일치하게 한다.",
+      "answer": [
+        "ensuring that their content aligns with their social and environmental principles"
+      ],
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, (A) 많은 콘텐츠 제작자들은 자신의 작업의 더 폭넓은 영향력을 고려하도록 요구받고 있다. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, (B) 자신의 콘텐츠가 자신의 사회적 그리고 환경적 원칙과 반드시 일치하게 한다.",
+      "tag": "아잉카 변형 Step03 18번"
+    },
+    {
+      "id": "ak26-s2-103",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nof / social / the / and / content / environmental / regarding / topics / creators / duty / ethical / growing",
+      "answer": [
+        "the growing ethical duty of content creators regarding social and environmental topics"
+      ],
+      "explanation": "콘텐츠 제작자들의 사회 및 환경적 주제에 관한 증대되는 윤리적 의무",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, (A) 많은 콘텐츠 제작자들은 자신의 작업의 더 폭넓은 영향력을 고려하도록 요구받고 있다. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, (B) 자신의 콘텐츠가 자신의 사회적 그리고 환경적 원칙과 반드시 일치하게 한다.",
+      "tag": "아잉카 변형 Step03 19번"
+    },
+    {
+      "id": "ak26-s2-104",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓒ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 'utilize', 'align' 및 본문의 단어를 활용할 것\n- ⓐ~ⓒ 각 한 단어, 필요시 어형 변화",
+      "text": "Content creators must ⓐ {{utilize}} their influence ⓑ {{responsibly}} by ⓒ {{aligning}} media work with social and environmental principles.",
+      "explanation": "콘텐츠 크리에이터들은 미디어 작업을 사회적 및 환경적 원칙에 ⓒ 맞춤으로써 자신들의 영향력을 ⓑ 책임감 있게 ⓐ 활용해야 한다.",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, (A) 많은 콘텐츠 제작자들은 자신의 작업의 더 폭넓은 영향력을 고려하도록 요구받고 있다. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, (B) 자신의 콘텐츠가 자신의 사회적 그리고 환경적 원칙과 반드시 일치하게 한다.",
+      "tag": "아잉카 변형 Step03 20번"
+    },
+    {
+      "id": "ak26-s2-183",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓓ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, ⓐ many content creators are being called upon considering the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. ⓑ Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, ⓒ promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ⓓ ensure that their content aligns with their social and environmental principles.",
+      "answer": [
+        "ⓐ: are being called upon considering → are being called upon to consider",
+        "ⓓ: ensure that their content → ensuring that their content"
+      ],
+      "explanation": "ⓐ many content creators are being called upon to consider the broader impact of their work.\n- 5형식 수동태\n: call upon + O + O.C (to V) → be called upon + to V\nⓓ ensuring that their content aligns with their social and environmental principles.\n- 능동 현재분사구문\n: 주절의 주어와 능동의 관계이며, 접속사가 없고 목적어가 있으므로 현재분사가 적절하다.   Ethical content creators not only ~, (and they ensure →) ensuring that ~",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon considering the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensure that their content aligns with their social and environmental principles.",
+      "tag": "아잉카 변형 Step03 99번"
+    },
+    {
+      "id": "ak26-s2-205",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 4개)",
+      "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are calling upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drives meaningful social impact. Ethical content creators not only focus on promoting their products or services but also considering the values and causes they support, ensured that their content aligns with their social and environmental principles.",
+      "answer": [
+        "creators are calling upon → creators are being called upon",
+        "awareness and drives meaningful → awareness and drive meaningful",
+        "but also considering the → but also consider the",
+        "they support, ensured that → they support, ensuring that"
+      ],
+      "explanation": "[교정된 글] Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are calling upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to use that platform for positive change. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drives meaningful social impact. Ethical content creators not only focus on promoting their products or services but also considering the values and causes they support, ensured that their content aligns with their social and environmental principles.",
+      "tag": "아잉카 변형 Step03 121번"
+    },
+    {
+      "id": "ak26-s2-246",
+      "type": "choice",
+      "prompt": "다음 글의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to __________. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "choices": [
+        "avoid controversial topics to maintain popularity",
+        "focus solely on entertaining their existing fanbase",
+        "prioritize commercial success over their ethical duties",
+        "compete with other creators for a larger market share",
+        "leverage their reach to foster constructive social transformation"
+      ],
+      "answer": 5,
+      "explanation": "정답 ⑤ 자신들의 영향력을 활용하여 건설적인 사회 변화를 촉진하다\n이 글은 콘텐츠 제작자가 사회·환경적 책임을 갖고 자신의 영향력을 긍정적인 변화에 활용해야 한다는 내용이다. 빈칸이 있는 문장은 그 영향력에 따르는 책임을 제시하며, 뒤에서는 지속가능한 제품 홍보나 평등·정의 관련 대의 지지를 실천 사례로 들고 있다. 그러므로 빈칸에는 자신의 영향력을 사회·환경적 가치를 실현하는 데 사용한다는 의미의 표현이 들어가야 한다. 따라서 '자신들의 영향력을 활용하여 건설적인 사회 변화를 촉진하다'가 가장 적절하다.\n① 인기를 유지하기 위해 논란의 여지가 있는 주제를 피하다\n② 기존 팬층을 즐겁게 하는 데에만 집중하다\n③ 윤리적 의무보다 상업적 성공을 우선시하다\n④ 더 큰 시장 점유율을 위해 다른 제작자들과 경쟁하다* 원문 변형\n⑤ use that platform for positive change\n→ leverage their reach to foster constructive social transformation",
+      "view": "Social and environmental responsibility has become an increasingly important ethical consideration for content creators. As global awareness of social, environmental, and sustainability issues grows, many content creators are being called upon to consider the broader impact of their work. This includes addressing topics such as climate change, social justice, and ethical consumerism in their content. Content creators have a platform that can influence their audience's attitudes and behaviors, and they have a responsibility to ＿＿＿＿＿＿＿＿. For example, promoting environmentally sustainable products or supporting causes related to equality and justice can help raise awareness and drive meaningful social impact. Ethical content creators not only focus on promoting their products or services but also consider the values and causes they support, ensuring that their content aligns with their social and environmental principles.",
+      "tag": "아잉카 변형 Step04실전2회 4번"
     }
   ]
 }

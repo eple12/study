@@ -64,7 +64,7 @@
       "answer": 5
     },
     {
-      "id": "ak26-21",
+      "id": "ak26-s01-21",
       "type": "choice",
       "prompt": "윗글의 괄호 (A), (B), (C) 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
       "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual (A) [ is / are ] where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells (ㄱ) [ capable / incapable ] of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system (B) [ that / what ] interact with the environment directly. The suckers lining each arm play an (ㄴ) [ insignificant / important ] role in this process. These structures provide strong grip but also (ㄷ) [ detect / miss ] chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal (C) [ to gather / gathering ] chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
@@ -78,10 +78,10 @@
       "answer": 3,
       "explanation": "(A) 주어 동사 수일치\n- 명사구, 명사절은 단수 취급한다. 불완전한 문장을 수반한 '관계대명사 what'절이 주어로 왔으므로 단수 동사가 적절하다.\n[what makes this system unusual] is where ~\nS V\n(B) 관계대명사 + 불완전 문장\n- 명사 'extensions'를 수식하며, 주어가 없는 불완전한 문장이 오므로 관계대명사가 'that'이 적절하다. 'what'은 선행사를 포함하는 관계대명사이므로 앞에 선행사가 올 수 없다.\n(C) 5형식 allow + O + O.C (to V)\n- 5형식 동사 'allow'는 목적어와 목적격 보어의 관계가 능동일 때 to 부정사를 사용한다.",
       "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual (A) [ is / are ] where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells (ㄱ) [ capable / incapable ] of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system (B) [ that / what ] interact with the environment directly. The suckers lining each arm play an (ㄴ) [ insignificant / important ] role in this process. These structures provide strong grip but also (ㄷ) [ detect / miss ] chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal (C) [ to gather / gathering ] chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
-      "tag": "아잉카 변형 21번"
+      "tag": "아잉카 변형 Step01 21번"
     },
     {
-      "id": "ak26-22",
+      "id": "ak26-s01-22",
       "type": "choice",
       "prompt": "윗글의 괄호 (ㄱ), (ㄴ), (ㄷ) 안에서 문맥에 맞는 낱말로 가장 적절한 것은?",
       "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual (A) [ is / are ] where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells (ㄱ) [ capable / incapable ] of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system (B) [ that / what ] interact with the environment directly. The suckers lining each arm play an (ㄴ) [ insignificant / important ] role in this process. These structures provide strong grip but also (ㄷ) [ detect / miss ] chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal (C) [ to gather / gathering ] chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
@@ -95,10 +95,10 @@
       "answer": 5,
       "explanation": "(ㄱ) 많은 행동에 뇌의 상세한 지시가 필요하지 않으며 다리가 환경과 직접 상호 작용한다고 했으므로, 각 다리의 신경망이 운동과 감각 반응을 국소적으로 처리할 능력을 갖추고 있다는 흐름이므로, '할 수 있는'이라는 의미의 'capable'이 적절하다. 'incapable'은 '할 수 없는'이라는 의미이다.\n(ㄴ) 빨판이 강한 붙잡는 힘을 제공할 뿐만 아니라 화학적 신호를 감지하여 접촉을 통한 정보 획득에 기여한다는 흐름이므로, '중요한'이라는 의미의 'important'가 적절하다. 'insignificant'는 '중요하지 않은'이라는 의미이다.\n(ㄷ) 문어가 접촉을 통해 화학적 정보를 얻고 만지는 대상의 맛을 느낄 수 있다고 했으므로, 빨판이 접촉한 표면의 화학적 신호를 감지한다는 것을 의미하므로, 'detect'가 적절하다. 'miss'는 '놓치다, 감지하지 못하다'라는 의미이다.",
       "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual (A) [ is / are ] where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells (ㄱ) [ capable / incapable ] of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system (B) [ that / what ] interact with the environment directly. The suckers lining each arm play an (ㄴ) [ insignificant / important ] role in this process. These structures provide strong grip but also (ㄷ) [ detect / miss ] chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal (C) [ to gather / gathering ] chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
-      "tag": "아잉카 변형 22번"
+      "tag": "아잉카 변형 Step01 22번"
     },
     {
-      "id": "ak26-23",
+      "id": "ak26-s01-23",
       "type": "choice",
       "prompt": "윗글의 내용과 일치하지 않는 것을 모두 고르시오. (정답 2개)",
       "choices": [
@@ -114,10 +114,10 @@
       ],
       "explanation": "이 글은 문어의 뉴런이 다리에 분산되어 국소적인 운동·감각 처리를 가능하게 하고 빨판이 접촉을 통해 화학적 정보를 얻는 기능을 한다는 내용이다. 문어 뉴런의 대다수가 중앙 뇌에 위치한다고 서술한 ②번 보기와, 다리가 환경과 서로 작용하기 위해 뇌의 상세한 지시가 반드시 필요하다고 서술한 ④번 보기는 글의 내용과 일치하지 않는다.\n① 문어의 신경망은 약 5억 개의 신경 세포로 이루어져 있다.\n② 문어 뉴런의 대다수는 중앙 뇌에 위치한다.\n③ 각 다리에는 움직임을 국소적으로 조절할 수 있는 신경 회로가 있다.\n④ 다리가 환경과 상호 작용하기 위해서는 뇌가 상세한 지시를 보내야만 한다.\n⑤ 문어는 자신이 접촉하는 표면으로부터 화학적 정보를 인지할 수 있다.",
       "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
-      "tag": "아잉카 변형 23번"
+      "tag": "아잉카 변형 Step01 23번"
     },
     {
-      "id": "ak26-24",
+      "id": "ak26-s01-24",
       "type": "choice",
       "prompt": "윗글의 내용을 다음과 같이 요약하고자 한다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
       "context": "An octopus's (A) ＿＿＿＿＿＿ nervous system supports local arm control, while its suckers enable chemical sensing through (B) ＿＿＿＿＿＿ interaction with the environment.",
@@ -131,7 +131,179 @@
       "answer": 1,
       "explanation": "문어의 (A) 분산된 신경계는 다리의 국소적인 제어를 뒷받침하고, 빨판은 환경과의 (B) 촉각적인 상호 작용을 통해 화학적 신호를 감지할 수 있게 한다.\n이 글은 문어의 분산된 신경계가 다리의 국소적인 제어를 뒷받침하고 빨판이 접촉을 통해 화학적 정보를 얻는 역할을 한다는 내용이다. 따라서 요약문의 빈칸 (A)에는 'decentralized', (B)에는 'tactile'이 들어가는 것이 가장 적절하다.\n② centralized : 중앙 집중화된 / verbal : 언어의\n③ simplified : 단순화된 / visual : 시각의\n④ decentralized : 분산된 / visual : 시각의\n⑤ centralized : 중앙 집중화된 / tactile : 촉각의",
       "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
-      "tag": "아잉카 변형 24번"
+      "tag": "아잉카 변형 Step01 24번"
+    },
+    {
+      "id": "ak26-s2-6",
+      "type": "choice",
+      "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+      "choices": [
+        "The Secret of the Octopus's Powerful Grip",
+        "Cephalopods: The Most Intelligent Invertebrates?",
+        "The Central Nervous System: A Key to Animal Survival",
+        "Exploring the Deep Sea: The Mysteries of Marine Biology",
+        "A Mind of Their Own: The Decentralized Intelligence in Octopus Arms"
+      ],
+      "answer": 5,
+      "explanation": "그들만의 정신: 문어 다리에 분산된 지능\n이 글은 문어의 신경계가 뇌뿐만 아니라 다리에도 광범위하게 분포하여, 다리가 독립적으로 환경과 상호작용하고 심지어 접촉을 통해 맛을 볼 수 있다는 '분산된 지능'에 대해 설명한다. 따라서 이 글의 제목으로 가장 적절한 것은 '그들만의 정신: 문어 다리에 분산된 지능'이다.\n① 문어의 강력한 움켜쥠의 비밀\n② 두족류: 가장 지능적인 무척추동물인가?\n③ 중추 신경계: 동물 생존의 핵심\n④ 심해 탐험: 해양 생물학의 미스터리",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step02 6번"
+    },
+    {
+      "id": "ak26-s2-26",
+      "type": "choice",
+      "prompt": "다음 글의 요지로 가장 적절한 것은?",
+      "choices": [
+        "문어의 빨판은 강력한 흡착력과 미각 기능을 동시에 수행한다.",
+        "두족류 동물의 신경계는 다른 해양 생물에 비해 월등히 발달해 있다.",
+        "문어의 복잡한 움직임은 전적으로 중앙 뇌의 정교한 통제로 이루어진다.",
+        "동물의 지능은 뇌에 집중된 뉴런의 수와 비례하여 결정되는 경향이 있다.",
+        "문어는 다리에 분산된 신경망으로 움직임을 조절하고 접촉으로 화학 정보를 얻는다."
+      ],
+      "answer": 5,
+      "explanation": "이 글은 문어의 신경계가 절반 이상이 다리에 분포되어 있어 다리는 뇌의 상세한 지시 없이도 독립적으로 움직이고, 빨판을 통해 접촉하는 대상의 화학 정보를 수집하는 등 환경과 직접적으로 상호작용할 수 있다는 내용이다. 따라서 이 글의 요지로 가장 적절한 것은 '문어는 다리에 분산된 신경망으로 움직임을 조절하고 접촉으로 화학 정보를 얻는다.'이다.",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step02 26번"
+    },
+    {
+      "id": "ak26-s2-48",
+      "type": "choice",
+      "prompt": "주어진 글 다음에 이어질 글의 순서로 가장 적절한 것을 고르시오.",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located.\n\n(A) This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly.\n\n(B) More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally.\n\n(C) The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "choices": [
+        "(A) - (C) - (B)",
+        "(B) - (A) - (C)",
+        "(B) - (C) - (A)",
+        "(C) - (A) - (B)",
+        "(C) - (B) - (A)"
+      ],
+      "answer": 2,
+      "explanation": "주어진 글은 문어 신경계의 특이점이 뉴런의 위치에 있다고 제시한다. (B)는 그 위치에 대한 자세한 설명으로, 뉴런의 절반 이상이 다리에 분포한다는 점과 각 팔의 자체적인 운동 조절·감각 처리 능력을 설명한다. (A)의 'This means'가 이를 받아 많은 행동에 뇌의 상세한 지시가 필요하지 않고 다리가 환경과 직접 상호작용한다고 언급하며, 마지막으로(C)는 'this process'를 통해 이 상호작용 과정을 이어받아, 빨판이 그 과정에서 어떤 역할을 하는지 구체적으로 설명하며 글을 마무리한다. 따라서 가장 적절한 순서는 (B)-(A)-(C)이다.",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located.\n\n(A) This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly.\n\n(B) More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally.\n\n(C) The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step02 48번"
+    },
+    {
+      "id": "ak26-s2-68",
+      "type": "choice",
+      "prompt": "다음 글을 읽고 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively ＿＿＿＿＿＿＿＿.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "choices": [
+        "use its suckers only for powerful adhesion",
+        "rely solely on its brain for all sensory data",
+        "perceive chemical properties via tactile exploration",
+        "distinguish textures more accurately than any other species",
+        "coordinate all its arms simultaneously for a single complex task"
+      ],
+      "answer": 3,
+      "explanation": "촉각적 탐색을 통해 화학적 특성을 인지하다\n이 글은 문어의 신경계가 중앙 뇌가 아닌 다리에 대부분 분포하여, 다리가 독립적으로 환경과 상호작용하고 빨판을 통해 접촉하는 대상의 화학적 정보를 수집한다고 설명하고 있다. 빈칸이 있는 마지막 문장은 이를 요약하는 부분으로, 문어가 접촉을 통해 화학 정보를 모은다는 의미의 표현이 들어가야 한다. 따라서 '촉각적 탐색을 통해 화학적 특성을 인지하다'가 가장 적절하다.\n① 강력한 부착을 위해서만 빨판을 사용하다\n② 모든 감각 데이터에 대해 오직 뇌에만 의존하다\n④ 다른 어떤 종보다 더 정확하게 질감을 구별하다\n⑤ 단 하나의 복잡한 과업을 위해 모든 다리를 동시에 조종하다\n* 원문 변형\n③ taste what it touches → perceive chemical properties via tactile exploration",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively ＿＿＿＿＿＿＿＿.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step02 68번"
+    },
+    {
+      "id": "ak26-s2-105",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (A)의 우리말과 같도록 아래 <조건>을 참고하여 알맞게 배열하시오.\n<보기>\nwhere / unusual / those / this system / make / many / of / neurons / is / what / locate\n<조건>\n- 관계대명사 what 포함 주어 명사절, 간접 의문문 활용\n- <보기> 단어 어형 변화 주의, <보기> 포함 총 13단어",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. (A) 이 체계를 특이하게 만드는 것은 그 뉴런들 중 다수가 어디에 위치해 있는가이다. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. (B) 이 구조들은 강한 붙잡는 힘을 제공하지만 또한 그것들이 접촉하는 표면의 화학적 신호들도 탐지한다. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "answer": [
+        "What makes this system unusual is where many of those neurons are located."
+      ],
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. (A) 이 체계를 특이하게 만드는 것은 그 뉴런들 중 다수가 어디에 위치해 있는가이다. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. (B) 이 구조들은 강한 붙잡는 힘을 제공하지만 또한 그것들이 접촉하는 표면의 화학적 신호들도 탐지한다. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step03 21번"
+    },
+    {
+      "id": "ak26-s2-106",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 (B)의 우리말과 같도록 아래 <보기>의 단어를 알맞게 배열하시오.\n<보기>\ngrip / detect / signals / structures / chemical / but / on / surfaces / strong / provide / they / also / contact / these\n<조건>\n- 목적격 관계대명사 생략 활용, 단어 추가 없음",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. (A) 이 체계를 특이하게 만드는 것은 그 뉴런들 중 다수가 어디에 위치해 있는가이다. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. (B) 이 구조들은 강한 붙잡는 힘을 제공하지만 또한 그것들이 접촉하는 표면의 화학적 신호들도 탐지한다. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "answer": [
+        "These structures provide strong grip but also detect chemical signals on surfaces they contact."
+      ],
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. (A) 이 체계를 특이하게 만드는 것은 그 뉴런들 중 다수가 어디에 위치해 있는가이다. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. (B) 이 구조들은 강한 붙잡는 힘을 제공하지만 또한 그것들이 접촉하는 표면의 화학적 신호들도 탐지한다. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step03 22번"
+    },
+    {
+      "id": "ak26-s2-107",
+      "type": "self",
+      "prompt": "아래 <보기>의 단어를 알맞게 배열하여 윗글의 주제를 완성하시오.\n<보기>\nfor / touch / control / distribute / and / movement / system / sensing / chemical / octopus / arms / nervous / in / local / through\n<조건>\n- <보기> 중 한 단어 어형 변화",
+      "answer": [
+        "distributed nervous system in octopus arms for local movement control and chemical sensing through touch"
+      ],
+      "explanation": "촉각을 통한 국소적 운동 제어 및 화학 감지를 위한 문어 다리의 분산된 신경계",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. (A) 이 체계를 특이하게 만드는 것은 그 뉴런들 중 다수가 어디에 위치해 있는가이다. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. (B) 이 구조들은 강한 붙잡는 힘을 제공하지만 또한 그것들이 접촉하는 표면의 화학적 신호들도 탐지한다. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step03 23번"
+    },
+    {
+      "id": "ak26-s2-108",
+      "type": "blank",
+      "prompt": "윗글을 아래와 같이 요약할 때, 빈칸 ⓐ~ⓒ에 들어갈 단어를 알맞게 채우시오.\n<조건>\n- 본문의 단어를 활용할 것, 필요시 어형 변화\n- ⓐ~ⓒ 각 한 단어",
+      "text": "Octopus arms function as ⓐ {{distributed}} nervous extensions capable of controlling ⓑ {{local}} movement and ⓒ {{tasting}} contact surfaces.",
+      "explanation": "문어 다리는 ⓑ 국소적 운동을 제어하고 접촉하는 표면을 ⓒ 맛보기할 수 있는 ⓐ 분산된 신경 확장체로 기능한다.",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. (A) 이 체계를 특이하게 만드는 것은 그 뉴런들 중 다수가 어디에 위치해 있는가이다. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. (B) 이 구조들은 강한 붙잡는 힘을 제공하지만 또한 그것들이 접촉하는 표면의 화학적 신호들도 탐지한다. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step03 24번"
+    },
+    {
+      "id": "ak26-s2-184",
+      "type": "self",
+      "prompt": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 곳을 찾아 바르게 고치시오.",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. ⓐ What makes this system unusual is where are many of those neurons located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. ⓑ Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, ⓒ the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. ⓓ These structures provide strong grip but also detect chemical signals on surfaces where they contact. ⓔ Marine biologists studying octopus behavior have shown that this allows the animal gathering chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "answer": [
+        "ⓐ: where are many of those neurons located → where many of those neurons are located",
+        "ⓓ: on surfaces where they contact → on surfaces (which/that) they contact (where 삭제)",
+        "ⓔ: the animal gathering chemical information → the animal to gather chemical information"
+      ],
+      "explanation": "ⓐ What makes this system unusual is where many of those neurons are located.\n- 간접의문문\n: 동사 'is'의 보어 자리에 명사절로 간접의문문이 필요하며, '의문사 + 주어 + 동사'의 어순이 적절하다.\nⓓ These structures provide strong grip but also detect chemical signals on surfaces where they contact.\n- 목적격 관계대명사 생략 + 불완전 문장\n: 명사 'surfaces'를 수식하며, 목적어가 없는 불완전한 문장이 왔으므로 목적격 관계대명사가 생략된 것으로 파악해야 한다.   on surfaces (which/that) they contact Ø.\nⓔ Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch.\n- 5형식 allow + O + O.C (to V)\n: 5형식 동사 'allow'는 목적어와 목적격 보어의 관계가 능동일 때 to 부정사를 사용한다.",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where are many of those neurons located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces where they contact. Marine biologists studying octopus behavior have shown that this allows the animal gathering chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step03 100번"
+    },
+    {
+      "id": "ak26-s2-206",
+      "type": "self",
+      "prompt": "다음 글에서 어법상 어색한 부분을 모두 골라 바르게 고치시오. (틀린 부분 6개)",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is what many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responds to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interacts with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact them. Marine biologists studying octopus behavior have shown that this allows the animal gathering chemical information through touch. In practical terms, an octopus can effectively taste which it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "answer": [
+        "unusual is what many → unusual is where many",
+        "movements and responds to → movements and responding to",
+        "system that interacts with → system that interact with",
+        "surfaces they contact them. Marine → surfaces they contact. Marine",
+        "the animal gathering chemical → the animal to gather chemical",
+        "effectively taste which it → effectively taste what it"
+      ],
+      "explanation": "[교정된 글] Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is what many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responds to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interacts with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact them. Marine biologists studying octopus behavior have shown that this allows the animal gathering chemical information through touch. In practical terms, an octopus can effectively taste which it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step03 122번"
+    },
+    {
+      "id": "ak26-s2-224",
+      "type": "choice",
+      "prompt": "다음 글에서 밑줄 친 taste what it touches가 의미하는 바로 가장 적절한 것은?",
+      "choices": [
+        "taste food only after moving it into its mouth",
+        "detect chemical properties through physical contact",
+        "rely on its central brain to interpret all sensory data",
+        "distinguish between safe and dangerous surfaces by sight",
+        "develop a strong grip to hold onto prey before eating it"
+      ],
+      "answer": 2,
+      "explanation": "정답 ② 물리적 접촉을 통해 화학적 특성을 감지하다\n밑줄 친 '접촉하는 것을 맛보다'는 문어의 다리에 있는 빨판이 접촉하는 표면의 화학적 신호를 감지하여, 마치 만지는 것을 맛보는 것처럼 화학적 정보를 수집할 수 있다는 것을 의미한다. 따라서 밑줄 친 부분이 의미하는 바로 가장 적절한 것은 '물리적 접촉을 통해 화학적 특성을 감지하다'이다.\n① 음식을 입 안으로 옮긴 뒤에야 그 맛을 보다\n③ 모든 감각 정보를 해석하기 위해 중앙 뇌에 의존하다\n④ 시각을 통해 안전한 표면과 위험한 표면을 구별하다\n⑤ 먹이를 먹기 전에 붙잡아 두기 위해 강한 쥐는 힘을 발달시키다",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment directly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step04실전1회 2번"
+    },
+    {
+      "id": "ak26-s2-247",
+      "type": "choice",
+      "prompt": "다음 글의 밑줄 친 부분 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "context": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system ① unusual is where many of those neurons are located. More than half are ② distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells ③ capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment ④ indirectly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also ⑤ detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "explanation": "정답 ④ indirectly (간접적으로) → directly (직접적으로)\n이 글은 문어의 신경계가 중앙 뇌가 아닌 다리에 주로 분포하여, 다리가 뇌의 상세한 지시 없이도 환경과 상호작용한다고 설명하고 있다. 다리는 신경계의 유능한 연장선으로서 환경과 '직접적으로' 상호작용한다고 하는 것이 문맥상 자연스럽다. 따라서 '간접적으로'라는 의미의 'indirectly'는 '직접적으로'라는 의미의 'directly'로 바뀌어야 한다.",
+      "view": "Research on cephalopod neurobiology suggests that an octopus possesses roughly five hundred million neurons. What makes this system unusual is where many of those neurons are located. More than half are distributed throughout the arms rather than concentrated entirely in the central brain. Each arm contains networks of nerve cells capable of controlling complex movements and responding to sensory input locally. This means that many actions do not require detailed instructions from the brain itself. Instead, the arms function as highly capable extensions of the nervous system that interact with the environment indirectly. The suckers lining each arm play an important role in this process. These structures provide strong grip but also detect chemical signals on surfaces they contact. Marine biologists studying octopus behavior have shown that this allows the animal to gather chemical information through touch. In practical terms, an octopus can effectively taste what it touches.\n* cephalopod: (오징어, 문어 등의) 두족류 동물 ** sucker: 빨판",
+      "tag": "아잉카 변형 Step04실전2회 5번"
     }
   ]
 }
