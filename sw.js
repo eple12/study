@@ -1,5 +1,5 @@
 // 네트워크 우선, 실패하면 캐시. 한 번 열어 본 자료는 오프라인에서도 열린다.
-const CACHE = 'study-v3';
+const CACHE = 'study-v4';
 const SHELL = ['./', 'index.html', 'assets/app.js', 'assets/schema.js', 'assets/dict.js', 'assets/synccore.js', 'assets/sync.js', 'assets/firebase-config.js', 'assets/style.css', 'icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', e => {
@@ -14,7 +14,7 @@ self.addEventListener('fetch', e => {
   const u = new URL(r.url);
   if (u.origin !== location.origin && u.hostname !== 'cdn.jsdelivr.net') return;
   e.respondWith(
-    fetch(r)
+    fetch(r, { cache: u.pathname.endsWith('/assets/style.css') ? 'no-cache' : 'default' })
       .then(res => {
         if (res.ok || res.type === 'opaque') { const copy = res.clone(); caches.open(CACHE).then(c => c.put(r, copy)); }
         return res;
