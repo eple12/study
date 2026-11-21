@@ -285,6 +285,35 @@ body.dragging { user-select: none; -webkit-user-select: none; cursor: grabbing; 
 [hidden] { display: none !important; }
 .qtag { margin: -4px 0 8px; font-size: 12px; font-weight: 600; color: var(--mute); }
 
+/* 단어 선택과 뜻 조회 패널 */
+.w.sel { background: var(--acc-bg); color: var(--acc); box-shadow: -2px 0 0 var(--acc-bg), 2px 0 0 var(--acc-bg); }
+body.lk #app { padding-bottom: calc(var(--lk, 0px) + 24px); }
+body.lk .panel { padding-bottom: calc(var(--lk, 0px) + 20px); }
+.lookup { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; max-width: 720px; margin: 0 auto; max-height: 52dvh; overflow: auto; overscroll-behavior: contain; background: var(--card); border: 1px solid var(--line); border-bottom: 0; border-radius: 20px 20px 0 0; box-shadow: 0 -10px 30px rgba(0, 0, 0, .16); padding: 6px 16px calc(12px + env(safe-area-inset-bottom)); }
+.lk-h { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: 8px; background: var(--card); padding: 2px 0; }
+.lk-t { flex: none; max-width: 62%; font-size: 18px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lk-tag { flex: 1; font-size: 12px; color: var(--mute); }
+.lk-b { display: grid; gap: 8px; padding: 2px 0 10px; }
+.lk-g { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.lk-g small { flex: none; width: 34px; font-size: 12px; color: var(--mute); }
+.mc { padding: 5px 11px; border: 1.5px solid var(--line); border-radius: 99px; font-size: 15px; color: var(--sub); }
+.mc.ctx { color: var(--fg); font-weight: 650; border-color: var(--mute); }
+.mc.on { background: var(--acc-bg); border-color: var(--acc); color: var(--acc); }
+.lk-hit { display: grid; gap: 2px; }
+.lk-hit b { font-size: 17px; }
+.lk-hit span { font-size: 13px; color: var(--mute); }
+.lk-s { padding-top: 8px; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.65; color: var(--sub); }
+.lk-err { font-size: 13px; color: var(--bad); }
+.lk-spin { width: 18px; height: 18px; border: 2px solid var(--line); border-top-color: var(--acc); border-radius: 50%; animation: spin .7s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.lk-f { position: sticky; bottom: -12px; display: flex; gap: 8px; background: var(--card); padding: 8px 0 0; }
+.lk-in { flex: 1; min-width: 0; font: inherit; font-size: 16px; padding: 10px 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--fg); outline: none; }
+.lk-in:focus { border-color: var(--acc); }
+.lk-bk { flex: none; max-width: 28%; padding: 0 10px; border: 1.5px solid var(--line); border-radius: 12px; font-size: 13px; color: var(--sub); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.btn.lk-sv { flex: none; width: 52px; height: 46px; padding: 0; border-radius: 12px; }
+.lk-sv.done { background: var(--ok); }
+.lk-note .ic { width: 19px; height: 19px; }
+
 
 /* 포스트잇 메모: 붙인 자리의 핀을 누르면 그 아래로 쪽지가 펼쳐짐 */
 .psg { position: relative; }
